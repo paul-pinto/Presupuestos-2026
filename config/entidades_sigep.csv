@@ -1,0 +1,354 @@
+﻿codigo_entidad,nombre_entidad,sigla,tipo,grupo_eta,departamento,fuente
+1101,Gobierno Autónomo Municipal de Sucre,SUC,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1102,Gobierno Autónomo Municipal de Yotala,YOT,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1103,Gobierno Autónomo Municipal de Poroma,POR,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1104,Gobierno Autónomo Municipal de Villa Azurduy,AZU,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1105,Gobierno Autónomo Municipal de Tarvita (Villa Orías),TAR,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1106,Gobierno Autónomo Municipal de Villa Zudañez (Tacopaya),ZUD,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1107,Gobierno Autónomo Municipal de Presto,PRE,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1108,Gobierno Autónomo Municipal de Villa Mojocoya,VMO,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1109,Gobierno Autónomo Municipal de Icla,MUJ,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1110,Gobierno Autónomo Municipal de Padilla,PAD,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1111,Gobierno Autónomo Municipal de Tomina,VTM,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1112,Gobierno Autónomo Municipal de Sopachuy,SOP,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1113,Gobierno Autónomo Municipal de Villa Alcalá,ALC,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1114,Gobierno Autónomo Municipal de El Villar,VIL,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1115,Gobierno Autónomo Municipal de Monteagudo,VMT,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1116,Gobierno Autónomo Municipal de San Pablo de Huacareta,PDM,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1117,Gobierno Autónomo Municipal de Tarabuco,TARB,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1118,Gobierno Autónomo Municipal de Yamparáez,YAM,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1119,Gobierno Autónomo Municipal de Camargo,CAM,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1120,Gobierno Autónomo Municipal de San Lucas,LUC,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1121,Gobierno Autónomo Municipal de Incahuasi,INCA,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1122,Gobierno Autónomo Municipal de Villa Serrano,SER,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1123,Gobierno Autónomo Municipal de Camataqui (Villa Abecia),ABE,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1124,Gobierno Autónomo Municipal de Culpina,CUL,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1125,Gobierno Autónomo Municipal de Las Carreras,CRR,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1126,Gobierno Autónomo Municipal de Villa Vaca Guzmán,MUY,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1128,Gobierno Autónomo Municipal de Machareti,MAC,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1129,Gobierno Autónomo Municipal de Villa Charcas,VCH,municipal,GAM,Chuquisaca,Clasificadores Presupuestarios 2026
+1201,Gobierno Autónomo Municipal de La Paz,LPZ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1202,Gobierno Autónomo Municipal de Palca,PLC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1203,Gobierno Autónomo Municipal de Mecapaca,MEC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1204,Gobierno Autónomo Municipal Ecológico Productivo de Achocalla,GAMEPA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1205,Gobierno Autónomo Municipal de El Alto de La Paz,ELLA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1206,Gobierno Autónomo Municipal de Viacha,VIA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1207,Gobierno Autónomo Municipal de Guaqui,GUA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1208,Gobierno Autónomo Municipal de Tiahuanacu,TIA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1209,Gobierno Autónomo Municipal de Desaguadero,DES,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1210,Gobierno Autónomo Municipal de Caranavi,CRV,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1211,Gobierno Autónomo Municipal de Sica Sica (Villa Aroma),SIC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1212,Gobierno Autónomo Municipal de Umala,UMA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1213,Gobierno Autónomo Municipal de Ayo Ayo,AYO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1214,Gobierno Autónomo Municipal de Calamarca,CAL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1215,Gobierno Autónomo Municipal de Patacamaya,PAT,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1216,Gobierno Autónomo Municipal de Colquencha,COL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1217,Gobierno Autónomo Municipal de Collana,COA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1218,Gobierno Autónomo Municipal de Inquisivi,INQ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1219,Gobierno Autónomo Municipal de Quime,QUI,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1220,Gobierno Autónomo Municipal de Cajuata,CAJ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1221,Gobierno Autónomo Municipal de Colquiri,COQ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1222,Gobierno Autónomo Municipal de Ichoca,ICH,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1223,Gobierno Autónomo Municipal de Villa Libertad Licoma,LIC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1224,Gobierno Autónomo Municipal de Achacachi,AHÍ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1225,Gobierno Autónomo Municipal de Ancoraimes,ANCO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1226,Gobierno Autónomo Municipal de Sorata,SOR,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1227,Gobierno Autónomo Municipal de Guanay,GNY,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1228,Gobierno Autónomo Municipal de Tacacoma,TAT,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1229,Gobierno Autónomo Municipal de Tipuani,TIP,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1230,Gobierno Autónomo Municipal de Quiabaya,QBY,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1231,Gobierno Autónomo Municipal de Combaya,COM,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1232,Gobierno Autónomo Municipal de Copacabana,COP,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1233,Gobierno Autónomo Municipal de San Pedro de Tiquina,SPT,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1234,Gobierno Autónomo Municipal de Tito Yupanqui,YUP,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1235,Gobierno Autónomo Municipal de Chuma,CHU,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1236,Gobierno Autónomo Municipal de Ayata,AYA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1237,Gobierno Autónomo Municipal de Aucapata,AUC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1238,Gobierno Autónomo Municipal de Corocoro,COR,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1239,Gobierno Autónomo Municipal de Caquiaviri,CAQ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1240,Gobierno Autónomo Municipal de Calacoto,CAC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1241,Gobierno Autónomo Municipal de Comanche,CMC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1242,Gobierno Autónomo Municipal de Charaña,CHA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1243,Gobierno Autónomo Municipal de Waldo Ballivián,BAL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1244,Gobierno Autónomo Municipal de Nazacara de Pacajes,NAZ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1245,Gobierno Autónomo Municipal de Santiago de Callapa,SCA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1246,Gobierno Autónomo Municipal de Puerto Acosta,ACO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1247,Gobierno Autónomo Municipal de Mocomoco,MOC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1248,Gobierno Autónomo Municipal de Carabuco,CCH,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1249,Gobierno Autónomo Municipal de Apolo,APO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1250,Gobierno Autónomo Municipal de Pelechuco,PEL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1251,Gobierno Autónomo Municipal de Luribay,LUR,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1252,Gobierno Autónomo Municipal de Sapahaqui,SAPA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1253,Gobierno Autónomo Municipal de Yaco,YAC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1254,Gobierno Autónomo Municipal de Malla,MAL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1255,Gobierno Autónomo Municipal de Cairoma,CAI,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1256,Gobierno Autónomo Municipal de Chulumani (Villa de la Libertad),CHL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1257,Gobierno Autónomo Municipal de Irupana (Villa de Lanza),IRU,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1258,Gobierno Autónomo Municipal de Yanacachi,YAN,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1259,Gobierno Autónomo Municipal de Palos Blancos,BLA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1260,Gobierno Autónomo Municipal de La Asunta,ASU,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1261,Gobierno Autónomo Municipal de Pucarani,PUC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1262,Gobierno Autónomo Municipal de Laja,LAJ,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1263,Gobierno Autónomo Municipal de Batallas,BAT,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1264,Gobierno Autónomo Municipal de Puerto Pérez,PER,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1265,Gobierno Autónomo Municipal de Coroico,COC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1266,Gobierno Autónomo Municipal de Coripata,CRI,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1267,Gobierno Autónomo Municipal de Ixiamas,IXI,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1268,Gobierno Autónomo Municipal de San Buenaventura,SBV,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1269,Gobierno Autónomo Municipal de General Juan José Pérez (Charazani),CPE,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1270,Gobierno Autónomo Municipal de Curva,CUR,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1271,Gobierno Autónomo Municipal de San Pedro de Curahuara,PEC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1272,Gobierno Autónomo Municipal de Papel Pampa,PAP,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1273,Gobierno Autónomo Municipal de Chacarilla,CLL,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1274,Gobierno Autónomo Municipal de Santiago de Machaca,SMA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1275,Gobierno Autónomo Municipal de Catacora,CAT,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1276,Gobierno Autónomo Municipal de Mapiri,MAP,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1277,Gobierno Autónomo Municipal de Teoponte,TEO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1278,Gobierno Autónomo Municipal de San Andrés de Machaca,AMA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1279,Gobierno Autónomo Municipal de Jesús de Machaca,JMK,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1280,Gobierno Autónomo Municipal de Taraco,TCO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1281,Gobierno Autónomo Municipal de Huarina,HUAR,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1282,Gobierno Autónomo Municipal de Santiago de Huata,SAH,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1283,Gobierno Autónomo Municipal de Escoma,ESC,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1284,Gobierno Autónomo Municipal de Humanata,HUMA,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1285,Gobierno Autónomo Municipal de Alto Beni,ABN,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1286,Gobierno Autónomo Municipal de Huatajata,HUAT,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1287,Gobierno Autónomo Municipal de Chua Cocani,CHCO,municipal,GAM,La Paz,Clasificadores Presupuestarios 2026
+1301,Gobierno Autónomo Municipal de Cochabamba,CBB,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1302,Gobierno Autónomo Municipal de Quillacollo,QLL,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1303,Gobierno Autónomo Municipal de Sipe Sipe,SIP,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1304,Gobierno Autónomo Municipal de Tiquipaya,TIQ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1305,Gobierno Autónomo Municipal de Vinto,VIN,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1306,Gobierno Autónomo Municipal de Colcapirhua,CCP,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1307,Gobierno Autónomo Municipal de Aiquile,AIQ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1308,Gobierno Autónomo Municipal de Pasorapa,PAS,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1309,Gobierno Autónomo Municipal de Omereque,OME,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1310,Gobierno Autónomo Municipal de Independencia,IND,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1311,Gobierno Autónomo Municipal de Morochata,MOH,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1312,Gobierno Autónomo Municipal de Sacaba,SCB,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1313,Gobierno Autónomo Municipal de Colomi,CLM,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1314,Gobierno Autónomo Municipal de Villa Tunari,TUN,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1315,Gobierno Autónomo Municipal de Punata,PNT,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1316,Gobierno Autónomo Municipal de Villa Rivero,VRV,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1317,Gobierno Autónomo Municipal de San Benito (Villa José Quintín Mendoza),MEN,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1318,Gobierno Autónomo Municipal de Tacachi,TAC,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1319,Gobierno Autónomo Municipal Villa Gualberto Villarroel,VGV,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1320,Gobierno Autónomo Municipal de Tarata,TRT,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1321,Gobierno Autónomo Municipal de Anzaldo,ANZ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1322,Gobierno Autónomo Municipal de Arbieto,ARB,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1323,Gobierno Autónomo Municipal de Sacabamba,SBB,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1324,Gobierno Autónomo Municipal de Cliza,CLI,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1325,Gobierno Autónomo Municipal de Toco,TOC,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1326,Gobierno Autónomo Municipal de Tolata,TLA,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1327,Gobierno Autónomo Municipal de Capinota,CAP,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1328,Gobierno Autónomo Municipal de Santivañez,SAN,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1329,Gobierno Autónomo Municipal de Sicaya,SCY,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1330,Gobierno Autónomo Municipal de Tapacari,TAP,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1331,Gobierno Autónomo Municipal de Totora,TOT,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1332,Gobierno Autónomo Municipal de Pojo,POJ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1333,Gobierno Autónomo Municipal de Pocona,POC,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1334,Gobierno Autónomo Municipal de Chimoré,CHI,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1335,Gobierno Autónomo Municipal de Puerto Villarroel,PVI,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1336,Gobierno Autónomo Municipal de Arani,ARA,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1337,Gobierno Autónomo Municipal de Vacas,VAC,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1338,Gobierno Autónomo Municipal de Arque,ARQ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1339,Gobierno Autónomo Municipal de Tacopaya,TPY,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1340,Gobierno Autónomo Municipal de Bolivar,BOL,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1341,Gobierno Autónomo Municipal de Tiraque,TRQ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1342,Gobierno Autónomo Municipal de Mizque,MIZ,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1343,Gobierno Autónomo Municipal de Vila Vila,VIS,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1344,Gobierno Autónomo Municipal de Alalay,ALA,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1345,Gobierno Autónomo Municipal de Entre Rios,ERI,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1346,Gobierno Autónomo Municipal de Cocapata,CCT,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1347,Gobierno Autónomo Municipal de Shinahota,SHI,municipal,GAM,Cochabamba,Clasificadores Presupuestarios 2026
+1401,Gobierno Autónomo Municipal de Oruro,ORU,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1402,Gobierno Autónomo Municipal de Caracollo,CAR,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1403,Gobierno Autónomo Municipal de El Choro,CHO,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1404,Gobierno Autónomo Municipal de Challapata,CHT,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1405,Gobierno Autónomo Municipal de Santuario de Quillacas,STQ,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1406,Gobierno Autónomo Municipal de Huanuni,VHU,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1407,Gobierno Autónomo Municipal de Machacamarca,MAR,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1408,Gobierno Autónomo Municipal de Poopó (Villa Poopó),POO,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1409,Gobierno Autónomo Municipal de Pazña,PAZ,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1410,Gobierno Autónomo Municipal de Antequera,ANT,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1411,Gobierno Autónomo Municipal de Eucaliptus,EUC,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1412,Gobierno Autónomo Municipal de Santiago de Huari,SHU,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1413,Gobierno Autónomo Municipal de Totora,TTR,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1414,Gobierno Autónomo Municipal de Corque,CRQ,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1415,Gobierno Autónomo Municipal de Choquecota,CHE,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1416,Gobierno Autónomo Municipal de Curahuara de Carangas,CDC,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1417,Gobierno Autónomo Municipal de Turco,TUR,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1418,Gobierno Autónomo Municipal de Huachacalla,HCH,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1419,Gobierno Autónomo Municipal de Escara,ESA,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1420,Gobierno Autónomo Municipal de Cruz de Machacamarca,CMA,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1421,Gobierno Autónomo Municipal de Yunguyo de Litoral,YUG,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1422,Gobierno Autónomo Municipal de Esmeralda,ESM,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1423,Gobierno Autónomo Municipal de Toledo,TOL,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1424,Gobierno Autónomo Municipal de Andamarca (Santiago de Andamarca),ADN,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1425,Gobierno Autónomo Municipal de Belén de Andamarca,BEL,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1427,Gobierno Autónomo Municipal de Pampa Aullagas,PAM,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1428,Gobierno Autónomo Municipal de La Rivera,RIV,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1429,Gobierno Autónomo Municipal de Todos Santos,TOS,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1430,Gobierno Autónomo Municipal de Carangas,CGA,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1431,Gobierno Autónomo Municipal de Sabaya,SAP,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1432,Gobierno Autónomo Municipal de Coipasa,COI,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1434,Gobierno Autónomo Municipal de Huayllamarca (Santiago de Huayllamarca),SDH,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1435,Gobierno Autónomo Municipal de Soracachi,SRC,municipal,GAM,Oruro,Clasificadores Presupuestarios 2026
+1501,Gobierno Autónomo Municipal de Potosí,POT,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1502,Gobierno Autónomo Municipal de Tinguipaya,TIN,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1503,Gobierno Autónomo Municipal de Yocalla,YOC,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1504,Gobierno Autónomo Municipal de Urmiri,URM,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1505,Gobierno Autónomo Municipal de Uncía,UNC,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1506,Gobierno Autónomo Municipal de Chayanta,CHY,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1507,Gobierno Autónomo Municipal de Llallagua,LLA,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1508,Gobierno Autónomo Municipal de Betanzos,BET,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1509,Gobierno Autónomo Municipal de Chaqui,CHQ,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1510,Gobierno Autónomo Municipal de Tacobamba,TCB,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1511,Gobierno Autónomo Municipal de Colquechaca,CCQ,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1512,Gobierno Autónomo Municipal de Ravelo,RAV,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1513,Gobierno Autónomo Municipal de Pocoata,PCT,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1514,Gobierno Autónomo Municipal de Ocurí,OCU,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1515,Gobierno Autónomo Municipal de San Pedro de Buena Vista,PED,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1516,Gobierno Autónomo Municipal de Toro Toro,TTO,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1517,Gobierno Autónomo Municipal de Cotagaita,COT,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1518,Gobierno Autónomo Municipal de Vitichi,VIT,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1519,Gobierno Autónomo Municipal de Tupiza,TUP,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1520,Gobierno Autónomo Municipal de Atocha,ATO,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1521,"Gobierno Autónomo Municipal de Colcha""K"" (Villa Martín)",CCK,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1522,Gobierno Autónomo Municipal de San Pedro de Quemes,PEQ,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1523,Gobierno Autónomo Municipal de San Pablo de Lípez,PAB,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1524,Gobierno Autónomo Municipal de Mojinete,MOJ,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1525,Gobierno Autónomo Municipal de San Antonio de Esmoruco,SANT,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1526,Gobierno Autónomo Municipal de Sacaca (Villa de Sacaca),SAC,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1527,Gobierno Autónomo Municipal de Caripuyo,CRP,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1528,Gobierno Autónomo Municipal de Puna (Villa Talavera),PUN,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1529,"Gobierno Autónomo Municipal de Caiza ""D""",CAD,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1530,Gobierno Autónomo Municipal de Uyuni,UYU,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1531,Gobierno Autónomo Municipal de Tomave,TOM,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1532,Gobierno Autónomo Municipal de Porco,PRC,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1533,Gobierno Autónomo Municipal de Arampampa,ARP,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1534,Gobierno Autónomo Municipal de Acasio,ACA,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1535,Gobierno Autónomo Municipal de Llica,LLI,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1536,Gobierno Autónomo Municipal de Tahua,TAH,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1537,Gobierno Autónomo Municipal de Villazón,VLZ,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1538,Gobierno Autónomo Municipal de San Agustín,AGU,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1539,Gobierno Autónomo Municipal de Ckochas,CKO,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1540,Gobierno Autónomo Municipal de Chuquihuta Ayllu Jucumani,JUC,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1541,Gobierno Autónomo Municipal de San Pedro de Macha,SPM,municipal,GAM,Potosí,Clasificadores Presupuestarios 2026
+1601,Gobierno Autónomo Municipal de Tarija,TRJ,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1602,Gobierno Autónomo Municipal de Padcaya,PCY,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1603,Gobierno Autónomo Municipal de Bermejo,BERver,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1604,Gobierno Autónomo Municipal de Yacuiba,YCB,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1605,Gobierno Autónomo Municipal de Caraparí,CRY,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1606,Gobierno Autónomo Municipal de Villamontes,MON,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1607,Gobierno Autónomo Municipal de Uriondo (Concepción),ORI,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1608,Gobierno Autónomo Municipal de Yunchara,YUN,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1609,Gobierno Autónomo Municipal de San Lorenzo,SLR,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1610,Gobierno Autónomo Municipal de El Puente,TMY,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1611,Gobierno Autónomo Municipal de Entre Ríos,RIO,municipal,GAM,Tarija,Clasificadores Presupuestarios 2026
+1701,Gobierno Autónomo Municipal de Santa Cruz de La Sierra,SCZ,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1702,Gobierno Autónomo Municipal de Cotoca,CTC,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1703,Gobierno Autónomo Municipal de Porongo (Ayacucho),PRG,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1704,Gobierno Autónomo Municipal de La Guardia,LGU,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1705,Gobierno Autónomo Municipal de El Torno,TOR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1706,Gobierno Autónomo Municipal de Warnes,WAR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1707,Gobierno Autónomo Municipal de San Ignacio (San Ignacio de Velasco),ING,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1708,Gobierno Autónomo Municipal de San Miguel (San Miguel de Velasco),MIG,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1709,Gobierno Autónomo Municipal de San Rafael,RAF,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1710,Gobierno Autónomo Municipal de Buena Vista,BUE,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1711,Gobierno Autónomo Municipal de San Carlos,CRL,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1712,Gobierno Autónomo Municipal de Yapacaní,YAP,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1713,Gobierno Autónomo Municipal de San José,JOS,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1714,Gobierno Autónomo Municipal de Pailón,PAI,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1715,Gobierno Autónomo Municipal de Roboré,ROB,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1716,Gobierno Autónomo Municipal de Portachuelo,PCH,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1717,Gobierno Autónomo Municipal de Santa Rosa del Sara,SRS,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1718,Gobierno Autónomo Municipal de Lagunillas,LAG,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1720,Gobierno Autónomo Municipal de Cabezas,CAB,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1721,Gobierno Autónomo Municipal de Cuevo,CUE,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1723,Gobierno Autónomo Municipal de Camiri,CMR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1724,Gobierno Autónomo Municipal de Boyuibe,BOY,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1725,Gobierno Autónomo Municipal de Vallegrande,GRA,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1726,Gobierno Autónomo Municipal de Trigal,TRG,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1727,Gobierno Autónomo Municipal de Moro Moro,MOR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1728,Gobierno Autónomo Municipal de Postrer Valle,POS,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1729,Gobierno Autónomo Municipal de Pucara,PCR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1730,Gobierno Autónomo Municipal de Samaipata,SAM,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1731,Gobierno Autónomo Municipal de Pampa Grande,PAG,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1732,Gobierno Autónomo Municipal de Mairana,MAY,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1733,Gobierno Autónomo Municipal de Quirusillas,QRS,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1734,Gobierno Autónomo Municipal de Montero,MTR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1735,Gobierno Autónomo Municipal de General Agustín Saavedra,SAA,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1736,Gobierno Autónomo Municipal de Mineros,MIN,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1737,Gobierno Autónomo Municipal de Concepción,CON,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1738,Gobierno Autónomo Municipal de San Javier,SJA,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1739,Gobierno Autónomo Municipal de San Julián,JUL,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1740,Gobierno Autónomo Municipal de San Matías,MAT,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1741,Gobierno Autónomo Municipal de Comarapa,CMP,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1742,Gobierno Autónomo Municipal de Saipina,SAI,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1743,Gobierno Autónomo Municipal de Puerto Suárez,SUA,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1744,Gobierno Autónomo Municipal de Puerto Quijarro,PQO,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1745,Gobierno Autónomo Municipal de Ascención de Guarayos,ADG,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1746,Gobierno Autónomo Municipal de Urubicha,URU,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1747,Gobierno Autónomo Municipal de El Puente,PUE,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1748,Gobierno Autónomo Municipal de Okinawa Uno,OKI,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1749,Gobierno Autónomo Municipal de San Antonio de Lomerio,ANL,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1750,Gobierno Autónomo Municipal de San Ramón,SRA,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1751,Gobierno Autónomo Municipal de El Carmen Rivero Tórrez,CRT,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1752,Gobierno Autónomo Municipal de San Juan,SJU,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1753,Gobierno Autónomo Municipal de Fernández Alonso,FAL,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1754,Gobierno Autónomo Municipal de San Pedro,PDR,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1755,Gobierno Autónomo Municipal de Cuatro Cañadas,CCA,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1756,Gobierno Autónomo Municipal de Colpa Bélgica,CBE,municipal,GAM,Santa Cruz,Clasificadores Presupuestarios 2026
+1801,Gobierno Autónomo Municipal de Trinidad,TRI,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1802,Gobierno Autónomo Municipal de San Javier,JAV,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1803,Gobierno Autónomo Municipal de Riberalta,RIB,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1805,Gobierno Autónomo Municipal de Puerto Guayaramerín,PGU,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1806,Gobierno Autónomo Municipal de Reyes,REY,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1807,Gobierno Autónomo Municipal de Puerto Rurrenabaque,RUR,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1808,Gobierno Autónomo Municipal de San Borja,BOR,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1809,Gobierno Autónomo Municipal de Santa Rosa,ROS,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1810,Gobierno Autónomo Municipal de Santa Ana,ANA,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1811,Gobierno Autónomo Municipal de San Ignacio,IGN,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1812,Gobierno Autónomo Municipal de Loreto,LOR,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1813,Gobierno Autónomo Municipal de San Andrés,SAD,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1814,Gobierno Autónomo Municipal de San Joaquín,JOA,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1815,Gobierno Autónomo Municipal de San Ramón,RAM,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1816,Gobierno Autónomo Municipal de Puerto Síles,SIL,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1817,Gobierno Autónomo Municipal de Magdalena,MAG,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1818,Gobierno Autónomo Municipal de Baures,BAU,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1819,Gobierno Autónomo Municipal de Huacaraje,HUA,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1820,Gobierno Autónomo Municipal de Exaltación,EXA,municipal,GAM,Beni,Clasificadores Presupuestarios 2026
+1901,Gobierno Autónomo Municipal de Cobija,CBJ,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1902,Gobierno Autónomo Municipal de Porvenir,PRV,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1903,Gobierno Autónomo Municipal de Bolpebra,BOP,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1904,Gobierno Autónomo Municipal de Bella Flor,FLO,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1905,Gobierno Autónomo Municipal de Puerto Rico,PRI,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1906,Gobierno Autónomo Municipal de San Pedro,SPE,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1907,Gobierno Autónomo Municipal de Filadelfia,FIL,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1908,Gobierno Autónomo Municipal de Puerto Gonzalo Moreno,PGM,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1909,Gobierno Autónomo Municipal de San Lorenzo,SLO,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1910,Gobierno Autónomo Municipal de Sena,SEN,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1911,Gobierno Autónomo Municipal de Santa Rosa del Abuná,SRO,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1912,Gobierno Autónomo Municipal de Ingavi (Humaita),HUM,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1913,Gobierno Autónomo Municipal de Nueva Esperanza,NES,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1914,Gobierno Autónomo Municipal de Villa Nueva (Loma Alta),LOM,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1915,Gobierno Autónomo Municipal de Santos Mercado,MER,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+3101,Autonomía del Territorio Indígena Originario Campesino Guaraní Chaqueño de,ATIOCGCH,indigena_originario_campesino,GAIOC,Chuquisaca,Clasificadores Presupuestarios 2026
+3301,Gobierno Autónomo Indígena Originario Campesino del Territorio de Raqaypampa,GAIOC-TRP,indigena_originario_campesino,GAIOC,Cochabamba,Clasificadores Presupuestarios 2026
+3401,Gobierno Autónomo Indígena Originario Campesino de la Nación Originaria Uru,URU,indigena_originario_campesino,GAIOC,Oruro,Clasificadores Presupuestarios 2026
+3402,Gobierno Autónomo Indígena Originario Campesino de Salinas,GAIOC-SA,indigena_originario_campesino,GAIOC,Oruro,Clasificadores Presupuestarios 2026
+3501,Gobierno Autónomo Indígena Originario Campesino de la Autonomía Originaria del,GAIOC - AOJAY,indigena_originario_campesino,GAIOC,Potosí,Clasificadores Presupuestarios 2026
+3701,Gobierno Autónomo Indígena Originario Campesino de Charagua Iyambae,CHIY,indigena_originario_campesino,GAIOC,Santa Cruz,Clasificadores Presupuestarios 2026
+3702,Gobierno Autónomo Indígena Guaraní Kereimba Iyaambae,GKI,indigena_originario_campesino,GAIOC,Santa Cruz,Clasificadores Presupuestarios 2026
+3801,Gobierno Indígena Autónomo del Territorio Indígena Multiétnico,GIA-TIM,indigena_originario_campesino,GAIOC,Beni,Clasificadores Presupuestarios 2026
+4601,Gobierno Autónomo Regional del Gran Chaco,GAR - GCH,regional,GAR,Tarija,Clasificadores Presupuestarios 2026
+901,Gobierno Autónomo Departamental de Chuquisaca,GAD-CHU,departamental,GAD,Chuquisaca,Clasificadores Presupuestarios 2026
+902,Gobierno Autónomo Departamental de La Paz,GAD-LPZ,departamental,GAD,La Paz,Clasificadores Presupuestarios 2026
+903,Gobierno Autónomo Departamental de Cochabamba,GAD-CBB,departamental,GAD,Cochabamba,Clasificadores Presupuestarios 2026
+904,Gobierno Autónomo Departamental de Oruro,GAD-ORU,departamental,GAD,Oruro,Clasificadores Presupuestarios 2026
+905,Gobierno Autónomo Departamental de Potosí,GAD-PTS,departamental,GAD,Potosí,Clasificadores Presupuestarios 2026
+906,Gobierno Autónomo Departamental de Tarija,GAD-TAR,departamental,GAD,Tarija,Clasificadores Presupuestarios 2026
+907,Gobierno Autónomo Departamental de Santa Cruz,GAD-SCZ,departamental,GAD,Santa Cruz,Clasificadores Presupuestarios 2026
+908,Gobierno Autónomo Departamental del Beni,GAD-BEN,departamental,GAD,Beni,Clasificadores Presupuestarios 2026
+909,Gobierno Autónomo Departamental de Pando,GAD-PAN,departamental,GAD,Pando,Clasificadores Presupuestarios 2026

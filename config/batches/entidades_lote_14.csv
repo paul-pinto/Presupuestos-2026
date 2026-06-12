@@ -1,0 +1,26 @@
+﻿codigo_entidad,nombre_entidad,sigla,tipo,grupo_eta,departamento,fuente
+1906,Gobierno Autónomo Municipal de San Pedro,SPE,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1907,Gobierno Autónomo Municipal de Filadelfia,FIL,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1908,Gobierno Autónomo Municipal de Puerto Gonzalo Moreno,PGM,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1909,Gobierno Autónomo Municipal de San Lorenzo,SLO,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1910,Gobierno Autónomo Municipal de Sena,SEN,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1911,Gobierno Autónomo Municipal de Santa Rosa del Abuná,SRO,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1912,Gobierno Autónomo Municipal de Ingavi (Humaita),HUM,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1913,Gobierno Autónomo Municipal de Nueva Esperanza,NES,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1914,Gobierno Autónomo Municipal de Villa Nueva (Loma Alta),LOM,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+1915,Gobierno Autónomo Municipal de Santos Mercado,MER,municipal,GAM,Pando,Clasificadores Presupuestarios 2026
+3101,Autonomía del Territorio Indígena Originario Campesino Guaraní Chaqueño de,ATIOCGCH,indigena_originario_campesino,GAIOC,Chuquisaca,Clasificadores Presupuestarios 2026
+3301,Gobierno Autónomo Indígena Originario Campesino del Territorio de Raqaypampa,GAIOC-TRP,indigena_originario_campesino,GAIOC,Cochabamba,Clasificadores Presupuestarios 2026
+3401,Gobierno Autónomo Indígena Originario Campesino de la Nación Originaria Uru,URU,indigena_originario_campesino,GAIOC,Oruro,Clasificadores Presupuestarios 2026
+3402,Gobierno Autónomo Indígena Originario Campesino de Salinas,GAIOC-SA,indigena_originario_campesino,GAIOC,Oruro,Clasificadores Presupuestarios 2026
+3501,Gobierno Autónomo Indígena Originario Campesino de la Autonomía Originaria del,GAIOC - AOJAY,indigena_originario_campesino,GAIOC,Potosí,Clasificadores Presupuestarios 2026
+3701,Gobierno Autónomo Indígena Originario Campesino de Charagua Iyambae,CHIY,indigena_originario_campesino,GAIOC,Santa Cruz,Clasificadores Presupuestarios 2026
+3702,Gobierno Autónomo Indígena Guaraní Kereimba Iyaambae,GKI,indigena_originario_campesino,GAIOC,Santa Cruz,Clasificadores Presupuestarios 2026
+3801,Gobierno Indígena Autónomo del Territorio Indígena Multiétnico,GIA-TIM,indigena_originario_campesino,GAIOC,Beni,Clasificadores Presupuestarios 2026
+4601,Gobierno Autónomo Regional del Gran Chaco,GAR - GCH,regional,GAR,Tarija,Clasificadores Presupuestarios 2026
+901,Gobierno Autónomo Departamental de Chuquisaca,GAD-CHU,departamental,GAD,Chuquisaca,Clasificadores Presupuestarios 2026
+902,Gobierno Autónomo Departamental de La Paz,GAD-LPZ,departamental,GAD,La Paz,Clasificadores Presupuestarios 2026
+903,Gobierno Autónomo Departamental de Cochabamba,GAD-CBB,departamental,GAD,Cochabamba,Clasificadores Presupuestarios 2026
+904,Gobierno Autónomo Departamental de Oruro,GAD-ORU,departamental,GAD,Oruro,Clasificadores Presupuestarios 2026
+905,Gobierno Autónomo Departamental de Potosí,GAD-PTS,departamental,GAD,Potosí,Clasificadores Presupuestarios 2026
+906,Gobierno Autónomo Departamental de Tarija,GAD-TAR,departamental,GAD,Tarija,Clasificadores Presupuestarios 2026

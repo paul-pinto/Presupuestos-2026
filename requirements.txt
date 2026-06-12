@@ -1,0 +1,7 @@
+pandas
+pdfplumber
+playwright
+openpyxl
+pyarrow
+duckdb
+plotly

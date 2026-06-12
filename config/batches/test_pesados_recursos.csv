@@ -1,0 +1,7 @@
+codigo_entidad,nombre_entidad,sigla,tipo,grupo_eta,departamento,fuente
+1701,Gobierno Autónomo Municipal de Santa Cruz de La Sierra,SCZ,municipal,GAM,Santa Cruz,manual_test
+1201,Gobierno Autónomo Municipal de La Paz,LPZ,municipal,GAM,La Paz,manual_test
+1205,Gobierno Autónomo Municipal de El Alto de La Paz,ELLA,municipal,GAM,La Paz,manual_test
+907,Gobierno Autónomo Departamental de Santa Cruz,GAD-SCZ,departamental,GAD,Santa Cruz,manual_test
+902,Gobierno Autónomo Departamental de La Paz,GAD-LPZ,departamental,GAD,La Paz,manual_test
+1805,Gobierno Autónomo Municipal de Puerto Guayaramerín,,municipal,GAM,Beni,manual_test

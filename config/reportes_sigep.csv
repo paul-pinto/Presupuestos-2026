@@ -1,0 +1,5 @@
+report_slug,reporte_texto,x17d_index,raw_dir
+categoria_grupo_total_gastos,Presupuesto Institucional por Categoría Programática y Grupo de Gasto - Total Gastos,4,data/raw/sigep_2026/categoria_programatica_grupo_gasto_total_gastos
+recursos_por_rubro,Presupuesto de Recursos por Rubro,2,data/raw/sigep_2026/recursos_por_rubro
+objeto_gasto_fuente_total_gastos,Presupuesto Institucional por Objeto del Gasto y Fuente de Financiamiento - Total Gastos,10,data/raw/sigep_2026/objeto_gasto_fuente_total_gastos
+categoria_fuente_organismo_total_gastos,"Presupuesto Institucional por Categoría Programática, Fuente de Financiamiento y Organismo Financiador - Total Gastos",7,data/raw/sigep_2026/categoria_fuente_organismo_total_gastos
