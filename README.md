@@ -4,6 +4,10 @@ Pipeline en Python para descargar, organizar, parsear y auditar presupuestos ins
 
 El proyecto trabaja con reportes PDF generados desde SIGEP, extrae información presupuestaria estructurada y valida los montos parseados contra el valor oficial de `TOTAL GENERAL`.
 
+Deploy del Proyecto:
+
+https://paul-pinto-presupuestos-2026-app-neflqq.streamlit.app/
+
 ---
 
 ## Objetivo
