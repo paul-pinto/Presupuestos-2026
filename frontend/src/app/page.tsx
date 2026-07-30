@@ -122,6 +122,33 @@ function formatBs(value: number): string {
   })}`;
 }
 
+function formatBsCompact(value: number): string {
+  const n = Number(value || 0);
+  const abs = Math.abs(n);
+
+  if (abs >= 1_000_000_000) {
+    return `Bs ${(n / 1_000_000_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 1,
+    })} Bn`;
+  }
+
+  if (abs >= 1_000_000) {
+    return `Bs ${(n / 1_000_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 1,
+    })} M`;
+  }
+
+  if (abs >= 1_000) {
+    return `Bs ${(n / 1_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 1,
+    })} mil`;
+  }
+
+  return `Bs ${n.toLocaleString("es-BO", {
+    maximumFractionDigits: 0,
+  })}`;
+}
+
 function formatInt(value: number): string {
   return Number(value || 0).toLocaleString("es-BO", {
     maximumFractionDigits: 0,
@@ -225,7 +252,7 @@ function chartOptionHorizontal({
   left?: number;
 }) {
   return {
-    grid: { left, right: 40, top: 20, bottom: 40 },
+    grid: { left, right: 50, top: 20, bottom: 55, containLabel: true },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
@@ -234,7 +261,8 @@ function chartOptionHorizontal({
     xAxis: {
       type: "value",
       axisLabel: {
-        formatter: (value: number) => formatInt(value),
+        formatter: (value: number) => formatBsCompact(value),
+        hideOverlap: true,
       },
     },
     yAxis: {
@@ -262,7 +290,7 @@ function chartOptionVertical({
   values: number[];
 }) {
   return {
-    grid: { left: 80, right: 30, top: 20, bottom: 80 },
+    grid: { left: 90, right: 40, top: 20, bottom: 70, containLabel: true },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
@@ -280,7 +308,8 @@ function chartOptionVertical({
     yAxis: {
       type: "value",
       axisLabel: {
-        formatter: (value: number) => formatInt(value),
+        formatter: (value: number) => formatBsCompact(value),
+        hideOverlap: true,
       },
     },
     series: [
@@ -534,7 +563,7 @@ export default function Home() {
       .slice(0, 15)
       .reverse()
       .map((item) => item.importe),
-    left: 300,
+    left: 380,
   });
 
   const objetoGastoOption = chartOptionHorizontal({
@@ -546,7 +575,7 @@ export default function Home() {
       .slice(0, 15)
       .reverse()
       .map((item) => item.total),
-    left: 300,
+    left: 380,
   });
 
   const fuentesObjetoOption = chartOptionHorizontal({
@@ -788,12 +817,12 @@ export default function Home() {
             </div>
           </Section>
 
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid gap-6">
             <Section
               title="Recursos / ingresos por rubro"
               description="Agregado global por rubro. El detalle filtrable por entidad se agregará en /ingresos."
             >
-              <div className="h-[620px]">
+              <div className="h-[560px]">
                 <ReactECharts option={recursosRubroOption} style={{ height: "100%", width: "100%" }} />
               </div>
             </Section>
@@ -802,7 +831,7 @@ export default function Home() {
               title="Objeto del gasto nivel 1"
               description="Agregado global por objeto. El detalle filtrable por entidad se agregará en /objeto-gasto."
             >
-              <div className="h-[620px]">
+              <div className="h-[520px]">
                 <ReactECharts option={objetoGastoOption} style={{ height: "100%", width: "100%" }} />
               </div>
             </Section>
