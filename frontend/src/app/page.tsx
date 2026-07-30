@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import ReactECharts from "echarts-for-react";
 import {
   AlertTriangle,
@@ -390,6 +391,12 @@ export default function Home() {
             Versión React/Next.js generada desde DuckDB y datos SIGEP procesados.
           </p>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
+            <Link
+              href="/validacion"
+              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+            >
+              Ver validación
+            </Link>
             <a
               href="https://paul-pinto-presupuestos-2026-app-neflqq.streamlit.app/"
               target="_blank"
