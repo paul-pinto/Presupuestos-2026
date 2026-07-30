@@ -90,7 +90,9 @@ function formatBs(value: number): string {
   return `Bs ${Number(value || 0).toLocaleString("es-BO", {
     maximumFractionDigits: 0,
   })}`;
-}\n\nfunction formatBsCompact(value: number): string {
+}
+
+function formatBsCompact(value: number): string {
   const n = Number(value || 0);
   const abs = Math.abs(n);
 
