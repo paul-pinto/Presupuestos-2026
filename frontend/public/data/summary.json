@@ -1,7 +1,21 @@
 {
   "gasto_total": 31298887329.0,
+  "ingresos_total": 31298887329.0,
+  "gasto_total_objeto": 31298887329.0,
   "entidades": 353,
   "departamentos": 9,
+  "entidades_con_diferencias": 0,
+  "grupos": {
+    "grupo_1": 9699341618.0,
+    "grupo_2": 5970260764.0,
+    "grupo_3": 4287740214.0,
+    "grupo_4": 4765492916.0,
+    "grupo_5": 528360514.0,
+    "grupo_6": 2312718077.0,
+    "grupo_7": 1640581243.0,
+    "grupo_8": 6901797.0,
+    "grupo_9": 2087490186.0
+  },
   "manifest": {
     "entidades": {
       "file": "/data/entidades.json",
@@ -18,6 +32,11 @@
       "rows": 4,
       "bytes": 517
     },
+    "grupos_gasto": {
+      "file": "/data/grupos_gasto.json",
+      "rows": 9,
+      "bytes": 953
+    },
     "programas_top": {
       "file": "/data/programas_top.json",
       "rows": 500,
@@ -28,15 +47,40 @@
       "rows": 14,
       "bytes": 1630
     },
+    "recursos_entidad_top": {
+      "file": "/data/recursos_entidad_top.json",
+      "rows": 100,
+      "bytes": 23020
+    },
+    "ingresos_vs_gastos": {
+      "file": "/data/ingresos_vs_gastos.json",
+      "rows": 353,
+      "bytes": 105235
+    },
     "objeto_gasto_nivel1": {
       "file": "/data/objeto_gasto_nivel1.json",
       "rows": 9,
       "bytes": 1014
     },
+    "objeto_gasto_entidad_top": {
+      "file": "/data/objeto_gasto_entidad_top.json",
+      "rows": 100,
+      "bytes": 23420
+    },
+    "fuentes_objeto_gasto": {
+      "file": "/data/fuentes_objeto_gasto.json",
+      "rows": 14,
+      "bytes": 1155
+    },
     "validacion_integrada": {
       "file": "/data/validacion_integrada.json",
       "rows": 353,
       "bytes": 140470
+    },
+    "validacion_diferencias": {
+      "file": "/data/validacion_diferencias.json",
+      "rows": 0,
+      "bytes": 2
     }
   }
 }

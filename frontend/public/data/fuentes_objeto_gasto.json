@@ -1,0 +1,58 @@
+[
+  {
+    "fuente_columna": "monto_11_ot_gob",
+    "monto": 18373277807.0
+  },
+  {
+    "fuente_columna": "monto_13_otros_ingresos",
+    "monto": 12068542635.0
+  },
+  {
+    "fuente_columna": "monto_03_tgn_ct",
+    "monto": 10194414198.0
+  },
+  {
+    "fuente_columna": "monto_01_tgn",
+    "monto": 5570317980.0
+  },
+  {
+    "fuente_columna": "monto_07_tgn_iehd",
+    "monto": 2081970955.0
+  },
+  {
+    "fuente_columna": "monto_15_donaciones_internas",
+    "monto": 840045261.0
+  },
+  {
+    "fuente_columna": "monto_06_tgn_pg_n",
+    "monto": 361372834.0
+  },
+  {
+    "fuente_columna": "monto_05_tgn_fcom",
+    "monto": 144111133.0
+  },
+  {
+    "fuente_columna": "monto_04_recon",
+    "monto": 19976571.0
+  },
+  {
+    "fuente_columna": "monto_14_recursos_especificos",
+    "monto": 9505508.0
+  },
+  {
+    "fuente_columna": "monto_12_total_tgn",
+    "monto": 5758084.0
+  },
+  {
+    "fuente_columna": "monto_16_credito_externo",
+    "monto": 1758034.0
+  },
+  {
+    "fuente_columna": "monto_09_tgn_ipj",
+    "monto": 893380.0
+  },
+  {
+    "fuente_columna": "monto_08_tgn_idh",
+    "monto": 220756.0
+  }
+]

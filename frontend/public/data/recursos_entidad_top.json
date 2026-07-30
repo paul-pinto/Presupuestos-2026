@@ -1,0 +1,802 @@
+[
+  {
+    "codigo_entidad": "1701",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Cruz de La Sierra",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4791974704.0
+  },
+  {
+    "codigo_entidad": "907",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Santa Cruz",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 2104684571.0
+  },
+  {
+    "codigo_entidad": "1201",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Paz",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1724178990.0
+  },
+  {
+    "codigo_entidad": "902",
+    "nombre_entidad": "Gobierno Autónomo Departamental de La Paz",
+    "departamento": "La Paz",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 1677807458.0
+  },
+  {
+    "codigo_entidad": "1301",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cochabamba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1632368430.0
+  },
+  {
+    "codigo_entidad": "1205",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Alto de La Paz",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1490573041.0
+  },
+  {
+    "codigo_entidad": "905",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Potosí",
+    "departamento": "Potosí",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 1478318200.0
+  },
+  {
+    "codigo_entidad": "903",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Cochabamba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 1100548991.0
+  },
+  {
+    "codigo_entidad": "906",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Tarija",
+    "departamento": "Tarija",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 840539499.0
+  },
+  {
+    "codigo_entidad": "901",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Chuquisaca",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 782262173.0
+  },
+  {
+    "codigo_entidad": "904",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Oruro",
+    "departamento": "Oruro",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 717151658.0
+  },
+  {
+    "codigo_entidad": "1401",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Oruro",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 577774709.0
+  },
+  {
+    "codigo_entidad": "1601",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tarija",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 567296182.0
+  },
+  {
+    "codigo_entidad": "1101",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sucre",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 536787240.0
+  },
+  {
+    "codigo_entidad": "908",
+    "nombre_entidad": "Gobierno Autónomo Departamental del Beni",
+    "departamento": "Beni",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 520970521.0
+  },
+  {
+    "codigo_entidad": "1501",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Potosí",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 393195227.0
+  },
+  {
+    "codigo_entidad": "1706",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Warnes",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 359415375.0
+  },
+  {
+    "codigo_entidad": "1312",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sacaba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 330508349.0
+  },
+  {
+    "codigo_entidad": "1302",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Quillacollo",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 315423173.0
+  },
+  {
+    "codigo_entidad": "4601",
+    "nombre_entidad": "Gobierno Autónomo Regional del Gran Chaco",
+    "departamento": "Tarija",
+    "grupo_eta": "GAR",
+    "tipo": "regional",
+    "ingresos_total": 289805279.0
+  },
+  {
+    "codigo_entidad": "1704",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Guardia",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 257239659.0
+  },
+  {
+    "codigo_entidad": "909",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Pando",
+    "departamento": "Pando",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 252228684.0
+  },
+  {
+    "codigo_entidad": "1801",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Trinidad",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 233143669.0
+  },
+  {
+    "codigo_entidad": "1734",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Montero",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 216889857.0
+  },
+  {
+    "codigo_entidad": "1604",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yacuiba",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 194028218.0
+  },
+  {
+    "codigo_entidad": "1206",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Viacha",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 185661872.0
+  },
+  {
+    "codigo_entidad": "1702",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cotoca",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 175825894.0
+  },
+  {
+    "codigo_entidad": "1803",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Riberalta",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 161898609.0
+  },
+  {
+    "codigo_entidad": "1703",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Porongo (Ayacucho)",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 159088092.0
+  },
+  {
+    "codigo_entidad": "1901",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cobija",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 146104616.0
+  },
+  {
+    "codigo_entidad": "1306",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colcapirhua",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 136788496.0
+  },
+  {
+    "codigo_entidad": "1304",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tiquipaya",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 128326653.0
+  },
+  {
+    "codigo_entidad": "1204",
+    "nombre_entidad": "Gobierno Autónomo Municipal Ecológico Productivo de Achocalla",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 110473572.0
+  },
+  {
+    "codigo_entidad": "1314",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Tunari",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 106261435.0
+  },
+  {
+    "codigo_entidad": "1739",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Julián",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 105893072.0
+  },
+  {
+    "codigo_entidad": "1606",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villamontes",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 93009878.0
+  },
+  {
+    "codigo_entidad": "1603",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Bermejo",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 92477448.0
+  },
+  {
+    "codigo_entidad": "1705",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Torno",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 91566756.0
+  },
+  {
+    "codigo_entidad": "1335",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Villarroel",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 89805237.0
+  },
+  {
+    "codigo_entidad": "1210",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caranavi",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 87897286.0
+  },
+  {
+    "codigo_entidad": "1714",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pailón",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 85183116.0
+  },
+  {
+    "codigo_entidad": "1521",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colcha\"K\" (Villa Martín)",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 84434720.0
+  },
+  {
+    "codigo_entidad": "1712",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yapacaní",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 82374547.0
+  },
+  {
+    "codigo_entidad": "1305",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vinto",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 81379151.0
+  },
+  {
+    "codigo_entidad": "1707",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Ignacio (San Ignacio de Velasco)",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 77924456.0
+  },
+  {
+    "codigo_entidad": "1537",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villazón",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 72813971.0
+  },
+  {
+    "codigo_entidad": "1303",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sipe Sipe",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 70839127.0
+  },
+  {
+    "codigo_entidad": "1261",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pucarani",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 65742628.0
+  },
+  {
+    "codigo_entidad": "1519",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tupiza",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 64026962.0
+  },
+  {
+    "codigo_entidad": "1315",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Punata",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 62651031.0
+  },
+  {
+    "codigo_entidad": "1530",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Uyuni",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 61108753.0
+  },
+  {
+    "codigo_entidad": "1808",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Borja",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 60852061.0
+  },
+  {
+    "codigo_entidad": "1507",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Llallagua",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 60503562.0
+  },
+  {
+    "codigo_entidad": "1345",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Entre Rios",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 59456897.0
+  },
+  {
+    "codigo_entidad": "1260",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Asunta",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 58639357.0
+  },
+  {
+    "codigo_entidad": "1805",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Guayaramerín",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 57405738.0
+  },
+  {
+    "codigo_entidad": "1755",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cuatro Cañadas",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 54863501.0
+  },
+  {
+    "codigo_entidad": "1262",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Laja",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 52102316.0
+  },
+  {
+    "codigo_entidad": "1605",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caraparí",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 51198627.0
+  },
+  {
+    "codigo_entidad": "1713",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San José",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 51078195.0
+  },
+  {
+    "codigo_entidad": "1120",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Lucas",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 48664005.0
+  },
+  {
+    "codigo_entidad": "1515",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro de Buena Vista",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 48207623.0
+  },
+  {
+    "codigo_entidad": "1259",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Palos Blancos",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 47454535.0
+  },
+  {
+    "codigo_entidad": "1404",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Challapata",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 47320012.0
+  },
+  {
+    "codigo_entidad": "1744",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Quijarro",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 45697585.0
+  },
+  {
+    "codigo_entidad": "1224",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Achacachi",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 45067967.0
+  },
+  {
+    "codigo_entidad": "1609",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Lorenzo",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 44450081.0
+  },
+  {
+    "codigo_entidad": "1505",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Uncía",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 42020650.0
+  },
+  {
+    "codigo_entidad": "1745",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ascención de Guarayos",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 41847791.0
+  },
+  {
+    "codigo_entidad": "1723",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Camiri",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 41500000.0
+  },
+  {
+    "codigo_entidad": "1517",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cotagaita",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 41484146.0
+  },
+  {
+    "codigo_entidad": "1277",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Teoponte",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 40897486.0
+  },
+  {
+    "codigo_entidad": "1737",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Concepción",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 40278991.0
+  },
+  {
+    "codigo_entidad": "1810",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Ana",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 40087242.0
+  },
+  {
+    "codigo_entidad": "1502",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tinguipaya",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 39168376.0
+  },
+  {
+    "codigo_entidad": "3701",
+    "nombre_entidad": "Gobierno Autónomo Indígena Originario Campesino de Charagua Iyambae",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 38611940.0
+  },
+  {
+    "codigo_entidad": "1202",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Palca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38601942.0
+  },
+  {
+    "codigo_entidad": "1211",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sica Sica (Villa Aroma)",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38535569.0
+  },
+  {
+    "codigo_entidad": "1226",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sorata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38465729.0
+  },
+  {
+    "codigo_entidad": "1602",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Padcaya",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38045325.0
+  },
+  {
+    "codigo_entidad": "1334",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chimoré",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 37932967.0
+  },
+  {
+    "codigo_entidad": "1214",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Calamarca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 37537262.0
+  },
+  {
+    "codigo_entidad": "1513",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pocoata",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 37323341.0
+  },
+  {
+    "codigo_entidad": "1115",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Monteagudo",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 36974829.0
+  },
+  {
+    "codigo_entidad": "1324",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cliza",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 36582558.0
+  },
+  {
+    "codigo_entidad": "1322",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Arbieto",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 35523205.0
+  },
+  {
+    "codigo_entidad": "1720",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cabezas",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 35215475.0
+  },
+  {
+    "codigo_entidad": "1736",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mineros",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33974300.0
+  },
+  {
+    "codigo_entidad": "1611",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Entre Ríos",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33960713.0
+  },
+  {
+    "codigo_entidad": "1508",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Betanzos",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33608920.0
+  },
+  {
+    "codigo_entidad": "1607",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Uriondo (Concepción)",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33139396.0
+  },
+  {
+    "codigo_entidad": "1402",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caracollo",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 32785074.0
+  },
+  {
+    "codigo_entidad": "1725",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vallegrande",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 31403432.0
+  },
+  {
+    "codigo_entidad": "1406",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huanuni",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30838958.0
+  },
+  {
+    "codigo_entidad": "1347",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Shinahota",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30585034.0
+  },
+  {
+    "codigo_entidad": "1263",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Batallas",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30560704.0
+  },
+  {
+    "codigo_entidad": "1811",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Ignacio",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30289005.0
+  },
+  {
+    "codigo_entidad": "1221",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colquiri",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29951096.0
+  },
+  {
+    "codigo_entidad": "1532",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Porco",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29845352.0
+  },
+  {
+    "codigo_entidad": "1511",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colquechaca",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29450067.0
+  }
+]

@@ -1,0 +1,3532 @@
+[
+  {
+    "codigo_entidad": "1701",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Cruz de La Sierra",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4791974704.0,
+    "gastos_total": 4791974704.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "907",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Santa Cruz",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 2104684571.0,
+    "gastos_total": 2104684571.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1201",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Paz",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1724178990.0,
+    "gastos_total": 1724178990.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "902",
+    "nombre_entidad": "Gobierno Autónomo Departamental de La Paz",
+    "departamento": "La Paz",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 1677807458.0,
+    "gastos_total": 1677807458.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1301",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cochabamba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1632368430.0,
+    "gastos_total": 1632368430.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1205",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Alto de La Paz",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1490573041.0,
+    "gastos_total": 1490573041.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "905",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Potosí",
+    "departamento": "Potosí",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 1478318200.0,
+    "gastos_total": 1478318200.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "903",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Cochabamba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 1100548991.0,
+    "gastos_total": 1100548991.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "906",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Tarija",
+    "departamento": "Tarija",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 840539499.0,
+    "gastos_total": 840539499.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "901",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Chuquisaca",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 782262173.0,
+    "gastos_total": 782262173.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "904",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Oruro",
+    "departamento": "Oruro",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 717151658.0,
+    "gastos_total": 717151658.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1401",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Oruro",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 577774709.0,
+    "gastos_total": 577774709.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1601",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tarija",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 567296182.0,
+    "gastos_total": 567296182.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1101",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sucre",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 536787240.0,
+    "gastos_total": 536787240.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "908",
+    "nombre_entidad": "Gobierno Autónomo Departamental del Beni",
+    "departamento": "Beni",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 520970521.0,
+    "gastos_total": 520970521.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1501",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Potosí",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 393195227.0,
+    "gastos_total": 393195227.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1706",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Warnes",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 359415375.0,
+    "gastos_total": 359415375.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1312",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sacaba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 330508349.0,
+    "gastos_total": 330508349.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1302",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Quillacollo",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 315423173.0,
+    "gastos_total": 315423173.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "4601",
+    "nombre_entidad": "Gobierno Autónomo Regional del Gran Chaco",
+    "departamento": "Tarija",
+    "grupo_eta": "GAR",
+    "tipo": "regional",
+    "ingresos_total": 289805279.0,
+    "gastos_total": 289805279.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1704",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Guardia",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 257239659.0,
+    "gastos_total": 257239659.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "909",
+    "nombre_entidad": "Gobierno Autónomo Departamental de Pando",
+    "departamento": "Pando",
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "ingresos_total": 252228684.0,
+    "gastos_total": 252228684.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1801",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Trinidad",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 233143669.0,
+    "gastos_total": 233143669.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1734",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Montero",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 216889857.0,
+    "gastos_total": 216889857.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1604",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yacuiba",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 194028218.0,
+    "gastos_total": 194028218.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1206",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Viacha",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 185661872.0,
+    "gastos_total": 185661872.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1702",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cotoca",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 175825894.0,
+    "gastos_total": 175825894.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1803",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Riberalta",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 161898609.0,
+    "gastos_total": 161898609.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1703",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Porongo (Ayacucho)",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 159088092.0,
+    "gastos_total": 159088092.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1901",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cobija",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 146104616.0,
+    "gastos_total": 146104616.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1306",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colcapirhua",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 136788496.0,
+    "gastos_total": 136788496.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1304",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tiquipaya",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 128326653.0,
+    "gastos_total": 128326653.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1204",
+    "nombre_entidad": "Gobierno Autónomo Municipal Ecológico Productivo de Achocalla",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 110473572.0,
+    "gastos_total": 110473572.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1314",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Tunari",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 106261435.0,
+    "gastos_total": 106261435.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1739",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Julián",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 105893072.0,
+    "gastos_total": 105893072.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1606",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villamontes",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 93009878.0,
+    "gastos_total": 93009878.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1603",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Bermejo",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 92477448.0,
+    "gastos_total": 92477448.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1705",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Torno",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 91566756.0,
+    "gastos_total": 91566756.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1335",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Villarroel",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 89805237.0,
+    "gastos_total": 89805237.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1210",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caranavi",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 87897286.0,
+    "gastos_total": 87897286.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1714",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pailón",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 85183116.0,
+    "gastos_total": 85183116.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1521",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colcha\"K\" (Villa Martín)",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 84434720.0,
+    "gastos_total": 84434720.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1712",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yapacaní",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 82374547.0,
+    "gastos_total": 82374547.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1305",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vinto",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 81379151.0,
+    "gastos_total": 81379151.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1707",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Ignacio (San Ignacio de Velasco)",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 77924456.0,
+    "gastos_total": 77924456.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1537",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villazón",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 72813971.0,
+    "gastos_total": 72813971.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1303",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sipe Sipe",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 70839127.0,
+    "gastos_total": 70839127.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1261",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pucarani",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 65742628.0,
+    "gastos_total": 65742628.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1519",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tupiza",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 64026962.0,
+    "gastos_total": 64026962.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1315",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Punata",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 62651031.0,
+    "gastos_total": 62651031.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1530",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Uyuni",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 61108753.0,
+    "gastos_total": 61108753.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1808",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Borja",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 60852061.0,
+    "gastos_total": 60852061.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1507",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Llallagua",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 60503562.0,
+    "gastos_total": 60503562.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1345",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Entre Rios",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 59456897.0,
+    "gastos_total": 59456897.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1260",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Asunta",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 58639357.0,
+    "gastos_total": 58639357.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1805",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Guayaramerín",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 57405738.0,
+    "gastos_total": 57405738.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1755",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cuatro Cañadas",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 54863501.0,
+    "gastos_total": 54863501.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1262",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Laja",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 52102316.0,
+    "gastos_total": 52102316.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1605",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caraparí",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 51198627.0,
+    "gastos_total": 51198627.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1713",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San José",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 51078195.0,
+    "gastos_total": 51078195.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1120",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Lucas",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 48664005.0,
+    "gastos_total": 48664005.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1515",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro de Buena Vista",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 48207623.0,
+    "gastos_total": 48207623.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1259",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Palos Blancos",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 47454535.0,
+    "gastos_total": 47454535.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1404",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Challapata",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 47320012.0,
+    "gastos_total": 47320012.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1744",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Quijarro",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 45697585.0,
+    "gastos_total": 45697585.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1224",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Achacachi",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 45067967.0,
+    "gastos_total": 45067967.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1609",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Lorenzo",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 44450081.0,
+    "gastos_total": 44450081.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1505",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Uncía",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 42020650.0,
+    "gastos_total": 42020650.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1745",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ascención de Guarayos",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 41847791.0,
+    "gastos_total": 41847791.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1723",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Camiri",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 41500000.0,
+    "gastos_total": 41500000.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1517",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cotagaita",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 41484146.0,
+    "gastos_total": 41484146.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1277",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Teoponte",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 40897486.0,
+    "gastos_total": 40897486.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1737",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Concepción",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 40278991.0,
+    "gastos_total": 40278991.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1810",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Ana",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 40087242.0,
+    "gastos_total": 40087242.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1502",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tinguipaya",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 39168376.0,
+    "gastos_total": 39168376.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3701",
+    "nombre_entidad": "Gobierno Autónomo Indígena Originario Campesino de Charagua Iyambae",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 38611940.0,
+    "gastos_total": 38611940.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1202",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Palca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38601942.0,
+    "gastos_total": 38601942.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1211",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sica Sica (Villa Aroma)",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38535569.0,
+    "gastos_total": 38535569.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1226",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sorata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38465729.0,
+    "gastos_total": 38465729.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1602",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Padcaya",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 38045325.0,
+    "gastos_total": 38045325.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1334",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chimoré",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 37932967.0,
+    "gastos_total": 37932967.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1214",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Calamarca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 37537262.0,
+    "gastos_total": 37537262.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1513",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pocoata",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 37323341.0,
+    "gastos_total": 37323341.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1115",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Monteagudo",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 36974829.0,
+    "gastos_total": 36974829.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1324",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cliza",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 36582558.0,
+    "gastos_total": 36582558.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1322",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Arbieto",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 35523205.0,
+    "gastos_total": 35523205.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1720",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cabezas",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 35215475.0,
+    "gastos_total": 35215475.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1736",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mineros",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33974300.0,
+    "gastos_total": 33974300.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1611",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Entre Ríos",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33960713.0,
+    "gastos_total": 33960713.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1508",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Betanzos",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33608920.0,
+    "gastos_total": 33608920.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1607",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Uriondo (Concepción)",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 33139396.0,
+    "gastos_total": 33139396.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1402",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caracollo",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 32785074.0,
+    "gastos_total": 32785074.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1725",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vallegrande",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 31403432.0,
+    "gastos_total": 31403432.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1406",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huanuni",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30838958.0,
+    "gastos_total": 30838958.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1347",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Shinahota",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30585034.0,
+    "gastos_total": 30585034.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1263",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Batallas",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30560704.0,
+    "gastos_total": 30560704.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1811",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Ignacio",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 30289005.0,
+    "gastos_total": 30289005.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1221",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colquiri",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29951096.0,
+    "gastos_total": 29951096.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1532",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Porco",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29845352.0,
+    "gastos_total": 29845352.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1511",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colquechaca",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29450067.0,
+    "gastos_total": 29450067.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1256",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chulumani (Villa de la Libertad)",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 29064222.0,
+    "gastos_total": 29064222.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1735",
+    "nombre_entidad": "Gobierno Autónomo Municipal de General Agustín Saavedra",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 28924415.0,
+    "gastos_total": 28924415.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1716",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Portachuelo",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 28807102.0,
+    "gastos_total": 28807102.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1215",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Patacamaya",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 28743849.0,
+    "gastos_total": 28743849.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1910",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sena",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 28703798.0,
+    "gastos_total": 28703798.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1265",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Coroico",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 27925251.0,
+    "gastos_total": 27925251.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1807",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Rurrenabaque",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 27712885.0,
+    "gastos_total": 27712885.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1817",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Magdalena",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 27504517.0,
+    "gastos_total": 27504517.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1266",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Coripata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 27291772.0,
+    "gastos_total": 27291772.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1203",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mecapaca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 27231767.0,
+    "gastos_total": 27231767.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1435",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Soracachi",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 27060543.0,
+    "gastos_total": 27060543.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1342",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mizque",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 26652742.0,
+    "gastos_total": 26652742.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1710",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Buena Vista",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 26553990.0,
+    "gastos_total": 26553990.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1346",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cocapata",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 26506372.0,
+    "gastos_total": 26506372.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1257",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Irupana (Villa de Lanza)",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 26478359.0,
+    "gastos_total": 26478359.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1756",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colpa Bélgica",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 26049039.0,
+    "gastos_total": 26049039.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1307",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Aiquile",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25748151.0,
+    "gastos_total": 25748151.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1711",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Carlos",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25580506.0,
+    "gastos_total": 25580506.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1279",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Jesús de Machaca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25394213.0,
+    "gastos_total": 25394213.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1317",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Benito (Villa José Quintín Mendoza)",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25297045.0,
+    "gastos_total": 25297045.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1743",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Suárez",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25197005.0,
+    "gastos_total": 25197005.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1310",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Independencia",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25066704.0,
+    "gastos_total": 25066704.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1276",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mapiri",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 25040043.0,
+    "gastos_total": 25040043.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1311",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Morochata",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 24730065.0,
+    "gastos_total": 24730065.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1741",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Comarapa",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 24151388.0,
+    "gastos_total": 24151388.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1541",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro de Macha",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 23743424.0,
+    "gastos_total": 23743424.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1330",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tapacari",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 23450715.0,
+    "gastos_total": 23450715.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1908",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Gonzalo Moreno",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 23407860.0,
+    "gastos_total": 23407860.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1218",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Inquisivi",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 23286166.0,
+    "gastos_total": 23286166.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1267",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ixiamas",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 23227708.0,
+    "gastos_total": 23227708.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1225",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ancoraimes",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 22464885.0,
+    "gastos_total": 22464885.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1610",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Puente",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 22257153.0,
+    "gastos_total": 22257153.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1124",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Culpina",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 21907961.0,
+    "gastos_total": 21907961.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1708",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Miguel (San Miguel de Velasco)",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 21771696.0,
+    "gastos_total": 21771696.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1327",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Capinota",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 21527872.0,
+    "gastos_total": 21527872.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1520",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Atocha",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 21445708.0,
+    "gastos_total": 21445708.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1715",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Roboré",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20940824.0,
+    "gastos_total": 20940824.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1751",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Carmen Rivero Tórrez",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20922082.0,
+    "gastos_total": 20922082.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1717",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Rosa del Sara",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20610729.0,
+    "gastos_total": 20610729.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1227",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Guanay",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20610091.0,
+    "gastos_total": 20610091.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1747",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Puente",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20523153.0,
+    "gastos_total": 20523153.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1313",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colomi",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20489492.0,
+    "gastos_total": 20489492.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3402",
+    "nombre_entidad": "Gobierno Autónomo Indígena Originario Campesino de Salinas",
+    "departamento": "Oruro",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 20361054.0,
+    "gastos_total": 20361054.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1750",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Ramón",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20231199.0,
+    "gastos_total": 20231199.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1121",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Incahuasi",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20133393.0,
+    "gastos_total": 20133393.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1252",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sapahaqui",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20042207.0,
+    "gastos_total": 20042207.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1754",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 20019625.0,
+    "gastos_total": 20019625.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1331",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Totora",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19686463.0,
+    "gastos_total": 19686463.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1730",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Samaipata",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19597083.0,
+    "gastos_total": 19597083.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1753",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Fernández Alonso",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19507502.0,
+    "gastos_total": 19507502.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1738",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Javier",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19413631.0,
+    "gastos_total": 19413631.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1105",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tarvita (Villa Orías)",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19365374.0,
+    "gastos_total": 19365374.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3702",
+    "nombre_entidad": "Gobierno Autónomo Indígena Guaraní Kereimba Iyaambae",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 19326257.0,
+    "gastos_total": 19326257.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1232",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Copacabana",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19251842.0,
+    "gastos_total": 19251842.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1902",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Porvenir",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 19023658.0,
+    "gastos_total": 19023658.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1813",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Andrés",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18999033.0,
+    "gastos_total": 18999033.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1752",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Juan",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18896749.0,
+    "gastos_total": 18896749.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1341",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tiraque",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18867960.0,
+    "gastos_total": 18867960.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1247",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mocomoco",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18856701.0,
+    "gastos_total": 18856701.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1249",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Apolo",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18833316.0,
+    "gastos_total": 18833316.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1512",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ravelo",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18645113.0,
+    "gastos_total": 18645113.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1248",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Carabuco",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18411309.0,
+    "gastos_total": 18411309.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1506",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chayanta",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18383004.0,
+    "gastos_total": 18383004.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1119",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Camargo",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18125225.0,
+    "gastos_total": 18125225.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1526",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sacaca (Villa de Sacaca)",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 18065632.0,
+    "gastos_total": 18065632.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1414",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Corque",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17924466.0,
+    "gastos_total": 17924466.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1246",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Acosta",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17894764.0,
+    "gastos_total": 17894764.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1909",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Lorenzo",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17803025.0,
+    "gastos_total": 17803025.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1412",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santiago de Huari",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17800567.0,
+    "gastos_total": 17800567.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1431",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sabaya",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17685181.0,
+    "gastos_total": 17685181.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1528",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puna (Villa Talavera)",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17396501.0,
+    "gastos_total": 17396501.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1129",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Charcas",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 17118963.0,
+    "gastos_total": 17118963.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1809",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Rosa",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 16814311.0,
+    "gastos_total": 16814311.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1220",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cajuata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 16790899.0,
+    "gastos_total": 16790899.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1235",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chuma",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 16437519.0,
+    "gastos_total": 16437519.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1510",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tacobamba",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 16412622.0,
+    "gastos_total": 16412622.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1126",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Vaca Guzmán",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 16368235.0,
+    "gastos_total": 16368235.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1104",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Azurduy",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 16184792.0,
+    "gastos_total": 16184792.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1106",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Zudañez (Tacopaya)",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15894480.0,
+    "gastos_total": 15894480.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1907",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Filadelfia",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15802755.0,
+    "gastos_total": 15802755.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1269",
+    "nombre_entidad": "Gobierno Autónomo Municipal de General Juan José Pérez (Charazani)",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15766181.0,
+    "gastos_total": 15766181.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1408",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Poopó (Villa Poopó)",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15738980.0,
+    "gastos_total": 15738980.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1255",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cairoma",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15730198.0,
+    "gastos_total": 15730198.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1238",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Corocoro",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15484722.0,
+    "gastos_total": 15484722.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1732",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mairana",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15445949.0,
+    "gastos_total": 15445949.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1253",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yaco",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15412548.0,
+    "gastos_total": 15412548.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1740",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Matías",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15400060.0,
+    "gastos_total": 15400060.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1117",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tarabuco",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15379769.0,
+    "gastos_total": 15379769.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1103",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Poroma",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15293419.0,
+    "gastos_total": 15293419.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1326",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tolata",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 15289728.0,
+    "gastos_total": 15289728.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1514",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ocurí",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14867447.0,
+    "gastos_total": 14867447.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1539",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ckochas",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14798435.0,
+    "gastos_total": 14798435.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1332",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pojo",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14766564.0,
+    "gastos_total": 14766564.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1709",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Rafael",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14731530.0,
+    "gastos_total": 14731530.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1212",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Umala",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14643089.0,
+    "gastos_total": 14643089.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1516",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Toro Toro",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14595571.0,
+    "gastos_total": 14595571.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1107",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Presto",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14381363.0,
+    "gastos_total": 14381363.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1905",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Rico",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14377762.0,
+    "gastos_total": 14377762.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1529",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caiza \"D\"",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14303070.0,
+    "gastos_total": 14303070.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1239",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caquiaviri",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14233739.0,
+    "gastos_total": 14233739.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1110",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Padilla",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14200568.0,
+    "gastos_total": 14200568.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1336",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Arani",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14051831.0,
+    "gastos_total": 14051831.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1125",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Las Carreras",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 14015349.0,
+    "gastos_total": 14015349.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1806",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Reyes",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13754130.0,
+    "gastos_total": 13754130.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1338",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Arque",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13660801.0,
+    "gastos_total": 13660801.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1748",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Okinawa Uno",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13560292.0,
+    "gastos_total": 13560292.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1208",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tiahuanacu",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13479705.0,
+    "gastos_total": 13479705.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1209",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Desaguadero",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13436897.0,
+    "gastos_total": 13436897.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1423",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Toledo",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13414809.0,
+    "gastos_total": 13414809.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1229",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tipuani",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13374478.0,
+    "gastos_total": 13374478.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1503",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yocalla",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 13179641.0,
+    "gastos_total": 13179641.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1216",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Colquencha",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 12947346.0,
+    "gastos_total": 12947346.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1122",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Serrano",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 12924183.0,
+    "gastos_total": 12924183.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1820",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Exaltación",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 12319645.0,
+    "gastos_total": 12319645.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1118",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yamparáez",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 12312010.0,
+    "gastos_total": 12312010.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1219",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Quime",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 12239928.0,
+    "gastos_total": 12239928.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1102",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yotala",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 12144616.0,
+    "gastos_total": 12144616.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1403",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Choro",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11860727.0,
+    "gastos_total": 11860727.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1320",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tarata",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11827815.0,
+    "gastos_total": 11827815.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1274",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santiago de Machaca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11705478.0,
+    "gastos_total": 11705478.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1116",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pablo de Huacareta",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11701686.0,
+    "gastos_total": 11701686.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1250",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pelechuco",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11659479.0,
+    "gastos_total": 11659479.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1333",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pocona",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11603755.0,
+    "gastos_total": 11603755.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1434",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huayllamarca (Santiago de Huayllamarca)",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11517896.0,
+    "gastos_total": 11517896.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1328",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santivañez",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11361634.0,
+    "gastos_total": 11361634.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1213",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ayo Ayo",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11357460.0,
+    "gastos_total": 11357460.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1405",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santuario de Quillacas",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11289263.0,
+    "gastos_total": 11289263.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1240",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Calacoto",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11257213.0,
+    "gastos_total": 11257213.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1818",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Baures",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11125645.0,
+    "gastos_total": 11125645.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1731",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pampa Grande",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 11020084.0,
+    "gastos_total": 11020084.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1802",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Javier",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10934259.0,
+    "gastos_total": 10934259.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1281",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huarina",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10914396.0,
+    "gastos_total": 10914396.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1280",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Taraco",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10836830.0,
+    "gastos_total": 10836830.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1339",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tacopaya",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10749066.0,
+    "gastos_total": 10749066.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1410",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Antequera",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10684771.0,
+    "gastos_total": 10684771.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1251",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Luribay",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10677161.0,
+    "gastos_total": 10677161.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1228",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tacacoma",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10632316.0,
+    "gastos_total": 10632316.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1518",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vitichi",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10592641.0,
+    "gastos_total": 10592641.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1108",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Mojocoya",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10515624.0,
+    "gastos_total": 10515624.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1271",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro de Curahuara",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10385954.0,
+    "gastos_total": 10385954.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1411",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Eucaliptus",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10377993.0,
+    "gastos_total": 10377993.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1268",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Buenaventura",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10276537.0,
+    "gastos_total": 10276537.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1285",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Alto Beni",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10227654.0,
+    "gastos_total": 10227654.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1282",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santiago de Huata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10133057.0,
+    "gastos_total": 10133057.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1325",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Toco",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 10016954.0,
+    "gastos_total": 10016954.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1109",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Icla",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9947023.0,
+    "gastos_total": 9947023.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1111",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tomina",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9760722.0,
+    "gastos_total": 9760722.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1413",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Totora",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9667747.0,
+    "gastos_total": 9667747.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1112",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sopachuy",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9564373.0,
+    "gastos_total": 9564373.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1417",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Turco",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9552263.0,
+    "gastos_total": 9552263.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1608",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yunchara",
+    "departamento": "Tarija",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9529971.0,
+    "gastos_total": 9529971.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1509",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chaqui",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9515621.0,
+    "gastos_total": 9515621.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1236",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ayata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9509993.0,
+    "gastos_total": 9509993.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1222",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ichoca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9486150.0,
+    "gastos_total": 9486150.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1814",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Joaquín",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9478989.0,
+    "gastos_total": 9478989.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1718",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Lagunillas",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9443826.0,
+    "gastos_total": 9443826.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1128",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Machareti",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9269406.0,
+    "gastos_total": 9269406.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1337",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vacas",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9168031.0,
+    "gastos_total": 9168031.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1270",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Curva",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 9161783.0,
+    "gastos_total": 9161783.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1531",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tomave",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8885091.0,
+    "gastos_total": 8885091.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1217",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Collana",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8833532.0,
+    "gastos_total": 8833532.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1527",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Caripuyo",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8798383.0,
+    "gastos_total": 8798383.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1207",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Guaqui",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8793424.0,
+    "gastos_total": 8793424.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1316",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Rivero",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8682894.0,
+    "gastos_total": 8682894.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1233",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro de Tiquina",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8560323.0,
+    "gastos_total": 8560323.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1540",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chuquihuta Ayllu Jucumani",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8518166.0,
+    "gastos_total": 8518166.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1309",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Omereque",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8441040.0,
+    "gastos_total": 8441040.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1283",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Escoma",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8340439.0,
+    "gastos_total": 8340439.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1407",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Machacamarca",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8232802.0,
+    "gastos_total": 8232802.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1258",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yanacachi",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8132544.0,
+    "gastos_total": 8132544.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1113",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Alcalá",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8101707.0,
+    "gastos_total": 8101707.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1114",
+    "nombre_entidad": "Gobierno Autónomo Municipal de El Villar",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 8056284.0,
+    "gastos_total": 8056284.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1245",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santiago de Callapa",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7949954.0,
+    "gastos_total": 7949954.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1264",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Pérez",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7948356.0,
+    "gastos_total": 7948356.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1340",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Bolivar",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7855912.0,
+    "gastos_total": 7855912.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1278",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Andrés de Machaca",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7853726.0,
+    "gastos_total": 7853726.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3301",
+    "nombre_entidad": "Gobierno Autónomo Indígena Originario Campesino del Territorio de Raqaypampa",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 7759242.0,
+    "gastos_total": 7759242.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1254",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Malla",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7739622.0,
+    "gastos_total": 7739622.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1904",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Bella Flor",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7706692.0,
+    "gastos_total": 7706692.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1416",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Curahuara de Carangas",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7523030.0,
+    "gastos_total": 7523030.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1223",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Libertad Licoma",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7475587.0,
+    "gastos_total": 7475587.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1287",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chua Cocani",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7448504.0,
+    "gastos_total": 7448504.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1321",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Anzaldo",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7446837.0,
+    "gastos_total": 7446837.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1742",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Saipina",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7443749.0,
+    "gastos_total": 7443749.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1815",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Ramón",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7378760.0,
+    "gastos_total": 7378760.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1272",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Papel Pampa",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7269599.0,
+    "gastos_total": 7269599.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1409",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pazña",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7223015.0,
+    "gastos_total": 7223015.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1424",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Andamarca (Santiago de Andamarca)",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 7118340.0,
+    "gastos_total": 7118340.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1286",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huatajata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6951578.0,
+    "gastos_total": 6951578.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1234",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tito Yupanqui",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6950684.0,
+    "gastos_total": 6950684.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1419",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Escara",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6934522.0,
+    "gastos_total": 6934522.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3501",
+    "nombre_entidad": "Gobierno Autónomo Indígena Originario Campesino de la Autonomía Originaria del",
+    "departamento": "Potosí",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 6851962.0,
+    "gastos_total": 6851962.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1308",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pasorapa",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6595000.0,
+    "gastos_total": 6595000.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1746",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Urubicha",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6477432.0,
+    "gastos_total": 6477432.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1237",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Aucapata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6443660.0,
+    "gastos_total": 6443660.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1243",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Waldo Ballivián",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6363941.0,
+    "gastos_total": 6363941.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1906",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6312128.0,
+    "gastos_total": 6312128.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1749",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Antonio de Lomerio",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6095105.0,
+    "gastos_total": 6095105.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1123",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Camataqui (Villa Abecia)",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 6082776.0,
+    "gastos_total": 6082776.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1522",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pedro de Quemes",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5985878.0,
+    "gastos_total": 5985878.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1724",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Boyuibe",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5737583.0,
+    "gastos_total": 5737583.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1819",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huacaraje",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5701760.0,
+    "gastos_total": 5701760.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1911",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santa Rosa del Abuná",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5683428.0,
+    "gastos_total": 5683428.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1284",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Humanata",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5501945.0,
+    "gastos_total": 5501945.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1430",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Carangas",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5366864.0,
+    "gastos_total": 5366864.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1241",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Comanche",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5349775.0,
+    "gastos_total": 5349775.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1535",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Llica",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5316867.0,
+    "gastos_total": 5316867.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1343",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Vila Vila",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5177409.0,
+    "gastos_total": 5177409.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1427",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pampa Aullagas",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5151173.0,
+    "gastos_total": 5151173.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1242",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Charaña",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5100585.0,
+    "gastos_total": 5100585.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1912",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Ingavi (Humaita)",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 5060458.0,
+    "gastos_total": 5060458.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1914",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Villa Nueva (Loma Alta)",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4971902.0,
+    "gastos_total": 4971902.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1721",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cuevo",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4926870.0,
+    "gastos_total": 4926870.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1812",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Loreto",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4921799.0,
+    "gastos_total": 4921799.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1422",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Esmeralda",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4910318.0,
+    "gastos_total": 4910318.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1903",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Bolpebra",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4903243.0,
+    "gastos_total": 4903243.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3801",
+    "nombre_entidad": "Gobierno Indígena Autónomo del Territorio Indígena Multiétnico",
+    "departamento": "Beni",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 4902464.0,
+    "gastos_total": 4902464.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1275",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Catacora",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4890386.0,
+    "gastos_total": 4890386.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1319",
+    "nombre_entidad": "Gobierno Autónomo Municipal Villa Gualberto Villarroel",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4771498.0,
+    "gastos_total": 4771498.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1323",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sacabamba",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4648017.0,
+    "gastos_total": 4648017.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1534",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Acasio",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4636348.0,
+    "gastos_total": 4636348.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1418",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Huachacalla",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4567457.0,
+    "gastos_total": 4567457.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1504",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Urmiri",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4488097.0,
+    "gastos_total": 4488097.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1329",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Sicaya",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4373205.0,
+    "gastos_total": 4373205.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1727",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Moro Moro",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4354001.0,
+    "gastos_total": 4354001.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1230",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Quiabaya",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4281427.0,
+    "gastos_total": 4281427.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1915",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Santos Mercado",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 4257745.0,
+    "gastos_total": 4257745.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1523",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Pablo de Lípez",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3842453.0,
+    "gastos_total": 3842453.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1533",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Arampampa",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3773629.0,
+    "gastos_total": 3773629.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1244",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Nazacara de Pacajes",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3711909.0,
+    "gastos_total": 3711909.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3401",
+    "nombre_entidad": "Gobierno Autónomo Indígena Originario Campesino de la Nación Originaria Uru",
+    "departamento": "Oruro",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 3559849.0,
+    "gastos_total": 3559849.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1432",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Coipasa",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3541469.0,
+    "gastos_total": 3541469.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1344",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Alalay",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3528141.0,
+    "gastos_total": 3528141.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1231",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Combaya",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3478989.0,
+    "gastos_total": 3478989.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1415",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Choquecota",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3413990.0,
+    "gastos_total": 3413990.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1425",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Belén de Andamarca",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3363289.0,
+    "gastos_total": 3363289.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1733",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Quirusillas",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3096414.0,
+    "gastos_total": 3096414.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1420",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Cruz de Machacamarca",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 3013700.0,
+    "gastos_total": 3013700.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1428",
+    "nombre_entidad": "Gobierno Autónomo Municipal de La Rivera",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2918255.0,
+    "gastos_total": 2918255.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "3101",
+    "nombre_entidad": "Autonomía del Territorio Indígena Originario Campesino Guaraní Chaqueño de",
+    "departamento": "Chuquisaca",
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "ingresos_total": 2840267.0,
+    "gastos_total": 2840267.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1913",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Nueva Esperanza",
+    "departamento": "Pando",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2799727.0,
+    "gastos_total": 2799727.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1726",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Trigal",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2451369.0,
+    "gastos_total": 2451369.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1538",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Agustín",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2290357.0,
+    "gastos_total": 2290357.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1525",
+    "nombre_entidad": "Gobierno Autónomo Municipal de San Antonio de Esmoruco",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2254656.0,
+    "gastos_total": 2254656.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1273",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Chacarilla",
+    "departamento": "La Paz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2174255.0,
+    "gastos_total": 2174255.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1729",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Pucara",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 2055912.0,
+    "gastos_total": 2055912.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1728",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Postrer Valle",
+    "departamento": "Santa Cruz",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1757150.0,
+    "gastos_total": 1757150.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1429",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Todos Santos",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1632674.0,
+    "gastos_total": 1632674.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1536",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tahua",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1620696.0,
+    "gastos_total": 1620696.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1318",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Tacachi",
+    "departamento": "Cochabamba",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1363498.0,
+    "gastos_total": 1363498.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1816",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Puerto Síles",
+    "departamento": "Beni",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1357064.0,
+    "gastos_total": 1357064.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1421",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Yunguyo de Litoral",
+    "departamento": "Oruro",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1303623.0,
+    "gastos_total": 1303623.0,
+    "ingresos_menos_gastos": 0.0
+  },
+  {
+    "codigo_entidad": "1524",
+    "nombre_entidad": "Gobierno Autónomo Municipal de Mojinete",
+    "departamento": "Potosí",
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "ingresos_total": 1237707.0,
+    "gastos_total": 1237707.0,
+    "ingresos_menos_gastos": 0.0
+  }
+]

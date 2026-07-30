@@ -1,0 +1,47 @@
+[
+  {
+    "grupo_gasto": "grupo_1",
+    "grupo_gasto_label": "Grupo 1",
+    "monto": 9699341618.0
+  },
+  {
+    "grupo_gasto": "grupo_2",
+    "grupo_gasto_label": "Grupo 2",
+    "monto": 5970260764.0
+  },
+  {
+    "grupo_gasto": "grupo_4",
+    "grupo_gasto_label": "Grupo 4",
+    "monto": 4765492916.0
+  },
+  {
+    "grupo_gasto": "grupo_3",
+    "grupo_gasto_label": "Grupo 3",
+    "monto": 4287740214.0
+  },
+  {
+    "grupo_gasto": "grupo_6",
+    "grupo_gasto_label": "Grupo 6",
+    "monto": 2312718077.0
+  },
+  {
+    "grupo_gasto": "grupo_9",
+    "grupo_gasto_label": "Grupo 9",
+    "monto": 2087490186.0
+  },
+  {
+    "grupo_gasto": "grupo_7",
+    "grupo_gasto_label": "Grupo 7",
+    "monto": 1640581243.0
+  },
+  {
+    "grupo_gasto": "grupo_5",
+    "grupo_gasto_label": "Grupo 5",
+    "monto": 528360514.0
+  },
+  {
+    "grupo_gasto": "grupo_8",
+    "grupo_gasto_label": "Grupo 8",
+    "monto": 6901797.0
+  }
+]

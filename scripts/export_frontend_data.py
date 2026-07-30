@@ -55,6 +55,7 @@ def main() -> None:
             FROM mart_presupuesto_entidad
             ORDER BY presupuesto_total DESC
         """,
+
         "departamentos": """
             SELECT
                 departamento,
@@ -64,6 +65,7 @@ def main() -> None:
             GROUP BY departamento
             ORDER BY presupuesto_total DESC
         """,
+
         "grupos_eta": """
             SELECT
                 grupo_eta,
@@ -74,6 +76,28 @@ def main() -> None:
             GROUP BY grupo_eta, tipo
             ORDER BY presupuesto_total DESC
         """,
+
+        "grupos_gasto": """
+            SELECT 'grupo_1' AS grupo_gasto, 'Grupo 1' AS grupo_gasto_label, SUM(grupo_1) AS monto FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_2', 'Grupo 2', SUM(grupo_2) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_3', 'Grupo 3', SUM(grupo_3) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_4', 'Grupo 4', SUM(grupo_4) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_5', 'Grupo 5', SUM(grupo_5) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_6', 'Grupo 6', SUM(grupo_6) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_7', 'Grupo 7', SUM(grupo_7) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_8', 'Grupo 8', SUM(grupo_8) FROM mart_presupuesto_entidad
+            UNION ALL
+            SELECT 'grupo_9', 'Grupo 9', SUM(grupo_9) FROM mart_presupuesto_entidad
+            ORDER BY monto DESC
+        """,
+
         "programas_top": """
             SELECT
                 codigo_entidad,
@@ -98,6 +122,7 @@ def main() -> None:
             ORDER BY total DESC
             LIMIT 500
         """,
+
         "recursos_rubro": """
             SELECT
                 rubro,
@@ -107,6 +132,34 @@ def main() -> None:
             GROUP BY rubro, descripcion
             ORDER BY importe DESC
         """,
+
+        "recursos_entidad_top": """
+            SELECT
+                codigo_entidad,
+                nombre_entidad,
+                departamento,
+                grupo_eta,
+                tipo,
+                ingresos_total
+            FROM mart_recursos_entidad
+            ORDER BY ingresos_total DESC
+            LIMIT 100
+        """,
+
+        "ingresos_vs_gastos": """
+            SELECT
+                codigo_entidad,
+                nombre_entidad,
+                departamento,
+                grupo_eta,
+                tipo,
+                ingresos_total,
+                gastos_total,
+                ingresos_menos_gastos
+            FROM mart_ingresos_vs_gastos
+            ORDER BY gastos_total DESC
+        """,
+
         "objeto_gasto_nivel1": """
             SELECT
                 objeto_gasto,
@@ -116,10 +169,41 @@ def main() -> None:
             GROUP BY objeto_gasto, descripcion
             ORDER BY total DESC
         """,
+
+        "objeto_gasto_entidad_top": """
+            SELECT
+                codigo_entidad,
+                nombre_entidad,
+                departamento,
+                grupo_eta,
+                tipo,
+                gasto_total_objeto
+            FROM mart_objeto_gasto_entidad
+            ORDER BY gasto_total_objeto DESC
+            LIMIT 100
+        """,
+
+        "fuentes_objeto_gasto": """
+            SELECT
+                fuente_columna,
+                SUM(monto) AS monto
+            FROM mart_objeto_fuente_largo
+            GROUP BY fuente_columna
+            ORDER BY monto DESC
+        """,
+
         "validacion_integrada": """
             SELECT *
             FROM mart_validacion_integrada
             ORDER BY codigo_entidad
+        """,
+
+        "validacion_diferencias": """
+            SELECT *
+            FROM mart_validacion_integrada
+            WHERE ABS(diff_ingresos_vs_gastos) > 1
+               OR ABS(diff_objeto_vs_categoria) > 1
+            ORDER BY ABS(diff_ingresos_vs_gastos) + ABS(diff_objeto_vs_categoria) DESC
         """,
     }
 
@@ -143,16 +227,65 @@ def main() -> None:
         SELECT
             SUM(presupuesto_total) AS gasto_total,
             COUNT(DISTINCT codigo_entidad) AS entidades,
-            COUNT(DISTINCT departamento) AS departamentos
+            COUNT(DISTINCT departamento) AS departamentos,
+            SUM(grupo_1) AS grupo_1,
+            SUM(grupo_2) AS grupo_2,
+            SUM(grupo_3) AS grupo_3,
+            SUM(grupo_4) AS grupo_4,
+            SUM(grupo_5) AS grupo_5,
+            SUM(grupo_6) AS grupo_6,
+            SUM(grupo_7) AS grupo_7,
+            SUM(grupo_8) AS grupo_8,
+            SUM(grupo_9) AS grupo_9
         FROM mart_presupuesto_entidad
+        """
+    ).fetchdf()
+
+    ingresos = con.execute(
+        """
+        SELECT
+            SUM(ingresos_total) AS ingresos_total
+        FROM mart_recursos_entidad
+        """
+    ).fetchdf()
+
+    objeto = con.execute(
+        """
+        SELECT
+            SUM(gasto_total_objeto) AS gasto_total_objeto
+        FROM mart_objeto_gasto_entidad
+        """
+    ).fetchdf()
+
+    validacion = con.execute(
+        """
+        SELECT
+            COUNT(*) AS entidades_con_diferencias
+        FROM mart_validacion_integrada
+        WHERE ABS(diff_ingresos_vs_gastos) > 1
+           OR ABS(diff_objeto_vs_categoria) > 1
         """
     ).fetchdf()
 
     summary_path = OUT_DIR / "summary.json"
     summary_payload = {
         "gasto_total": float(summary.loc[0, "gasto_total"] or 0),
+        "ingresos_total": float(ingresos.loc[0, "ingresos_total"] or 0),
+        "gasto_total_objeto": float(objeto.loc[0, "gasto_total_objeto"] or 0),
         "entidades": int(summary.loc[0, "entidades"] or 0),
         "departamentos": int(summary.loc[0, "departamentos"] or 0),
+        "entidades_con_diferencias": int(validacion.loc[0, "entidades_con_diferencias"] or 0),
+        "grupos": {
+            "grupo_1": float(summary.loc[0, "grupo_1"] or 0),
+            "grupo_2": float(summary.loc[0, "grupo_2"] or 0),
+            "grupo_3": float(summary.loc[0, "grupo_3"] or 0),
+            "grupo_4": float(summary.loc[0, "grupo_4"] or 0),
+            "grupo_5": float(summary.loc[0, "grupo_5"] or 0),
+            "grupo_6": float(summary.loc[0, "grupo_6"] or 0),
+            "grupo_7": float(summary.loc[0, "grupo_7"] or 0),
+            "grupo_8": float(summary.loc[0, "grupo_8"] or 0),
+            "grupo_9": float(summary.loc[0, "grupo_9"] or 0),
+        },
         "manifest": manifest,
     }
 
