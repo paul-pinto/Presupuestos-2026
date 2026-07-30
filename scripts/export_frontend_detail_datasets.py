@@ -7,6 +7,29 @@ import pandas as pd
 
 DB_PATH = Path("data/warehouse/sigep_2026.duckdb")
 OUT_DIR = Path("frontend/public/data")
+LABELS_PATH = Path("data/manual/objeto_gasto_labels.csv")
+
+
+def apply_objeto_labels(df: pd.DataFrame) -> pd.DataFrame:
+    if not LABELS_PATH.exists():
+        print(f"[WARN] No existe diccionario manual: {LABELS_PATH}")
+        return df
+
+    labels = pd.read_csv(LABELS_PATH, dtype=str)
+    labels["objeto_gasto"] = labels["objeto_gasto"].astype(str).str.strip()
+    labels["descripcion_limpia"] = labels["descripcion_limpia"].astype(str).str.strip()
+
+    mapping = dict(zip(labels["objeto_gasto"], labels["descripcion_limpia"]))
+
+    df = df.copy()
+    df["objeto_gasto"] = df["objeto_gasto"].astype(str).str.strip()
+    df["descripcion"] = df.apply(
+        lambda row: mapping.get(row["objeto_gasto"], row["descripcion"]),
+        axis=1,
+    )
+
+    print(f"[OK] Correcciones objeto gasto aplicadas: {len(mapping):,}")
+    return df
 
 
 def write_json(df: pd.DataFrame, name: str) -> None:
@@ -65,6 +88,8 @@ def main() -> None:
           AND total <> 0
         """
     ).fetchdf()
+
+    objeto = apply_objeto_labels(objeto)
 
     fuentes = con.execute(
         """
