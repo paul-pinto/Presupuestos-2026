@@ -46,6 +46,25 @@ function formatPct(value: number, total: number): string {
   })}%`;
 }
 
+
+function cleanObjetoGastoLabel(objeto: string, descripcion: string): string {
+  const codigo = String(objeto || "").trim();
+
+  const labels: Record<string, string> = {
+    "1": "Servicios personales",
+    "2": "Servicios no personales",
+    "3": "Materiales y suministros",
+    "4": "Activos reales",
+    "5": "Activos financieros",
+    "6": "Servicios de la deuda pública y disminución de otros activos",
+    "7": "Transferencias",
+    "8": "Impuestos, regalías y tasas",
+    "9": "Otros gastos",
+  };
+
+  return labels[codigo] || String(descripcion || "").replace(/\s+/g, " ").trim();
+}
+
 function normalize(value: string | undefined | null): string {
   return String(value || "").toLowerCase();
 }
@@ -230,12 +249,12 @@ export default function ObjetoGastoPage() {
     labels: [...objetoGasto]
       .slice(0, 18)
       .reverse()
-      .map((item) => `${item.objeto_gasto} · ${item.descripcion}`),
+      .map((item) => `${item.objeto_gasto}. ${cleanObjetoGastoLabel(item.objeto_gasto, item.descripcion)}`),
     values: [...objetoGasto]
       .slice(0, 18)
       .reverse()
       .map((item) => item.total),
-    left: 340,
+    left: 430,
   });
 
   const fuentesOption = chartOptionHorizontal({
