@@ -260,7 +260,14 @@ export default function EntidadesPage() {
                 {visibles.map((item) => (
                   <tr key={item.codigo_entidad} className="border-b hover:bg-slate-50">
                     <td className="p-3 font-mono">{item.codigo_entidad}</td>
-                    <td className="p-3 font-medium">{item.nombre_entidad}</td>
+                    <td className="p-3 font-medium">
+                      <Link
+                        href={`/entidades/${item.codigo_entidad}`}
+                        className="text-slate-950 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-950"
+                      >
+                        {item.nombre_entidad}
+                      </Link>
+                    </td>
                     <td className="p-3">{item.departamento}</td>
                     <td className="p-3">{item.grupo_eta}</td>
                     <td className="p-3">{item.tipo}</td>
