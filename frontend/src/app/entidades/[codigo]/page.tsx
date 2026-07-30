@@ -222,7 +222,7 @@ export default function EntidadDetallePage() {
       const [entidadesData, programasData, ingresosGastosData, validacionData] =
         await Promise.all([
           fetchJson<Entidad[]>("/data/entidades.json"),
-          fetchJson<Programa[]>("/data/programas_top.json"),
+          fetchJson<Programa[]>("/data/programas.json"),
           fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
           fetchJson<ValidacionRow[]>("/data/validacion_integrada.json"),
         ]);
@@ -484,7 +484,7 @@ export default function EntidadDetallePage() {
 
           {programasEntidad.length === 0 ? (
             <div className="p-6 text-sm text-slate-600">
-              No hay programas disponibles para esta entidad en el archivo programas_top.json.
+              No hay programas disponibles para esta entidad en programas.json.
             </div>
           ) : (
             <div className="overflow-x-auto">

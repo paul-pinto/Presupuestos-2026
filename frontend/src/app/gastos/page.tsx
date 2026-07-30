@@ -223,7 +223,7 @@ export default function GastosPage() {
     async function load() {
       const [entidadesData, programasData] = await Promise.all([
         fetchJson<Entidad[]>("/data/entidades.json"),
-        fetchJson<Programa[]>("/data/programas_top.json"),
+        fetchJson<Programa[]>("/data/programas.json"),
       ]);
 
       setEntidades(entidadesData);
