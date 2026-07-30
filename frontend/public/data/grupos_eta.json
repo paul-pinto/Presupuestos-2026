@@ -1,0 +1,26 @@
+[
+  {
+    "grupo_eta": "GAM",
+    "tipo": "municipal",
+    "presupuesto_total": 21430357260.0,
+    "entidades": 335
+  },
+  {
+    "grupo_eta": "GAD",
+    "tipo": "departamental",
+    "presupuesto_total": 9474511755.0,
+    "entidades": 9
+  },
+  {
+    "grupo_eta": "GAR",
+    "tipo": "regional",
+    "presupuesto_total": 289805279.0,
+    "entidades": 1
+  },
+  {
+    "grupo_eta": "GAIOC",
+    "tipo": "indigena_originario_campesino",
+    "presupuesto_total": 104213035.0,
+    "entidades": 8
+  }
+]

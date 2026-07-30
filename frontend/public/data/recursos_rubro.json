@@ -1,0 +1,72 @@
+[
+  {
+    "rubro": "19",
+    "descripcion": "TRANSFERENCIAS CORRIENTES",
+    "importe": 16611273443.0
+  },
+  {
+    "rubro": "13",
+    "descripcion": "INGRESOS POR IMPUESTOS",
+    "importe": 4541158232.0
+  },
+  {
+    "rubro": "14",
+    "descripcion": "REGALIAS",
+    "importe": 3027319438.0
+  },
+  {
+    "rubro": "15",
+    "descripcion": "TASAS, DERECHOS Y OTROS INGRESOS",
+    "importe": 1947656371.0
+  },
+  {
+    "rubro": "35",
+    "descripcion": "DISMINUCIÓN Y COBRO DE OTROS ACTIVOS FINANCIEROS",
+    "importe": 1894503463.0
+  },
+  {
+    "rubro": "23",
+    "descripcion": "TRANSFERENCIAS DE CAPITAL",
+    "importe": 1328120263.0
+  },
+  {
+    "rubro": "12",
+    "descripcion": "VENTA DE BIENES Y SERVICIOS DE LAS ADMINISTRACIONES PÚBLICAS",
+    "importe": 735680801.0
+  },
+  {
+    "rubro": "37",
+    "descripcion": "OBTENCIÓN DE PRÉSTAMOS DEL EXTERIOR",
+    "importe": 731097198.0
+  },
+  {
+    "rubro": "36",
+    "descripcion": "OBTENCION DE PRESTAMOS INTERNOS Y DE FONDOS - FIDEICOMISOS",
+    "importe": 380373937.0
+  },
+  {
+    "rubro": "16",
+    "descripcion": "INTERESES Y OTRAS RENTAS DE LA PROPIEDAD",
+    "importe": 72272260.0
+  },
+  {
+    "rubro": "33",
+    "descripcion": "RECUPERACION DE PRÉSTAMOS DE LARGO PLAZO",
+    "importe": 27000000.0
+  },
+  {
+    "rubro": "21",
+    "descripcion": "RECURSOS PROPIOS DE CAPITAL",
+    "importe": 1220203.0
+  },
+  {
+    "rubro": "18",
+    "descripcion": "DONACIONES CORRIENTES",
+    "importe": 1003520.0
+  },
+  {
+    "rubro": "22",
+    "descripcion": "DONACIONES DE CAPITAL",
+    "importe": 208200.0
+  }
+]

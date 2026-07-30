@@ -1,0 +1,47 @@
+[
+  {
+    "objeto_gasto": "1",
+    "descripcion": "SERVICIOS PERSONALES",
+    "total": 9699341618.0
+  },
+  {
+    "objeto_gasto": "2",
+    "descripcion": "SERVICIOS NO PERSONALES",
+    "total": 5970260764.0
+  },
+  {
+    "objeto_gasto": "4",
+    "descripcion": "ACTIVOS REALES",
+    "total": 4765492916.0
+  },
+  {
+    "objeto_gasto": "3",
+    "descripcion": "MATERIALES Y SUMINISTROS",
+    "total": 4287740214.0
+  },
+  {
+    "objeto_gasto": "6",
+    "descripcion": "S P E A R SI V V I O CI S O DE LA DEUDA PUBLICA Y DISMINUCION DE OTROS",
+    "total": 2312718077.0
+  },
+  {
+    "objeto_gasto": "9",
+    "descripcion": "OTROS GASTOS",
+    "total": 2087490186.0
+  },
+  {
+    "objeto_gasto": "7",
+    "descripcion": "TRANSFERENCIAS",
+    "total": 1640581243.0
+  },
+  {
+    "objeto_gasto": "5",
+    "descripcion": "ACTIVOS FINANCIEROS",
+    "total": 528360514.0
+  },
+  {
+    "objeto_gasto": "8",
+    "descripcion": "IMPUESTOS, REGALIAS Y TASAS",
+    "total": 6901797.0
+  }
+]

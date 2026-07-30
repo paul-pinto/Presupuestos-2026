@@ -1,0 +1,42 @@
+{
+  "gasto_total": 31298887329.0,
+  "entidades": 353,
+  "departamentos": 9,
+  "manifest": {
+    "entidades": {
+      "file": "/data/entidades.json",
+      "rows": 353,
+      "bytes": 162596
+    },
+    "departamentos": {
+      "file": "/data/departamentos.json",
+      "rows": 9,
+      "bytes": 938
+    },
+    "grupos_eta": {
+      "file": "/data/grupos_eta.json",
+      "rows": 4,
+      "bytes": 517
+    },
+    "programas_top": {
+      "file": "/data/programas_top.json",
+      "rows": 500,
+      "bytes": 250876
+    },
+    "recursos_rubro": {
+      "file": "/data/recursos_rubro.json",
+      "rows": 14,
+      "bytes": 1630
+    },
+    "objeto_gasto_nivel1": {
+      "file": "/data/objeto_gasto_nivel1.json",
+      "rows": 9,
+      "bytes": 1014
+    },
+    "validacion_integrada": {
+      "file": "/data/validacion_integrada.json",
+      "rows": 353,
+      "bytes": 140470
+    }
+  }
+}

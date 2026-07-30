@@ -1,0 +1,47 @@
+[
+  {
+    "departamento": "Santa Cruz",
+    "presupuesto_total": 9473552610.0,
+    "entidades": 57
+  },
+  {
+    "departamento": "La Paz",
+    "presupuesto_total": 6725940729.0,
+    "entidades": 88
+  },
+  {
+    "departamento": "Cochabamba",
+    "presupuesto_total": 4706143187.0,
+    "entidades": 49
+  },
+  {
+    "departamento": "Potosí",
+    "presupuesto_total": 2809954590.0,
+    "entidades": 43
+  },
+  {
+    "departamento": "Tarija",
+    "presupuesto_total": 2309737770.0,
+    "entidades": 13
+  },
+  {
+    "departamento": "Chuquisaca",
+    "presupuesto_total": 1746277815.0,
+    "entidades": 30
+  },
+  {
+    "departamento": "Oruro",
+    "presupuesto_total": 1690581041.0,
+    "entidades": 36
+  },
+  {
+    "departamento": "Beni",
+    "presupuesto_total": 1277552106.0,
+    "entidades": 21
+  },
+  {
+    "departamento": "Pando",
+    "presupuesto_total": 559147481.0,
+    "entidades": 16
+  }
+]
