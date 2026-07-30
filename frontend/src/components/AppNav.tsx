@@ -41,7 +41,7 @@ const links = [
   },
   {
     href: "/validacion",
-    label: "ValidaciÃ³n",
+    label: "Validación",
     icon: ShieldCheck,
   },
 ];
@@ -65,7 +65,7 @@ export default function AppNav() {
             <p className="text-sm font-semibold leading-tight text-slate-950">
               Presupuestos Bolivia 2026
             </p>
-            <p className="text-xs text-slate-500">SIGEP Â· ETA Â· Observatorio</p>
+            <p className="text-xs text-slate-500">SIGEP · ETA · Observatorio by Paul Pinto</p>
           </div>
         </Link>
 
