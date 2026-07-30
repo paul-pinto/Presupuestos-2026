@@ -467,3 +467,15 @@ Licencia pendiente de definir.
 ## Autor
 
 Proyecto desarrollado por Jhonny Paul Pinto Phillips para procesamiento y análisis de presupuestos institucionales SIGEP Bolivia 2026.
+
+## Frontend público en Vercel
+
+Versión React/Next.js desplegada en Vercel:
+
+https://presupuestos-2026-o6pl.vercel.app
+
+## Dashboard analítico en Streamlit
+
+Versión Streamlit desplegada:
+
+https://paul-pinto-presupuestos-2026-app-neflqq.streamlit.app/
