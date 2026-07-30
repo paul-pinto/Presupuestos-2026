@@ -22,7 +22,6 @@ GRUPOS_GASTO = {
 }
 
 GROUP_COLS = list(GRUPOS_GASTO.keys())
-TOLERANCIA_BS = 1.0
 
 
 st.set_page_config(
@@ -342,83 +341,6 @@ def load_data():
         "validacion": validacion,
         "validacion_integrada": validacion_integrada,
     }
-
-
-
-def validate_schema(data: dict[str, pd.DataFrame]) -> None:
-    required = {
-        "entidades": [
-            "codigo_entidad",
-            "nombre_entidad",
-            "departamento",
-            "grupo_eta",
-            "tipo",
-            "presupuesto_total",
-            *GROUP_COLS,
-        ],
-        "programas": [
-            "codigo_entidad",
-            "nombre_entidad",
-            "departamento",
-            "grupo_eta",
-            "tipo",
-            "prg",
-            "descripcion",
-            "total",
-            *GROUP_COLS,
-        ],
-        "subprogramas": [
-            "codigo_entidad",
-            "prg",
-            "proyecto",
-            "actividad",
-            "descripcion",
-            "total",
-            *GROUP_COLS,
-        ],
-        "recursos_entidad": [
-            "codigo_entidad",
-            "nombre_entidad",
-            "departamento",
-            "grupo_eta",
-            "tipo",
-            "ingresos_total",
-        ],
-        "ingresos_vs_gastos": [
-            "codigo_entidad",
-            "ingresos_total",
-            "gastos_total",
-            "ingresos_menos_gastos",
-        ],
-        "objeto_entidad": [
-            "codigo_entidad",
-            "gasto_total_objeto",
-        ],
-        "validacion_integrada": [
-            "codigo_entidad",
-            "diff_ingresos_vs_gastos",
-            "diff_objeto_vs_categoria",
-        ],
-    }
-
-    errors = []
-
-    for table_name, columns in required.items():
-        if table_name not in data:
-            errors.append(f"Falta dataset en memoria: {table_name}")
-            continue
-
-        missing = [
-            col
-            for col in columns
-            if col not in data[table_name].columns
-        ]
-
-        if missing:
-            errors.append(f"{table_name}: faltan columnas {missing}")
-
-    if errors:
-        raise ValueError("Schema inválido:\n" + "\n".join(errors))
 
 
 def filter_df(
@@ -757,7 +679,6 @@ def render_programas_cascada(
 def main():
     try:
         data = load_data()
-        validate_schema(data)
     except Exception as e:
         st.error(
             "No pude cargar DuckDB. Ejecuta primero `python scripts\\build_duckdb.py`.\n\n"
@@ -850,10 +771,6 @@ def main():
 
         st.divider()
         st.caption(f"Base: `{DB_PATH}`")
-
-        if st.button("Recargar base"):
-            st.cache_data.clear()
-            st.rerun()
 
     entidades_f = filter_df(entidades, departamentos, grupos_eta, tipos)
 
@@ -1890,8 +1807,8 @@ def main():
             format_int(
                 len(
                     v[
-                        (v["diff_ingresos_vs_gastos"].abs() > TOLERANCIA_BS)
-                        | (v["diff_objeto_vs_categoria"].abs() > TOLERANCIA_BS)
+                        (v["diff_ingresos_vs_gastos"] != 0)
+                        | (v["diff_objeto_vs_categoria"] != 0)
                     ]
                 )
             ),
@@ -1915,8 +1832,8 @@ def main():
         st.dataframe(v_display, use_container_width=True, hide_index=True)
 
         bad = v[
-            (v["diff_ingresos_vs_gastos"].abs() > TOLERANCIA_BS)
-            | (v["diff_objeto_vs_categoria"].abs() > TOLERANCIA_BS)
+            (v["diff_ingresos_vs_gastos"] != 0)
+            | (v["diff_objeto_vs_categoria"] != 0)
         ].copy()
 
         if bad.empty:
