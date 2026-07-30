@@ -9,6 +9,8 @@ import {
   Landmark,
   ShieldCheck,
   WalletCards,
+  FileText,
+  Download,
 } from "lucide-react";
 
 const links = [
