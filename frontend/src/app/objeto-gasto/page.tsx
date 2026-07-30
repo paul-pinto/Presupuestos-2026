@@ -29,27 +29,19 @@ function formatBs(value: number): string {
   return `Bs ${Number(value || 0).toLocaleString("es-BO", {
     maximumFractionDigits: 0,
   })}`;
-}
-
-function formatBsCompact(value: number): string {
+}\n\nfunction formatBsCompact(value: number): string {
   const n = Number(value || 0);
   const abs = Math.abs(n);
 
-  if (abs >= 1_000_000_000) {
-    return `Bs ${(n / 1_000_000_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 1,
-    })} Bn`;
-  }
-
   if (abs >= 1_000_000) {
     return `Bs ${(n / 1_000_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 1,
-    })} M`;
+      maximumFractionDigits: 0,
+    })} millones`;
   }
 
   if (abs >= 1_000) {
     return `Bs ${(n / 1_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 1,
+      maximumFractionDigits: 0,
     })} mil`;
   }
 
@@ -57,6 +49,9 @@ function formatBsCompact(value: number): string {
     maximumFractionDigits: 0,
   })}`;
 }
+
+
+
 
 function cleanFuenteLabel(value: string): string {
   const raw = String(value || "").trim();

@@ -26,7 +26,27 @@ function formatBs(value: number): string {
   return `Bs ${Number(value || 0).toLocaleString("es-BO", {
     maximumFractionDigits: 0,
   })}`;
+}\n\nfunction formatBsCompact(value: number): string {
+  const n = Number(value || 0);
+  const abs = Math.abs(n);
+
+  if (abs >= 1_000_000) {
+    return `Bs ${(n / 1_000_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 0,
+    })} millones`;
+  }
+
+  if (abs >= 1_000) {
+    return `Bs ${(n / 1_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 0,
+    })} mil`;
+  }
+
+  return `Bs ${n.toLocaleString("es-BO", {
+    maximumFractionDigits: 0,
+  })}`;
 }
+
 
 function formatInt(value: number): string {
   return Number(value || 0).toLocaleString("es-BO", {
@@ -121,7 +141,8 @@ function chartOptionHorizontal({
     xAxis: {
       type: "value",
       axisLabel: {
-        formatter: (value: number) => formatInt(value),
+        formatter: (value: number) => formatBsCompact(value),
+        hideOverlap: true,
       },
     },
     yAxis: {
