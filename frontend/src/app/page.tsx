@@ -577,6 +577,13 @@ export default function Home() {
             >
               Ver ingresos
             </Link>
+            <Link
+              href="/objeto-gasto"
+              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+            >
+              Ver objeto del gasto
+            </Link>
+
 
             <Link
               href="/validacion"
