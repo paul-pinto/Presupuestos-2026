@@ -103,6 +103,39 @@ type IngresosGastos = {
   ingresos_menos_gastos: number;
 };
 
+
+type RecursoDetalle = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  departamento: string;
+  grupo_eta: string;
+  tipo: string;
+  rubro: string;
+  descripcion: string;
+  importe: number;
+};
+
+type ObjetoGastoDetalle = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  departamento: string;
+  grupo_eta: string;
+  tipo: string;
+  objeto_gasto: string;
+  descripcion: string;
+  total: number;
+};
+
+type FuenteObjetoDetalle = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  departamento: string;
+  grupo_eta: string;
+  tipo: string;
+  fuente_columna: string;
+  monto: number;
+};
+
 type ValidacionDiferencia = {
   codigo_entidad: string;
   nombre_entidad?: string;
@@ -192,6 +225,36 @@ function cleanObjetoGastoLabel(objeto: string, descripcion: string): string {
 
 function normalize(value: string | undefined | null): string {
   return String(value || "").toLowerCase();
+}
+
+
+function cleanFuenteLabel(value: string): string {
+  const raw = String(value || "").trim();
+
+  const labels: Record<string, string> = {
+    monto_01_tgn: "TGN",
+    monto_03_tgn_ct: "TGN - Coparticipación tributaria",
+    monto_04_recon: "Recursos específicos",
+    monto_05_tgn_fcom: "TGN - Fondo compensatorio",
+    monto_06_tgn_pg_n: "TGN - Programas nacionales",
+    monto_07_tgn_iehd: "TGN - IEHD",
+    monto_08_tgn_idh: "TGN - IDH",
+    monto_09_tgn_ipj: "TGN - IPJ",
+    monto_11_ot_gob: "Otros recursos del gobierno",
+    monto_12_total_tgn: "Total TGN",
+    monto_13_otros_ingresos: "Otros ingresos",
+    monto_14_recursos_especificos: "Recursos específicos",
+    monto_15_donaciones_internas: "Donaciones internas",
+    monto_16_credito_externo: "Crédito externo",
+  };
+
+  if (labels[raw]) return labels[raw];
+
+  return raw
+    .replace(/^monto_\d+_/, "")
+    .replace(/_/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function MetricCard({
@@ -326,6 +389,9 @@ export default function Home() {
   const [recursosRubro, setRecursosRubro] = useState<RecursoRubro[]>([]);
   const [objetoGasto, setObjetoGasto] = useState<ObjetoGasto[]>([]);
   const [fuentesObjeto, setFuentesObjeto] = useState<FuenteObjeto[]>([]);
+  const [recursosDetalle, setRecursosDetalle] = useState<RecursoDetalle[]>([]);
+  const [objetoGastoDetalle, setObjetoGastoDetalle] = useState<ObjetoGastoDetalle[]>([]);
+  const [fuentesObjetoDetalle, setFuentesObjetoDetalle] = useState<FuenteObjetoDetalle[]>([]);
   const [ingresosGastos, setIngresosGastos] = useState<IngresosGastos[]>([]);
   const [validacionDiferencias, setValidacionDiferencias] = useState<ValidacionDiferencia[]>([]);
 
@@ -346,16 +412,22 @@ export default function Home() {
         objetoGastoData,
         fuentesObjetoData,
         ingresosGastosData,
+        recursosDetalleData,
+        objetoGastoDetalleData,
+        fuentesObjetoDetalleData,
         validacionDiferenciasData,
       ] = await Promise.all([
         fetchJson<Summary>("/data/summary.json"),
         fetchJson<Entidad[]>("/data/entidades.json"),
         fetchJson<Departamento[]>("/data/departamentos.json"),
-        fetchJson<Programa[]>("/data/programas_top.json"),
+        fetchJson<Programa[]>("/data/programas.json"),
         fetchJson<RecursoRubro[]>("/data/recursos_rubro.json"),
         fetchJson<ObjetoGasto[]>("/data/objeto_gasto_nivel1.json"),
         fetchJson<FuenteObjeto[]>("/data/fuentes_objeto_gasto.json"),
         fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
+        fetchJson<RecursoDetalle[]>("/data/recursos_detalle.json"),
+        fetchJson<ObjetoGastoDetalle[]>("/data/objeto_gasto_detalle.json"),
+        fetchJson<FuenteObjetoDetalle[]>("/data/fuentes_objeto_largo.json"),
         fetchJson<ValidacionDiferencia[]>("/data/validacion_diferencias.json"),
       ]);
 
@@ -367,6 +439,9 @@ export default function Home() {
       setObjetoGasto(objetoGastoData);
       setFuentesObjeto(fuentesObjetoData);
       setIngresosGastos(ingresosGastosData);
+      setRecursosDetalle(recursosDetalleData);
+      setObjetoGastoDetalle(objetoGastoDetalleData);
+      setFuentesObjetoDetalle(fuentesObjetoDetalleData);
       setValidacionDiferencias(validacionDiferenciasData);
     }
 
@@ -411,8 +486,7 @@ export default function Home() {
   const programasFiltrados = useMemo(() => {
     const q = query.trim().toLowerCase();
 
-    return programas
-      .filter((item) => departamento === "Todos" || item.departamento === departamento)
+    return programas.filter((item) => departamento === "Todos" || item.departamento === departamento)
       .filter((item) => tipo === "Todos" || item.tipo === tipo)
       .filter((item) => grupoEta === "Todos" || item.grupo_eta === grupoEta)
       .filter((item) => {
@@ -427,7 +501,7 @@ export default function Home() {
           normalize(item.grupo_eta).includes(q)
         );
       })
-      .slice(0, 20);
+      .slice(0, 10);
   }, [programas, departamento, tipo, grupoEta, query]);
 
   const ingresosGastosFiltrados = useMemo(() => {
@@ -469,6 +543,112 @@ export default function Home() {
         );
       });
   }, [validacionDiferencias, departamento, tipo, grupoEta, query]);
+
+  const recursosRubroFiltrado = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const map = new Map<string, { rubro: string; descripcion: string; importe: number }>();
+
+    for (const item of recursosDetalle) {
+      if (departamento !== "Todos" && item.departamento !== departamento) continue;
+      if (tipo !== "Todos" && item.tipo !== tipo) continue;
+      if (grupoEta !== "Todos" && item.grupo_eta !== grupoEta) continue;
+
+      if (q) {
+        const match =
+          normalize(item.codigo_entidad).includes(q) ||
+          normalize(item.nombre_entidad).includes(q) ||
+          normalize(item.departamento).includes(q) ||
+          normalize(item.tipo).includes(q) ||
+          normalize(item.grupo_eta).includes(q) ||
+          normalize(item.descripcion).includes(q) ||
+          normalize(item.rubro).includes(q);
+
+        if (!match) continue;
+      }
+
+      const key = `${item.rubro} · ${item.descripcion}`;
+      const current = map.get(key) || {
+        rubro: item.rubro,
+        descripcion: item.descripcion,
+        importe: 0,
+      };
+
+      current.importe += Number(item.importe || 0);
+      map.set(key, current);
+    }
+
+    return Array.from(map.values()).sort((a, b) => b.importe - a.importe);
+  }, [recursosDetalle, departamento, tipo, grupoEta, query]);
+
+  const objetoGastoFiltrado = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const map = new Map<string, { objeto_gasto: string; descripcion: string; total: number }>();
+
+    for (const item of objetoGastoDetalle) {
+      if (departamento !== "Todos" && item.departamento !== departamento) continue;
+      if (tipo !== "Todos" && item.tipo !== tipo) continue;
+      if (grupoEta !== "Todos" && item.grupo_eta !== grupoEta) continue;
+
+      if (q) {
+        const match =
+          normalize(item.codigo_entidad).includes(q) ||
+          normalize(item.nombre_entidad).includes(q) ||
+          normalize(item.departamento).includes(q) ||
+          normalize(item.tipo).includes(q) ||
+          normalize(item.grupo_eta).includes(q) ||
+          normalize(item.descripcion).includes(q) ||
+          normalize(item.objeto_gasto).includes(q);
+
+        if (!match) continue;
+      }
+
+      const key = `${item.objeto_gasto} · ${item.descripcion}`;
+      const current = map.get(key) || {
+        objeto_gasto: item.objeto_gasto,
+        descripcion: item.descripcion,
+        total: 0,
+      };
+
+      current.total += Number(item.total || 0);
+      map.set(key, current);
+    }
+
+    return Array.from(map.values()).sort((a, b) => b.total - a.total);
+  }, [objetoGastoDetalle, departamento, tipo, grupoEta, query]);
+
+  const fuentesObjetoFiltrado = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const map = new Map<string, { fuente_columna: string; monto: number }>();
+
+    for (const item of fuentesObjetoDetalle) {
+      if (departamento !== "Todos" && item.departamento !== departamento) continue;
+      if (tipo !== "Todos" && item.tipo !== tipo) continue;
+      if (grupoEta !== "Todos" && item.grupo_eta !== grupoEta) continue;
+
+      if (q) {
+        const match =
+          normalize(item.codigo_entidad).includes(q) ||
+          normalize(item.nombre_entidad).includes(q) ||
+          normalize(item.departamento).includes(q) ||
+          normalize(item.tipo).includes(q) ||
+          normalize(item.grupo_eta).includes(q) ||
+          normalize(item.fuente_columna).includes(q);
+
+        if (!match) continue;
+      }
+
+      const key = item.fuente_columna;
+      const current = map.get(key) || {
+        fuente_columna: item.fuente_columna,
+        monto: 0,
+      };
+
+      current.monto += Number(item.monto || 0);
+      map.set(key, current);
+    }
+
+    return Array.from(map.values()).sort((a, b) => b.monto - a.monto);
+  }, [fuentesObjetoDetalle, departamento, tipo, grupoEta, query]);
 
   const topEntidades = entidadesFiltradas.slice(0, 20);
 
@@ -552,32 +732,32 @@ export default function Home() {
   });
 
   const recursosRubroOption = chartOptionHorizontal({
-    labels: [...recursosRubro]
-      .slice(0, 15)
+    labels: [...recursosRubroFiltrado]
+      .slice(0, 10)
       .reverse()
       .map((item) => `${item.rubro} · ${item.descripcion}`),
-    values: [...recursosRubro]
-      .slice(0, 15)
+    values: [...recursosRubroFiltrado]
+      .slice(0, 10)
       .reverse()
       .map((item) => item.importe),
     left: 380,
   });
 
   const objetoGastoOption = chartOptionHorizontal({
-    labels: [...objetoGasto]
-      .slice(0, 15)
+    labels: [...objetoGastoFiltrado]
+      .slice(0, 10)
       .reverse()
       .map((item) => `${item.objeto_gasto}. ${cleanObjetoGastoLabel(item.objeto_gasto, item.descripcion)}`),
-    values: [...objetoGasto]
-      .slice(0, 15)
+    values: [...objetoGastoFiltrado]
+      .slice(0, 10)
       .reverse()
       .map((item) => item.total),
     left: 380,
   });
 
   const fuentesObjetoOption = chartOptionHorizontal({
-    labels: [...fuentesObjeto].reverse().map((item) => item.fuente_columna),
-    values: [...fuentesObjeto].reverse().map((item) => item.monto),
+    labels: [...fuentesObjetoFiltrado].reverse().map((item) => cleanFuenteLabel(item.fuente_columna)),
+    values: [...fuentesObjetoFiltrado].reverse().map((item) => item.monto),
     left: 220,
   });
 
