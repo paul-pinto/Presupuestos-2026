@@ -87,62 +87,6 @@ function cleanFuenteLabel(value: string): string {
     .trim();
 }
 
-function formatBsCompact(value: number): string {
-  const n = Number(value || 0);
-  const abs = Math.abs(n);
-
-  if (abs >= 1_000_000_000) {
-    return `Bs ${(n / 1_000_000_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 1,
-    })} Bn`;
-  }
-
-  if (abs >= 1_000_000) {
-    return `Bs ${(n / 1_000_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 1,
-    })} M`;
-  }
-
-  if (abs >= 1_000) {
-    return `Bs ${(n / 1_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 1,
-    })} mil`;
-  }
-
-  return `Bs ${n.toLocaleString("es-BO", {
-    maximumFractionDigits: 0,
-  })}`;
-}
-
-function cleanFuenteLabel(value: string): string {
-  const raw = String(value || "").trim();
-
-  const labels: Record<string, string> = {
-    monto_01_tgn: "TGN",
-    monto_03_tgn_ct: "TGN - Coparticipación tributaria",
-    monto_04_recon: "Recursos específicos",
-    monto_05_tgn_fcom: "TGN - Fondo compensatorio",
-    monto_06_tgn_pg_n: "TGN - Programas nacionales",
-    monto_07_tgn_iehd: "TGN - IEHD",
-    monto_08_tgn_idh: "TGN - IDH",
-    monto_09_tgn_ipj: "TGN - IPJ",
-    monto_11_ot_gob: "Otros recursos del gobierno",
-    monto_12_total_tgn: "Total TGN",
-    monto_13_otros_ingresos: "Otros ingresos",
-    monto_14_recursos_especificos: "Recursos específicos",
-    monto_15_donaciones_internas: "Donaciones internas",
-    monto_16_credito_externo: "Crédito externo",
-  };
-
-  if (labels[raw]) return labels[raw];
-
-  return raw
-    .replace(/^monto_\d+_/, "")
-    .replace(/_/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function formatInt(value: number): string {
   return Number(value || 0).toLocaleString("es-BO", {
     maximumFractionDigits: 0,
