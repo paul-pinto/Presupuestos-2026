@@ -572,6 +572,13 @@ export default function Home() {
               Ver gastos
             </Link>
             <Link
+              href="/ingresos"
+              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+            >
+              Ver ingresos
+            </Link>
+
+            <Link
               href="/validacion"
               className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
             >
