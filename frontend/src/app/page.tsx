@@ -233,18 +233,17 @@ function cleanFuenteLabel(value: string): string {
 
   const labels: Record<string, string> = {
     monto_01_tgn: "TGN",
-    monto_03_tgn_ct: "TGN - Coparticipación tributaria",
+    monto_03_tgn_ct: "Transferencias TGN",
     monto_04_recon: "Recursos específicos",
-    monto_05_tgn_fcom: "TGN - Fondo compensatorio",
-    monto_06_tgn_pg_n: "TGN - Programas nacionales",
-    monto_07_tgn_iehd: "TGN - IEHD",
-    monto_08_tgn_idh: "TGN - IDH",
-    monto_09_tgn_ipj: "TGN - IPJ",
-    monto_11_ot_gob: "Otros recursos del gobierno",
-    monto_12_total_tgn: "Total TGN",
+    monto_05_tgn_fcom: "Fondo compensatorio",
+    monto_06_tgn_pg_n: "Programas nacionales",
+    monto_07_tgn_iehd: "IEHD",
+    monto_08_tgn_idh: "IDH",
+    monto_09_tgn_ipj: "IPJ",
+    monto_11_ot_gob: "TGN otros ingresos",
     monto_13_otros_ingresos: "Otros ingresos",
     monto_14_recursos_especificos: "Recursos específicos",
-    monto_15_donaciones_internas: "Donaciones internas",
+    monto_15_donaciones_internas: "Donación interna",
     monto_16_credito_externo: "Crédito externo",
   };
 
@@ -256,6 +255,7 @@ function cleanFuenteLabel(value: string): string {
     .replace(/\s+/g, " ")
     .trim();
 }
+
 
 function MetricCard({
   title,
@@ -1014,7 +1014,7 @@ export default function Home() {
             </Section>
           </div>
 
-          <Section title="Fuentes de financiamiento en objeto del gasto" description="Agregado global.">
+          <Section title="Fuentes de financiamiento en objeto del gasto" description="Agregado filtrable por entidad, departamento, tipo y grupo ETA.">
             <div className="h-[420px]">
               <ReactECharts option={fuentesObjetoOption} style={{ height: "100%", width: "100%" }} />
             </div>

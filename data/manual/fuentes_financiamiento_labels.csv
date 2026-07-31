@@ -1,0 +1,14 @@
+fuente_columna,codigo_fuente,denominacion_oficial,sigla,nombre_corto
+monto_01_tgn,10,Tesoro General de la Nación,TGN,TGN
+monto_03_tgn_ct,41,Transferencias T.G.N.,TRANSF-TGN,Transferencias TGN
+monto_04_recon,20,Recursos Específicos,RECESP,Recursos específicos
+monto_05_tgn_fcom,41,Transferencias T.G.N.,TRANSF-TGN,Fondo compensatorio
+monto_06_tgn_pg_n,41,Transferencias T.G.N.,TRANSF-TGN,Programas nacionales
+monto_07_tgn_iehd,41,Transferencias T.G.N.,TRANSF-TGN,IEHD
+monto_08_tgn_idh,41,Transferencias T.G.N.,TRANSF-TGN,IDH
+monto_09_tgn_ipj,41,Transferencias T.G.N.,TRANSF-TGN,IPJ
+monto_11_ot_gob,11,T.G.N. Otros Ingresos,TGN-OTI,TGN otros ingresos
+monto_13_otros_ingresos,11,T.G.N. Otros Ingresos,TGN-OTI,Otros ingresos
+monto_14_recursos_especificos,20,Recursos Específicos,RECESP,Recursos específicos
+monto_15_donaciones_internas,87,Donación Interna,DON-INT,Donación interna
+monto_16_credito_externo,70,Crédito Externo,CREDEX,Crédito externo
