@@ -42,6 +42,24 @@ type Entidad = {
   grupo_9: number;
 };
 
+
+type EntidadIndicador = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  departamento: string;
+  tipo: string;
+  grupo_eta: string;
+  presupuesto_total: number;
+  provincia_ine: string;
+  municipio_ine: string;
+  poblacion_2001: number;
+  poblacion_2012: number;
+  poblacion_2024: number;
+  hombres_2024: number;
+  mujeres_2024: number;
+  presupuesto_per_capita: number;
+};
+
 type Programa = {
   codigo_entidad: string;
   nombre_entidad: string;
@@ -235,6 +253,7 @@ export default function EntidadDetallePage() {
   const codigo = String(params.codigo || "");
 
   const [entidades, setEntidades] = useState<Entidad[]>([]);
+  const [indicadores, setIndicadores] = useState<EntidadIndicador[]>([]);
   const [programas, setProgramas] = useState<Programa[]>([]);
   const [ingresosGastos, setIngresosGastos] = useState<IngresosGastos[]>([]);
   const [validacion, setValidacion] = useState<ValidacionRow[]>([]);
@@ -242,15 +261,22 @@ export default function EntidadDetallePage() {
 
   useEffect(() => {
     async function load() {
-      const [entidadesData, programasData, ingresosGastosData, validacionData] =
-        await Promise.all([
-          fetchJson<Entidad[]>("/data/entidades.json"),
-          fetchJson<Programa[]>("/data/programas.json"),
-          fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
-          fetchJson<ValidacionRow[]>("/data/validacion_integrada.json"),
-        ]);
+      const [
+        entidadesData,
+        indicadoresData,
+        programasData,
+        ingresosGastosData,
+        validacionData,
+      ] = await Promise.all([
+        fetchJson<Entidad[]>("/data/entidades.json"),
+        fetchJson<EntidadIndicador[]>("/data/entidades_indicadores.json"),
+        fetchJson<Programa[]>("/data/programas.json"),
+        fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
+        fetchJson<ValidacionRow[]>("/data/validacion_integrada.json"),
+      ]);
 
       setEntidades(entidadesData);
+      setIndicadores(indicadoresData);
       setProgramas(programasData);
       setIngresosGastos(ingresosGastosData);
       setValidacion(validacionData);
@@ -267,6 +293,10 @@ export default function EntidadDetallePage() {
   const entidad = useMemo(() => {
     return entidades.find((item) => item.codigo_entidad === codigo);
   }, [entidades, codigo]);
+
+  const indicadorEntidad = useMemo(() => {
+    return indicadores.find((item) => item.codigo_entidad === codigo);
+  }, [indicadores, codigo]);
 
   const programasEntidad = useMemo(() => {
     return programas
@@ -367,6 +397,40 @@ export default function EntidadDetallePage() {
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
+
+        {indicadorEntidad ? (
+          <section className="mx-auto grid max-w-7xl gap-4 px-6 py-6 md:grid-cols-4">
+            <MetricCard
+              title="Población 2024"
+              value={formatInt(indicadorEntidad.poblacion_2024)}
+              subtitle="Fuente: INE 2024"
+              icon={<Building2 size={22} />}
+            />
+
+            <MetricCard
+              title="Presupuesto per cápita"
+              value={formatBs(indicadorEntidad.presupuesto_per_capita)}
+              subtitle="SIGEP / población INE"
+              icon={<WalletCards size={22} />}
+            />
+
+            <MetricCard
+              title="Municipio INE"
+              value={indicadorEntidad.municipio_ine}
+              subtitle="Referencia censal"
+              icon={<Landmark size={22} />}
+            />
+
+            <MetricCard
+              title="Provincia INE"
+              value={indicadorEntidad.provincia_ine}
+              subtitle="Referencia territorial"
+              icon={<ShieldCheck size={22} />}
+            />
+          </section>
+        ) : null}
+
+
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-8">
           <Link

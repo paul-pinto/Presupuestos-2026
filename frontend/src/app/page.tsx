@@ -2,6 +2,8 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import RecursoFuenteOrganismoPanel from "@/components/RecursoFuenteOrganismoPanel";
+import IndicadoresPerCapitaPanel from "@/components/IndicadoresPerCapitaPanel";
 import ReactECharts from "echarts-for-react";
 import {
   AlertTriangle,
@@ -205,6 +207,24 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 
+function objetoNivel1(value: string): string {
+  const first = String(value || "").trim().charAt(0);
+
+  const labels: Record<string, string> = {
+    "1": "1. Servicios personales",
+    "2": "2. Servicios no personales",
+    "3": "3. Materiales y suministros",
+    "4": "4. Activos reales",
+    "5": "5. Activos financieros",
+    "6": "6. Servicios de la deuda pública y disminución de otros activos",
+    "7": "7. Transferencias",
+    "8": "8. Impuestos, regalías y tasas",
+    "9": "9. Otros gastos",
+  };
+
+  return labels[first] || "Sin clasificar";
+}
+
 function cleanObjetoGastoLabel(objeto: string, descripcion: string): string {
   const codigo = String(objeto || "").trim();
 
@@ -382,6 +402,24 @@ function chartOptionVertical({
 }
 
 export default function Home() {
+  const [objetoFiltro, setObjetoFiltro] = useState("Todos");
+
+  const objetoGastoOptions = useMemo(
+    () => [
+      "Todos",
+      "1. Servicios personales",
+      "2. Servicios no personales",
+      "3. Materiales y suministros",
+      "4. Activos reales",
+      "5. Activos financieros",
+      "6. Servicios de la deuda pública y disminución de otros activos",
+      "7. Transferencias",
+      "8. Impuestos, regalías y tasas",
+      "9. Otros gastos",
+    ],
+    []
+  );
+
   const [summary, setSummary] = useState<Summary | null>(null);
   const [entidades, setEntidades] = useState<Entidad[]>([]);
   const [departamentos, setDepartamentos] = useState<Departamento[]>([]);
@@ -1101,6 +1139,21 @@ export default function Home() {
           </Section>
         </div>
       </section>
-    </main>
+              
+        <IndicadoresPerCapitaPanel
+          departamento={departamento}
+          tipo={tipo}
+          grupoEta={grupoEta}
+          query={query}
+        />
+
+        <RecursoFuenteOrganismoPanel
+            departamento={departamento}
+            tipo={tipo}
+            grupoEta={grupoEta}
+            query={query}
+          />
+
+</main>
   );
 }

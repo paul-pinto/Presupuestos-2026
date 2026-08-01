@@ -39,7 +39,8 @@ const links = [
     label: "Objeto gasto",
     icon: Landmark,
   },
-  {
+    { href: "/indicadores", label: "Indicadores", icon: BarChart3 },
+{
     href: "/validacion",
     label: "Validación",
     icon: ShieldCheck,
