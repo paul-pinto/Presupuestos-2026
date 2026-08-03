@@ -1,0 +1,52 @@
+codigo,nombre
+12,VENTA DE BIENES Y SERVICIOS DE LAS ADMINISTRACIONES PÚBLICAS
+12.1,Venta de bienes de las administraciones públicas
+12.2,Venta de servicios de las administraciones públicas
+13,INGRESOS POR IMPUESTOS
+13.1,Impuestos sobre la renta utilidades y ganancias de capital
+13.2,Impuestos sobre la propiedad
+13.3,Impuestos municipales
+13.3.1,Impuesto a la propiedad de bienes inmuebles
+13.3.6,Impuesto municipal a la transferencia de inmuebles
+13.4,Otros impuestos
+14,REGALÍAS
+14.1,Regalías mineras
+14.2,Regalías hidrocarburíferas
+14.3,Regalías forestales
+14.9,Otras regalías
+15,TASAS DERECHOS Y OTROS INGRESOS
+15.1,Tasas
+15.2,Derechos
+15.3,Patentes y concesiones
+15.3.1,Patentes forestales
+15.3.4,Patentes municipales
+15.4,Contribuciones por mejoras
+15.9,Otros ingresos
+15.9.1,Multas
+16,INTERESES Y OTRAS RENTAS DE LA PROPIEDAD
+16.1,Intereses
+16.2,Dividendos
+16.3,Alquiler de edificios tierras y terrenos
+16.5,Otras rentas de la propiedad
+18,DONACIONES CORRIENTES
+18.2,Donaciones corrientes del exterior
+19,TRANSFERENCIAS CORRIENTES
+19.1,Transferencias corrientes del sector privado
+19.2,Transferencias corrientes del sector público no financiero
+19.2.1,Del órgano ejecutivo
+19.2.1.1,Por subsidios o subvenciones
+19.2.1.2,Por coparticipación tributaria
+19.2.1.3,Por participación en el impuesto directo a los hidrocarburos
+19.2.2,De los órganos legislativo judicial electoral entidades de control y defensa descentralizadas y universidades
+21,RECURSOS PROPIOS DE CAPITAL
+22,DONACIONES DE CAPITAL
+23,TRANSFERENCIAS DE CAPITAL
+23.1,Transferencias de capital del sector privado
+23.2,Transferencias de capital del sector público no financiero
+23.2.1,Del órgano ejecutivo
+23.2.1.1,Por subsidios o subvenciones
+23.2.2,De los órganos legislativo judicial electoral entidades de control y defensa descentralizadas y universidades
+33,RECUPERACIÓN DE PRÉSTAMOS DE LARGO PLAZO
+35,DISMINUCIÓN Y COBRO DE OTROS ACTIVOS FINANCIEROS
+36,OBTENCIÓN DE PRÉSTAMOS INTERNOS Y DE FONDOS EN FIDEICOMISO
+37,OBTENCIÓN DE PRÉSTAMOS DEL EXTERIOR

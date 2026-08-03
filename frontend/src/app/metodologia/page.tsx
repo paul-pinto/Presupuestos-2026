@@ -1,112 +1,120 @@
-import Link from "next/link";
-import { ArrowLeft, Database, FileCheck2, GitBranch, ShieldCheck } from "lucide-react";
-
-function Card({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h2 className="text-xl font-semibold text-slate-950">{title}</h2>
-      <div className="mt-4 space-y-3 text-sm leading-6 text-slate-600">{children}</div>
-    </section>
-  );
-}
+const sections = [
+  {
+    title: "Fuente principal: SIGEP",
+    body: [
+      "El observatorio utiliza información presupuestaria de entidades territoriales autónomas para la gestión 2026.",
+      "La base consolida ingresos, gastos, programas, objeto del gasto, rubros de recursos, fuentes de financiamiento y organismos financiadores.",
+      "Los montos se presentan en bolivianos corrientes y se agregan según la estructura presupuestaria disponible.",
+    ],
+  },
+  {
+    title: "Fuente poblacional: INE Censo 2024",
+    body: [
+      "Para los indicadores per cápita se utiliza población municipal del Censo 2024.",
+      "El cruce se realizó entre entidades SIGEP y municipios/TIOC del INE.",
+      "La denominación visible en el observatorio conserva el nombre oficial usado en SIGEP; el nombre INE se usa solamente como referencia de emparejamiento poblacional.",
+    ],
+  },
+  {
+    title: "Cruce SIGEP ↔ INE",
+    body: [
+      "El emparejamiento se hizo mediante normalización de nombres, departamento y equivalencias manuales revisadas.",
+      "Cuando el nombre SIGEP difiere del nombre INE, se conserva el nombre SIGEP y se registra el municipio INE asociado.",
+      "Este cruce permite calcular presupuesto per cápita para los gobiernos municipales y autonomías indígena originario campesinas con población disponible.",
+    ],
+  },
+  {
+    title: "Presupuesto per cápita",
+    body: [
+      "El presupuesto per cápita se calcula dividiendo el presupuesto total de la entidad entre su población 2024.",
+      "Este indicador no mide eficiencia ni calidad del gasto; solamente muestra la escala presupuestaria relativa por habitante.",
+      "Debe interpretarse junto con tamaño poblacional, tipo de entidad, geografía, estructura productiva y fuentes de financiamiento.",
+    ],
+  },
+  {
+    title: "Autonomía fiscal estricta",
+    body: [
+      "La autonomía fiscal estricta se calcula únicamente para GAM y GAIOC.",
+      "La fórmula usada es: Recursos Específicos GAM/GAIOC fuente 20 organismo 210 dividido entre ingresos totales.",
+      "Las regalías no se incluyen como autonomía fiscal estricta municipal, porque no corresponden a recaudación propia directa del gobierno municipal.",
+    ],
+  },
+  {
+    title: "Dependencia TGN",
+    body: [
+      "La dependencia TGN mide el peso de las transferencias del Tesoro General de la Nación sobre los ingresos totales.",
+      "Dentro de este grupo se distinguen componentes como coparticipación tributaria, IDH y otras transferencias.",
+      "Un porcentaje alto indica que la entidad depende en mayor medida de transferencias nacionales para financiar su presupuesto.",
+    ],
+  },
+  {
+    title: "Coparticipación, IDH y regalías",
+    body: [
+      "La coparticipación tributaria se identifica mediante fuente y organismo financiador según la clasificación presupuestaria.",
+      "El IDH se presenta como un componente específico de las transferencias TGN.",
+      "Las regalías se muestran por separado para evitar mezclarlas con recursos propios o autonomía fiscal estricta.",
+    ],
+  },
+  {
+    title: "Objeto del gasto",
+    body: [
+      "El objeto del gasto clasifica el presupuesto según la naturaleza económica del gasto.",
+      "El observatorio permite revisar niveles agregados y desagregados del clasificador: servicios personales, servicios no personales, materiales y suministros, activos reales, transferencias, deuda y otros grupos.",
+      "Los filtros jerárquicos permiten pasar de categorías generales a partidas más específicas.",
+    ],
+  },
+  {
+    title: "Fuente y organismo financiador",
+    body: [
+      "La fuente de financiamiento indica el origen general de los recursos.",
+      "El organismo financiador permite identificar con mayor detalle la procedencia presupuestaria.",
+      "La combinación fuente/organismo ayuda a distinguir recursos específicos, coparticipación tributaria, IDH, regalías, TGN y otros componentes.",
+    ],
+  },
+  {
+    title: "Limitaciones",
+    body: [
+      "El observatorio trabaja con datos presupuestarios, no necesariamente con ejecución presupuestaria.",
+      "Los indicadores no reemplazan auditorías financieras ni análisis institucionales detallados.",
+      "Algunos nombres pueden diferir entre SIGEP e INE; por eso se usa una tabla de equivalencias para el cruce poblacional.",
+      "Los rankings deben interpretarse como herramientas exploratorias, no como juicios automáticos de desempeño.",
+    ],
+  },
+];
 
 export default function MetodologiaPage() {
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-5xl px-6 py-8">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-950"
-          >
-            <ArrowLeft size={16} />
-            Volver al resumen
-          </Link>
-
-          <p className="mt-6 text-sm font-medium uppercase tracking-wide text-slate-500">
-            Presupuestos Bolivia 2026
+    <main className="min-h-screen bg-slate-950 text-slate-100">
+      <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 shadow-2xl shadow-black/20">
+          <p className="text-sm uppercase tracking-[0.35em] text-cyan-300">
+            Metodología
           </p>
-          <h1 className="mt-2 text-4xl font-bold tracking-tight">MetodologÃ­a</h1>
-          <p className="mt-4 max-w-3xl text-slate-600">
-            Esta pÃ¡gina resume la fuente, el proceso de transformaciÃ³n y las validaciones aplicadas
-            para construir el observatorio pÃºblico de presupuestos ETA Bolivia 2026.
+          <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-5xl">
+            Cómo se construye el Observatorio de Presupuestos ETA 2026
+          </h1>
+          <p className="mt-4 max-w-4xl text-base leading-7 text-slate-300">
+            Esta sección documenta las fuentes, cruces, criterios de cálculo y limitaciones
+            principales del observatorio. Su objetivo es que los indicadores sean transparentes,
+            reproducibles y fáciles de interpretar.
           </p>
         </div>
-      </section>
 
-      <section className="mx-auto grid max-w-5xl gap-6 px-6 py-8">
-        <Card title="Fuente de datos">
-          <p>
-            La base corresponde a informaciÃ³n presupuestaria institucional de entidades territoriales
-            autÃ³nomas para la gestiÃ³n 2026, procesada a partir de los archivos fuente recopilados del
-            SIGEP Bolivia.
-          </p>
-          <p>
-            La unidad principal de anÃ¡lisis es la entidad: municipio, gobernaciÃ³n u otra ETA presente
-            en el universo procesado.
-          </p>
-        </Card>
-
-        <Card title="Proceso de construcciÃ³n">
-          <div className="grid gap-4 md:grid-cols-4">
-            <div className="rounded-xl bg-slate-50 p-4">
-              <Database size={22} />
-              <p className="mt-2 font-semibold">1. ExtracciÃ³n</p>
-              <p className="mt-1 text-xs">Lectura y normalizaciÃ³n de archivos fuente.</p>
-            </div>
-            <div className="rounded-xl bg-slate-50 p-4">
-              <GitBranch size={22} />
-              <p className="mt-2 font-semibold">2. TransformaciÃ³n</p>
-              <p className="mt-1 text-xs">Limpieza, homologaciÃ³n y armado de tablas analÃ­ticas.</p>
-            </div>
-            <div className="rounded-xl bg-slate-50 p-4">
-              <ShieldCheck size={22} />
-              <p className="mt-2 font-semibold">3. ValidaciÃ³n</p>
-              <p className="mt-1 text-xs">Cruce entre ingresos, gastos y objeto/fuente.</p>
-            </div>
-            <div className="rounded-xl bg-slate-50 p-4">
-              <FileCheck2 size={22} />
-              <p className="mt-2 font-semibold">4. PublicaciÃ³n</p>
-              <p className="mt-1 text-xs">ExportaciÃ³n a JSON estÃ¡tico para Next.js/Vercel.</p>
-            </div>
-          </div>
-        </Card>
-
-        <Card title="Capas analÃ­ticas">
-          <ul className="list-disc space-y-2 pl-5">
-            <li>Presupuesto por entidad, departamento, tipo y grupo ETA.</li>
-            <li>Programas presupuestarios por entidad.</li>
-            <li>Ingresos y recursos por rubro.</li>
-            <li>Objeto del gasto y fuentes de financiamiento.</li>
-            <li>ValidaciÃ³n integrada entre ingresos, gastos y objeto/fuente.</li>
-          </ul>
-        </Card>
-
-        <Card title="ValidaciÃ³n integrada">
-          <p>
-            La validaciÃ³n compara los totales derivados de distintas vistas del presupuesto:
-            ingresos por rubro, gastos por categorÃ­a/grupo y gasto por objeto/fuente.
-          </p>
-          <p>
-            Se aplica una tolerancia operativa de Bs 1 para evitar falsos positivos por redondeos o
-            diferencias menores de procesamiento.
-          </p>
-        </Card>
-
-        <Card title="Limitaciones actuales">
-          <ul className="list-disc space-y-2 pl-5">
-            <li>Los datos publicados son estÃ¡ticos y se actualizan mediante exportaciÃ³n manual.</li>
-            <li>La versiÃ³n actual se concentra en la gestiÃ³n 2026.</li>
-            <li>Los indicadores de pacto fiscal, poblaciÃ³n, pobreza y redistribuciÃ³n serÃ¡n parte de una fase posterior.</li>
-            <li>Algunas etiquetas provienen de la estructura original de los datos y pueden requerir limpieza visual adicional.</li>
-          </ul>
-        </Card>
+        <div className="mt-8 grid gap-5">
+          {sections.map((section) => (
+            <article
+              key={section.title}
+              className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"
+            >
+              <h2 className="text-xl font-semibold text-white">{section.title}</h2>
+              <div className="mt-4 space-y-3 text-sm leading-6 text-slate-300">
+                {section.body.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
     </main>
   );

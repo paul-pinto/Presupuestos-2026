@@ -4,6 +4,36 @@ import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import ReactECharts from "echarts-for-react";
 import { ArrowLeft, Building2, Landmark, Search, SplitSquareVertical, Wallet } from "lucide-react";
+import ObjetoGastoNivelesPanel from "@/components/ObjetoGastoNivelesPanel";
+
+function formatFuenteTecnica(value: string | null | undefined): string {
+  const raw = String(value || "");
+
+  const labels: Record<string, string> = {
+    "monto_11_ot_gob": "11 - Otros gobiernos",
+    "monto_20_rec_esp": "20 - Recursos específicos",
+    "monto_20_regalias": "20/220 - Regalías",
+    "monto_20_otros": "20/230 - Otros recursos específicos",
+    "monto_41_tgn": "41 - Transferencias TGN",
+    "monto_41_111": "41/111 - TGN",
+    "monto_41_113": "41/113 - Coparticipación tributaria",
+    "monto_41_119": "41/119 - IDH",
+  };
+
+  if (labels[raw]) return labels[raw];
+
+  return raw
+    .replace(/^monto_/, "")
+    .replaceAll("_", " ")
+    .replace(/\bot\b/gi, "otros")
+    .replace(/\bgob\b/gi, "gobiernos")
+    .replace(/\brec\b/gi, "recursos")
+    .replace(/\besp\b/gi, "específicos")
+    .replace(/\btgn\b/gi, "TGN")
+    .trim();
+}
+
+
 
 type ObjetoGasto = {
   objeto_gasto: string;
@@ -24,6 +54,25 @@ type ObjetoEntidad = {
   tipo: string;
   gasto_total_objeto: number;
 };
+
+
+function formatFuenteColumna(value: string): string {
+  const labels: Record<string, string> = {
+    "monto_11_ot_gob": "11 - Otros gobiernos",
+    "monto_20_rec_esp": "20 - Recursos específicos",
+    "monto_20_regalias": "20/220 - Regalías",
+    "monto_20_otros": "20/230 - Otros recursos específicos",
+    "monto_41_tgn": "41 - Transferencias TGN",
+    "monto_41_111": "41/111 - TGN",
+    "monto_41_113": "41/113 - Coparticipación tributaria",
+    "monto_41_119": "41/119 - IDH",
+  };
+
+  return labels[value] ?? value
+    .replace(/^monto_/, "")
+    .replaceAll("_", " ")
+    .toUpperCase();
+}
 
 function formatBs(value: number): string {
   return `Bs ${Number(value || 0).toLocaleString("es-BO", {
@@ -339,6 +388,11 @@ export default function ObjetoGastoPage() {
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
+
+      <section className="mx-auto max-w-7xl px-6 py-6">
+        <ObjetoGastoNivelesPanel />
+      </section>
+
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-8">
           <Link
@@ -368,8 +422,7 @@ export default function ObjetoGastoPage() {
           </div>
         </div>
       </section>
-
-      <section className="mx-auto max-w-7xl px-6 py-8">
+<section className="mx-auto max-w-7xl px-6 py-8">
         {loadError ? (
           <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700">
             {loadError}
@@ -478,7 +531,7 @@ export default function ObjetoGastoPage() {
           <MetricCard
             title="Fuente global"
             value={formatBs(totalFuentesGlobal)}
-            subtitle="Suma por fuente_columna"
+            subtitle="Suma por fuente de financiamiento"
             icon={<SplitSquareVertical size={24} />}
           />
           <MetricCard
@@ -497,7 +550,7 @@ export default function ObjetoGastoPage() {
           />
           <MetricCard
             title="Fuente principal"
-            value={fuentePrincipal ? fuentePrincipal.fuente_columna : "-"}
+            value={fuentePrincipal ? cleanFuenteLabel(fuentePrincipal.fuente_columna) : "-"}
             subtitle={fuentePrincipal ? formatBs(fuentePrincipal.monto) : "Sin datos"}
           />
         </div>

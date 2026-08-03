@@ -60,6 +60,30 @@ type EntidadIndicador = {
   presupuesto_per_capita: number;
 };
 
+
+type FiscalIndicador = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  grupo_eta: string;
+  tipo: string;
+  ingresos_total: number;
+  recursos_especificos: number;
+  recursos_especificos_gam_gaioc: number;
+  recursos_propios: number | null;
+  transferencias_tgn: number;
+  coparticipacion: number;
+  idh: number;
+  regalias: number;
+  autonomia_fiscal_pct: number | null;
+  autonomia_fiscal_aplica: boolean;
+  dependencia_tgn_pct: number;
+  coparticipacion_pct: number;
+  idh_pct: number;
+  regalias_pct: number;
+  recursos_especificos_pct: number;
+  recursos_especificos_gam_gaioc_pct: number;
+};
+
 type Programa = {
   codigo_entidad: string;
   nombre_entidad: string;
@@ -142,6 +166,16 @@ function formatPct(value: number, total: number): string {
   if (!total) return "0,00%";
 
   return `${((value / total) * 100).toLocaleString("es-BO", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })}%`;
+}
+
+
+function formatFiscalPct(value: number | null | undefined): string {
+  if (value === null || value === undefined) return "No aplica";
+
+  return `${Number(value || 0).toLocaleString("es-BO", {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   })}%`;
@@ -254,6 +288,7 @@ export default function EntidadDetallePage() {
 
   const [entidades, setEntidades] = useState<Entidad[]>([]);
   const [indicadores, setIndicadores] = useState<EntidadIndicador[]>([]);
+  const [fiscales, setFiscales] = useState<FiscalIndicador[]>([]);
   const [programas, setProgramas] = useState<Programa[]>([]);
   const [ingresosGastos, setIngresosGastos] = useState<IngresosGastos[]>([]);
   const [validacion, setValidacion] = useState<ValidacionRow[]>([]);
@@ -267,12 +302,14 @@ export default function EntidadDetallePage() {
         programasData,
         ingresosGastosData,
         validacionData,
+        fiscalesData,
       ] = await Promise.all([
         fetchJson<Entidad[]>("/data/entidades.json"),
         fetchJson<EntidadIndicador[]>("/data/entidades_indicadores.json"),
         fetchJson<Programa[]>("/data/programas.json"),
         fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
         fetchJson<ValidacionRow[]>("/data/validacion_integrada.json"),
+        fetchJson<FiscalIndicador[]>("/data/indicadores_fiscales.json"),
       ]);
 
       setEntidades(entidadesData);
@@ -280,6 +317,7 @@ export default function EntidadDetallePage() {
       setProgramas(programasData);
       setIngresosGastos(ingresosGastosData);
       setValidacion(validacionData);
+      setFiscales(fiscalesData);
     }
 
     load().catch((error) => {
@@ -297,6 +335,10 @@ export default function EntidadDetallePage() {
   const indicadorEntidad = useMemo(() => {
     return indicadores.find((item) => item.codigo_entidad === codigo);
   }, [indicadores, codigo]);
+
+  const fiscalEntidad = useMemo(() => {
+    return fiscales.find((item) => item.codigo_entidad === codigo);
+  }, [fiscales, codigo]);
 
   const programasEntidad = useMemo(() => {
     return programas
@@ -460,6 +502,65 @@ export default function EntidadDetallePage() {
           </div>
         </div>
       </section>
+
+      {fiscalEntidad ? (
+        <section className="mx-auto max-w-7xl px-6 py-6">
+          <div className="mb-4">
+            <h2 className="text-xl font-semibold text-slate-950">Indicadores fiscales</h2>
+            <p className="mt-1 text-sm text-slate-500">
+              Composición de ingresos por fuente y organismo financiador.
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3 xl:grid-cols-6">
+            <MetricCard
+              title="Autonomía fiscal estricta"
+              value={
+                fiscalEntidad.autonomia_fiscal_aplica
+                  ? formatFiscalPct(fiscalEntidad.autonomia_fiscal_pct)
+                  : "No aplica"
+              }
+              subtitle="20/210 Recursos específicos GAM/GAIOC"
+              icon={<WalletCards size={22} />}
+            />
+
+            <MetricCard
+              title="Dependencia TGN"
+              value={formatFiscalPct(fiscalEntidad.dependencia_tgn_pct)}
+              subtitle={formatBs(fiscalEntidad.transferencias_tgn)}
+              icon={<Landmark size={22} />}
+            />
+
+            <MetricCard
+              title="Coparticipación"
+              value={formatFiscalPct(fiscalEntidad.coparticipacion_pct)}
+              subtitle={formatBs(fiscalEntidad.coparticipacion)}
+              icon={<WalletCards size={22} />}
+            />
+
+            <MetricCard
+              title="IDH"
+              value={formatFiscalPct(fiscalEntidad.idh_pct)}
+              subtitle={formatBs(fiscalEntidad.idh)}
+              icon={<ShieldCheck size={22} />}
+            />
+
+            <MetricCard
+              title="Regalías"
+              value={formatFiscalPct(fiscalEntidad.regalias_pct)}
+              subtitle={formatBs(fiscalEntidad.regalias)}
+              icon={<Landmark size={22} />}
+            />
+
+            <MetricCard
+              title="Recursos específicos"
+              value={formatFiscalPct(fiscalEntidad.recursos_especificos_gam_gaioc_pct)}
+              subtitle="Fuente 20 / Org. 210"
+              icon={<Building2 size={22} />}
+            />
+          </div>
+        </section>
+      ) : null}
 
       <section className="mx-auto max-w-7xl px-6 py-8">
         <div className="grid gap-4 md:grid-cols-4">

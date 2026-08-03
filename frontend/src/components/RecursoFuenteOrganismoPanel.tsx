@@ -1,0 +1,382 @@
+"use client";
+
+import dynamic from "next/dynamic";
+import { useEffect, useMemo, useState } from "react";
+
+const ReactECharts = dynamic(() => import("echarts-for-react"), { ssr: false });
+
+type RecursoFuenteOrganismo = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  departamento: string;
+  grupo_eta: string;
+  tipo: string;
+  rubro: string;
+  rubro_descripcion: string;
+  rubro_nivel1: string;
+  rubro_nivel1_nombre: string;
+  rubro_nivel2: string;
+  rubro_nivel2_nombre: string;
+  rubro_nivel3: string;
+  rubro_nivel3_nombre: string;
+  rubro_nivel4: string;
+  rubro_nivel4_nombre: string;
+  fuente: string;
+  organismo: string;
+  fuente_nombre: string;
+  organismo_nombre: string;
+  importe: number;
+};
+
+type Props = {
+  departamento: string;
+  tipo: string;
+  grupoEta: string;
+  query: string;
+};
+
+type OptionRow = {
+  code: string;
+  label: string;
+};
+
+function normalize(value: string | number | null | undefined): string {
+  return String(value || "").toLowerCase();
+}
+
+function formatBs(value: number): string {
+  return `Bs ${Number(value || 0).toLocaleString("es-BO", {
+    maximumFractionDigits: 0,
+  })}`;
+}
+
+function formatBsCompact(value: number): string {
+  const n = Number(value || 0);
+  const abs = Math.abs(n);
+
+  if (abs >= 1_000_000) {
+    return `Bs ${(n / 1_000_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 0,
+    })} millones`;
+  }
+
+  if (abs >= 1_000) {
+    return `Bs ${(n / 1_000).toLocaleString("es-BO", {
+      maximumFractionDigits: 0,
+    })} mil`;
+  }
+
+  return `Bs ${n.toLocaleString("es-BO", {
+    maximumFractionDigits: 0,
+  })}`;
+}
+
+function uniqueOptions(
+  rows: RecursoFuenteOrganismo[],
+  codeKey: keyof RecursoFuenteOrganismo,
+  nameKey: keyof RecursoFuenteOrganismo
+): OptionRow[] {
+  const map = new Map<string, string>();
+
+  for (const row of rows) {
+    const code = String(row[codeKey] || "").trim();
+    const name = String(row[nameKey] || "").trim();
+
+    if (!code) continue;
+    map.set(code, `${code} ${name}`);
+  }
+
+  return Array.from(map.entries())
+    .sort((a, b) => a[0].localeCompare(b[0], "es-BO", { numeric: true }))
+    .map(([code, label]) => ({ code, label }));
+}
+
+function SelectBox({
+  label,
+  value,
+  onChange,
+  options,
+}: {
+  label: string;
+  value: string;
+  onChange: (value: string) => void;
+  options: OptionRow[];
+}) {
+  return (
+    <label className="text-sm text-slate-600">
+      {label}
+      <select
+        value={value}
+        onChange={(event) => onChange(event.target.value)}
+        className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-slate-950"
+      >
+        <option value="Todos">Todos</option>
+        {options.map((option) => (
+          <option key={option.code} value={option.code}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
+export default function RecursoFuenteOrganismoPanel({
+  departamento,
+  tipo,
+  grupoEta,
+  query,
+}: Props) {
+  const [data, setData] = useState<RecursoFuenteOrganismo[]>([]);
+  const [rubroNivel1, setRubroNivel1] = useState("Todos");
+  const [rubroNivel2, setRubroNivel2] = useState("Todos");
+  const [rubroNivel3, setRubroNivel3] = useState("Todos");
+  const [rubroNivel4, setRubroNivel4] = useState("Todos");
+  const [fuenteFiltro, setFuenteFiltro] = useState("Todos");
+  const [organismoFiltro, setOrganismoFiltro] = useState("Todos");
+
+  useEffect(() => {
+    fetch("/data/recursos_fuente_organismo.json")
+      .then((response) => response.json())
+      .then((rows: RecursoFuenteOrganismo[]) => setData(rows))
+      .catch(() => setData([]));
+  }, []);
+
+  const baseRows = useMemo(() => {
+    const q = query.trim().toLowerCase();
+
+    return data.filter((item) => {
+      if (departamento !== "Todos" && item.departamento !== departamento) return false;
+      if (tipo !== "Todos" && item.tipo !== tipo) return false;
+      if (grupoEta !== "Todos" && item.grupo_eta !== grupoEta) return false;
+
+      if (!q) return true;
+
+      return (
+        normalize(item.codigo_entidad).includes(q) ||
+        normalize(item.nombre_entidad).includes(q) ||
+        normalize(item.departamento).includes(q) ||
+        normalize(item.tipo).includes(q) ||
+        normalize(item.grupo_eta).includes(q) ||
+        normalize(item.rubro).includes(q) ||
+        normalize(item.rubro_descripcion).includes(q) ||
+        normalize(item.rubro_nivel1_nombre).includes(q) ||
+        normalize(item.rubro_nivel2_nombre).includes(q) ||
+        normalize(item.rubro_nivel3_nombre).includes(q) ||
+        normalize(item.rubro_nivel4_nombre).includes(q) ||
+        normalize(item.fuente).includes(q) ||
+        normalize(item.fuente_nombre).includes(q) ||
+        normalize(item.organismo).includes(q) ||
+        normalize(item.organismo_nombre).includes(q)
+      );
+    });
+  }, [data, departamento, tipo, grupoEta, query]);
+
+  const nivel1Options = useMemo(
+    () => uniqueOptions(baseRows, "rubro_nivel1", "rubro_nivel1_nombre"),
+    [baseRows]
+  );
+
+  const nivel2Rows = useMemo(
+    () => baseRows.filter((item) => rubroNivel1 === "Todos" || item.rubro_nivel1 === rubroNivel1),
+    [baseRows, rubroNivel1]
+  );
+
+  const nivel2Options = useMemo(
+    () => uniqueOptions(nivel2Rows, "rubro_nivel2", "rubro_nivel2_nombre"),
+    [nivel2Rows]
+  );
+
+  const nivel3Rows = useMemo(
+    () =>
+      nivel2Rows.filter((item) => rubroNivel2 === "Todos" || item.rubro_nivel2 === rubroNivel2),
+    [nivel2Rows, rubroNivel2]
+  );
+
+  const nivel3Options = useMemo(
+    () => uniqueOptions(nivel3Rows, "rubro_nivel3", "rubro_nivel3_nombre"),
+    [nivel3Rows]
+  );
+
+  const nivel4Rows = useMemo(
+    () =>
+      nivel3Rows.filter((item) => rubroNivel3 === "Todos" || item.rubro_nivel3 === rubroNivel3),
+    [nivel3Rows, rubroNivel3]
+  );
+
+  const nivel4Options = useMemo(
+    () => uniqueOptions(nivel4Rows, "rubro_nivel4", "rubro_nivel4_nombre"),
+    [nivel4Rows]
+  );
+
+  const fuenteOptions = useMemo(() => {
+    const map = new Map<string, string>();
+
+    for (const item of baseRows) {
+      map.set(item.fuente, `${item.fuente} ${item.fuente_nombre}`);
+    }
+
+    return Array.from(map.entries())
+      .sort((a, b) => a[0].localeCompare(b[0], "es-BO", { numeric: true }))
+      .map(([code, label]) => ({ code, label }));
+  }, [baseRows]);
+
+  const organismoOptions = useMemo(() => {
+    const map = new Map<string, string>();
+
+    for (const item of baseRows) {
+      map.set(item.organismo, `${item.organismo} ${item.organismo_nombre}`);
+    }
+
+    return Array.from(map.entries())
+      .sort((a, b) => a[0].localeCompare(b[0], "es-BO", { numeric: true }))
+      .map(([code, label]) => ({ code, label }));
+  }, [baseRows]);
+
+  const filtered = useMemo(() => {
+    return baseRows.filter((item) => {
+      if (rubroNivel1 !== "Todos" && item.rubro_nivel1 !== rubroNivel1) return false;
+      if (rubroNivel2 !== "Todos" && item.rubro_nivel2 !== rubroNivel2) return false;
+      if (rubroNivel3 !== "Todos" && item.rubro_nivel3 !== rubroNivel3) return false;
+      if (rubroNivel4 !== "Todos" && item.rubro_nivel4 !== rubroNivel4) return false;
+      if (fuenteFiltro !== "Todos" && item.fuente !== fuenteFiltro) return false;
+      if (organismoFiltro !== "Todos" && item.organismo !== organismoFiltro) return false;
+
+      return true;
+    });
+  }, [
+    baseRows,
+    rubroNivel1,
+    rubroNivel2,
+    rubroNivel3,
+    rubroNivel4,
+    fuenteFiltro,
+    organismoFiltro,
+  ]);
+
+  const grouped = useMemo(() => {
+    const map = new Map<
+      string,
+      {
+        fuente: string;
+        organismo: string;
+        organismo_nombre: string;
+        importe: number;
+      }
+    >();
+
+    for (const item of filtered) {
+      const key = `${item.fuente}|${item.organismo}`;
+
+      const current = map.get(key) || {
+        fuente: item.fuente,
+        organismo: item.organismo,
+        organismo_nombre: item.organismo_nombre,
+        importe: 0,
+      };
+
+      current.importe += Number(item.importe || 0);
+      map.set(key, current);
+    }
+
+    return Array.from(map.values()).sort((a, b) => b.importe - a.importe);
+  }, [filtered]);
+
+  const top = grouped.slice(0, 12);
+
+  const option = {
+    tooltip: {
+      trigger: "axis",
+      axisPointer: { type: "shadow" },
+      valueFormatter: (value: number) => formatBs(value),
+    },
+    grid: { left: 300, right: 40, top: 20, bottom: 55, containLabel: true },
+    xAxis: {
+      type: "value",
+      axisLabel: {
+        formatter: (value: number) => formatBsCompact(value),
+        hideOverlap: true,
+      },
+    },
+    yAxis: {
+      type: "category",
+      data: [...top]
+        .reverse()
+        .map((item) => `${item.fuente}/${item.organismo} ${item.organismo_nombre}`),
+      axisLabel: {
+        width: 280,
+        overflow: "truncate",
+      },
+    },
+    series: [
+      {
+        type: "bar",
+        data: [...top].reverse().map((item) => item.importe),
+        barMaxWidth: 28,
+      },
+    ],
+  };
+
+  const totalFiltrado = filtered.reduce((sum, item) => sum + Number(item.importe || 0), 0);
+
+  return (
+    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      <div className="mb-5 flex flex-col gap-4">
+        <div>
+          <h2 className="text-xl font-bold text-slate-950">Recursos por fuente y organismo</h2>
+          <p className="mt-1 text-sm text-slate-500">
+            Cruce de rubro, Fte. y Org. en recursos. Respeta los filtros globales.
+          </p>
+        </div>
+
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
+          <SelectBox label="Rubro nivel 1" value={rubroNivel1} onChange={(value) => {
+            setRubroNivel1(value);
+            setRubroNivel2("Todos");
+            setRubroNivel3("Todos");
+            setRubroNivel4("Todos");
+          }} options={nivel1Options} />
+
+          <SelectBox label="Rubro nivel 2" value={rubroNivel2} onChange={(value) => {
+            setRubroNivel2(value);
+            setRubroNivel3("Todos");
+            setRubroNivel4("Todos");
+          }} options={nivel2Options} />
+
+          <SelectBox label="Rubro nivel 3" value={rubroNivel3} onChange={(value) => {
+            setRubroNivel3(value);
+            setRubroNivel4("Todos");
+          }} options={nivel3Options} />
+
+          <SelectBox label="Rubro nivel 4" value={rubroNivel4} onChange={setRubroNivel4} options={nivel4Options} />
+
+          <SelectBox label="Fuente" value={fuenteFiltro} onChange={setFuenteFiltro} options={fuenteOptions} />
+          <SelectBox label="Organismo" value={organismoFiltro} onChange={setOrganismoFiltro} options={organismoOptions} />
+        </div>
+      </div>
+
+      <div className="mb-4 grid gap-3 md:grid-cols-3">
+        <div className="rounded-xl bg-slate-50 p-4">
+          <p className="text-xs uppercase tracking-wide text-slate-500">Total filtrado</p>
+          <p className="mt-1 text-lg font-bold text-slate-950">{formatBs(totalFiltrado)}</p>
+        </div>
+
+        <div className="rounded-xl bg-slate-50 p-4">
+          <p className="text-xs uppercase tracking-wide text-slate-500">Combinaciones</p>
+          <p className="mt-1 text-lg font-bold text-slate-950">{grouped.length}</p>
+        </div>
+
+        <div className="rounded-xl bg-slate-50 p-4">
+          <p className="text-xs uppercase tracking-wide text-slate-500">Entidades</p>
+          <p className="mt-1 text-lg font-bold text-slate-950">
+            {new Set(filtered.map((item) => item.codigo_entidad)).size}
+          </p>
+        </div>
+      </div>
+
+      <div className="h-[500px]">
+        <ReactECharts option={option} style={{ height: "100%", width: "100%" }} />
+      </div>
+    </section>
+  );
+}

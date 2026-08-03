@@ -1,0 +1,3537 @@
+[
+  {
+    "codigo": "10000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "SERVICIOS PERSONALES",
+    "label": "10000 - SERVICIOS PERSONALES"
+  },
+  {
+    "codigo": "11000",
+    "nivel": 2,
+    "padre": "10000",
+    "nombre": "Empleados Permanentes",
+    "label": "11000 - Empleados Permanentes"
+  },
+  {
+    "codigo": "11100",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Haberes Básicos.",
+    "label": "11100 - Haberes Básicos."
+  },
+  {
+    "codigo": "11200",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Bono de Antigüedad.",
+    "label": "11200 - Bono de Antigüedad."
+  },
+  {
+    "codigo": "11210",
+    "nivel": 4,
+    "padre": "11200",
+    "nombre": "Categorías Magisterio",
+    "label": "11210 - Categorías Magisterio"
+  },
+  {
+    "codigo": "11220",
+    "nivel": 4,
+    "padre": "11200",
+    "nombre": "Bono de Antigüedad",
+    "label": "11220 - Bono de Antigüedad"
+  },
+  {
+    "codigo": "11300",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Bonificaciones.",
+    "label": "11300 - Bonificaciones."
+  },
+  {
+    "codigo": "11310",
+    "nivel": 4,
+    "padre": "11300",
+    "nombre": "Bono de Frontera",
+    "label": "11310 - Bono de Frontera"
+  },
+  {
+    "codigo": "11320",
+    "nivel": 4,
+    "padre": "11300",
+    "nombre": "Remuneraciones Colaterales Médicas y de Trabajadores en Salud",
+    "label": "11320 - Remuneraciones Colaterales Médicas y de Trabajadores en Salud"
+  },
+  {
+    "codigo": "11321",
+    "nivel": 5,
+    "padre": "11320",
+    "nombre": "Categorías Médicas",
+    "label": "11321 - Categorías Médicas"
+  },
+  {
+    "codigo": "11322",
+    "nivel": 5,
+    "padre": "11320",
+    "nombre": "Escalafón Médico",
+    "label": "11322 - Escalafón Médico"
+  },
+  {
+    "codigo": "11323",
+    "nivel": 5,
+    "padre": "11320",
+    "nombre": "Escalafón de los Trabajadores en Salud",
+    "label": "11323 - Escalafón de los Trabajadores en Salud"
+  },
+  {
+    "codigo": "11324",
+    "nivel": 5,
+    "padre": "11320",
+    "nombre": "Otras Remuneraciones",
+    "label": "11324 - Otras Remuneraciones"
+  },
+  {
+    "codigo": "11330",
+    "nivel": 4,
+    "padre": "11300",
+    "nombre": "Otras Bonificaciones",
+    "label": "11330 - Otras Bonificaciones"
+  },
+  {
+    "codigo": "11331",
+    "nivel": 5,
+    "padre": "11330",
+    "nombre": "Pago Variable",
+    "label": "11331 - Pago Variable"
+  },
+  {
+    "codigo": "11332",
+    "nivel": 5,
+    "padre": "11330",
+    "nombre": "Pago Adicional Fijo",
+    "label": "11332 - Pago Adicional Fijo"
+  },
+  {
+    "codigo": "11339",
+    "nivel": 5,
+    "padre": "11330",
+    "nombre": "Otras Bonificaciones",
+    "label": "11339 - Otras Bonificaciones"
+  },
+  {
+    "codigo": "11400",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Aguinaldos",
+    "label": "11400 - Aguinaldos"
+  },
+  {
+    "codigo": "11500",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Primas y Bono de Producción",
+    "label": "11500 - Primas y Bono de Producción"
+  },
+  {
+    "codigo": "11510",
+    "nivel": 4,
+    "padre": "11500",
+    "nombre": "Primas",
+    "label": "11510 - Primas"
+  },
+  {
+    "codigo": "11520",
+    "nivel": 4,
+    "padre": "11500",
+    "nombre": "Bono de Producción",
+    "label": "11520 - Bono de Producción"
+  },
+  {
+    "codigo": "11600",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Asignaciones Familiares",
+    "label": "11600 - Asignaciones Familiares"
+  },
+  {
+    "codigo": "11700",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Sueldos",
+    "label": "11700 - Sueldos"
+  },
+  {
+    "codigo": "11800",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Dietas",
+    "label": "11800 - Dietas"
+  },
+  {
+    "codigo": "11810",
+    "nivel": 4,
+    "padre": "11800",
+    "nombre": "Dietas de Directorio",
+    "label": "11810 - Dietas de Directorio"
+  },
+  {
+    "codigo": "11820",
+    "nivel": 4,
+    "padre": "11800",
+    "nombre": "Otras Dietas",
+    "label": "11820 - Otras Dietas"
+  },
+  {
+    "codigo": "11900",
+    "nivel": 3,
+    "padre": "11000",
+    "nombre": "Otros Servicios Personales",
+    "label": "11900 - Otros Servicios Personales"
+  },
+  {
+    "codigo": "11910",
+    "nivel": 4,
+    "padre": "11900",
+    "nombre": "Horas Extraordinarias",
+    "label": "11910 - Horas Extraordinarias"
+  },
+  {
+    "codigo": "11920",
+    "nivel": 4,
+    "padre": "11900",
+    "nombre": "Vacaciones no Utilizadas",
+    "label": "11920 - Vacaciones no Utilizadas"
+  },
+  {
+    "codigo": "11930",
+    "nivel": 4,
+    "padre": "11900",
+    "nombre": "Incentivos Económicos",
+    "label": "11930 - Incentivos Económicos"
+  },
+  {
+    "codigo": "11940",
+    "nivel": 4,
+    "padre": "11900",
+    "nombre": "Suplencias",
+    "label": "11940 - Suplencias"
+  },
+  {
+    "codigo": "12000",
+    "nivel": 2,
+    "padre": "10000",
+    "nombre": "Empleados No Permanentes",
+    "label": "12000 - Empleados No Permanentes"
+  },
+  {
+    "codigo": "12100",
+    "nivel": 3,
+    "padre": "12000",
+    "nombre": "Personal Eventual",
+    "label": "12100 - Personal Eventual"
+  },
+  {
+    "codigo": "13000",
+    "nivel": 2,
+    "padre": "10000",
+    "nombre": "Previsión Social",
+    "label": "13000 - Previsión Social"
+  },
+  {
+    "codigo": "13100",
+    "nivel": 3,
+    "padre": "13000",
+    "nombre": "Aporte Patronal al Seguro Social",
+    "label": "13100 - Aporte Patronal al Seguro Social"
+  },
+  {
+    "codigo": "13110",
+    "nivel": 4,
+    "padre": "13100",
+    "nombre": "Régimen de Corto Plazo (Salud)",
+    "label": "13110 - Régimen de Corto Plazo (Salud)"
+  },
+  {
+    "codigo": "13120",
+    "nivel": 4,
+    "padre": "13100",
+    "nombre": "Prima de Riesgo Profesional Régimen de Largo Plazo",
+    "label": "13120 - Prima de Riesgo Profesional Régimen de Largo Plazo"
+  },
+  {
+    "codigo": "13130",
+    "nivel": 4,
+    "padre": "13100",
+    "nombre": "Aporte Patronal Fondo Solidario Régimen de Largo Plazo",
+    "label": "13130 - Aporte Patronal Fondo Solidario Régimen de Largo Plazo"
+  },
+  {
+    "codigo": "13131",
+    "nivel": 5,
+    "padre": "13130",
+    "nombre": "Aporte Patronal Solidario 3.5%",
+    "label": "13131 - Aporte Patronal Solidario 3.5%"
+  },
+  {
+    "codigo": "13132",
+    "nivel": 5,
+    "padre": "13130",
+    "nombre": "Aporte Patronal Minero Solidario 2.3%",
+    "label": "13132 - Aporte Patronal Minero Solidario 2.3%"
+  },
+  {
+    "codigo": "13200",
+    "nivel": 3,
+    "padre": "13000",
+    "nombre": "Aporte Patronal para Vivienda",
+    "label": "13200 - Aporte Patronal para Vivienda"
+  },
+  {
+    "codigo": "14000",
+    "nivel": 2,
+    "padre": "10000",
+    "nombre": "Otros",
+    "label": "14000 - Otros"
+  },
+  {
+    "codigo": "14100",
+    "nivel": 3,
+    "padre": "14000",
+    "nombre": "Otros",
+    "label": "14100 - Otros"
+  },
+  {
+    "codigo": "15000",
+    "nivel": 2,
+    "padre": "10000",
+    "nombre": "Previsiones para Incremento de Gastos en Servicios Personales",
+    "label": "15000 - Previsiones para Incremento de Gastos en Servicios Personales"
+  },
+  {
+    "codigo": "15100",
+    "nivel": 3,
+    "padre": "15000",
+    "nombre": "Incremento Salarial",
+    "label": "15100 - Incremento Salarial"
+  },
+  {
+    "codigo": "15200",
+    "nivel": 3,
+    "padre": "15000",
+    "nombre": "Crecimiento Vegetativo",
+    "label": "15200 - Crecimiento Vegetativo"
+  },
+  {
+    "codigo": "15300",
+    "nivel": 3,
+    "padre": "15000",
+    "nombre": "Creación de Ítems",
+    "label": "15300 - Creación de Ítems"
+  },
+  {
+    "codigo": "15400",
+    "nivel": 3,
+    "padre": "15000",
+    "nombre": "Otras Previsiones",
+    "label": "15400 - Otras Previsiones"
+  },
+  {
+    "codigo": "20000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "SERVICIOS NO PERSONALES",
+    "label": "20000 - SERVICIOS NO PERSONALES"
+  },
+  {
+    "codigo": "21000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Servicios Básicos",
+    "label": "21000 - Servicios Básicos"
+  },
+  {
+    "codigo": "21100",
+    "nivel": 3,
+    "padre": "21000",
+    "nombre": "Comunicaciones",
+    "label": "21100 - Comunicaciones"
+  },
+  {
+    "codigo": "21200",
+    "nivel": 3,
+    "padre": "21000",
+    "nombre": "Energía Eléctrica",
+    "label": "21200 - Energía Eléctrica"
+  },
+  {
+    "codigo": "21300",
+    "nivel": 3,
+    "padre": "21000",
+    "nombre": "Agua",
+    "label": "21300 - Agua"
+  },
+  {
+    "codigo": "21400",
+    "nivel": 3,
+    "padre": "21000",
+    "nombre": "Telefonía",
+    "label": "21400 - Telefonía"
+  },
+  {
+    "codigo": "21500",
+    "nivel": 3,
+    "padre": "21000",
+    "nombre": "Gas Domiciliario",
+    "label": "21500 - Gas Domiciliario"
+  },
+  {
+    "codigo": "21600",
+    "nivel": 3,
+    "padre": "21000",
+    "nombre": "Internet",
+    "label": "21600 - Internet"
+  },
+  {
+    "codigo": "22000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Servicios de Transporte y Seguros",
+    "label": "22000 - Servicios de Transporte y Seguros"
+  },
+  {
+    "codigo": "22100",
+    "nivel": 3,
+    "padre": "22000",
+    "nombre": "Pasajes",
+    "label": "22100 - Pasajes"
+  },
+  {
+    "codigo": "22110",
+    "nivel": 4,
+    "padre": "22100",
+    "nombre": "Pasajes al Interior del País",
+    "label": "22110 - Pasajes al Interior del País"
+  },
+  {
+    "codigo": "22120",
+    "nivel": 4,
+    "padre": "22100",
+    "nombre": "Pasajes al Exterior del País",
+    "label": "22120 - Pasajes al Exterior del País"
+  },
+  {
+    "codigo": "22200",
+    "nivel": 3,
+    "padre": "22000",
+    "nombre": "Viáticos",
+    "label": "22200 - Viáticos"
+  },
+  {
+    "codigo": "22210",
+    "nivel": 4,
+    "padre": "22200",
+    "nombre": "Viáticos por Viajes al Interior del País.",
+    "label": "22210 - Viáticos por Viajes al Interior del País."
+  },
+  {
+    "codigo": "22220",
+    "nivel": 4,
+    "padre": "22200",
+    "nombre": "Viáticos por Viajes al Exterior del País.",
+    "label": "22220 - Viáticos por Viajes al Exterior del País."
+  },
+  {
+    "codigo": "22300",
+    "nivel": 3,
+    "padre": "22000",
+    "nombre": "Fletes y Almacenamiento",
+    "label": "22300 - Fletes y Almacenamiento"
+  },
+  {
+    "codigo": "22400",
+    "nivel": 3,
+    "padre": "22000",
+    "nombre": "Gastos de Instalación y Retorno",
+    "label": "22400 - Gastos de Instalación y Retorno"
+  },
+  {
+    "codigo": "22500",
+    "nivel": 3,
+    "padre": "22000",
+    "nombre": "Seguros",
+    "label": "22500 - Seguros"
+  },
+  {
+    "codigo": "22600",
+    "nivel": 3,
+    "padre": "22000",
+    "nombre": "Transporte de Personal",
+    "label": "22600 - Transporte de Personal"
+  },
+  {
+    "codigo": "23000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Alquileres",
+    "label": "23000 - Alquileres"
+  },
+  {
+    "codigo": "23100",
+    "nivel": 3,
+    "padre": "23000",
+    "nombre": "Alquiler de Inmuebles",
+    "label": "23100 - Alquiler de Inmuebles"
+  },
+  {
+    "codigo": "23200",
+    "nivel": 3,
+    "padre": "23000",
+    "nombre": "Alquiler de Equipos y Maquinarias",
+    "label": "23200 - Alquiler de Equipos y Maquinarias"
+  },
+  {
+    "codigo": "23300",
+    "nivel": 3,
+    "padre": "23000",
+    "nombre": "Alquiler de Tierras y Terrenos",
+    "label": "23300 - Alquiler de Tierras y Terrenos"
+  },
+  {
+    "codigo": "23400",
+    "nivel": 3,
+    "padre": "23000",
+    "nombre": "Otros Alquileres",
+    "label": "23400 - Otros Alquileres"
+  },
+  {
+    "codigo": "24000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Instalación, Mantenimiento y Reparaciones",
+    "label": "24000 - Instalación, Mantenimiento y Reparaciones"
+  },
+  {
+    "codigo": "24100",
+    "nivel": 3,
+    "padre": "24000",
+    "nombre": "Mantenimiento y Reparación de Inmuebles, Muebles y Equipos",
+    "label": "24100 - Mantenimiento y Reparación de Inmuebles, Muebles y Equipos"
+  },
+  {
+    "codigo": "24110",
+    "nivel": 4,
+    "padre": "24100",
+    "nombre": "Mantenimiento y Reparación de Inmuebles",
+    "label": "24110 - Mantenimiento y Reparación de Inmuebles"
+  },
+  {
+    "codigo": "24120",
+    "nivel": 4,
+    "padre": "24100",
+    "nombre": "Mantenimiento y Reparación de Vehículos, Maquinaria y Equipos",
+    "label": "24120 - Mantenimiento y Reparación de Vehículos, Maquinaria y Equipos"
+  },
+  {
+    "codigo": "24130",
+    "nivel": 4,
+    "padre": "24100",
+    "nombre": "Mantenimiento y Reparación de Muebles y Enseres",
+    "label": "24130 - Mantenimiento y Reparación de Muebles y Enseres"
+  },
+  {
+    "codigo": "24200",
+    "nivel": 3,
+    "padre": "24000",
+    "nombre": "Mantenimiento y Reparación de Vías de Comunicación",
+    "label": "24200 - Mantenimiento y Reparación de Vías de Comunicación"
+  },
+  {
+    "codigo": "24300",
+    "nivel": 3,
+    "padre": "24000",
+    "nombre": "Otros Gastos por Concepto de Instalación, Mantenimiento y Reparación",
+    "label": "24300 - Otros Gastos por Concepto de Instalación, Mantenimiento y Reparación"
+  },
+  {
+    "codigo": "25000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Servicios Profesionales y Comerciales",
+    "label": "25000 - Servicios Profesionales y Comerciales"
+  },
+  {
+    "codigo": "25100",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Médicos, Sanitarios y Sociales",
+    "label": "25100 - Médicos, Sanitarios y Sociales"
+  },
+  {
+    "codigo": "25120",
+    "nivel": 4,
+    "padre": "25100",
+    "nombre": "Gastos Especializados por Atención Médica y Otros",
+    "label": "25120 - Gastos Especializados por Atención Médica y Otros"
+  },
+  {
+    "codigo": "25130",
+    "nivel": 4,
+    "padre": "25100",
+    "nombre": "Gastos por Afiliación de Estudiantes Universitarios al Seguro Social",
+    "label": "25130 - Gastos por Afiliación de Estudiantes Universitarios al Seguro Social"
+  },
+  {
+    "codigo": "25200",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Estudios, Investigaciones, Auditorías Externas y Revalorizaciones",
+    "label": "25200 - Estudios, Investigaciones, Auditorías Externas y Revalorizaciones"
+  },
+  {
+    "codigo": "25210",
+    "nivel": 4,
+    "padre": "25200",
+    "nombre": "Consultorías por Producto",
+    "label": "25210 - Consultorías por Producto"
+  },
+  {
+    "codigo": "25220",
+    "nivel": 4,
+    "padre": "25200",
+    "nombre": "Consultores Individuales de Línea",
+    "label": "25220 - Consultores Individuales de Línea"
+  },
+  {
+    "codigo": "25230",
+    "nivel": 4,
+    "padre": "25200",
+    "nombre": "Auditorías Externas",
+    "label": "25230 - Auditorías Externas"
+  },
+  {
+    "codigo": "25300",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Comisiones y Gastos Bancarios",
+    "label": "25300 - Comisiones y Gastos Bancarios"
+  },
+  {
+    "codigo": "25400",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Lavandería, Limpieza e Higiene",
+    "label": "25400 - Lavandería, Limpieza e Higiene"
+  },
+  {
+    "codigo": "25500",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Publicidad",
+    "label": "25500 - Publicidad"
+  },
+  {
+    "codigo": "25600",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Servicios de Imprenta, Fotocopiado y Fotográficos",
+    "label": "25600 - Servicios de Imprenta, Fotocopiado y Fotográficos"
+  },
+  {
+    "codigo": "25700",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Capacitación del Personal",
+    "label": "25700 - Capacitación del Personal"
+  },
+  {
+    "codigo": "25800",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Estudios e Investigaciones para Proyectos de Inversión No Capitalizables",
+    "label": "25800 - Estudios e Investigaciones para Proyectos de Inversión No Capitalizables"
+  },
+  {
+    "codigo": "25810",
+    "nivel": 4,
+    "padre": "25800",
+    "nombre": "Consultorías por Producto",
+    "label": "25810 - Consultorías por Producto"
+  },
+  {
+    "codigo": "25820",
+    "nivel": 4,
+    "padre": "25800",
+    "nombre": "Consultores Individuales de Línea",
+    "label": "25820 - Consultores Individuales de Línea"
+  },
+  {
+    "codigo": "25900",
+    "nivel": 3,
+    "padre": "25000",
+    "nombre": "Servicios Manuales",
+    "label": "25900 - Servicios Manuales"
+  },
+  {
+    "codigo": "26000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Otros Servicios No Personales",
+    "label": "26000 - Otros Servicios No Personales"
+  },
+  {
+    "codigo": "26200",
+    "nivel": 3,
+    "padre": "26000",
+    "nombre": "Gastos Judiciales",
+    "label": "26200 - Gastos Judiciales"
+  },
+  {
+    "codigo": "26300",
+    "nivel": 3,
+    "padre": "26000",
+    "nombre": "Derechos sobre Bienes Intangibles",
+    "label": "26300 - Derechos sobre Bienes Intangibles"
+  },
+  {
+    "codigo": "26500",
+    "nivel": 3,
+    "padre": "26000",
+    "nombre": "Conjueces y Jueces Ciudadanos",
+    "label": "26500 - Conjueces y Jueces Ciudadanos"
+  },
+  {
+    "codigo": "26600",
+    "nivel": 3,
+    "padre": "26000",
+    "nombre": "Servicio de Seguridad de los Batallones de Seguridad Física de la Policía Boliviana, las",
+    "label": "26600 - Servicio de Seguridad de los Batallones de Seguridad Física de la Policía Boliviana, las"
+  },
+  {
+    "codigo": "26610",
+    "nivel": 4,
+    "padre": "26600",
+    "nombre": "Servicios Públicos",
+    "label": "26610 - Servicios Públicos"
+  },
+  {
+    "codigo": "26620",
+    "nivel": 4,
+    "padre": "26600",
+    "nombre": "Servicios Privados",
+    "label": "26620 - Servicios Privados"
+  },
+  {
+    "codigo": "26630",
+    "nivel": 4,
+    "padre": "26600",
+    "nombre": "Servicios por Traslado de Valores",
+    "label": "26630 - Servicios por Traslado de Valores"
+  },
+  {
+    "codigo": "26640",
+    "nivel": 4,
+    "padre": "26600",
+    "nombre": "Compensación Económica",
+    "label": "26640 - Compensación Económica"
+  },
+  {
+    "codigo": "26700",
+    "nivel": 3,
+    "padre": "26000",
+    "nombre": "Servicios de Laboratorios Especializados",
+    "label": "26700 - Servicios de Laboratorios Especializados"
+  },
+  {
+    "codigo": "26900",
+    "nivel": 3,
+    "padre": "26000",
+    "nombre": "Otros Servicios No Personales",
+    "label": "26900 - Otros Servicios No Personales"
+  },
+  {
+    "codigo": "26910",
+    "nivel": 4,
+    "padre": "26900",
+    "nombre": "Gastos de Representación",
+    "label": "26910 - Gastos de Representación"
+  },
+  {
+    "codigo": "26920",
+    "nivel": 4,
+    "padre": "26900",
+    "nombre": "Fallas de Caja",
+    "label": "26920 - Fallas de Caja"
+  },
+  {
+    "codigo": "26930",
+    "nivel": 4,
+    "padre": "26900",
+    "nombre": "Pago por Trabajos Dirigidos y Pasantías",
+    "label": "26930 - Pago por Trabajos Dirigidos y Pasantías"
+  },
+  {
+    "codigo": "26940",
+    "nivel": 4,
+    "padre": "26900",
+    "nombre": "Compensación Costo de Vida",
+    "label": "26940 - Compensación Costo de Vida"
+  },
+  {
+    "codigo": "26950",
+    "nivel": 4,
+    "padre": "26900",
+    "nombre": "Aguinaldo “Esfuerzo por Bolivia”",
+    "label": "26950 - Aguinaldo “Esfuerzo por Bolivia”"
+  },
+  {
+    "codigo": "26990",
+    "nivel": 4,
+    "padre": "26900",
+    "nombre": "Otros",
+    "label": "26990 - Otros"
+  },
+  {
+    "codigo": "27000",
+    "nivel": 2,
+    "padre": "20000",
+    "nombre": "Gastos por Servicios Especializados por la Actividad Extractiva de Recursos Naturales del",
+    "label": "27000 - Gastos por Servicios Especializados por la Actividad Extractiva de Recursos Naturales del"
+  },
+  {
+    "codigo": "27100",
+    "nivel": 3,
+    "padre": "27000",
+    "nombre": "Servicios por la Extracción, Transformación y Conversión de los Recursos Naturales de",
+    "label": "27100 - Servicios por la Extracción, Transformación y Conversión de los Recursos Naturales de"
+  },
+  {
+    "codigo": "27110",
+    "nivel": 4,
+    "padre": "27100",
+    "nombre": "Pago por Costos Incurridos",
+    "label": "27110 - Pago por Costos Incurridos"
+  },
+  {
+    "codigo": "27120",
+    "nivel": 4,
+    "padre": "27100",
+    "nombre": "Pago por Utilidades",
+    "label": "27120 - Pago por Utilidades"
+  },
+  {
+    "codigo": "30000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "MATERIALES Y SUMINISTROS",
+    "label": "30000 - MATERIALES Y SUMINISTROS"
+  },
+  {
+    "codigo": "31000",
+    "nivel": 2,
+    "padre": "30000",
+    "nombre": "Alimentos y Productos Agroforestales",
+    "label": "31000 - Alimentos y Productos Agroforestales"
+  },
+  {
+    "codigo": "31100",
+    "nivel": 3,
+    "padre": "31000",
+    "nombre": "Alimentos y Bebidas para Personas, Desayuno Escolar y Otros",
+    "label": "31100 - Alimentos y Bebidas para Personas, Desayuno Escolar y Otros"
+  },
+  {
+    "codigo": "31110",
+    "nivel": 4,
+    "padre": "31100",
+    "nombre": "Gastos por Refrigerios al Personal Permanente, Eventual y Consultores",
+    "label": "31110 - Gastos por Refrigerios al Personal Permanente, Eventual y Consultores"
+  },
+  {
+    "codigo": "31120",
+    "nivel": 4,
+    "padre": "31100",
+    "nombre": "Gastos por Alimentación y Otros Similares",
+    "label": "31120 - Gastos por Alimentación y Otros Similares"
+  },
+  {
+    "codigo": "31130",
+    "nivel": 4,
+    "padre": "31100",
+    "nombre": "Alimentación Complementaria Escolar",
+    "label": "31130 - Alimentación Complementaria Escolar"
+  },
+  {
+    "codigo": "31140",
+    "nivel": 4,
+    "padre": "31100",
+    "nombre": "Alimentación Hospitalaria, Penitenciaria, Aeronaves y Otras Específicas",
+    "label": "31140 - Alimentación Hospitalaria, Penitenciaria, Aeronaves y Otras Específicas"
+  },
+  {
+    "codigo": "31150",
+    "nivel": 4,
+    "padre": "31100",
+    "nombre": "Alimentos y Bebidas para la atención de emergencias y desastres naturales.",
+    "label": "31150 - Alimentos y Bebidas para la atención de emergencias y desastres naturales."
+  },
+  {
+    "codigo": "31200",
+    "nivel": 3,
+    "padre": "31000",
+    "nombre": "Alimentos para Animales",
+    "label": "31200 - Alimentos para Animales"
+  },
+  {
+    "codigo": "31300",
+    "nivel": 3,
+    "padre": "31000",
+    "nombre": "Productos Agrícolas, Pecuarios y Forestales",
+    "label": "31300 - Productos Agrícolas, Pecuarios y Forestales"
+  },
+  {
+    "codigo": "32000",
+    "nivel": 2,
+    "padre": "30000",
+    "nombre": "Productos de Papel, Cartón e Impresos",
+    "label": "32000 - Productos de Papel, Cartón e Impresos"
+  },
+  {
+    "codigo": "32100",
+    "nivel": 3,
+    "padre": "32000",
+    "nombre": "Papel",
+    "label": "32100 - Papel"
+  },
+  {
+    "codigo": "32200",
+    "nivel": 3,
+    "padre": "32000",
+    "nombre": "Productos de Artes Gráficas",
+    "label": "32200 - Productos de Artes Gráficas"
+  },
+  {
+    "codigo": "32300",
+    "nivel": 3,
+    "padre": "32000",
+    "nombre": "Libros, Manuales y Revistas",
+    "label": "32300 - Libros, Manuales y Revistas"
+  },
+  {
+    "codigo": "32400",
+    "nivel": 3,
+    "padre": "32000",
+    "nombre": "Textos de Enseñanza",
+    "label": "32400 - Textos de Enseñanza"
+  },
+  {
+    "codigo": "32500",
+    "nivel": 3,
+    "padre": "32000",
+    "nombre": "Periódicos y Boletines",
+    "label": "32500 - Periódicos y Boletines"
+  },
+  {
+    "codigo": "33000",
+    "nivel": 2,
+    "padre": "30000",
+    "nombre": "Textiles y Vestuario",
+    "label": "33000 - Textiles y Vestuario"
+  },
+  {
+    "codigo": "33100",
+    "nivel": 3,
+    "padre": "33000",
+    "nombre": "Hilados, Telas, Fibras y Algodón",
+    "label": "33100 - Hilados, Telas, Fibras y Algodón"
+  },
+  {
+    "codigo": "33200",
+    "nivel": 3,
+    "padre": "33000",
+    "nombre": "Confecciones Textiles",
+    "label": "33200 - Confecciones Textiles"
+  },
+  {
+    "codigo": "33300",
+    "nivel": 3,
+    "padre": "33000",
+    "nombre": "Prendas de Vestir",
+    "label": "33300 - Prendas de Vestir"
+  },
+  {
+    "codigo": "33400",
+    "nivel": 3,
+    "padre": "33000",
+    "nombre": "Calzados",
+    "label": "33400 - Calzados"
+  },
+  {
+    "codigo": "34000",
+    "nivel": 2,
+    "padre": "30000",
+    "nombre": "Combustibles, Productos Químicos, Farmacéuticos y Otras Fuentes de Energía",
+    "label": "34000 - Combustibles, Productos Químicos, Farmacéuticos y Otras Fuentes de Energía"
+  },
+  {
+    "codigo": "34100",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Combustibles, Lubricantes, Derivados y otras Fuentes de Energía",
+    "label": "34100 - Combustibles, Lubricantes, Derivados y otras Fuentes de Energía"
+  },
+  {
+    "codigo": "34110",
+    "nivel": 4,
+    "padre": "34100",
+    "nombre": "Combustibles, Lubricantes y Derivados para consumo",
+    "label": "34110 - Combustibles, Lubricantes y Derivados para consumo"
+  },
+  {
+    "codigo": "34120",
+    "nivel": 4,
+    "padre": "34100",
+    "nombre": "Combustibles, Lubricantes y Derivados para comercialización",
+    "label": "34120 - Combustibles, Lubricantes y Derivados para comercialización"
+  },
+  {
+    "codigo": "34130",
+    "nivel": 4,
+    "padre": "34100",
+    "nombre": "Energía Eléctrica para Comercialización",
+    "label": "34130 - Energía Eléctrica para Comercialización"
+  },
+  {
+    "codigo": "34200",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Productos Químicos y Farmacéuticos",
+    "label": "34200 - Productos Químicos y Farmacéuticos"
+  },
+  {
+    "codigo": "34300",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Llantas y Neumáticos",
+    "label": "34300 - Llantas y Neumáticos"
+  },
+  {
+    "codigo": "34400",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Productos de Cuero y Caucho",
+    "label": "34400 - Productos de Cuero y Caucho"
+  },
+  {
+    "codigo": "34500",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Productos de Minerales no Metálicos y Plásticos",
+    "label": "34500 - Productos de Minerales no Metálicos y Plásticos"
+  },
+  {
+    "codigo": "34600",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Productos Metálicos",
+    "label": "34600 - Productos Metálicos"
+  },
+  {
+    "codigo": "34700",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Minerales",
+    "label": "34700 - Minerales"
+  },
+  {
+    "codigo": "34800",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Herramientas Menores",
+    "label": "34800 - Herramientas Menores"
+  },
+  {
+    "codigo": "34900",
+    "nivel": 3,
+    "padre": "34000",
+    "nombre": "Material y Equipo Militar",
+    "label": "34900 - Material y Equipo Militar"
+  },
+  {
+    "codigo": "39000",
+    "nivel": 2,
+    "padre": "30000",
+    "nombre": "Productos Varios",
+    "label": "39000 - Productos Varios"
+  },
+  {
+    "codigo": "39100",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Material de Limpieza e Higiene",
+    "label": "39100 - Material de Limpieza e Higiene"
+  },
+  {
+    "codigo": "39200",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Material Deportivo y Recreativo",
+    "label": "39200 - Material Deportivo y Recreativo"
+  },
+  {
+    "codigo": "39300",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Utensilios de Cocina y Comedor",
+    "label": "39300 - Utensilios de Cocina y Comedor"
+  },
+  {
+    "codigo": "39400",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Instrumental Menor Médico-Quirúrgico",
+    "label": "39400 - Instrumental Menor Médico-Quirúrgico"
+  },
+  {
+    "codigo": "39500",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Útiles de Escritorio y Oficina",
+    "label": "39500 - Útiles de Escritorio y Oficina"
+  },
+  {
+    "codigo": "39600",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Útiles Educacionales, Culturales y de Capacitación",
+    "label": "39600 - Útiles Educacionales, Culturales y de Capacitación"
+  },
+  {
+    "codigo": "39700",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Útiles y Materiales Eléctricos",
+    "label": "39700 - Útiles y Materiales Eléctricos"
+  },
+  {
+    "codigo": "39800",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Otros Repuestos y Accesorios",
+    "label": "39800 - Otros Repuestos y Accesorios"
+  },
+  {
+    "codigo": "39900",
+    "nivel": 3,
+    "padre": "39000",
+    "nombre": "Otros Materiales y Suministros",
+    "label": "39900 - Otros Materiales y Suministros"
+  },
+  {
+    "codigo": "39910",
+    "nivel": 4,
+    "padre": "39900",
+    "nombre": "Acuñación de Monedas e Impresión de Billetes",
+    "label": "39910 - Acuñación de Monedas e Impresión de Billetes"
+  },
+  {
+    "codigo": "39911",
+    "nivel": 5,
+    "padre": "39910",
+    "nombre": "Acuñación de monedas",
+    "label": "39911 - Acuñación de monedas"
+  },
+  {
+    "codigo": "39912",
+    "nivel": 5,
+    "padre": "39910",
+    "nombre": "Impresión de billetes",
+    "label": "39912 - Impresión de billetes"
+  },
+  {
+    "codigo": "39990",
+    "nivel": 4,
+    "padre": "39900",
+    "nombre": "Otros Materiales y Suministros",
+    "label": "39990 - Otros Materiales y Suministros"
+  },
+  {
+    "codigo": "40000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "ACTIVOS REALES",
+    "label": "40000 - ACTIVOS REALES"
+  },
+  {
+    "codigo": "41000",
+    "nivel": 2,
+    "padre": "40000",
+    "nombre": "Inmobiliarios",
+    "label": "41000 - Inmobiliarios"
+  },
+  {
+    "codigo": "41100",
+    "nivel": 3,
+    "padre": "41000",
+    "nombre": "Edificios",
+    "label": "41100 - Edificios"
+  },
+  {
+    "codigo": "41200",
+    "nivel": 3,
+    "padre": "41000",
+    "nombre": "Tierras y Terrenos",
+    "label": "41200 - Tierras y Terrenos"
+  },
+  {
+    "codigo": "41300",
+    "nivel": 3,
+    "padre": "41000",
+    "nombre": "Otras Adquisiciones",
+    "label": "41300 - Otras Adquisiciones"
+  },
+  {
+    "codigo": "42000",
+    "nivel": 2,
+    "padre": "40000",
+    "nombre": "Construcciones",
+    "label": "42000 - Construcciones"
+  },
+  {
+    "codigo": "42200",
+    "nivel": 3,
+    "padre": "42000",
+    "nombre": "Construcciones y Mejoras de Bienes Públicos Nacionales de Dominio Privado",
+    "label": "42200 - Construcciones y Mejoras de Bienes Públicos Nacionales de Dominio Privado"
+  },
+  {
+    "codigo": "42210",
+    "nivel": 4,
+    "padre": "42200",
+    "nombre": "Construcciones y Mejoras de Viviendas",
+    "label": "42210 - Construcciones y Mejoras de Viviendas"
+  },
+  {
+    "codigo": "42220",
+    "nivel": 4,
+    "padre": "42200",
+    "nombre": "Construcciones y Mejoras para Defensa y Seguridad",
+    "label": "42220 - Construcciones y Mejoras para Defensa y Seguridad"
+  },
+  {
+    "codigo": "42230",
+    "nivel": 4,
+    "padre": "42200",
+    "nombre": "Otras Construcciones y Mejoras de Bienes Públicos de Dominio Privado",
+    "label": "42230 - Otras Construcciones y Mejoras de Bienes Públicos de Dominio Privado"
+  },
+  {
+    "codigo": "42240",
+    "nivel": 4,
+    "padre": "42200",
+    "nombre": "Supervisión de Construcciones y Mejoras de Bienes Públicos de Dominio Privado",
+    "label": "42240 - Supervisión de Construcciones y Mejoras de Bienes Públicos de Dominio Privado"
+  },
+  {
+    "codigo": "42300",
+    "nivel": 3,
+    "padre": "42000",
+    "nombre": "Construcciones y Mejoras de Bienes Nacionales de Dominio Público",
+    "label": "42300 - Construcciones y Mejoras de Bienes Nacionales de Dominio Público"
+  },
+  {
+    "codigo": "42310",
+    "nivel": 4,
+    "padre": "42300",
+    "nombre": "Construcciones y Mejoras de Bienes de Dominio Público",
+    "label": "42310 - Construcciones y Mejoras de Bienes de Dominio Público"
+  },
+  {
+    "codigo": "42320",
+    "nivel": 4,
+    "padre": "42300",
+    "nombre": "Supervisión de Construcciones y Mejoras de Bienes de Dominio Público",
+    "label": "42320 - Supervisión de Construcciones y Mejoras de Bienes de Dominio Público"
+  },
+  {
+    "codigo": "42400",
+    "nivel": 3,
+    "padre": "42000",
+    "nombre": "Construcciones y Mejoras de Bienes Públicos Nacionales de Dominio Privado - Llave en",
+    "label": "42400 - Construcciones y Mejoras de Bienes Públicos Nacionales de Dominio Privado - Llave en"
+  },
+  {
+    "codigo": "42500",
+    "nivel": 3,
+    "padre": "42000",
+    "nombre": "Construcciones y Mejoras de Bienes Públicos Nacionales de Dominio Público - Llave en",
+    "label": "42500 - Construcciones y Mejoras de Bienes Públicos Nacionales de Dominio Público - Llave en"
+  },
+  {
+    "codigo": "43000",
+    "nivel": 2,
+    "padre": "40000",
+    "nombre": "Maquinaria y Equipo",
+    "label": "43000 - Maquinaria y Equipo"
+  },
+  {
+    "codigo": "43100",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Equipo de Oficina y Muebles",
+    "label": "43100 - Equipo de Oficina y Muebles"
+  },
+  {
+    "codigo": "43110",
+    "nivel": 4,
+    "padre": "43100",
+    "nombre": "Equipo de Oficina y Muebles",
+    "label": "43110 - Equipo de Oficina y Muebles"
+  },
+  {
+    "codigo": "43120",
+    "nivel": 4,
+    "padre": "43100",
+    "nombre": "Equipo de Computación",
+    "label": "43120 - Equipo de Computación"
+  },
+  {
+    "codigo": "43200",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Maquinaria y Equipo de Producción",
+    "label": "43200 - Maquinaria y Equipo de Producción"
+  },
+  {
+    "codigo": "43300",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Equipo de Transporte, Tracción y Elevación",
+    "label": "43300 - Equipo de Transporte, Tracción y Elevación"
+  },
+  {
+    "codigo": "43310",
+    "nivel": 4,
+    "padre": "43300",
+    "nombre": "Vehículos Livianos para Funciones Administrativas",
+    "label": "43310 - Vehículos Livianos para Funciones Administrativas"
+  },
+  {
+    "codigo": "43320",
+    "nivel": 4,
+    "padre": "43300",
+    "nombre": "Vehículos Livianos para Proyectos de Inversión Pública",
+    "label": "43320 - Vehículos Livianos para Proyectos de Inversión Pública"
+  },
+  {
+    "codigo": "43330",
+    "nivel": 4,
+    "padre": "43300",
+    "nombre": "Maquinaria y Equipo de Transporte",
+    "label": "43330 - Maquinaria y Equipo de Transporte"
+  },
+  {
+    "codigo": "43340",
+    "nivel": 4,
+    "padre": "43300",
+    "nombre": "Equipo de Elevación",
+    "label": "43340 - Equipo de Elevación"
+  },
+  {
+    "codigo": "43400",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Equipo Médico y de Laboratorio",
+    "label": "43400 - Equipo Médico y de Laboratorio"
+  },
+  {
+    "codigo": "43500",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Equipo de Comunicación",
+    "label": "43500 - Equipo de Comunicación"
+  },
+  {
+    "codigo": "43600",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Equipo Educacional y Recreativo",
+    "label": "43600 - Equipo Educacional y Recreativo"
+  },
+  {
+    "codigo": "43700",
+    "nivel": 3,
+    "padre": "43000",
+    "nombre": "Otra Maquinaria y Equipo",
+    "label": "43700 - Otra Maquinaria y Equipo"
+  },
+  {
+    "codigo": "46000",
+    "nivel": 2,
+    "padre": "40000",
+    "nombre": "Estudios y Proyectos para Inversión",
+    "label": "46000 - Estudios y Proyectos para Inversión"
+  },
+  {
+    "codigo": "46100",
+    "nivel": 3,
+    "padre": "46000",
+    "nombre": "Para Construcciones de Bienes Públicos de Dominio Privado",
+    "label": "46100 - Para Construcciones de Bienes Públicos de Dominio Privado"
+  },
+  {
+    "codigo": "46110",
+    "nivel": 4,
+    "padre": "46100",
+    "nombre": "Consultoría por Producto para Construcciones de Bienes Públicos de Dominio",
+    "label": "46110 - Consultoría por Producto para Construcciones de Bienes Públicos de Dominio"
+  },
+  {
+    "codigo": "46120",
+    "nivel": 4,
+    "padre": "46100",
+    "nombre": "Consultoría de Línea para Construcciones de Bienes Públicos de Dominio",
+    "label": "46120 - Consultoría de Línea para Construcciones de Bienes Públicos de Dominio"
+  },
+  {
+    "codigo": "46200",
+    "nivel": 3,
+    "padre": "46000",
+    "nombre": "Para Construcciones de Bienes de Dominio Público",
+    "label": "46200 - Para Construcciones de Bienes de Dominio Público"
+  },
+  {
+    "codigo": "46210",
+    "nivel": 4,
+    "padre": "46200",
+    "nombre": "Consultoría por Producto para Construcciones de Bienes Públicos de Dominio",
+    "label": "46210 - Consultoría por Producto para Construcciones de Bienes Públicos de Dominio"
+  },
+  {
+    "codigo": "46220",
+    "nivel": 4,
+    "padre": "46200",
+    "nombre": "Consultoría de Línea para Construcciones de Bienes Públicos de Dominio Público.",
+    "label": "46220 - Consultoría de Línea para Construcciones de Bienes Públicos de Dominio Público."
+  },
+  {
+    "codigo": "46300",
+    "nivel": 3,
+    "padre": "46000",
+    "nombre": "Consultoría para capacitación, transferencia de tecnología y organización para procesos",
+    "label": "46300 - Consultoría para capacitación, transferencia de tecnología y organización para procesos"
+  },
+  {
+    "codigo": "46310",
+    "nivel": 4,
+    "padre": "46300",
+    "nombre": "Consultoría por Producto",
+    "label": "46310 - Consultoría por Producto"
+  },
+  {
+    "codigo": "46320",
+    "nivel": 4,
+    "padre": "46300",
+    "nombre": "Consultoría de Línea",
+    "label": "46320 - Consultoría de Línea"
+  },
+  {
+    "codigo": "49000",
+    "nivel": 2,
+    "padre": "40000",
+    "nombre": "Otros Activos",
+    "label": "49000 - Otros Activos"
+  },
+  {
+    "codigo": "49100",
+    "nivel": 3,
+    "padre": "49000",
+    "nombre": "Activos Intangibles",
+    "label": "49100 - Activos Intangibles"
+  },
+  {
+    "codigo": "49300",
+    "nivel": 3,
+    "padre": "49000",
+    "nombre": "Activos de Origen Animal",
+    "label": "49300 - Activos de Origen Animal"
+  },
+  {
+    "codigo": "49400",
+    "nivel": 3,
+    "padre": "49000",
+    "nombre": "Activos Museológicos y Culturales",
+    "label": "49400 - Activos Museológicos y Culturales"
+  },
+  {
+    "codigo": "49500",
+    "nivel": 3,
+    "padre": "49000",
+    "nombre": "Activos de Origen Vegetal",
+    "label": "49500 - Activos de Origen Vegetal"
+  },
+  {
+    "codigo": "49900",
+    "nivel": 3,
+    "padre": "49000",
+    "nombre": "Otros",
+    "label": "49900 - Otros"
+  },
+  {
+    "codigo": "50000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "ACTIVOS FINANCIEROS",
+    "label": "50000 - ACTIVOS FINANCIEROS"
+  },
+  {
+    "codigo": "51000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Compra de Acciones, Participaciones de Capital e Inversiones",
+    "label": "51000 - Compra de Acciones, Participaciones de Capital e Inversiones"
+  },
+  {
+    "codigo": "51100",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Acciones y Participaciones de Capital en Empresas Privadas Nacionales",
+    "label": "51100 - Acciones y Participaciones de Capital en Empresas Privadas Nacionales"
+  },
+  {
+    "codigo": "51200",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Acciones y Participaciones de Capital en Empresas Públicas Nacionales",
+    "label": "51200 - Acciones y Participaciones de Capital en Empresas Públicas Nacionales"
+  },
+  {
+    "codigo": "51300",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Acciones y Participaciones de Capital en Empresas Públicas Territoriales",
+    "label": "51300 - Acciones y Participaciones de Capital en Empresas Públicas Territoriales"
+  },
+  {
+    "codigo": "51310",
+    "nivel": 4,
+    "padre": "51300",
+    "nombre": "Del Gobierno Autónomo Departamental",
+    "label": "51310 - Del Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "51320",
+    "nivel": 4,
+    "padre": "51300",
+    "nombre": "Del Gobierno Autónomo Municipal",
+    "label": "51320 - Del Gobierno Autónomo Municipal"
+  },
+  {
+    "codigo": "51330",
+    "nivel": 4,
+    "padre": "51300",
+    "nombre": "Del Gobierno Autónomo Indígena Originario Campesino",
+    "label": "51330 - Del Gobierno Autónomo Indígena Originario Campesino"
+  },
+  {
+    "codigo": "51340",
+    "nivel": 4,
+    "padre": "51300",
+    "nombre": "Del Gobierno Autónomo Regional",
+    "label": "51340 - Del Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "51500",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Acciones y Participaciones de Capital en Instituciones Públicas Financieras No Bancarias",
+    "label": "51500 - Acciones y Participaciones de Capital en Instituciones Públicas Financieras No Bancarias"
+  },
+  {
+    "codigo": "51600",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Acciones y Participaciones de Capital en Instituciones Públicas Financieras Bancarias",
+    "label": "51600 - Acciones y Participaciones de Capital en Instituciones Públicas Financieras Bancarias"
+  },
+  {
+    "codigo": "51700",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Acciones y Participaciones de Capital en Organismos Internacionales",
+    "label": "51700 - Acciones y Participaciones de Capital en Organismos Internacionales"
+  },
+  {
+    "codigo": "51800",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Otras Acciones y Participaciones de Capital en el Exterior",
+    "label": "51800 - Otras Acciones y Participaciones de Capital en el Exterior"
+  },
+  {
+    "codigo": "51900",
+    "nivel": 3,
+    "padre": "51000",
+    "nombre": "Inversiones en el Exterior",
+    "label": "51900 - Inversiones en el Exterior"
+  },
+  {
+    "codigo": "52000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Concesión de Préstamos a Corto Plazo al Sector Público No Financiero",
+    "label": "52000 - Concesión de Préstamos a Corto Plazo al Sector Público No Financiero"
+  },
+  {
+    "codigo": "52100",
+    "nivel": 3,
+    "padre": "52000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a los Órganos del Estado Plurinacional",
+    "label": "52100 - Concesión de Préstamos a Corto Plazo a los Órganos del Estado Plurinacional"
+  },
+  {
+    "codigo": "52200",
+    "nivel": 3,
+    "padre": "52000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Instituciones Públicas Descentralizadas",
+    "label": "52200 - Concesión de Préstamos a Corto Plazo a Instituciones Públicas Descentralizadas"
+  },
+  {
+    "codigo": "52400",
+    "nivel": 3,
+    "padre": "52000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Entidades Territoriales Autónomas",
+    "label": "52400 - Concesión de Préstamos a Corto Plazo a Entidades Territoriales Autónomas"
+  },
+  {
+    "codigo": "52410",
+    "nivel": 4,
+    "padre": "52400",
+    "nombre": "Gobierno Autónomo Departamental",
+    "label": "52410 - Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "52420",
+    "nivel": 4,
+    "padre": "52400",
+    "nombre": "Gobierno Autónomo Municipal",
+    "label": "52420 - Gobierno Autónomo Municipal"
+  },
+  {
+    "codigo": "52430",
+    "nivel": 4,
+    "padre": "52400",
+    "nombre": "Gobierno Autónomo Indígena Originario Campesino",
+    "label": "52430 - Gobierno Autónomo Indígena Originario Campesino"
+  },
+  {
+    "codigo": "52440",
+    "nivel": 4,
+    "padre": "52400",
+    "nombre": "Gobierno Autónomo Regional",
+    "label": "52440 - Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "52600",
+    "nivel": 3,
+    "padre": "52000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Instituciones de Seguridad Social",
+    "label": "52600 - Concesión de Préstamos a Corto Plazo a Instituciones de Seguridad Social"
+  },
+  {
+    "codigo": "52700",
+    "nivel": 3,
+    "padre": "52000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Empresas Públicas Nacionales",
+    "label": "52700 - Concesión de Préstamos a Corto Plazo a Empresas Públicas Nacionales"
+  },
+  {
+    "codigo": "52800",
+    "nivel": 3,
+    "padre": "52000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Empresas Públicas Territoriales",
+    "label": "52800 - Concesión de Préstamos a Corto Plazo a Empresas Públicas Territoriales"
+  },
+  {
+    "codigo": "52810",
+    "nivel": 4,
+    "padre": "52800",
+    "nombre": "Del Gobierno Autónomo Departamental",
+    "label": "52810 - Del Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "52820",
+    "nivel": 4,
+    "padre": "52800",
+    "nombre": "Del Gobierno Autónomo Municipal",
+    "label": "52820 - Del Gobierno Autónomo Municipal"
+  },
+  {
+    "codigo": "52830",
+    "nivel": 4,
+    "padre": "52800",
+    "nombre": "Del Gobierno Autónomo Indígena Originario Campesino",
+    "label": "52830 - Del Gobierno Autónomo Indígena Originario Campesino"
+  },
+  {
+    "codigo": "52840",
+    "nivel": 4,
+    "padre": "52800",
+    "nombre": "Del Gobierno Autónomo Regional",
+    "label": "52840 - Del Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "53000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Concesión de Préstamos a Largo Plazo al Sector Público No Financiero",
+    "label": "53000 - Concesión de Préstamos a Largo Plazo al Sector Público No Financiero"
+  },
+  {
+    "codigo": "53100",
+    "nivel": 3,
+    "padre": "53000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a los Órganos del Estado Plurinacional",
+    "label": "53100 - Concesión de Préstamos a Largo Plazo a los Órganos del Estado Plurinacional"
+  },
+  {
+    "codigo": "53200",
+    "nivel": 3,
+    "padre": "53000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Instituciones Públicas Descentralizadas",
+    "label": "53200 - Concesión de Préstamos a Largo Plazo a Instituciones Públicas Descentralizadas"
+  },
+  {
+    "codigo": "53400",
+    "nivel": 3,
+    "padre": "53000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Entidades Territoriales Autónomas",
+    "label": "53400 - Concesión de Préstamos a Largo Plazo a Entidades Territoriales Autónomas"
+  },
+  {
+    "codigo": "53410",
+    "nivel": 4,
+    "padre": "53400",
+    "nombre": "Gobierno Autónomo Departamental",
+    "label": "53410 - Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "53420",
+    "nivel": 4,
+    "padre": "53400",
+    "nombre": "Gobierno Autónomo Municipal",
+    "label": "53420 - Gobierno Autónomo Municipal"
+  },
+  {
+    "codigo": "53430",
+    "nivel": 4,
+    "padre": "53400",
+    "nombre": "Gobierno Autónomo Indígena Originario Campesino",
+    "label": "53430 - Gobierno Autónomo Indígena Originario Campesino"
+  },
+  {
+    "codigo": "53440",
+    "nivel": 4,
+    "padre": "53400",
+    "nombre": "Gobierno Autónomo Regional",
+    "label": "53440 - Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "53600",
+    "nivel": 3,
+    "padre": "53000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Instituciones de Seguridad Social",
+    "label": "53600 - Concesión de Préstamos a Largo Plazo a Instituciones de Seguridad Social"
+  },
+  {
+    "codigo": "53700",
+    "nivel": 3,
+    "padre": "53000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Empresas Públicas Nacionales",
+    "label": "53700 - Concesión de Préstamos a Largo Plazo a Empresas Públicas Nacionales"
+  },
+  {
+    "codigo": "53800",
+    "nivel": 3,
+    "padre": "53000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Empresas Públicas Territoriales",
+    "label": "53800 - Concesión de Préstamos a Largo Plazo a Empresas Públicas Territoriales"
+  },
+  {
+    "codigo": "53810",
+    "nivel": 4,
+    "padre": "53800",
+    "nombre": "Del Gobierno Autónomo Departamental",
+    "label": "53810 - Del Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "53820",
+    "nivel": 4,
+    "padre": "53800",
+    "nombre": "Del Gobierno Autónomo Municipal",
+    "label": "53820 - Del Gobierno Autónomo Municipal"
+  },
+  {
+    "codigo": "53830",
+    "nivel": 4,
+    "padre": "53800",
+    "nombre": "Del Gobierno Autónomo Indígena Originario Campesino",
+    "label": "53830 - Del Gobierno Autónomo Indígena Originario Campesino"
+  },
+  {
+    "codigo": "53840",
+    "nivel": 4,
+    "padre": "53800",
+    "nombre": "Del Gobierno Autónomo Regional",
+    "label": "53840 - Del Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "54000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Concesión de Préstamos al Sector Público Financiero y a los Sectores Privado y del Exterior",
+    "label": "54000 - Concesión de Préstamos al Sector Público Financiero y a los Sectores Privado y del Exterior"
+  },
+  {
+    "codigo": "54100",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Instituciones Públicas Financieras No Bancarias",
+    "label": "54100 - Concesión de Préstamos a Corto Plazo a Instituciones Públicas Financieras No Bancarias"
+  },
+  {
+    "codigo": "54200",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Corto Plazo a Instituciones Públicas Financieras Bancarias",
+    "label": "54200 - Concesión de Préstamos a Corto Plazo a Instituciones Públicas Financieras Bancarias"
+  },
+  {
+    "codigo": "54300",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Corto Plazo al Sector Privado",
+    "label": "54300 - Concesión de Préstamos a Corto Plazo al Sector Privado"
+  },
+  {
+    "codigo": "54400",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Corto Plazo al Exterior",
+    "label": "54400 - Concesión de Préstamos a Corto Plazo al Exterior"
+  },
+  {
+    "codigo": "54600",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Instituciones Públicas Financieras No Bancarias",
+    "label": "54600 - Concesión de Préstamos a Largo Plazo a Instituciones Públicas Financieras No Bancarias"
+  },
+  {
+    "codigo": "54700",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Largo Plazo a Instituciones Públicas Financieras Bancarias",
+    "label": "54700 - Concesión de Préstamos a Largo Plazo a Instituciones Públicas Financieras Bancarias"
+  },
+  {
+    "codigo": "54800",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Largo Plazo al Sector Privado",
+    "label": "54800 - Concesión de Préstamos a Largo Plazo al Sector Privado"
+  },
+  {
+    "codigo": "54900",
+    "nivel": 3,
+    "padre": "54000",
+    "nombre": "Concesión de Préstamos a Largo Plazo al Exterior",
+    "label": "54900 - Concesión de Préstamos a Largo Plazo al Exterior"
+  },
+  {
+    "codigo": "55000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Compra de Títulos y Valores",
+    "label": "55000 - Compra de Títulos y Valores"
+  },
+  {
+    "codigo": "55100",
+    "nivel": 3,
+    "padre": "55000",
+    "nombre": "Títulos y Valores a Corto Plazo",
+    "label": "55100 - Títulos y Valores a Corto Plazo"
+  },
+  {
+    "codigo": "55110",
+    "nivel": 4,
+    "padre": "55100",
+    "nombre": "Letras del Tesoro",
+    "label": "55110 - Letras del Tesoro"
+  },
+  {
+    "codigo": "55120",
+    "nivel": 4,
+    "padre": "55100",
+    "nombre": "Bonos del Tesoro",
+    "label": "55120 - Bonos del Tesoro"
+  },
+  {
+    "codigo": "55130",
+    "nivel": 4,
+    "padre": "55100",
+    "nombre": "Otros",
+    "label": "55130 - Otros"
+  },
+  {
+    "codigo": "55200",
+    "nivel": 3,
+    "padre": "55000",
+    "nombre": "Títulos y Valores a Largo Plazo",
+    "label": "55200 - Títulos y Valores a Largo Plazo"
+  },
+  {
+    "codigo": "55210",
+    "nivel": 4,
+    "padre": "55200",
+    "nombre": "Letras del Tesoro",
+    "label": "55210 - Letras del Tesoro"
+  },
+  {
+    "codigo": "55220",
+    "nivel": 4,
+    "padre": "55200",
+    "nombre": "Bonos del Tesoro",
+    "label": "55220 - Bonos del Tesoro"
+  },
+  {
+    "codigo": "55230",
+    "nivel": 4,
+    "padre": "55200",
+    "nombre": "Otros",
+    "label": "55230 - Otros"
+  },
+  {
+    "codigo": "56000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Constitución de Fideicomisos y Servicios Financieros",
+    "label": "56000 - Constitución de Fideicomisos y Servicios Financieros"
+  },
+  {
+    "codigo": "56100",
+    "nivel": 3,
+    "padre": "56000",
+    "nombre": "Colocación de Fondos en Fideicomiso",
+    "label": "56100 - Colocación de Fondos en Fideicomiso"
+  },
+  {
+    "codigo": "56200",
+    "nivel": 3,
+    "padre": "56000",
+    "nombre": "Concesiones de Recursos de Fideicomisos",
+    "label": "56200 - Concesiones de Recursos de Fideicomisos"
+  },
+  {
+    "codigo": "56300",
+    "nivel": 3,
+    "padre": "56000",
+    "nombre": "Colocación de Fondos por Servicios Financieros",
+    "label": "56300 - Colocación de Fondos por Servicios Financieros"
+  },
+  {
+    "codigo": "57000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Incremento de Disponibilidades",
+    "label": "57000 - Incremento de Disponibilidades"
+  },
+  {
+    "codigo": "57100",
+    "nivel": 3,
+    "padre": "57000",
+    "nombre": "Incremento de Caja y Bancos",
+    "label": "57100 - Incremento de Caja y Bancos"
+  },
+  {
+    "codigo": "57200",
+    "nivel": 3,
+    "padre": "57000",
+    "nombre": "Incremento de Inversiones Temporales",
+    "label": "57200 - Incremento de Inversiones Temporales"
+  },
+  {
+    "codigo": "58000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Incremento de Cuentas y Documentos por Cobrar y Otros Activos Financieros",
+    "label": "58000 - Incremento de Cuentas y Documentos por Cobrar y Otros Activos Financieros"
+  },
+  {
+    "codigo": "58100",
+    "nivel": 3,
+    "padre": "58000",
+    "nombre": "Incremento de Cuentas por Cobrar a Corto Plazo",
+    "label": "58100 - Incremento de Cuentas por Cobrar a Corto Plazo"
+  },
+  {
+    "codigo": "58200",
+    "nivel": 3,
+    "padre": "58000",
+    "nombre": "Incremento de Documentos por Cobrar y Otros Activos Financieros a Corto Plazo",
+    "label": "58200 - Incremento de Documentos por Cobrar y Otros Activos Financieros a Corto Plazo"
+  },
+  {
+    "codigo": "58210",
+    "nivel": 4,
+    "padre": "58200",
+    "nombre": "Incremento de Documentos por Cobrar a Corto Plazo",
+    "label": "58210 - Incremento de Documentos por Cobrar a Corto Plazo"
+  },
+  {
+    "codigo": "58220",
+    "nivel": 4,
+    "padre": "58200",
+    "nombre": "Incremento de Otros Activos Financieros a Corto Plazo",
+    "label": "58220 - Incremento de Otros Activos Financieros a Corto Plazo"
+  },
+  {
+    "codigo": "58300",
+    "nivel": 3,
+    "padre": "58000",
+    "nombre": "Incremento de Cuentas por Cobrar a Largo Plazo",
+    "label": "58300 - Incremento de Cuentas por Cobrar a Largo Plazo"
+  },
+  {
+    "codigo": "58400",
+    "nivel": 3,
+    "padre": "58000",
+    "nombre": "Incremento de Documentos por Cobrar y Otros Activos Financieros a Largo Plazo",
+    "label": "58400 - Incremento de Documentos por Cobrar y Otros Activos Financieros a Largo Plazo"
+  },
+  {
+    "codigo": "58410",
+    "nivel": 4,
+    "padre": "58400",
+    "nombre": "Incremento de Documentos por Cobrar a Largo Plazo",
+    "label": "58410 - Incremento de Documentos por Cobrar a Largo Plazo"
+  },
+  {
+    "codigo": "58420",
+    "nivel": 4,
+    "padre": "58400",
+    "nombre": "Incremento de Otros Activos Financieros a Largo Plazo",
+    "label": "58420 - Incremento de Otros Activos Financieros a Largo Plazo"
+  },
+  {
+    "codigo": "59000",
+    "nivel": 2,
+    "padre": "50000",
+    "nombre": "Afectaciones al Tesoro General de la Nación",
+    "label": "59000 - Afectaciones al Tesoro General de la Nación"
+  },
+  {
+    "codigo": "59100",
+    "nivel": 3,
+    "padre": "59000",
+    "nombre": "Afectaciones al Tesoro General de la Nación",
+    "label": "59100 - Afectaciones al Tesoro General de la Nación"
+  },
+  {
+    "codigo": "60000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "SERVICIO DE LA DEUDA PÚBLICA Y DISMINUCIÓN DE OTROS PASIVOS",
+    "label": "60000 - SERVICIO DE LA DEUDA PÚBLICA Y DISMINUCIÓN DE OTROS PASIVOS"
+  },
+  {
+    "codigo": "61000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Servicio de la Deuda Pública Interna",
+    "label": "61000 - Servicio de la Deuda Pública Interna"
+  },
+  {
+    "codigo": "61100",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Amortización de la Deuda Pública Interna a Corto Plazo",
+    "label": "61100 - Amortización de la Deuda Pública Interna a Corto Plazo"
+  },
+  {
+    "codigo": "61200",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Intereses de la Deuda Pública Interna a Corto Plazo",
+    "label": "61200 - Intereses de la Deuda Pública Interna a Corto Plazo"
+  },
+  {
+    "codigo": "61300",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Comisiones y Otros Gastos de la Deuda Pública Interna a Corto Plazo",
+    "label": "61300 - Comisiones y Otros Gastos de la Deuda Pública Interna a Corto Plazo"
+  },
+  {
+    "codigo": "61400",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Intereses por Mora y Multas de la Deuda Pública Interna a Corto Plazo",
+    "label": "61400 - Intereses por Mora y Multas de la Deuda Pública Interna a Corto Plazo"
+  },
+  {
+    "codigo": "61600",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Amortización de la Deuda Pública Interna a Largo Plazo",
+    "label": "61600 - Amortización de la Deuda Pública Interna a Largo Plazo"
+  },
+  {
+    "codigo": "61700",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Intereses de la Deuda Pública Interna a Largo Plazo",
+    "label": "61700 - Intereses de la Deuda Pública Interna a Largo Plazo"
+  },
+  {
+    "codigo": "61800",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Comisiones y Otros Gastos de la Deuda Pública Interna a Largo Plazo",
+    "label": "61800 - Comisiones y Otros Gastos de la Deuda Pública Interna a Largo Plazo"
+  },
+  {
+    "codigo": "61900",
+    "nivel": 3,
+    "padre": "61000",
+    "nombre": "Intereses por Mora y Multas de la Deuda Pública Interna a Largo Plazo",
+    "label": "61900 - Intereses por Mora y Multas de la Deuda Pública Interna a Largo Plazo"
+  },
+  {
+    "codigo": "62000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Servicio de la Deuda Pública Externa",
+    "label": "62000 - Servicio de la Deuda Pública Externa"
+  },
+  {
+    "codigo": "62100",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Amortización de la Deuda Pública Externa a Corto Plazo",
+    "label": "62100 - Amortización de la Deuda Pública Externa a Corto Plazo"
+  },
+  {
+    "codigo": "62200",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Intereses de la Deuda Pública Externa a Corto Plazo",
+    "label": "62200 - Intereses de la Deuda Pública Externa a Corto Plazo"
+  },
+  {
+    "codigo": "62300",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Comisiones y Otros Gastos de la Deuda Pública Externa a Corto Plazo",
+    "label": "62300 - Comisiones y Otros Gastos de la Deuda Pública Externa a Corto Plazo"
+  },
+  {
+    "codigo": "62400",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Intereses por Mora y Multas de la Deuda Pública Externa a Corto Plazo",
+    "label": "62400 - Intereses por Mora y Multas de la Deuda Pública Externa a Corto Plazo"
+  },
+  {
+    "codigo": "62600",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Amortización de la Deuda Pública Externa a Largo Plazo",
+    "label": "62600 - Amortización de la Deuda Pública Externa a Largo Plazo"
+  },
+  {
+    "codigo": "62700",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Intereses de la Deuda Pública Externa a Largo Plazo",
+    "label": "62700 - Intereses de la Deuda Pública Externa a Largo Plazo"
+  },
+  {
+    "codigo": "62800",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Comisiones y Otros Gastos de la Deuda Pública Externa a Largo Plazo",
+    "label": "62800 - Comisiones y Otros Gastos de la Deuda Pública Externa a Largo Plazo"
+  },
+  {
+    "codigo": "62900",
+    "nivel": 3,
+    "padre": "62000",
+    "nombre": "Intereses por Mora y Multas de la Deuda Pública Externa a Largo Plazo",
+    "label": "62900 - Intereses por Mora y Multas de la Deuda Pública Externa a Largo Plazo"
+  },
+  {
+    "codigo": "63000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo",
+    "label": "63000 - Disminución de Cuentas por Pagar a Corto Plazo"
+  },
+  {
+    "codigo": "63100",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Deudas Comerciales con Proveedores",
+    "label": "63100 - Disminución de Cuentas por Pagar a Corto Plazo por Deudas Comerciales con Proveedores"
+  },
+  {
+    "codigo": "63200",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo con Contratistas",
+    "label": "63200 - Disminución de Cuentas por Pagar a Corto Plazo con Contratistas"
+  },
+  {
+    "codigo": "63300",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Sueldos y Jornales",
+    "label": "63300 - Disminución de Cuentas por Pagar a Corto Plazo por Sueldos y Jornales"
+  },
+  {
+    "codigo": "63400",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Aportes Patronales",
+    "label": "63400 - Disminución de Cuentas por Pagar a Corto Plazo por Aportes Patronales"
+  },
+  {
+    "codigo": "63500",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Retenciones",
+    "label": "63500 - Disminución de Cuentas por Pagar a Corto Plazo por Retenciones"
+  },
+  {
+    "codigo": "63600",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Impuestos, Regalías y Tasas",
+    "label": "63600 - Disminución de Cuentas por Pagar a Corto Plazo por Impuestos, Regalías y Tasas"
+  },
+  {
+    "codigo": "63700",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Jubilaciones y Pensiones",
+    "label": "63700 - Disminución de Cuentas por Pagar a Corto Plazo por Jubilaciones y Pensiones"
+  },
+  {
+    "codigo": "63800",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Cuentas por Pagar a Corto Plazo por Intereses",
+    "label": "63800 - Disminución de Cuentas por Pagar a Corto Plazo por Intereses"
+  },
+  {
+    "codigo": "63900",
+    "nivel": 3,
+    "padre": "63000",
+    "nombre": "Disminución de Otros Pasivos y Otras Cuentas por Pagar a Corto Plazo",
+    "label": "63900 - Disminución de Otros Pasivos y Otras Cuentas por Pagar a Corto Plazo"
+  },
+  {
+    "codigo": "64000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Disminución de Cuentas por Pagar a Largo Plazo",
+    "label": "64000 - Disminución de Cuentas por Pagar a Largo Plazo"
+  },
+  {
+    "codigo": "64100",
+    "nivel": 3,
+    "padre": "64000",
+    "nombre": "Disminución de Cuentas por Pagar a Largo Plazo por Deudas Comerciales",
+    "label": "64100 - Disminución de Cuentas por Pagar a Largo Plazo por Deudas Comerciales"
+  },
+  {
+    "codigo": "64200",
+    "nivel": 3,
+    "padre": "64000",
+    "nombre": "Disminución de Otras Cuentas por Pagar a Largo Plazo",
+    "label": "64200 - Disminución de Otras Cuentas por Pagar a Largo Plazo"
+  },
+  {
+    "codigo": "65000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Gastos Devengados No Pagados – TGN",
+    "label": "65000 - Gastos Devengados No Pagados – TGN"
+  },
+  {
+    "codigo": "65100",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Servicios Personales",
+    "label": "65100 - Gastos Devengados No Pagados por Servicios Personales"
+  },
+  {
+    "codigo": "65200",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Servicios No Personales, Materiales y Suministros,",
+    "label": "65200 - Gastos Devengados No Pagados por Servicios No Personales, Materiales y Suministros,"
+  },
+  {
+    "codigo": "65210",
+    "nivel": 4,
+    "padre": "65200",
+    "nombre": "Gastos Devengados No Pagados por Servicios No Personales",
+    "label": "65210 - Gastos Devengados No Pagados por Servicios No Personales"
+  },
+  {
+    "codigo": "65220",
+    "nivel": 4,
+    "padre": "65200",
+    "nombre": "Gastos Devengados No Pagados por Materiales y Suministros",
+    "label": "65220 - Gastos Devengados No Pagados por Materiales y Suministros"
+  },
+  {
+    "codigo": "65230",
+    "nivel": 4,
+    "padre": "65200",
+    "nombre": "Gastos Devengados No Pagados por Activos Reales",
+    "label": "65230 - Gastos Devengados No Pagados por Activos Reales"
+  },
+  {
+    "codigo": "65240",
+    "nivel": 4,
+    "padre": "65200",
+    "nombre": "Gastos Devengados No Pagados por Activos Financieros",
+    "label": "65240 - Gastos Devengados No Pagados por Activos Financieros"
+  },
+  {
+    "codigo": "65300",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Transferencias",
+    "label": "65300 - Gastos Devengados No Pagados por Transferencias"
+  },
+  {
+    "codigo": "65400",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Retenciones",
+    "label": "65400 - Gastos Devengados No Pagados por Retenciones"
+  },
+  {
+    "codigo": "65500",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Intereses Deuda Pública Interna",
+    "label": "65500 - Gastos Devengados No Pagados por Intereses Deuda Pública Interna"
+  },
+  {
+    "codigo": "65600",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Intereses Deuda Pública Externa",
+    "label": "65600 - Gastos Devengados No Pagados por Intereses Deuda Pública Externa"
+  },
+  {
+    "codigo": "65700",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Comisiones Deuda Pública Interna",
+    "label": "65700 - Gastos Devengados No Pagados por Comisiones Deuda Pública Interna"
+  },
+  {
+    "codigo": "65800",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Gastos Devengados No Pagados por Comisiones Deuda Pública Externa",
+    "label": "65800 - Gastos Devengados No Pagados por Comisiones Deuda Pública Externa"
+  },
+  {
+    "codigo": "65900",
+    "nivel": 3,
+    "padre": "65000",
+    "nombre": "Otros Gastos Devengados No Pagados",
+    "label": "65900 - Otros Gastos Devengados No Pagados"
+  },
+  {
+    "codigo": "66000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Gastos Devengados No Pagados – Otras Fuentes",
+    "label": "66000 - Gastos Devengados No Pagados – Otras Fuentes"
+  },
+  {
+    "codigo": "66100",
+    "nivel": 3,
+    "padre": "66000",
+    "nombre": "Gastos Devengados No Pagados por Servicios Personales",
+    "label": "66100 - Gastos Devengados No Pagados por Servicios Personales"
+  },
+  {
+    "codigo": "66200",
+    "nivel": 3,
+    "padre": "66000",
+    "nombre": "Gastos Devengados No Pagados por Servicios No Personales, Materiales y Suministros,",
+    "label": "66200 - Gastos Devengados No Pagados por Servicios No Personales, Materiales y Suministros,"
+  },
+  {
+    "codigo": "66210",
+    "nivel": 4,
+    "padre": "66200",
+    "nombre": "Gastos Devengados No Pagados por Servicios No Personales",
+    "label": "66210 - Gastos Devengados No Pagados por Servicios No Personales"
+  },
+  {
+    "codigo": "66220",
+    "nivel": 4,
+    "padre": "66200",
+    "nombre": "Gastos Devengados No Pagados por Materiales y Suministros",
+    "label": "66220 - Gastos Devengados No Pagados por Materiales y Suministros"
+  },
+  {
+    "codigo": "66230",
+    "nivel": 4,
+    "padre": "66200",
+    "nombre": "Gastos Devengados No Pagados por Activos Reales",
+    "label": "66230 - Gastos Devengados No Pagados por Activos Reales"
+  },
+  {
+    "codigo": "66240",
+    "nivel": 4,
+    "padre": "66200",
+    "nombre": "Gastos Devengados No Pagados por Activos Financieros",
+    "label": "66240 - Gastos Devengados No Pagados por Activos Financieros"
+  },
+  {
+    "codigo": "66250",
+    "nivel": 4,
+    "padre": "66200",
+    "nombre": "Gastos Devengados No Pagados por Servicio de la Deuda",
+    "label": "66250 - Gastos Devengados No Pagados por Servicio de la Deuda"
+  },
+  {
+    "codigo": "66300",
+    "nivel": 3,
+    "padre": "66000",
+    "nombre": "Gastos Devengados No Pagados por Transferencias",
+    "label": "66300 - Gastos Devengados No Pagados por Transferencias"
+  },
+  {
+    "codigo": "66400",
+    "nivel": 3,
+    "padre": "66000",
+    "nombre": "Gastos Devengados No pagados por Retenciones",
+    "label": "66400 - Gastos Devengados No pagados por Retenciones"
+  },
+  {
+    "codigo": "66900",
+    "nivel": 3,
+    "padre": "66000",
+    "nombre": "Otros Gastos No Pagados",
+    "label": "66900 - Otros Gastos No Pagados"
+  },
+  {
+    "codigo": "67000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Obligaciones por Afectaciones al Tesoro General de la Nación",
+    "label": "67000 - Obligaciones por Afectaciones al Tesoro General de la Nación"
+  },
+  {
+    "codigo": "67100",
+    "nivel": 3,
+    "padre": "67000",
+    "nombre": "Obligaciones por Afectaciones al Tesoro General de la Nación",
+    "label": "67100 - Obligaciones por Afectaciones al Tesoro General de la Nación"
+  },
+  {
+    "codigo": "68000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Disminución de Otros Pasivos",
+    "label": "68000 - Disminución de Otros Pasivos"
+  },
+  {
+    "codigo": "68200",
+    "nivel": 3,
+    "padre": "68000",
+    "nombre": "Pago de Beneficios Sociales",
+    "label": "68200 - Pago de Beneficios Sociales"
+  },
+  {
+    "codigo": "69000",
+    "nivel": 2,
+    "padre": "60000",
+    "nombre": "Devolución de Fondos - Fideicomisos",
+    "label": "69000 - Devolución de Fondos - Fideicomisos"
+  },
+  {
+    "codigo": "69100",
+    "nivel": 3,
+    "padre": "69000",
+    "nombre": "Devolución de Fondos - Fideicomiso de Corto Plazo",
+    "label": "69100 - Devolución de Fondos - Fideicomiso de Corto Plazo"
+  },
+  {
+    "codigo": "69200",
+    "nivel": 3,
+    "padre": "69000",
+    "nombre": "Devolución de Fondos - Fideicomiso de Largo Plazo",
+    "label": "69200 - Devolución de Fondos - Fideicomiso de Largo Plazo"
+  },
+  {
+    "codigo": "70000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "TRANSFERENCIAS",
+    "label": "70000 - TRANSFERENCIAS"
+  },
+  {
+    "codigo": "71000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias Corrientes al Sector Privado",
+    "label": "71000 - Transferencias Corrientes al Sector Privado"
+  },
+  {
+    "codigo": "71100",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Pensiones y Jubilaciones",
+    "label": "71100 - Pensiones y Jubilaciones"
+  },
+  {
+    "codigo": "71200",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Becas",
+    "label": "71200 - Becas"
+  },
+  {
+    "codigo": "71210",
+    "nivel": 4,
+    "padre": "71200",
+    "nombre": "Becas de Estudios Otorgadas a los Servidores Públicos",
+    "label": "71210 - Becas de Estudios Otorgadas a los Servidores Públicos"
+  },
+  {
+    "codigo": "71220",
+    "nivel": 4,
+    "padre": "71200",
+    "nombre": "Becas de Estudios Otorgadas a los Estudiantes Universitarios",
+    "label": "71220 - Becas de Estudios Otorgadas a los Estudiantes Universitarios"
+  },
+  {
+    "codigo": "71230",
+    "nivel": 4,
+    "padre": "71200",
+    "nombre": "Becas de Estudios Otorgadas a Particulares",
+    "label": "71230 - Becas de Estudios Otorgadas a Particulares"
+  },
+  {
+    "codigo": "71300",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Donaciones, Ayudas Sociales y Premios a Personas",
+    "label": "71300 - Donaciones, Ayudas Sociales y Premios a Personas"
+  },
+  {
+    "codigo": "71500",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Subsidios a Personas ó Instituciones Privadas",
+    "label": "71500 - Subsidios a Personas ó Instituciones Privadas"
+  },
+  {
+    "codigo": "71600",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Subsidios y Donaciones a Personas e Instituciones Privadas sin Fines de Lucro",
+    "label": "71600 - Subsidios y Donaciones a Personas e Instituciones Privadas sin Fines de Lucro"
+  },
+  {
+    "codigo": "71610",
+    "nivel": 4,
+    "padre": "71600",
+    "nombre": "A Personas e Instituciones Privadas sin Fines de Lucro",
+    "label": "71610 - A Personas e Instituciones Privadas sin Fines de Lucro"
+  },
+  {
+    "codigo": "71630",
+    "nivel": 4,
+    "padre": "71600",
+    "nombre": "Otros de Carácter Social Establecidos por Norma Legal",
+    "label": "71630 - Otros de Carácter Social Establecidos por Norma Legal"
+  },
+  {
+    "codigo": "71700",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Subvenciones Económicas a Empresas",
+    "label": "71700 - Subvenciones Económicas a Empresas"
+  },
+  {
+    "codigo": "71800",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Pensiones Vitalicias",
+    "label": "71800 - Pensiones Vitalicias"
+  },
+  {
+    "codigo": "71900",
+    "nivel": 3,
+    "padre": "71000",
+    "nombre": "Transferencias por las Compras de Control Tributario",
+    "label": "71900 - Transferencias por las Compras de Control Tributario"
+  },
+  {
+    "codigo": "72000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias Corrientes al Sector Público No Financiero por Participación en Tributos",
+    "label": "72000 - Transferencias Corrientes al Sector Público No Financiero por Participación en Tributos"
+  },
+  {
+    "codigo": "72200",
+    "nivel": 3,
+    "padre": "72000",
+    "nombre": "Transferencias Corrientes a Instituciones Públicas Descentralizadas, Universidades",
+    "label": "72200 - Transferencias Corrientes a Instituciones Públicas Descentralizadas, Universidades"
+  },
+  {
+    "codigo": "72400",
+    "nivel": 3,
+    "padre": "72000",
+    "nombre": "Transferencias Corrientes al Gobierno Autónomo Departamental por Participación en",
+    "label": "72400 - Transferencias Corrientes al Gobierno Autónomo Departamental por Participación en"
+  },
+  {
+    "codigo": "72410",
+    "nivel": 4,
+    "padre": "72400",
+    "nombre": "Para Educación",
+    "label": "72410 - Para Educación"
+  },
+  {
+    "codigo": "72420",
+    "nivel": 4,
+    "padre": "72400",
+    "nombre": "Otras",
+    "label": "72420 - Otras"
+  },
+  {
+    "codigo": "72500",
+    "nivel": 3,
+    "padre": "72000",
+    "nombre": "Transferencias Corrientes a los Gobiernos Autónomos Municipales e Indígena Originario",
+    "label": "72500 - Transferencias Corrientes a los Gobiernos Autónomos Municipales e Indígena Originario"
+  },
+  {
+    "codigo": "72510",
+    "nivel": 4,
+    "padre": "72500",
+    "nombre": "Para Salud",
+    "label": "72510 - Para Salud"
+  },
+  {
+    "codigo": "72520",
+    "nivel": 4,
+    "padre": "72500",
+    "nombre": "Otras",
+    "label": "72520 - Otras"
+  },
+  {
+    "codigo": "73000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias Corrientes al Sector Público No Financiero por Subsidios o Subvenciones",
+    "label": "73000 - Transferencias Corrientes al Sector Público No Financiero por Subsidios o Subvenciones"
+  },
+  {
+    "codigo": "73100",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes al Órgano Ejecutivo del Estado Plurinacional por Subsidios o",
+    "label": "73100 - Transferencias Corrientes al Órgano Ejecutivo del Estado Plurinacional por Subsidios o"
+  },
+  {
+    "codigo": "73200",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes a los Órganos Legislativo, Judicial y Electoral, Entidades de",
+    "label": "73200 - Transferencias Corrientes a los Órganos Legislativo, Judicial y Electoral, Entidades de"
+  },
+  {
+    "codigo": "73300",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes del Fondo Compensatorio Nacional de Salud",
+    "label": "73300 - Transferencias Corrientes del Fondo Compensatorio Nacional de Salud"
+  },
+  {
+    "codigo": "73400",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes a Entidades Territoriales Autónomas por Subsidios o",
+    "label": "73400 - Transferencias Corrientes a Entidades Territoriales Autónomas por Subsidios o"
+  },
+  {
+    "codigo": "73410",
+    "nivel": 4,
+    "padre": "73400",
+    "nombre": "Gobierno Autónomo Departamental",
+    "label": "73410 - Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "73420",
+    "nivel": 4,
+    "padre": "73400",
+    "nombre": "Gobierno Autónomo Municipal",
+    "label": "73420 - Gobierno Autónomo Municipal"
+  },
+  {
+    "codigo": "73430",
+    "nivel": 4,
+    "padre": "73400",
+    "nombre": "Gobierno Autónomo Indígena Originario Campesino",
+    "label": "73430 - Gobierno Autónomo Indígena Originario Campesino"
+  },
+  {
+    "codigo": "73440",
+    "nivel": 4,
+    "padre": "73400",
+    "nombre": "Gobierno Autónomo Regional",
+    "label": "73440 - Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "73600",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes a Instituciones de Seguridad Social por Subsidios o",
+    "label": "73600 - Transferencias Corrientes a Instituciones de Seguridad Social por Subsidios o"
+  },
+  {
+    "codigo": "73700",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes a Empresas Públicas Nacionales por Subsidios o Subvenciones",
+    "label": "73700 - Transferencias Corrientes a Empresas Públicas Nacionales por Subsidios o Subvenciones"
+  },
+  {
+    "codigo": "73800",
+    "nivel": 3,
+    "padre": "73000",
+    "nombre": "Transferencias Corrientes a Empresas Públicas de las Entidades Territoriales Autónomas",
+    "label": "73800 - Transferencias Corrientes a Empresas Públicas de las Entidades Territoriales Autónomas"
+  },
+  {
+    "codigo": "73810",
+    "nivel": 4,
+    "padre": "73800",
+    "nombre": "Empresas Públicas Departamentales",
+    "label": "73810 - Empresas Públicas Departamentales"
+  },
+  {
+    "codigo": "73820",
+    "nivel": 4,
+    "padre": "73800",
+    "nombre": "Empresas Públicas Municipales",
+    "label": "73820 - Empresas Públicas Municipales"
+  },
+  {
+    "codigo": "73830",
+    "nivel": 4,
+    "padre": "73800",
+    "nombre": "Empresas Públicas Indígenas Originarias Campesinas",
+    "label": "73830 - Empresas Públicas Indígenas Originarias Campesinas"
+  },
+  {
+    "codigo": "73840",
+    "nivel": 4,
+    "padre": "73800",
+    "nombre": "Empresas Públicas Regionales",
+    "label": "73840 - Empresas Públicas Regionales"
+  },
+  {
+    "codigo": "74000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias Corrientes al Sector Público Financiero",
+    "label": "74000 - Transferencias Corrientes al Sector Público Financiero"
+  },
+  {
+    "codigo": "74100",
+    "nivel": 3,
+    "padre": "74000",
+    "nombre": "Transferencias Corrientes a Instituciones Públicas Financieras No Bancarias",
+    "label": "74100 - Transferencias Corrientes a Instituciones Públicas Financieras No Bancarias"
+  },
+  {
+    "codigo": "74200",
+    "nivel": 3,
+    "padre": "74000",
+    "nombre": "Transferencias Corrientes a Instituciones Públicas Financieras Bancarias",
+    "label": "74200 - Transferencias Corrientes a Instituciones Públicas Financieras Bancarias"
+  },
+  {
+    "codigo": "75000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias de Capital al Sector Privado",
+    "label": "75000 - Transferencias de Capital al Sector Privado"
+  },
+  {
+    "codigo": "75100",
+    "nivel": 3,
+    "padre": "75000",
+    "nombre": "Transferencias de Capital a Personas",
+    "label": "75100 - Transferencias de Capital a Personas"
+  },
+  {
+    "codigo": "75110",
+    "nivel": 4,
+    "padre": "75100",
+    "nombre": "En Efectivo",
+    "label": "75110 - En Efectivo"
+  },
+  {
+    "codigo": "75120",
+    "nivel": 4,
+    "padre": "75100",
+    "nombre": "En Especie",
+    "label": "75120 - En Especie"
+  },
+  {
+    "codigo": "75200",
+    "nivel": 3,
+    "padre": "75000",
+    "nombre": "Transferencias de Capital a Instituciones Privadas sin Fines de Lucro",
+    "label": "75200 - Transferencias de Capital a Instituciones Privadas sin Fines de Lucro"
+  },
+  {
+    "codigo": "75210",
+    "nivel": 4,
+    "padre": "75200",
+    "nombre": "A Instituciones Privadas sin Fines de Lucro",
+    "label": "75210 - A Instituciones Privadas sin Fines de Lucro"
+  },
+  {
+    "codigo": "75211",
+    "nivel": 5,
+    "padre": "75210",
+    "nombre": "En Efectivo",
+    "label": "75211 - En Efectivo"
+  },
+  {
+    "codigo": "75212",
+    "nivel": 5,
+    "padre": "75210",
+    "nombre": "En Especie",
+    "label": "75212 - En Especie"
+  },
+  {
+    "codigo": "75220",
+    "nivel": 4,
+    "padre": "75200",
+    "nombre": "Otras de carácter económico – productivo",
+    "label": "75220 - Otras de carácter económico – productivo"
+  },
+  {
+    "codigo": "75221",
+    "nivel": 5,
+    "padre": "75220",
+    "nombre": "En Efectivo",
+    "label": "75221 - En Efectivo"
+  },
+  {
+    "codigo": "75222",
+    "nivel": 5,
+    "padre": "75220",
+    "nombre": "En Especie",
+    "label": "75222 - En Especie"
+  },
+  {
+    "codigo": "75300",
+    "nivel": 3,
+    "padre": "75000",
+    "nombre": "Transferencias de Capital a Empresas Privadas",
+    "label": "75300 - Transferencias de Capital a Empresas Privadas"
+  },
+  {
+    "codigo": "75310",
+    "nivel": 4,
+    "padre": "75300",
+    "nombre": "En Efectivo",
+    "label": "75310 - En Efectivo"
+  },
+  {
+    "codigo": "75320",
+    "nivel": 4,
+    "padre": "75300",
+    "nombre": "En Especie",
+    "label": "75320 - En Especie"
+  },
+  {
+    "codigo": "77000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias de Capital al Sector Público No Financiero por Subsidios o Subvenciones",
+    "label": "77000 - Transferencias de Capital al Sector Público No Financiero por Subsidios o Subvenciones"
+  },
+  {
+    "codigo": "77100",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital al Órgano Ejecutivo del Estado Plurinacional por Subsidios o",
+    "label": "77100 - Transferencias de Capital al Órgano Ejecutivo del Estado Plurinacional por Subsidios o"
+  },
+  {
+    "codigo": "77200",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital a los Órganos Legislativo, Judicial y Electoral, Entidades de",
+    "label": "77200 - Transferencias de Capital a los Órganos Legislativo, Judicial y Electoral, Entidades de"
+  },
+  {
+    "codigo": "77400",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital a los Gobiernos Autónomos Departamentales y Regional por",
+    "label": "77400 - Transferencias de Capital a los Gobiernos Autónomos Departamentales y Regional por"
+  },
+  {
+    "codigo": "77410",
+    "nivel": 4,
+    "padre": "77400",
+    "nombre": "Al Gobierno Autónomo Departamental",
+    "label": "77410 - Al Gobierno Autónomo Departamental"
+  },
+  {
+    "codigo": "77440",
+    "nivel": 4,
+    "padre": "77400",
+    "nombre": "Al Gobierno Autónomo Regional",
+    "label": "77440 - Al Gobierno Autónomo Regional"
+  },
+  {
+    "codigo": "77500",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital a los Gobiernos Autónomos Municipales e Indígena Originario",
+    "label": "77500 - Transferencias de Capital a los Gobiernos Autónomos Municipales e Indígena Originario"
+  },
+  {
+    "codigo": "77520",
+    "nivel": 4,
+    "padre": "77500",
+    "nombre": "Por Patentes Petroleras",
+    "label": "77520 - Por Patentes Petroleras"
+  },
+  {
+    "codigo": "77530",
+    "nivel": 4,
+    "padre": "77500",
+    "nombre": "Otras",
+    "label": "77530 - Otras"
+  },
+  {
+    "codigo": "77600",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital a Instituciones de Seguridad Social por Subsidios o Subvenciones",
+    "label": "77600 - Transferencias de Capital a Instituciones de Seguridad Social por Subsidios o Subvenciones"
+  },
+  {
+    "codigo": "77700",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital a Empresas Públicas Nacionales por Subsidios o Subvenciones",
+    "label": "77700 - Transferencias de Capital a Empresas Públicas Nacionales por Subsidios o Subvenciones"
+  },
+  {
+    "codigo": "77800",
+    "nivel": 3,
+    "padre": "77000",
+    "nombre": "Transferencias de Capital a Empresas Públicas de las Entidades Territoriales Autónomas",
+    "label": "77800 - Transferencias de Capital a Empresas Públicas de las Entidades Territoriales Autónomas"
+  },
+  {
+    "codigo": "77810",
+    "nivel": 4,
+    "padre": "77800",
+    "nombre": "A Empresas Públicas Departamentales",
+    "label": "77810 - A Empresas Públicas Departamentales"
+  },
+  {
+    "codigo": "77820",
+    "nivel": 4,
+    "padre": "77800",
+    "nombre": "A Empresas Públicas Municipales",
+    "label": "77820 - A Empresas Públicas Municipales"
+  },
+  {
+    "codigo": "77830",
+    "nivel": 4,
+    "padre": "77800",
+    "nombre": "A Empresas Públicas Indígenas Originarias y Campesinas",
+    "label": "77830 - A Empresas Públicas Indígenas Originarias y Campesinas"
+  },
+  {
+    "codigo": "77840",
+    "nivel": 4,
+    "padre": "77800",
+    "nombre": "A Empresas Públicas Regionales",
+    "label": "77840 - A Empresas Públicas Regionales"
+  },
+  {
+    "codigo": "78000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias de Capital al Sector Público Financiero",
+    "label": "78000 - Transferencias de Capital al Sector Público Financiero"
+  },
+  {
+    "codigo": "78100",
+    "nivel": 3,
+    "padre": "78000",
+    "nombre": "Transferencias de Capital a Instituciones Públicas Financieras No Bancarias",
+    "label": "78100 - Transferencias de Capital a Instituciones Públicas Financieras No Bancarias"
+  },
+  {
+    "codigo": "78200",
+    "nivel": 3,
+    "padre": "78000",
+    "nombre": "Transferencias de Capital a Instituciones Públicas Financieras Bancarias",
+    "label": "78200 - Transferencias de Capital a Instituciones Públicas Financieras Bancarias"
+  },
+  {
+    "codigo": "79000",
+    "nivel": 2,
+    "padre": "70000",
+    "nombre": "Transferencias a Gobiernos Extranjeros, Organismos Internacionales y otros",
+    "label": "79000 - Transferencias a Gobiernos Extranjeros, Organismos Internacionales y otros"
+  },
+  {
+    "codigo": "79100",
+    "nivel": 3,
+    "padre": "79000",
+    "nombre": "Transferencias Corrientes a Gobiernos Extranjeros y Organismos Internacionales por",
+    "label": "79100 - Transferencias Corrientes a Gobiernos Extranjeros y Organismos Internacionales por"
+  },
+  {
+    "codigo": "79200",
+    "nivel": 3,
+    "padre": "79000",
+    "nombre": "Transferencias Corrientes a Gobiernos Extranjeros y Organismos Internacionales por",
+    "label": "79200 - Transferencias Corrientes a Gobiernos Extranjeros y Organismos Internacionales por"
+  },
+  {
+    "codigo": "79300",
+    "nivel": 3,
+    "padre": "79000",
+    "nombre": "Otras Transferencias Corrientes al Exterior",
+    "label": "79300 - Otras Transferencias Corrientes al Exterior"
+  },
+  {
+    "codigo": "79310",
+    "nivel": 4,
+    "padre": "79300",
+    "nombre": "Transferencias al Exterior en Efectivo",
+    "label": "79310 - Transferencias al Exterior en Efectivo"
+  },
+  {
+    "codigo": "79320",
+    "nivel": 4,
+    "padre": "79300",
+    "nombre": "Transferencias al Exterior en Especie",
+    "label": "79320 - Transferencias al Exterior en Especie"
+  },
+  {
+    "codigo": "79400",
+    "nivel": 3,
+    "padre": "79000",
+    "nombre": "Transferencias de Capital al Exterior",
+    "label": "79400 - Transferencias de Capital al Exterior"
+  },
+  {
+    "codigo": "79500",
+    "nivel": 3,
+    "padre": "79000",
+    "nombre": "Transferencias a Organismos Internacionales",
+    "label": "79500 - Transferencias a Organismos Internacionales"
+  },
+  {
+    "codigo": "80000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "IMPUESTOS, REGALÍAS Y TASAS",
+    "label": "80000 - IMPUESTOS, REGALÍAS Y TASAS"
+  },
+  {
+    "codigo": "81000",
+    "nivel": 2,
+    "padre": "80000",
+    "nombre": "Renta Interna",
+    "label": "81000 - Renta Interna"
+  },
+  {
+    "codigo": "81100",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto sobre las Utilidades de las Empresas",
+    "label": "81100 - Impuesto sobre las Utilidades de las Empresas"
+  },
+  {
+    "codigo": "81200",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto a las Transacciones",
+    "label": "81200 - Impuesto a las Transacciones"
+  },
+  {
+    "codigo": "81300",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto al Valor Agregado Mercado Interno",
+    "label": "81300 - Impuesto al Valor Agregado Mercado Interno"
+  },
+  {
+    "codigo": "81400",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto al Valor Agregado Importaciones",
+    "label": "81400 - Impuesto al Valor Agregado Importaciones"
+  },
+  {
+    "codigo": "81500",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto a los Consumos Específicos Mercado Interno",
+    "label": "81500 - Impuesto a los Consumos Específicos Mercado Interno"
+  },
+  {
+    "codigo": "81600",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto a los Consumos Específicos Importaciones",
+    "label": "81600 - Impuesto a los Consumos Específicos Importaciones"
+  },
+  {
+    "codigo": "81700",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto Especial a los Hidrocarburos y sus Derivados Mercado Interno",
+    "label": "81700 - Impuesto Especial a los Hidrocarburos y sus Derivados Mercado Interno"
+  },
+  {
+    "codigo": "81800",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Impuesto Especial a los Hidrocarburos y sus Derivados Importación",
+    "label": "81800 - Impuesto Especial a los Hidrocarburos y sus Derivados Importación"
+  },
+  {
+    "codigo": "81900",
+    "nivel": 3,
+    "padre": "81000",
+    "nombre": "Otros Impuestos",
+    "label": "81900 - Otros Impuestos"
+  },
+  {
+    "codigo": "81910",
+    "nivel": 4,
+    "padre": "81900",
+    "nombre": "Impuesto a las Salidas Aéreas al Exterior",
+    "label": "81910 - Impuesto a las Salidas Aéreas al Exterior"
+  },
+  {
+    "codigo": "81950",
+    "nivel": 4,
+    "padre": "81900",
+    "nombre": "Impuesto a la Transmisión Gratuita de Bienes- ITGB",
+    "label": "81950 - Impuesto a la Transmisión Gratuita de Bienes- ITGB"
+  },
+  {
+    "codigo": "81960",
+    "nivel": 4,
+    "padre": "81900",
+    "nombre": "Impuesto a las Transacciones Financieras – ITF",
+    "label": "81960 - Impuesto a las Transacciones Financieras – ITF"
+  },
+  {
+    "codigo": "81990",
+    "nivel": 4,
+    "padre": "81900",
+    "nombre": "Otros",
+    "label": "81990 - Otros"
+  },
+  {
+    "codigo": "82000",
+    "nivel": 2,
+    "padre": "80000",
+    "nombre": "Renta Aduanera",
+    "label": "82000 - Renta Aduanera"
+  },
+  {
+    "codigo": "82100",
+    "nivel": 3,
+    "padre": "82000",
+    "nombre": "Gravamen Arancelario",
+    "label": "82100 - Gravamen Arancelario"
+  },
+  {
+    "codigo": "83000",
+    "nivel": 2,
+    "padre": "80000",
+    "nombre": "Impuestos Municipales",
+    "label": "83000 - Impuestos Municipales"
+  },
+  {
+    "codigo": "83100",
+    "nivel": 3,
+    "padre": "83000",
+    "nombre": "Impuesto a la Propiedad de Bienes",
+    "label": "83100 - Impuesto a la Propiedad de Bienes"
+  },
+  {
+    "codigo": "83110",
+    "nivel": 4,
+    "padre": "83100",
+    "nombre": "Bienes Inmuebles",
+    "label": "83110 - Bienes Inmuebles"
+  },
+  {
+    "codigo": "83120",
+    "nivel": 4,
+    "padre": "83100",
+    "nombre": "Vehículos Automotores",
+    "label": "83120 - Vehículos Automotores"
+  },
+  {
+    "codigo": "83200",
+    "nivel": 3,
+    "padre": "83000",
+    "nombre": "Impuesto a las Transferencias onerosas de bienes inmuebles y vehículos automotores",
+    "label": "83200 - Impuesto a las Transferencias onerosas de bienes inmuebles y vehículos automotores"
+  },
+  {
+    "codigo": "83210",
+    "nivel": 4,
+    "padre": "83200",
+    "nombre": "Bienes Inmuebles",
+    "label": "83210 - Bienes Inmuebles"
+  },
+  {
+    "codigo": "83220",
+    "nivel": 4,
+    "padre": "83200",
+    "nombre": "Vehículos Automotores",
+    "label": "83220 - Vehículos Automotores"
+  },
+  {
+    "codigo": "84000",
+    "nivel": 2,
+    "padre": "80000",
+    "nombre": "Regalías",
+    "label": "84000 - Regalías"
+  },
+  {
+    "codigo": "84100",
+    "nivel": 3,
+    "padre": "84000",
+    "nombre": "Regalías Mineras",
+    "label": "84100 - Regalías Mineras"
+  },
+  {
+    "codigo": "84200",
+    "nivel": 3,
+    "padre": "84000",
+    "nombre": "Regalías por Hidrocarburos",
+    "label": "84200 - Regalías por Hidrocarburos"
+  },
+  {
+    "codigo": "84230",
+    "nivel": 4,
+    "padre": "84200",
+    "nombre": "6% Participación TGN",
+    "label": "84230 - 6% Participación TGN"
+  },
+  {
+    "codigo": "84240",
+    "nivel": 4,
+    "padre": "84200",
+    "nombre": "11% Sobre Producción por Regalías Departamentales",
+    "label": "84240 - 11% Sobre Producción por Regalías Departamentales"
+  },
+  {
+    "codigo": "84250",
+    "nivel": 4,
+    "padre": "84200",
+    "nombre": "1% Sobre Producción para Regalías Compensatoria Departamental",
+    "label": "84250 - 1% Sobre Producción para Regalías Compensatoria Departamental"
+  },
+  {
+    "codigo": "84300",
+    "nivel": 3,
+    "padre": "84000",
+    "nombre": "Regalías Agropecuarias",
+    "label": "84300 - Regalías Agropecuarias"
+  },
+  {
+    "codigo": "84900",
+    "nivel": 3,
+    "padre": "84000",
+    "nombre": "Otras Regalías",
+    "label": "84900 - Otras Regalías"
+  },
+  {
+    "codigo": "85000",
+    "nivel": 2,
+    "padre": "80000",
+    "nombre": "Tasas, Multas y Otros",
+    "label": "85000 - Tasas, Multas y Otros"
+  },
+  {
+    "codigo": "85100",
+    "nivel": 3,
+    "padre": "85000",
+    "nombre": "Tasas",
+    "label": "85100 - Tasas"
+  },
+  {
+    "codigo": "85200",
+    "nivel": 3,
+    "padre": "85000",
+    "nombre": "Derechos",
+    "label": "85200 - Derechos"
+  },
+  {
+    "codigo": "85300",
+    "nivel": 3,
+    "padre": "85000",
+    "nombre": "Contribuciones por Mejoras",
+    "label": "85300 - Contribuciones por Mejoras"
+  },
+  {
+    "codigo": "85400",
+    "nivel": 3,
+    "padre": "85000",
+    "nombre": "Multas",
+    "label": "85400 - Multas"
+  },
+  {
+    "codigo": "85500",
+    "nivel": 3,
+    "padre": "85000",
+    "nombre": "Intereses Penales",
+    "label": "85500 - Intereses Penales"
+  },
+  {
+    "codigo": "85900",
+    "nivel": 3,
+    "padre": "85000",
+    "nombre": "Otros",
+    "label": "85900 - Otros"
+  },
+  {
+    "codigo": "86000",
+    "nivel": 2,
+    "padre": "80000",
+    "nombre": "Patentes",
+    "label": "86000 - Patentes"
+  },
+  {
+    "codigo": "86100",
+    "nivel": 3,
+    "padre": "86000",
+    "nombre": "Patentes",
+    "label": "86100 - Patentes"
+  },
+  {
+    "codigo": "90000",
+    "nivel": 1,
+    "padre": "",
+    "nombre": "OTROS GASTOS",
+    "label": "90000 - OTROS GASTOS"
+  },
+  {
+    "codigo": "91000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Intereses de Instituciones Financieras",
+    "label": "91000 - Intereses de Instituciones Financieras"
+  },
+  {
+    "codigo": "91100",
+    "nivel": 3,
+    "padre": "91000",
+    "nombre": "Intereses de Instituciones Públicas Financieras no Bancarias",
+    "label": "91100 - Intereses de Instituciones Públicas Financieras no Bancarias"
+  },
+  {
+    "codigo": "91200",
+    "nivel": 3,
+    "padre": "91000",
+    "nombre": "Intereses de Instituciones Públicas Financieras Bancarias",
+    "label": "91200 - Intereses de Instituciones Públicas Financieras Bancarias"
+  },
+  {
+    "codigo": "92000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Otros Gastos Financieros",
+    "label": "92000 - Otros Gastos Financieros"
+  },
+  {
+    "codigo": "92100",
+    "nivel": 3,
+    "padre": "92000",
+    "nombre": "Gastos Financieros por Operaciones con Activos Virtuales",
+    "label": "92100 - Gastos Financieros por Operaciones con Activos Virtuales"
+  },
+  {
+    "codigo": "94000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Beneficios Sociales y Otros",
+    "label": "94000 - Beneficios Sociales y Otros"
+  },
+  {
+    "codigo": "94100",
+    "nivel": 3,
+    "padre": "94000",
+    "nombre": "Indemnización",
+    "label": "94100 - Indemnización"
+  },
+  {
+    "codigo": "94200",
+    "nivel": 3,
+    "padre": "94000",
+    "nombre": "Desahucio",
+    "label": "94200 - Desahucio"
+  },
+  {
+    "codigo": "94300",
+    "nivel": 3,
+    "padre": "94000",
+    "nombre": "Otros Beneficios Sociales",
+    "label": "94300 - Otros Beneficios Sociales"
+  },
+  {
+    "codigo": "95000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Contingencias Judiciales y otras",
+    "label": "95000 - Contingencias Judiciales y otras"
+  },
+  {
+    "codigo": "95100",
+    "nivel": 3,
+    "padre": "95000",
+    "nombre": "Contingencias Judiciales y otras",
+    "label": "95100 - Contingencias Judiciales y otras"
+  },
+  {
+    "codigo": "96000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Otras Pérdidas y Devoluciones",
+    "label": "96000 - Otras Pérdidas y Devoluciones"
+  },
+  {
+    "codigo": "96100",
+    "nivel": 3,
+    "padre": "96000",
+    "nombre": "Pérdidas en Operaciones Cambiarias",
+    "label": "96100 - Pérdidas en Operaciones Cambiarias"
+  },
+  {
+    "codigo": "96200",
+    "nivel": 3,
+    "padre": "96000",
+    "nombre": "Devoluciones",
+    "label": "96200 - Devoluciones"
+  },
+  {
+    "codigo": "96900",
+    "nivel": 3,
+    "padre": "96000",
+    "nombre": "Otras Pérdidas",
+    "label": "96900 - Otras Pérdidas"
+  },
+  {
+    "codigo": "97000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Comisiones y Bonificaciones",
+    "label": "97000 - Comisiones y Bonificaciones"
+  },
+  {
+    "codigo": "97100",
+    "nivel": 3,
+    "padre": "97000",
+    "nombre": "Comisiones por Ventas",
+    "label": "97100 - Comisiones por Ventas"
+  },
+  {
+    "codigo": "97200",
+    "nivel": 3,
+    "padre": "97000",
+    "nombre": "Bonificaciones por Ventas",
+    "label": "97200 - Bonificaciones por Ventas"
+  },
+  {
+    "codigo": "98000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Retiros de Capital",
+    "label": "98000 - Retiros de Capital"
+  },
+  {
+    "codigo": "98100",
+    "nivel": 3,
+    "padre": "98000",
+    "nombre": "Del Sector Público",
+    "label": "98100 - Del Sector Público"
+  },
+  {
+    "codigo": "98200",
+    "nivel": 3,
+    "padre": "98000",
+    "nombre": "Del Sector Privado",
+    "label": "98200 - Del Sector Privado"
+  },
+  {
+    "codigo": "98300",
+    "nivel": 3,
+    "padre": "98000",
+    "nombre": "Pago de Dividendos",
+    "label": "98300 - Pago de Dividendos"
+  },
+  {
+    "codigo": "99000",
+    "nivel": 2,
+    "padre": "90000",
+    "nombre": "Previsiones para Gastos Corrientes y de Capital",
+    "label": "99000 - Previsiones para Gastos Corrientes y de Capital"
+  },
+  {
+    "codigo": "99100",
+    "nivel": 3,
+    "padre": "99000",
+    "nombre": "Previsiones para Gastos de Capital",
+    "label": "99100 - Previsiones para Gastos de Capital"
+  },
+  {
+    "codigo": "99200",
+    "nivel": 3,
+    "padre": "99000",
+    "nombre": "Previsiones para Gastos Corrientes",
+    "label": "99200 - Previsiones para Gastos Corrientes"
+  }
+]

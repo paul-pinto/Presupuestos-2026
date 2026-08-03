@@ -1,4 +1,5 @@
 "use client";
+import { formatBs, formatBsCompact, formatNumber, formatPct, normalize, shortEntidadLabel } from "@/lib/format";
 
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
@@ -24,41 +25,6 @@ type Props = {
   grupoEta: string;
   query: string;
 };
-
-function normalize(value: string | number | null | undefined): string {
-  return String(value || "").toLowerCase();
-}
-
-function formatBs(value: number): string {
-  return `Bs ${Number(value || 0).toLocaleString("es-BO", {
-    maximumFractionDigits: 0,
-  })}`;
-}
-
-function formatNumber(value: number): string {
-  return Number(value || 0).toLocaleString("es-BO", {
-    maximumFractionDigits: 0,
-  });
-}
-
-function formatBsCompact(value: number): string {
-  const n = Number(value || 0);
-  const abs = Math.abs(n);
-
-  if (abs >= 1_000_000) {
-    return `Bs ${(n / 1_000_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 0,
-    })} millones`;
-  }
-
-  if (abs >= 1_000) {
-    return `Bs ${(n / 1_000).toLocaleString("es-BO", {
-      maximumFractionDigits: 0,
-    })} mil`;
-  }
-
-  return formatBs(n);
-}
 
 export default function IndicadoresPerCapitaPanel({
   departamento,
