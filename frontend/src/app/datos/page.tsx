@@ -1,88 +1,120 @@
-import Link from "next/link";
-import { ArrowLeft, Download } from "lucide-react";
+import { GlassCard, PageShell, Pill } from "@/components/ui";
 
 const datasets = [
   {
-    name: "Entidades",
-    file: "/data/entidades.json",
-    description: "Presupuesto total y grupos de gasto por entidad.",
+    file: "summary.json",
+    title: "Resumen general",
+    description: "Totales principales del observatorio: presupuesto agregado, ingresos, entidades, departamentos y validación.",
+    usedIn: "Inicio",
   },
   {
-    name: "Programas",
-    file: "/data/programas.json",
-    description: "Programas presupuestarios completos por entidad.",
+    file: "entidades.json",
+    title: "Entidades territoriales autónomas",
+    description: "Base principal de entidades con presupuesto total, departamento, tipo, grupo ETA y grupos de gasto.",
+    usedIn: "Inicio, Entidades, Fichas individuales",
   },
   {
-    name: "Ingresos vs gastos",
-    file: "/data/ingresos_vs_gastos.json",
-    description: "ComparaciÃ³n de ingresos, gastos y diferencia por entidad.",
+    file: "programas.json",
+    title: "Programas presupuestarios",
+    description: "Detalle de programas por entidad, usado para rankings y fichas individuales.",
+    usedIn: "Inicio, Gastos, Fichas individuales",
   },
   {
-    name: "Objeto del gasto nivel 1",
-    file: "/data/objeto_gasto_nivel1.json",
-    description: "Agregado por objeto del gasto.",
+    file: "ingresos_vs_gastos.json",
+    title: "Ingresos frente a gastos",
+    description: "Comparación presupuestaria entre recursos e importes de gasto por entidad.",
+    usedIn: "Inicio, Ingresos, Fichas individuales",
   },
   {
-    name: "Fuentes de financiamiento",
-    file: "/data/fuentes_objeto_gasto.json",
-    description: "Agregado por fuente de financiamiento.",
+    file: "recursos_detalle.json",
+    title: "Recursos por rubro",
+    description: "Detalle de ingresos clasificados por rubro presupuestario.",
+    usedIn: "Inicio, Ingresos",
   },
   {
-    name: "ValidaciÃ³n integrada",
-    file: "/data/validacion_integrada.json",
-    description: "Control de consistencia por entidad.",
+    file: "recursos_fuente_organismo.json",
+    title: "Recursos por fuente y organismo",
+    description: "Detalle de ingresos según fuente de financiamiento y organismo financiador.",
+    usedIn: "Inicio, Ingresos, Indicadores fiscales",
+  },
+  {
+    file: "objeto_gasto_detalle.json",
+    title: "Objeto del gasto detallado",
+    description: "Detalle del gasto por clasificador de objeto del gasto y entidad.",
+    usedIn: "Objeto del gasto",
+  },
+  {
+    file: "objeto_gasto_catalogo.json",
+    title: "Catálogo de objeto del gasto",
+    description: "Catálogo jerárquico usado para navegar niveles del clasificador de gasto.",
+    usedIn: "Objeto del gasto",
+  },
+  {
+    file: "entidades_indicadores.json",
+    title: "Indicadores poblacionales",
+    description: "Cruce SIGEP con población INE 2024 para calcular presupuesto per cápita.",
+    usedIn: "Indicadores, Fichas individuales",
+  },
+  {
+    file: "indicadores_fiscales.json",
+    title: "Indicadores fiscales",
+    description: "Autonomía fiscal estricta, dependencia TGN, coparticipación, IDH, regalías y recursos específicos.",
+    usedIn: "Indicadores, Fichas individuales",
+  },
+  {
+    file: "validacion_integrada.json",
+    title: "Validación integrada",
+    description: "Control de consistencia entre diferentes agregaciones presupuestarias.",
+    usedIn: "Validación, Fichas individuales",
   },
 ];
 
 export default function DatosPage() {
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-5xl px-6 py-8">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-950"
-          >
-            <ArrowLeft size={16} />
-            Volver al resumen
-          </Link>
-
-          <p className="mt-6 text-sm font-medium uppercase tracking-wide text-slate-500">
-            Datos abiertos
-          </p>
-          <h1 className="mt-2 text-4xl font-bold tracking-tight">Descargas</h1>
-          <p className="mt-4 max-w-3xl text-slate-600">
-            Archivos JSON utilizados por el frontend pÃºblico. Estos archivos permiten auditar,
-            reutilizar o replicar los principales anÃ¡lisis del observatorio.
-          </p>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-6 py-8">
-        <div className="grid gap-4">
-          {datasets.map((dataset) => (
-            <div
-              key={dataset.file}
-              className="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm md:flex-row md:items-center md:justify-between"
-            >
+    <PageShell
+      eyebrow="Datos"
+      title="Datasets del Observatorio de Presupuestos ETA 2026"
+      description="Archivos JSON que alimentan el frontend del observatorio. Se generan desde la base procesada del proyecto y se publican como archivos estáticos dentro de /data."
+    >
+      <div className="grid gap-4 md:grid-cols-2">
+        {datasets.map((dataset) => (
+          <GlassCard key={dataset.file}>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
               <div>
-                <h2 className="text-lg font-semibold">{dataset.name}</h2>
-                <p className="mt-1 text-sm text-slate-500">{dataset.description}</p>
-                <p className="mt-2 font-mono text-xs text-slate-400">{dataset.file}</p>
+                <h2 className="text-lg font-semibold text-white">{dataset.title}</h2>
+                <p className="mt-1 font-mono text-xs text-cyan-300">{dataset.file}</p>
               </div>
 
               <a
-                href={dataset.file}
-                download
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-950 px-4 py-2 text-sm text-white hover:bg-slate-800"
+                href={`/data/${dataset.file}`}
+                className="rounded-full border border-cyan-300/40 px-3 py-1 text-xs font-medium text-cyan-200 hover:bg-cyan-300/10"
+                target="_blank"
+                rel="noreferrer"
               >
-                <Download size={16} />
-                Descargar JSON
+                Ver JSON
               </a>
             </div>
-          ))}
-        </div>
+
+            <p className="mt-4 text-sm leading-6 text-slate-300">
+              {dataset.description}
+            </p>
+
+            <div className="mt-4">
+              <Pill>{dataset.usedIn}</Pill>
+            </div>
+          </GlassCard>
+        ))}
+      </div>
+
+      <section className="mt-8 rounded-2xl border border-amber-300/20 bg-amber-300/10 p-5">
+        <h2 className="text-lg font-semibold text-amber-100">Nota de uso</h2>
+        <p className="mt-3 text-sm leading-6 text-amber-50/90">
+          Los archivos publicados son insumos procesados para visualización. No reemplazan
+          la fuente oficial ni una auditoría presupuestaria. Los rankings deben interpretarse
+          como herramientas exploratorias y no como conclusiones automáticas sobre desempeño
+          institucional.
+        </p>
       </section>
-    </main>
+    </PageShell>
   );
 }

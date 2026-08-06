@@ -1,3 +1,5 @@
+import { GlassCard, PageShell, SectionTitle } from "@/components/ui";
+
 const sections = [
   {
     title: "Fuente principal: SIGEP",
@@ -84,38 +86,31 @@ const sections = [
 
 export default function MetodologiaPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
-      <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 shadow-2xl shadow-black/20">
-          <p className="text-sm uppercase tracking-[0.35em] text-cyan-300">
-            Metodología
-          </p>
-          <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-5xl">
-            Cómo se construye el Observatorio de Presupuestos ETA 2026
-          </h1>
-          <p className="mt-4 max-w-4xl text-base leading-7 text-slate-300">
-            Esta sección documenta las fuentes, cruces, criterios de cálculo y limitaciones
-            principales del observatorio. Su objetivo es que los indicadores sean transparentes,
-            reproducibles y fáciles de interpretar.
-          </p>
-        </div>
-
-        <div className="mt-8 grid gap-5">
-          {sections.map((section) => (
-            <article
-              key={section.title}
-              className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"
-            >
-              <h2 className="text-xl font-semibold text-white">{section.title}</h2>
-              <div className="mt-4 space-y-3 text-sm leading-6 text-slate-300">
-                {section.body.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
+    <PageShell
+      eyebrow="Metodología"
+      title="Cómo se construye el Observatorio de Presupuestos ETA 2026"
+      description="Fuentes, cruces, criterios de cálculo y limitaciones principales del observatorio. El objetivo es que los indicadores sean transparentes, reproducibles y fáciles de interpretar."
+    >
+      <div className="grid gap-5">
+        {sections.map((section, index) => (
+          <GlassCard key={section.title}>
+            <div className="flex gap-4">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-cyan-300/30 bg-cyan-300/10 text-sm font-semibold text-cyan-100">
+                {String(index + 1).padStart(2, "0")}
               </div>
-            </article>
-          ))}
-        </div>
-      </section>
-    </main>
+
+              <div>
+                <SectionTitle title={section.title} />
+                <div className="space-y-3 text-sm leading-6 text-slate-300">
+                  {section.body.map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </GlassCard>
+        ))}
+      </div>
+    </PageShell>
   );
 }
