@@ -60,6 +60,10 @@ type EntidadIndicador = {
   presupuesto_per_capita: number;
 
   pib_estimado_usd2017_2021?: number | null;
+  pib_departamental_usd2017_2021?: number | null;
+  pib_municipal_usd2017_2021?: number | null;
+  poblacion_retro_2021?: number | null;
+  poblacion_2021?: number | null;
   poblacion_estimada_pibpc_2021?: number | null;
   poblacion_proyectada_2021?: number | null;
   pibpc_usd2017_2021?: number | null;
@@ -82,6 +86,14 @@ type EntidadIndicador = {
 
 
 type FiscalIndicador = {
+  iehd?: number | null;
+  iehd_pct?: number | null;
+
+  autonomia_departamental?: number | null;
+  autonomia_departamental_pct?: number | null;
+  autonomia_departamental_aplica?: boolean | null;
+  autonomia_departamental_base?: string | null;
+
   codigo_entidad: string;
   nombre_entidad: string;
   grupo_eta: string;
@@ -175,6 +187,15 @@ function formatBsCompact(value: number): string {
   })}`;
 }
 
+
+function formatNumber(value: number | null | undefined, digits = 0): string {
+  if (value === null || value === undefined || Number.isNaN(value)) return "Sin dato";
+
+  return new Intl.NumberFormat("es-BO", {
+    minimumFractionDigits: digits,
+    maximumFractionDigits: digits,
+  }).format(value);
+}
 
 function formatInt(value: number): string {
   return Number(value || 0).toLocaleString("es-BO", {
@@ -581,8 +602,20 @@ export default function EntidadDetallePage() {
             />
 
             <MetricCard
-              title="PIB municipal 2021"
-              value={formatUsd2017(indicadorEntidad.pib_estimado_usd2017_2021)}
+              title={indicadorEntidad.tipo === "GAD" || indicadorEntidad.grupo_eta === "GAD" ? "PIB departamental 2021" : "PIB municipal 2021"}
+              value={
+            indicadorEntidad.pib_estimado_usd2017_2021 === null &&
+            indicadorEntidad.pib_departamental_usd2017_2021 === null &&
+            indicadorEntidad.pib_municipal_usd2017_2021 === null
+              ? "Sin dato"
+              : `${formatNumber(
+                  (indicadorEntidad.pib_estimado_usd2017_2021 ??
+                    indicadorEntidad.pib_departamental_usd2017_2021 ??
+                    indicadorEntidad.pib_municipal_usd2017_2021 ??
+                    0) / 1_000_000,
+                  1
+                )} millones USD`
+          }
               subtitle="Estimación espacial · USD 2017"
               icon={<Landmark size={22} />}
             />
@@ -638,10 +671,10 @@ export default function EntidadDetallePage() {
                 {indicadorEntidad.nbi_inadecuados_agua_saneamiento === null ||
                 indicadorEntidad.nbi_inadecuados_agua_saneamiento === undefined
                   ? "Sin dato"
-                  : formatInt(indicadorEntidad.nbi_inadecuados_agua_saneamiento)}
+                  : formatPct(indicadorEntidad.nbi_inadecuados_agua_saneamiento / 100, 1)}
               </p>
               <p className="mt-1 text-xs leading-5 text-slate-500">
-                Personas con servicios inadecuados según NBI 2024.
+                Porcentaje de población con servicios de agua y saneamiento inadecuados según NBI 2024.
               </p>
             </div>
 
@@ -653,10 +686,10 @@ export default function EntidadDetallePage() {
                 {indicadorEntidad.nbi_insuficiencia_educacion === null ||
                 indicadorEntidad.nbi_insuficiencia_educacion === undefined
                   ? "Sin dato"
-                  : formatInt(indicadorEntidad.nbi_insuficiencia_educacion)}
+                  : formatPct(indicadorEntidad.nbi_insuficiencia_educacion / 100, 1)}
               </p>
               <p className="mt-1 text-xs leading-5 text-slate-500">
-                Personas con insuficiencia en educación según NBI 2024.
+                Porcentaje de población con insuficiencia en educación según NBI 2024.
               </p>
             </div>
 
@@ -668,10 +701,10 @@ export default function EntidadDetallePage() {
                 {indicadorEntidad.nbi_inadecuada_atencion_salud === null ||
                 indicadorEntidad.nbi_inadecuada_atencion_salud === undefined
                   ? "Sin dato"
-                  : formatInt(indicadorEntidad.nbi_inadecuada_atencion_salud)}
+                  : formatPct(indicadorEntidad.nbi_inadecuada_atencion_salud / 100, 1)}
               </p>
               <p className="mt-1 text-xs leading-5 text-slate-500">
-                Personas con atención en salud inadecuada según NBI 2024.
+                Porcentaje de población con atención en salud inadecuada según NBI 2024.
               </p>
             </div>
           </div>
@@ -692,13 +725,15 @@ export default function EntidadDetallePage() {
 
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             <MetricCard
-              title="Autonomía fiscal estricta"
+              title={fiscalEntidad.autonomia_departamental_aplica ? "Autonomía fiscal departamental" : "Autonomía fiscal estricta"}
               value={
-                fiscalEntidad.autonomia_fiscal_aplica
-                  ? formatFiscalPct(fiscalEntidad.autonomia_fiscal_pct)
-                  : "No aplica"
+                fiscalEntidad.autonomia_departamental_aplica
+                  ? formatFiscalPct(fiscalEntidad.autonomia_departamental_pct)
+                  : fiscalEntidad.autonomia_fiscal_aplica
+                    ? formatFiscalPct(fiscalEntidad.autonomia_fiscal_pct)
+                    : "No aplica"
               }
-              subtitle="20/210 Recursos específicos GAM/GAIOC"
+              subtitle={fiscalEntidad.autonomia_departamental_aplica ? "Rubros 12 + 13 + 15 + 16 + 21 sobre ingresos totales" : "20/210 Recursos específicos GAM/GAIOC"}
               icon={<WalletCards size={22} />}
             />
 
@@ -710,8 +745,8 @@ export default function EntidadDetallePage() {
             />
 
             <MetricCard
-              title="Coparticipación"
-              value={formatFiscalPct(fiscalEntidad.coparticipacion_pct)}
+              title={fiscalEntidad.autonomia_departamental_aplica ? "IEHD" : "Coparticipación"}
+              value={fiscalEntidad.autonomia_departamental_aplica ? formatFiscalPct(fiscalEntidad.iehd_pct) : formatFiscalPct(fiscalEntidad.coparticipacion_pct)}
               subtitle={formatBs(fiscalEntidad.coparticipacion)}
               icon={<WalletCards size={22} />}
             />
@@ -891,3 +926,12 @@ export default function EntidadDetallePage() {
     </main>
   );
 }
+
+
+
+
+
+
+
+
+
