@@ -40,6 +40,15 @@ type OptionRow = {
   label: string;
 };
 
+type OrganismoCatalogo = {
+  codigo?: string;
+  organismo?: string;
+  nombre_oficial?: string;
+  sigla?: string;
+  nombre_corto?: string;
+  label?: string;
+};
+
 function normalize(value: string | number | null | undefined): string {
   return String(value || "").toLowerCase();
 }
@@ -91,6 +100,68 @@ function uniqueOptions(
     .map(([code, label]) => ({ code, label }));
 }
 
+function cleanCode(value: string | number | null | undefined): string {
+  return String(value || "").trim();
+}
+
+function isGenericOrganismoName(value: string | null | undefined): boolean {
+  const raw = String(value || "").trim();
+  return !raw || /^Org\.?\s*\d+$/i.test(raw);
+}
+
+function shortOrganismoLabel(row: OrganismoCatalogo): string {
+  const sigla = cleanCode(row.sigla);
+  const nombreCorto = cleanCode(row.nombre_corto);
+  const label = cleanCode(row.label);
+  const nombre = cleanCode(row.nombre_oficial);
+
+  if (sigla) {
+    if (sigla === "TGN") return "TGN";
+    if (sigla === "TGN-CT") return "Coparticipación Tributaria";
+    if (sigla === "TGN-IDH") return "IDH";
+    if (sigla === "TGN-IEHD") return "IEHD";
+    if (sigla === "TGN-FCOMP") return "Fondo de Compensación Departamental";
+    if (sigla === "RECON") return "Recursos de Contravalor";
+    if (sigla === "RECESP") return "Recursos Específicos";
+    if (sigla === "REG") return "Regalías";
+    if (sigla === "OTPRO") return "Otros recursos específicos";
+
+    return sigla;
+  }
+
+  return nombreCorto || label || nombre;
+}
+
+function buildOrganismoMap(rows: OrganismoCatalogo[]): Map<string, string> {
+  const map = new Map<string, string>();
+
+  for (const row of rows) {
+    const codigo = cleanCode(row.codigo || row.organismo);
+    if (!codigo) continue;
+
+    const label = shortOrganismoLabel(row);
+    if (!label) continue;
+
+    map.set(codigo, label);
+  }
+
+  return map;
+}
+
+function organismoLabel(
+  organismo: string,
+  fallback: string,
+  organismoMap: Map<string, string>
+): string {
+  const code = cleanCode(organismo);
+  const fromCatalog = organismoMap.get(code);
+
+  if (fromCatalog) return fromCatalog;
+  if (!isGenericOrganismoName(fallback)) return fallback;
+
+  return `Org. ${code}`;
+}
+
 function SelectBox({
   label,
   value,
@@ -103,12 +174,12 @@ function SelectBox({
   options: OptionRow[];
 }) {
   return (
-    <label className="text-sm text-slate-600">
+    <label className="text-sm font-medium text-slate-700">
       {label}
       <select
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-slate-950"
+        className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
       >
         <option value="Todos">Todos</option>
         {options.map((option) => (
@@ -128,6 +199,7 @@ export default function RecursoFuenteOrganismoPanel({
   query,
 }: Props) {
   const [data, setData] = useState<RecursoFuenteOrganismo[]>([]);
+  const [organismosCatalogo, setOrganismosCatalogo] = useState<OrganismoCatalogo[]>([]);
   const [rubroNivel1, setRubroNivel1] = useState("Todos");
   const [rubroNivel2, setRubroNivel2] = useState("Todos");
   const [rubroNivel3, setRubroNivel3] = useState("Todos");
@@ -140,6 +212,11 @@ export default function RecursoFuenteOrganismoPanel({
       .then((response) => response.json())
       .then((rows: RecursoFuenteOrganismo[]) => setData(rows))
       .catch(() => setData([]));
+
+    fetch("/data/organismos_financiadores.json")
+      .then((response) => response.json())
+      .then((rows: OrganismoCatalogo[]) => setOrganismosCatalogo(rows))
+      .catch(() => setOrganismosCatalogo([]));
   }, []);
 
   const baseRows = useMemo(() => {
@@ -171,6 +248,8 @@ export default function RecursoFuenteOrganismoPanel({
       );
     });
   }, [data, departamento, tipo, grupoEta, query]);
+
+  const organismoMap = useMemo(() => buildOrganismoMap(organismosCatalogo), [organismosCatalogo]);
 
   const nivel1Options = useMemo(
     () => uniqueOptions(baseRows, "rubro_nivel1", "rubro_nivel1_nombre"),
@@ -225,13 +304,14 @@ export default function RecursoFuenteOrganismoPanel({
     const map = new Map<string, string>();
 
     for (const item of baseRows) {
-      map.set(item.organismo, `${item.organismo} ${item.organismo_nombre}`);
+      const label = organismoLabel(item.organismo, item.organismo_nombre, organismoMap);
+      map.set(item.organismo, `${item.organismo} ${label}`);
     }
 
     return Array.from(map.entries())
       .sort((a, b) => a[0].localeCompare(b[0], "es-BO", { numeric: true }))
       .map(([code, label]) => ({ code, label }));
-  }, [baseRows]);
+  }, [baseRows, organismoMap]);
 
   const filtered = useMemo(() => {
     return baseRows.filter((item) => {
@@ -271,7 +351,7 @@ export default function RecursoFuenteOrganismoPanel({
       const current = map.get(key) || {
         fuente: item.fuente,
         organismo: item.organismo,
-        organismo_nombre: item.organismo_nombre,
+        organismo_nombre: organismoLabel(item.organismo, item.organismo_nombre, organismoMap),
         importe: 0,
       };
 
@@ -280,7 +360,7 @@ export default function RecursoFuenteOrganismoPanel({
     }
 
     return Array.from(map.values()).sort((a, b) => b.importe - a.importe);
-  }, [filtered]);
+  }, [filtered, organismoMap]);
 
   const top = grouped.slice(0, 12);
 
@@ -293,7 +373,11 @@ export default function RecursoFuenteOrganismoPanel({
     grid: { left: 300, right: 40, top: 20, bottom: 55, containLabel: true },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -303,7 +387,10 @@ export default function RecursoFuenteOrganismoPanel({
       data: [...top]
         .reverse()
         .map((item) => `${item.fuente}/${item.organismo} ${item.organismo_nombre}`),
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#334155",
         width: 280,
         overflow: "truncate",
       },
@@ -313,6 +400,15 @@ export default function RecursoFuenteOrganismoPanel({
         type: "bar",
         data: [...top].reverse().map((item) => item.importe),
         barMaxWidth: 28,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -320,11 +416,14 @@ export default function RecursoFuenteOrganismoPanel({
   const totalFiltrado = filtered.reduce((sum, item) => sum + Number(item.importe || 0), 0);
 
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+    <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
       <div className="mb-5 flex flex-col gap-4">
         <div>
-          <h2 className="text-xl font-bold text-slate-950">Recursos por fuente y organismo</h2>
-          <p className="mt-1 text-sm text-slate-500">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+            Observatorio
+          </p>
+          <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Recursos por fuente y organismo</h2>
+          <p className="mt-1 text-sm leading-6 text-slate-600">
             Cruce de rubro, Fte. y Org. en recursos. Respeta los filtros globales.
           </p>
         </div>
@@ -356,19 +455,19 @@ export default function RecursoFuenteOrganismoPanel({
       </div>
 
       <div className="mb-4 grid gap-3 md:grid-cols-3">
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Total filtrado</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">{formatBs(totalFiltrado)}</p>
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Total filtrado</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatBs(totalFiltrado)}</p>
         </div>
 
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Combinaciones</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">{grouped.length}</p>
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Combinaciones</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{grouped.length}</p>
         </div>
 
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Entidades</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Entidades</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">
             {new Set(filtered.map((item) => item.codigo_entidad)).size}
           </p>
         </div>

@@ -1,0 +1,342 @@
+﻿status,departamento_nbi,provincia_nbi,municipio_nbi,nbi_key,codigo_entidad,nombre_entidad,departamento_sigep,grupo_eta,tipo,nbi_inadecuados_materiales_vivienda,nbi_insuficientes_espacios_vivienda,nbi_inadecuados_agua_saneamiento,nbi_inadecuados_insumos_energeticos,nbi_insuficiencia_educacion,nbi_inadecuada_atencion_salud,nbi_no_pobre_pct,nbi_necesidades_basicas_satisfechas_pct,nbi_umbral_pct,nbi_pobre_pct,nbi_pobre_moderada_pct,nbi_pobre_indigente_pct,nbi_pobre_marginal_pct
+match_exacto,CHUQUISACA,Oropeza,Sucre,sucre,1101,Gobierno Autónomo Municipal de Sucre,Chuquisaca,GAM,municipal,21136,172407,39933,16306,73096,39845,83.8,46.0,37.8,16.2,14.4,1.7,0.0
+match_exacto,CHUQUISACA,Oropeza,Yotala,yotala,1102,Gobierno Autónomo Municipal de Yotala,Chuquisaca,GAM,municipal,1265,5497,2820,2370,4570,734,66.5,20.0,46.5,33.5,30.9,2.6,0.0
+match_exacto,CHUQUISACA,Oropeza,Poroma,poroma,1103,Gobierno Autónomo Municipal de Poroma,Chuquisaca,GAM,municipal,7700,9950,11274,11957,10031,2602,11.8,2.2,9.6,88.2,60.4,26.8,1.0
+match_contiene,CHUQUISACA,Azurduy,Azurduy,azurduy,1104,Gobierno Autónomo Municipal de Villa Azurduy,Chuquisaca,GAM,municipal,4051,4662,4965,5963,5600,995,28.3,9.9,18.4,71.7,48.8,22.5,0.5
+match_contiene,CHUQUISACA,Azurduy,Tarvita,tarvita,1105,Gobierno Autónomo Municipal de Tarvita (Villa Orías),Chuquisaca,GAM,municipal,9809,11706,10221,11107,11293,1339,30.3,6.0,24.3,69.7,53.2,16.4,0.2
+match_contiene,CHUQUISACA,Zudáñez,Zudáñez,zudanez,1106,Gobierno Autónomo Municipal de Villa Zudañez (Tacopaya),Chuquisaca,GAM,municipal,5315,9793,7389,8424,8720,1016,40.4,8.1,32.4,59.6,53.1,6.4,0.0
+match_exacto,CHUQUISACA,Zudáñez,Presto,presto,1107,Gobierno Autónomo Municipal de Presto,Chuquisaca,GAM,municipal,6534,8890,7195,8318,8581,1584,30.6,4.7,25.8,69.4,53.6,15.3,0.5
+match_contiene,CHUQUISACA,Zudáñez,Mojocoya,mojocoya,1108,Gobierno Autónomo Municipal de Villa Mojocoya,Chuquisaca,GAM,municipal,3758,5679,4519,4632,5168,690,45.9,7.8,38.1,54.1,49.3,4.8,0.0
+match_exacto,CHUQUISACA,Zudáñez,Icla,icla,1109,Gobierno Autónomo Municipal de Icla,Chuquisaca,GAM,municipal,3806,5050,4142,6598,6372,1068,38.8,6.1,32.6,61.2,50.8,10.0,0.4
+match_exacto,CHUQUISACA,Tomina,Padilla,padilla,1110,Gobierno Autónomo Municipal de Padilla,Chuquisaca,GAM,municipal,3270,4643,3978,4511,5785,632,50.5,17.2,33.3,49.5,44.0,5.4,0.0
+match_exacto,CHUQUISACA,Tomina,Tomina,tomina,1111,Gobierno Autónomo Municipal de Tomina,Chuquisaca,GAM,municipal,3373,4979,3321,5622,5952,571,44.1,8.2,35.9,55.9,53.2,2.7,0.0
+match_exacto,CHUQUISACA,Tomina,Sopachuy,sopachuy,1112,Gobierno Autónomo Municipal de Sopachuy,Chuquisaca,GAM,municipal,3427,3794,3888,4617,5106,574,35.2,13.5,21.7,64.8,53.8,10.9,0.1
+match_contiene,CHUQUISACA,Tomina,Alcalá,alcala,1113,Gobierno Autónomo Municipal de Villa Alcalá,Chuquisaca,GAM,municipal,1442,2026,1413,2064,1942,140,58.2,24.7,33.4,41.8,38.9,2.9,0.0
+match_exacto,CHUQUISACA,Tomina,El Villar,el villar,1114,Gobierno Autónomo Municipal de El Villar,Chuquisaca,GAM,municipal,2102,4132,2930,4292,3288,243,38.0,9.6,28.4,62.0,55.8,6.0,0.2
+match_exacto,CHUQUISACA,Hernando Siles,Monteagudo,monteagudo,1115,Gobierno Autónomo Municipal de Monteagudo,Chuquisaca,GAM,municipal,4918,15147,6417,7728,11686,1600,64.0,20.0,44.0,36.0,32.3,3.7,0.1
+match_contiene,CHUQUISACA,Hernando Siles,Huacareta,huacareta,1116,Gobierno Autónomo Municipal de San Pablo de Huacareta,Chuquisaca,GAM,municipal,2891,4282,3361,4019,3669,433,46.1,17.0,29.2,53.9,49.0,4.9,0.0
+match_exacto,CHUQUISACA,Yamparáez,Tarabuco,tarabuco,1117,Gobierno Autónomo Municipal de Tarabuco,Chuquisaca,GAM,municipal,5512,6002,6644,7045,9555,3107,38.5,7.5,31.1,61.5,51.8,9.3,0.3
+match_exacto,CHUQUISACA,Yamparáez,Yamparáez,yamparaez,1118,Gobierno Autónomo Municipal de Yamparáez,Chuquisaca,GAM,municipal,2920,4670,4299,3824,5572,1083,43.4,9.3,34.1,56.6,48.6,7.8,0.2
+match_exacto,CHUQUISACA,Nor Cinti,Camargo,camargo,1119,Gobierno Autónomo Municipal de Camargo,Chuquisaca,GAM,municipal,4940,7849,5619,5597,7253,1440,55.8,19.6,36.2,44.2,38.7,5.3,0.2
+match_exacto,CHUQUISACA,Nor Cinti,San Lucas,san lucas,1120,Gobierno Autónomo Municipal de San Lucas,Chuquisaca,GAM,municipal,16482,14530,16731,14848,16364,3981,34.5,9.4,25.2,65.5,51.0,14.1,0.4
+match_exacto,CHUQUISACA,Nor Cinti,Incahuasi,incahuasi,1121,Gobierno Autónomo Municipal de Incahuasi,Chuquisaca,GAM,municipal,9824,11690,10792,10127,11266,2196,26.9,5.1,21.9,73.1,48.7,23.0,1.4
+match_exacto,CHUQUISACA,Nor Cinti,Villa Charcas,villa charcas,1129,Gobierno Autónomo Municipal de Villa Charcas,Chuquisaca,GAM,municipal,8714,9332,8842,7250,9972,2178,32.5,7.1,25.5,67.5,50.0,16.2,1.3
+match_exacto,CHUQUISACA,Belisario Boeto,Villa Serrano,villa serrano,1122,Gobierno Autónomo Municipal de Villa Serrano,Chuquisaca,GAM,municipal,3461,4147,3374,4922,5847,997,52.8,17.4,35.3,47.2,43.0,4.1,0.1
+match_contiene,CHUQUISACA,Sud Cinti,Villa Abecia,villa abecia,1123,Gobierno Autónomo Municipal de Camataqui (Villa Abecia),Chuquisaca,GAM,municipal,2140,3694,2136,2584,2747,505,50.9,11.7,39.2,49.1,43.1,5.9,0.1
+match_exacto,CHUQUISACA,Sud Cinti,Culpina,culpina,1124,Gobierno Autónomo Municipal de Culpina,Chuquisaca,GAM,municipal,9424,8694,7874,7642,10603,2186,34.3,8.6,25.7,65.7,50.7,14.6,0.5
+match_exacto,CHUQUISACA,Sud Cinti,Las Carreras,las carreras,1125,Gobierno Autónomo Municipal de Las Carreras,Chuquisaca,GAM,municipal,1747,3510,1920,2939,2765,459,47.8,11.9,35.8,52.2,47.6,4.5,0.1
+match_exacto,CHUQUISACA,Luis Calvo,Villa Vaca Guzmán,villa vaca guzman,1126,Gobierno Autónomo Municipal de Villa Vaca Guzmán,Chuquisaca,GAM,municipal,3031,8250,4135,5562,5122,861,50.4,14.3,36.2,49.6,41.7,7.8,0.1
+match_manual,CHUQUISACA,Luis Calvo,Huacaya (Autonomía Guaraní Chaqueño de Huacaya),huacaya autonomia guarani chaqueno de huacaya,3101,Autonomía del Territorio Indígena Originario Campesino Guaraní Chaqueño de,Chuquisaca,GAIOC,indigena_originario_campesino,784,1836,805,1690,1103,154,54.6,12.9,41.7,45.4,43.8,1.5,0.2
+match_exacto,CHUQUISACA,Luis Calvo,Macharetí,machareti,1128,Gobierno Autónomo Municipal de Machareti,Chuquisaca,GAM,municipal,2595,4147,1898,3154,2952,608,52.3,15.1,37.2,47.7,42.4,5.2,0.0
+match_exacto,LA PAZ,Murillo,Nuestra Señora de La Paz,la paz,1201,Gobierno Autónomo Municipal de La Paz,La Paz,GAM,municipal,24726,323130,34873,7475,76735,98253,92.8,60.7,32.0,7.2,6.9,0.3,0.0
+match_exacto,LA PAZ,Murillo,Palca,palca,1202,Gobierno Autónomo Municipal de Palca,La Paz,GAM,municipal,8503,13439,14639,7359,10357,6636,34.7,5.8,28.8,65.3,54.6,10.5,0.2
+match_exacto,LA PAZ,Murillo,Mecapaca,mecapaca,1203,Gobierno Autónomo Municipal de Mecapaca,La Paz,GAM,municipal,5090,11441,9348,4580,7450,4797,57.9,25.2,32.7,42.1,35.4,6.7,0.1
+match_contiene,LA PAZ,Murillo,Achocalla,achocalla,1204,Gobierno Autónomo Municipal Ecológico Productivo de Achocalla,La Paz,GAM,municipal,7710,25918,27093,5801,13105,11727,56.8,12.2,44.5,43.2,38.7,4.4,0.1
+match_contiene,LA PAZ,Murillo,El Alto,el alto,1205,Gobierno Autónomo Municipal de El Alto de La Paz,La Paz,GAM,municipal,69460,455609,68682,15859,173651,226574,83.1,35.3,47.8,16.9,16.2,0.7,0.0
+match_exacto,LA PAZ,Omasuyos,Achacachi,achacachi,1224,Gobierno Autónomo Municipal de Achacachi,La Paz,GAM,municipal,19592,22620,17278,12053,17484,13150,54.5,15.3,39.2,45.5,39.6,5.8,0.1
+match_manual,LA PAZ,Omasuyos,Villa Ancoraimes,villa ancoraimes,1225,Gobierno Autónomo Municipal de Ancoraimes,La Paz,GAM,municipal,11147,9617,9853,10158,8153,5307,28.9,5.1,23.8,71.1,59.0,11.7,0.3
+match_exacto,LA PAZ,Omasuyos,Huarina,huarina,1281,Gobierno Autónomo Municipal de Huarina,La Paz,GAM,municipal,3218,4182,4074,2609,3479,1640,53.3,13.1,40.2,46.7,41.5,5.1,0.1
+match_exacto,LA PAZ,Omasuyos,Santiago de Huata,santiago de huata,1282,Gobierno Autónomo Municipal de Santiago de Huata,La Paz,GAM,municipal,4146,3895,3846,5002,2991,2004,54.9,19.2,35.7,45.1,40.2,4.7,0.2
+match_exacto,LA PAZ,Omasuyos,Huatajata,huatajata,1286,Gobierno Autónomo Municipal de Huatajata,La Paz,GAM,municipal,845,2082,1323,1079,1030,532,79.7,42.7,37.0,20.3,18.1,2.2,0.0
+match_exacto,LA PAZ,Omasuyos,Chua Cocani,chua cocani,1287,Gobierno Autónomo Municipal de Chua Cocani,La Paz,GAM,municipal,2531,4073,2965,2397,2256,1296,58.9,16.7,42.2,41.1,36.3,4.7,0.1
+match_exacto,LA PAZ,Pacajes,Corocoro,corocoro,1238,Gobierno Autónomo Municipal de Corocoro,La Paz,GAM,municipal,7930,7861,10046,7208,4578,2971,32.4,10.2,22.2,67.6,56.2,11.1,0.3
+match_exacto,LA PAZ,Pacajes,Caquiaviri,caquiaviri,1239,Gobierno Autónomo Municipal de Caquiaviri,La Paz,GAM,municipal,10584,10636,11807,10561,5052,4049,24.8,4.1,20.8,75.2,66.3,8.6,0.2
+match_exacto,LA PAZ,Pacajes,Calacoto,calacoto,1240,Gobierno Autónomo Municipal de Calacoto,La Paz,GAM,municipal,8065,7669,10065,9980,4094,3013,19.0,2.6,16.3,81.0,66.0,14.8,0.2
+match_exacto,LA PAZ,Pacajes,Comanche,comanche,1241,Gobierno Autónomo Municipal de Comanche,La Paz,GAM,municipal,3881,3159,3324,3267,2222,1413,27.3,5.0,22.3,72.7,63.8,8.8,0.0
+match_exacto,LA PAZ,Pacajes,Charaña,charana,1242,Gobierno Autónomo Municipal de Charaña,La Paz,GAM,municipal,2458,2292,2699,2646,1328,1230,30.8,10.9,19.9,69.2,51.2,17.7,0.3
+match_exacto,LA PAZ,Pacajes,Waldo Ballivián,waldo ballivian,1243,Gobierno Autónomo Municipal de Waldo Ballivián,La Paz,GAM,municipal,3423,4370,3995,1852,1147,782,44.1,2.7,41.4,55.9,52.2,3.6,0.1
+match_exacto,LA PAZ,Pacajes,Nazacara de Pacajes,nazacara de pacajes,1244,Gobierno Autónomo Municipal de Nazacara de Pacajes,La Paz,GAM,municipal,2807,2834,2775,2537,1467,937,26.3,4.9,21.4,73.7,64.6,9.1,0.1
+match_exacto,LA PAZ,Pacajes,Santiago de Callapa,santiago de callapa,1245,Gobierno Autónomo Municipal de Santiago de Callapa,La Paz,GAM,municipal,5850,4984,7035,6492,3700,2269,10.2,1.1,9.1,89.8,67.2,22.2,0.5
+match_exacto,LA PAZ,Camacho,Puerto Acosta,puerto acosta,1246,Gobierno Autónomo Municipal de Puerto Acosta,La Paz,GAM,municipal,9597,7248,10640,9595,7153,5307,23.9,5.4,18.5,76.1,55.0,20.5,0.6
+match_exacto,LA PAZ,Camacho,Mocomoco,mocomoco,1247,Gobierno Autónomo Municipal de Mocomoco,La Paz,GAM,municipal,13391,8736,9877,13038,9758,5274,23.0,4.0,19.0,77.0,62.1,14.6,0.4
+match_exacto,LA PAZ,Camacho,Puerto Mayor de Carabuco,carabuco,1248,Gobierno Autónomo Municipal de Carabuco,La Paz,GAM,municipal,11218,8445,10773,11197,8089,5111,31.1,7.1,23.9,68.9,56.2,12.5,0.3
+match_exacto,LA PAZ,Camacho,Humanata,humanata,1284,Gobierno Autónomo Municipal de Humanata,La Paz,GAM,municipal,4587,3154,4249,4025,3197,2104,13.9,1.5,12.4,86.1,63.3,22.0,0.8
+match_exacto,LA PAZ,Camacho,Escoma,escoma,1283,Gobierno Autónomo Municipal de Escoma,La Paz,GAM,municipal,5486,4347,5990,4928,3924,2422,31.5,8.9,22.6,68.5,55.9,12.1,0.6
+match_exacto,LA PAZ,Muñecas,Chuma,chuma,1235,Gobierno Autónomo Municipal de Chuma,La Paz,GAM,municipal,11639,10580,9254,13971,8478,3604,29.8,6.2,23.6,70.2,59.5,10.4,0.3
+match_exacto,LA PAZ,Muñecas,Ayata,ayata,1236,Gobierno Autónomo Municipal de Ayata,La Paz,GAM,municipal,7255,5017,5235,7013,4537,1950,24.0,3.2,20.8,76.0,63.6,12.1,0.4
+match_exacto,LA PAZ,Muñecas,Aucapata,aucapata,1237,Gobierno Autónomo Municipal de Aucapata,La Paz,GAM,municipal,4370,4063,3836,3647,3351,1314,30.9,6.5,24.4,69.1,57.2,11.5,0.3
+match_exacto,LA PAZ,Larecaja,Sorata,sorata,1226,Gobierno Autónomo Municipal de Sorata,La Paz,GAM,municipal,15437,17809,16600,15984,12693,7458,38.8,8.5,30.3,61.2,51.2,9.7,0.3
+match_exacto,LA PAZ,Larecaja,Guanay,guanay,1227,Gobierno Autónomo Municipal de Guanay,La Paz,GAM,municipal,4318,10536,5729,3277,5379,3032,61.9,11.0,50.9,38.1,30.7,7.0,0.3
+match_exacto,LA PAZ,Larecaja,Tacacoma,tacacoma,1228,Gobierno Autónomo Municipal de Tacacoma,La Paz,GAM,municipal,5293,5458,6069,4979,3558,1583,37.9,6.2,31.7,62.1,52.8,9.0,0.3
+match_exacto,LA PAZ,Larecaja,Quiabaya,quiabaya,1230,Gobierno Autónomo Municipal de Quiabaya,La Paz,GAM,municipal,3165,2927,2679,3277,1997,829,22.2,5.0,17.2,77.8,63.5,14.0,0.3
+match_exacto,LA PAZ,Larecaja,Combaya,combaya,1231,Gobierno Autónomo Municipal de Combaya,La Paz,GAM,municipal,2042,1842,2040,2475,1592,945,37.1,12.2,24.9,62.9,51.2,11.5,0.2
+match_exacto,LA PAZ,Larecaja,Tipuani,tipuani,1229,Gobierno Autónomo Municipal de Tipuani,La Paz,GAM,municipal,1339,4751,3535,481,2182,1122,64.9,12.9,52.0,35.1,33.0,2.0,0.1
+match_exacto,LA PAZ,Larecaja,Mapiri,mapiri,1276,Gobierno Autónomo Municipal de Mapiri,La Paz,GAM,municipal,3712,13677,6861,1473,6184,3846,63.9,10.0,53.9,36.1,33.3,2.7,0.1
+match_exacto,LA PAZ,Larecaja,Teoponte,teoponte,1277,Gobierno Autónomo Municipal de Teoponte,La Paz,GAM,municipal,5985,9166,7099,5336,4712,2437,43.3,7.6,35.7,56.7,46.4,9.9,0.5
+match_exacto,LA PAZ,Franz Tamayo,Apolo,apolo,1249,Gobierno Autónomo Municipal de Apolo,La Paz,GAM,municipal,9992,13108,10830,10208,7582,5692,33.2,5.7,27.5,66.8,53.6,12.7,0.5
+match_exacto,LA PAZ,Franz Tamayo,Pelechuco,pelechuco,1250,Gobierno Autónomo Municipal de Pelechuco,La Paz,GAM,municipal,4497,4526,5273,2033,3517,1447,43.9,7.3,36.6,56.1,50.8,5.1,0.2
+match_exacto,LA PAZ,Ingavi,Viacha,viacha,1206,Gobierno Autónomo Municipal de Viacha,La Paz,GAM,municipal,18533,58637,28206,11557,28794,25216,72.5,25.5,47.0,27.5,25.0,2.5,0.0
+match_manual,LA PAZ,Ingavi,Puerto Mayor de Guaqui,puerto mayor de guaqui,1207,Gobierno Autónomo Municipal de Guaqui,La Paz,GAM,municipal,2753,4115,2796,1675,3594,2122,55.4,14.0,41.4,44.6,40.7,3.9,0.0
+match_exacto,LA PAZ,Ingavi,Tiahuanacu,tiahuanacu,1208,Gobierno Autónomo Municipal de Tiahuanacu,La Paz,GAM,municipal,6064,8037,7324,5281,5638,3228,41.8,6.9,34.9,58.2,49.2,9.0,0.0
+match_exacto,LA PAZ,Ingavi,Desaguadero,desaguadero,1209,Gobierno Autónomo Municipal de Desaguadero,La Paz,GAM,municipal,2061,4507,2336,908,2993,2014,64.7,13.6,51.1,35.3,33.3,2.0,0.0
+match_manual,LA PAZ,Ingavi,La (Marka) San Andrés de Machaca,la marka san andres de machaca,1278,Gobierno Autónomo Municipal de San Andrés de Machaca,La Paz,GAM,municipal,5352,4951,6635,5111,2922,1667,25.3,3.1,22.2,74.7,65.9,8.6,0.3
+match_manual,LA PAZ,Ingavi,Jesús de Machaka,jesus de machaka,1279,Gobierno Autónomo Municipal de Jesús de Machaca,La Paz,GAM,municipal,11623,10264,8055,9551,5866,3443,39.2,5.0,34.2,60.8,55.6,5.2,0.1
+match_exacto,LA PAZ,Ingavi,Taraco,taraco,1280,Gobierno Autónomo Municipal de Taraco,La Paz,GAM,municipal,3553,4850,3993,1367,3643,1975,40.8,5.8,35.0,59.2,52.8,6.3,0.1
+match_exacto,LA PAZ,Loayza,Luribay,luribay,1251,Gobierno Autónomo Municipal de Luribay,La Paz,GAM,municipal,3805,5405,5117,5085,4758,1812,46.0,6.1,39.9,54.0,46.2,7.3,0.5
+match_exacto,LA PAZ,Loayza,Sapahaqui,sapahaqui,1252,Gobierno Autónomo Municipal de Sapahaqui,La Paz,GAM,municipal,7253,9354,11974,8761,7476,4409,29.7,4.1,25.6,70.3,58.9,11.1,0.3
+match_exacto,LA PAZ,Loayza,Yaco,yaco,1253,Gobierno Autónomo Municipal de Yaco,La Paz,GAM,municipal,8379,8523,8788,6524,5191,2728,27.2,2.9,24.4,72.8,60.6,11.8,0.4
+match_exacto,LA PAZ,Loayza,Malla,malla,1254,Gobierno Autónomo Municipal de Malla,La Paz,GAM,municipal,3251,3859,3692,2740,2108,1306,29.5,3.6,25.9,70.5,58.7,11.7,0.2
+match_exacto,LA PAZ,Loayza,Cairoma,cairoma,1255,Gobierno Autónomo Municipal de Cairoma,La Paz,GAM,municipal,5835,8962,10101,5298,5456,2616,38.7,6.3,32.5,61.3,53.1,7.9,0.3
+match_exacto,LA PAZ,Inquisivi,Inquisivi,inquisivi,1218,Gobierno Autónomo Municipal de Inquisivi,La Paz,GAM,municipal,13538,11791,13838,14240,9022,4750,20.2,3.9,16.3,79.8,63.6,15.8,0.4
+match_exacto,LA PAZ,Inquisivi,Quime,quime,1219,Gobierno Autónomo Municipal de Quime,La Paz,GAM,municipal,3324,5922,5083,3261,3947,1552,58.8,18.3,40.4,41.2,32.9,8.1,0.2
+match_exacto,LA PAZ,Inquisivi,Cajuata,cajuata,1220,Gobierno Autónomo Municipal de Cajuata,La Paz,GAM,municipal,5095,9922,7060,3085,6564,2231,55.0,10.8,44.1,45.0,41.3,3.8,0.0
+match_exacto,LA PAZ,Inquisivi,Colquiri,colquiri,1221,Gobierno Autónomo Municipal de Colquiri,La Paz,GAM,municipal,13223,15198,15857,12642,10616,5211,36.5,15.4,21.1,63.5,50.6,12.5,0.4
+match_exacto,LA PAZ,Inquisivi,Ichoca,ichoca,1222,Gobierno Autónomo Municipal de Ichoca,La Paz,GAM,municipal,7183,6599,7811,6492,3778,3130,18.5,2.1,16.4,81.5,58.3,22.7,0.5
+match_exacto,LA PAZ,Inquisivi,Villa Libertad Licoma,villa libertad licoma,1223,Gobierno Autónomo Municipal de Villa Libertad Licoma,La Paz,GAM,municipal,3338,6222,3404,3448,3037,724,51.5,4.6,46.9,48.5,41.5,6.9,0.0
+match_contiene,LA PAZ,Sur Yungas,Chulumani,chulumani,1256,Gobierno Autónomo Municipal de Chulumani (Villa de la Libertad),La Paz,GAM,municipal,5027,10107,7542,3592,6680,2567,62.9,13.9,49.0,37.1,34.9,2.2,0.0
+match_contiene,LA PAZ,Sur Yungas,Irupana,irupana,1257,Gobierno Autónomo Municipal de Irupana (Villa de Lanza),La Paz,GAM,municipal,10104,13243,12727,7827,8560,3508,45.2,9.3,35.9,54.8,48.8,5.9,0.1
+match_exacto,LA PAZ,Sur Yungas,Yanacachi,yanacachi,1258,Gobierno Autónomo Municipal de Yanacachi,La Paz,GAM,municipal,1989,4526,2560,2121,2544,882,66.0,21.8,44.2,34.0,30.5,3.5,0.0
+match_exacto,LA PAZ,Sur Yungas,Palos Blancos,palos blancos,1259,Gobierno Autónomo Municipal de Palos Blancos,La Paz,GAM,municipal,13591,17654,13101,11120,9276,3944,45.1,9.7,35.4,54.9,47.4,7.3,0.3
+match_exacto,LA PAZ,Sur Yungas,La Asunta,la asunta,1260,Gobierno Autónomo Municipal de La Asunta,La Paz,GAM,municipal,27155,28281,27600,19216,19394,8281,37.1,7.4,29.7,62.9,53.5,9.2,0.2
+match_exacto,LA PAZ,Los Andes,Pucarani,pucarani,1261,Gobierno Autónomo Municipal de Pucarani,La Paz,GAM,municipal,18168,25797,28294,12862,18355,14770,43.9,8.2,35.7,56.1,47.7,8.2,0.2
+match_exacto,LA PAZ,Los Andes,Laja,laja,1262,Gobierno Autónomo Municipal de Laja,La Paz,GAM,municipal,16136,24582,17496,13382,14624,12743,42.2,8.9,33.3,57.8,48.9,8.8,0.2
+match_exacto,LA PAZ,Los Andes,Batallas,batallas,1263,Gobierno Autónomo Municipal de Batallas,La Paz,GAM,municipal,7430,10221,9482,5242,7822,6300,49.7,11.6,38.1,50.3,43.2,7.0,0.1
+match_exacto,LA PAZ,Los Andes,Puerto Pérez,puerto perez,1264,Gobierno Autónomo Municipal de Puerto Pérez,La Paz,GAM,municipal,2750,4387,6007,2263,3517,1887,32.5,5.6,26.9,67.5,59.4,7.9,0.2
+match_manual,LA PAZ,Aroma,Sicasica,sicasica,1211,Gobierno Autónomo Municipal de Sica Sica (Villa Aroma),La Paz,GAM,municipal,15225,20658,21232,11828,12372,6942,41.0,7.1,33.9,59.0,51.5,7.2,0.2
+match_exacto,LA PAZ,Aroma,Umala,umala,1212,Gobierno Autónomo Municipal de Umala,La Paz,GAM,municipal,3581,4968,5046,3607,3337,2102,39.5,6.8,32.7,60.5,54.0,6.5,0.1
+match_exacto,LA PAZ,Aroma,Ayo Ayo,ayo ayo,1213,Gobierno Autónomo Municipal de Ayo Ayo,La Paz,GAM,municipal,6236,6145,8466,4546,4285,2684,30.9,4.2,26.7,69.1,58.5,10.3,0.2
+match_exacto,LA PAZ,Aroma,Calamarca,calamarca,1214,Gobierno Autónomo Municipal de Calamarca,La Paz,GAM,municipal,6915,8881,8042,3886,5714,3735,46.0,7.4,38.6,54.0,47.2,6.7,0.1
+match_exacto,LA PAZ,Aroma,Patacamaya,patacamaya,1215,Gobierno Autónomo Municipal de Patacamaya,La Paz,GAM,municipal,7653,13529,10645,4534,8484,7131,54.3,11.5,42.8,45.7,39.9,5.7,0.1
+match_exacto,LA PAZ,Aroma,Colquencha,colquencha,1216,Gobierno Autónomo Municipal de Colquencha,La Paz,GAM,municipal,4412,6554,8142,2342,3501,1602,57.1,4.7,52.4,42.9,39.3,3.3,0.2
+match_exacto,LA PAZ,Aroma,Collana,collana,1217,Gobierno Autónomo Municipal de Collana,La Paz,GAM,municipal,1772,3974,3134,853,1245,899,60.9,7.5,53.4,39.1,35.3,3.5,0.3
+match_exacto,LA PAZ,Nor Yungas,Coroico,coroico,1265,Gobierno Autónomo Municipal de Coroico,La Paz,GAM,municipal,10403,17788,12730,9515,9062,4178,51.9,13.5,38.4,48.1,42.5,5.4,0.2
+match_exacto,LA PAZ,Nor Yungas,Coripata,coripata,1266,Gobierno Autónomo Municipal de Coripata,La Paz,GAM,municipal,5347,12819,8137,3743,8892,4272,65.6,16.1,49.4,34.4,31.2,3.1,0.1
+match_exacto,LA PAZ,Abel Iturralde,Ixiamas,ixiamas,1267,Gobierno Autónomo Municipal de Ixiamas,La Paz,GAM,municipal,5084,8386,6431,5388,4265,2196,39.9,8.9,31.0,60.1,51.1,8.7,0.3
+match_exacto,LA PAZ,Abel Iturralde,San Buenaventura,san buenaventura,1268,Gobierno Autónomo Municipal de San Buenaventura,La Paz,GAM,municipal,3401,7599,2417,2844,3250,998,67.0,13.4,53.7,33.0,29.8,3.2,0.0
+match_contiene,LA PAZ,Bautista Saavedra,Charazani,charazani,1269,Gobierno Autónomo Municipal de General Juan José Pérez (Charazani),La Paz,GAM,municipal,11236,10067,9285,10924,7720,3812,26.3,4.5,21.8,73.7,61.2,12.1,0.3
+match_exacto,LA PAZ,Bautista Saavedra,Curva,curva,1270,Gobierno Autónomo Municipal de Curva,La Paz,GAM,municipal,4750,4769,3741,3971,3433,2456,25.4,2.3,23.1,74.6,55.5,18.7,0.4
+match_exacto,LA PAZ,Manco Kapac,Copacabana,copacabana,1232,Gobierno Autónomo Municipal de Copacabana,La Paz,GAM,municipal,5514,8568,7004,6849,7791,6266,49.3,11.0,38.3,50.7,42.1,8.5,0.1
+match_exacto,LA PAZ,Manco Kapac,San Pedro de Tiquina,san pedro de tiquina,1233,Gobierno Autónomo Municipal de San Pedro de Tiquina,La Paz,GAM,municipal,2649,4604,4869,3898,3622,1683,51.0,11.1,39.8,49.0,43.4,5.5,0.1
+match_exacto,LA PAZ,Manco Kapac,Tito Yupanqui,tito yupanqui,1234,Gobierno Autónomo Municipal de Tito Yupanqui,La Paz,GAM,municipal,3749,5958,5416,4130,3430,1747,29.6,1.1,28.5,70.4,58.0,12.2,0.2
+match_exacto,LA PAZ,Gualberto Villarroel,San Pedro de Curahuara,san pedro de curahuara,1271,Gobierno Autónomo Municipal de San Pedro de Curahuara,La Paz,GAM,municipal,6024,6548,7236,5157,2908,1591,22.1,2.1,20.0,77.9,68.6,9.2,0.1
+match_exacto,LA PAZ,Gualberto Villarroel,Papel Pampa,papel pampa,1272,Gobierno Autónomo Municipal de Papel Pampa,La Paz,GAM,municipal,3883,4399,5678,3932,2613,809,24.7,1.7,22.9,75.3,66.5,8.7,0.1
+match_exacto,LA PAZ,Gualberto Villarroel,Chacarilla,chacarilla,1273,Gobierno Autónomo Municipal de Chacarilla,La Paz,GAM,municipal,1251,1391,1889,1484,780,395,13.1,1.9,11.3,86.9,72.1,14.6,0.2
+match_exacto,LA PAZ,General José Manuel Pando,Santiago de Machaca,santiago de machaca,1274,Gobierno Autónomo Municipal de Santiago de Machaca,La Paz,GAM,municipal,4126,4134,4447,4511,2520,1567,31.3,6.9,24.4,68.7,60.2,8.5,0.0
+match_exacto,LA PAZ,General José Manuel Pando,Catacora,catacora,1275,Gobierno Autónomo Municipal de Catacora,La Paz,GAM,municipal,3638,4238,3558,2456,1705,774,28.5,3.1,25.4,71.5,65.0,6.1,0.5
+match_exacto,LA PAZ,Caranavi,Caranavi,caranavi,1210,Gobierno Autónomo Municipal de Caranavi,La Paz,GAM,municipal,29360,41403,27517,27960,19886,10444,44.2,9.9,34.2,55.8,49.3,6.4,0.2
+match_exacto,LA PAZ,Caranavi,Alto Beni,alto beni,1285,Gobierno Autónomo Municipal de Alto Beni,La Paz,GAM,municipal,6355,7089,6336,5598,3844,1328,35.2,7.2,28.0,64.8,54.3,10.2,0.2
+match_exacto,COCHABAMBA,Cercado,Cochabamba,cochabamba,1301,Gobierno Autónomo Municipal de Cochabamba,Cochabamba,GAM,municipal,26836,377401,158098,11145,125354,97503,83.0,45.8,37.2,17.0,16.0,1.0,0.0
+match_exacto,COCHABAMBA,Campero,Aiquile,aiquile,1307,Gobierno Autónomo Municipal de Aiquile,Cochabamba,GAM,municipal,9552,13773,9781,10022,12094,3893,49.0,14.6,34.4,51.0,40.7,10.0,0.3
+match_exacto,COCHABAMBA,Campero,Pasorapa,pasorapa,1308,Gobierno Autónomo Municipal de Pasorapa,Cochabamba,GAM,municipal,3101,4206,3098,3756,2619,443,47.0,10.2,36.8,53.0,46.9,6.0,0.1
+match_exacto,COCHABAMBA,Campero,Omereque,omereque,1309,Gobierno Autónomo Municipal de Omereque,Cochabamba,GAM,municipal,2011,4680,2267,2360,3935,581,55.3,10.1,45.1,44.7,40.9,3.9,0.0
+match_manual,COCHABAMBA,Ayopaya,Ayopaya,ayopaya,1310,Gobierno Autónomo Municipal de Independencia,Cochabamba,GAM,municipal,15694,12929,14572,14579,13478,4916,25.8,5.9,19.9,74.2,55.3,18.0,0.8
+match_exacto,COCHABAMBA,Ayopaya,Morochata,morochata,1311,Gobierno Autónomo Municipal de Morochata,Cochabamba,GAM,municipal,11394,8966,9365,11526,10367,3325,15.0,2.0,13.0,85.0,63.9,20.5,0.7
+match_exacto,COCHABAMBA,Ayopaya,Cocapata,cocapata,1346,Gobierno Autónomo Municipal de Cocapata,Cochabamba,GAM,municipal,15873,11739,14483,13590,12144,4867,11.8,1.0,10.9,88.2,65.9,21.2,1.1
+match_exacto,COCHABAMBA,Esteban Arze,Tarata,tarata,1320,Gobierno Autónomo Municipal de Tarata,Cochabamba,GAM,municipal,3803,6088,3774,3859,4926,1507,58.5,22.6,35.8,41.5,33.5,7.9,0.2
+match_exacto,COCHABAMBA,Esteban Arze,Anzaldo,anzaldo,1321,Gobierno Autónomo Municipal de Anzaldo,Cochabamba,GAM,municipal,4171,3865,4996,5012,4145,1294,26.4,8.4,18.1,73.6,56.4,16.6,0.5
+match_exacto,COCHABAMBA,Esteban Arze,Arbieto,arbieto,1322,Gobierno Autónomo Municipal de Arbieto,Cochabamba,GAM,municipal,6454,19722,19461,7841,13370,5489,44.5,9.8,34.7,55.5,47.2,8.0,0.3
+match_exacto,COCHABAMBA,Esteban Arze,Sacabamba,sacabamba,1323,Gobierno Autónomo Municipal de Sacabamba,Cochabamba,GAM,municipal,3502,3104,3282,3609,2741,595,26.4,4.1,22.3,73.6,60.3,13.0,0.2
+match_exacto,COCHABAMBA,Arani,Arani,arani,1336,Gobierno Autónomo Municipal de Arani,Cochabamba,GAM,municipal,3272,5318,2644,1895,4836,1399,69.5,25.2,44.3,30.5,27.8,2.7,0.1
+match_exacto,COCHABAMBA,Arani,Vacas,vacas,1337,Gobierno Autónomo Municipal de Vacas,Cochabamba,GAM,municipal,5592,3556,4268,5087,4962,1364,36.1,9.3,26.8,63.9,56.1,7.6,0.1
+match_exacto,COCHABAMBA,Arque,Arque,arque,1338,Gobierno Autónomo Municipal de Arque,Cochabamba,GAM,municipal,7231,6505,7911,8417,6652,1782,15.5,2.6,12.8,84.5,65.4,18.7,0.4
+match_exacto,COCHABAMBA,Arque,Tacopaya,tacopaya,1339,Gobierno Autónomo Municipal de Tacopaya,Cochabamba,GAM,municipal,7725,6098,6004,8991,7187,2476,17.4,1.8,15.6,82.6,64.9,17.1,0.6
+match_exacto,COCHABAMBA,Capinota,Capinota,capinota,1327,Gobierno Autónomo Municipal de Capinota,Cochabamba,GAM,municipal,4522,11119,6248,4513,8919,3238,62.1,21.6,40.5,37.9,31.1,6.7,0.1
+match_exacto,COCHABAMBA,Capinota,Santiváñez,santivanez,1328,Gobierno Autónomo Municipal de Santivañez,Cochabamba,GAM,municipal,1445,4586,2222,2012,3624,903,67.6,23.3,44.2,32.4,28.3,3.9,0.3
+match_exacto,COCHABAMBA,Capinota,Sicaya,sicaya,1329,Gobierno Autónomo Municipal de Sicaya,Cochabamba,GAM,municipal,1228,2714,1757,1829,2420,530,48.5,8.3,40.1,51.5,42.9,8.4,0.2
+match_exacto,COCHABAMBA,Germán Jordán,Cliza,cliza,1324,Gobierno Autónomo Municipal de Cliza,Cochabamba,GAM,municipal,3383,12648,1997,781,7479,2032,84.4,31.7,52.7,15.6,15.2,0.4,0.0
+match_exacto,COCHABAMBA,Germán Jordán,Toco,toco,1325,Gobierno Autónomo Municipal de Toco,Cochabamba,GAM,municipal,3138,4266,2216,2135,3809,747,60.3,14.8,45.5,39.7,36.0,3.7,0.1
+match_exacto,COCHABAMBA,Germán Jordán,Tolata,tolata,1326,Gobierno Autónomo Municipal de Tolata,Cochabamba,GAM,municipal,1406,4992,2408,1619,3051,878,69.0,22.7,46.3,31.0,24.8,6.1,0.1
+match_exacto,COCHABAMBA,Quillacollo,Quillacollo,quillacollo,1302,Gobierno Autónomo Municipal de Quillacollo,Cochabamba,GAM,municipal,9251,103312,25684,4551,41688,22423,85.4,39.7,45.7,14.6,13.7,0.9,0.0
+match_manual,COCHABAMBA,Quillacollo,Sipesipe,sipesipe,1303,Gobierno Autónomo Municipal de Sipe Sipe,Cochabamba,GAM,municipal,6634,36509,18421,4891,24065,8953,70.4,19.6,50.7,29.6,26.9,2.7,0.1
+match_exacto,COCHABAMBA,Quillacollo,Tiquipaya,tiquipaya,1304,Gobierno Autónomo Municipal de Tiquipaya,Cochabamba,GAM,municipal,4913,37970,9241,3470,13165,7507,85.8,41.6,44.2,14.2,13.1,1.1,0.0
+match_exacto,COCHABAMBA,Quillacollo,Vinto,vinto,1305,Gobierno Autónomo Municipal de Vinto,Cochabamba,GAM,municipal,3383,35281,15111,2284,17008,8558,79.1,31.1,48.0,20.9,19.4,1.5,0.1
+match_exacto,COCHABAMBA,Quillacollo,Colcapirhua,colcapirhua,1306,Gobierno Autónomo Municipal de Colcapirhua,Cochabamba,GAM,municipal,2257,40934,4515,514,10745,6945,93.0,52.1,41.0,7.0,6.8,0.2,0.0
+match_exacto,COCHABAMBA,Chapare,Sacaba,sacaba,1312,Gobierno Autónomo Municipal de Sacaba,Cochabamba,GAM,municipal,22582,130230,48915,16170,58649,31735,79.7,36.4,43.2,20.3,18.6,1.7,0.0
+match_exacto,COCHABAMBA,Chapare,Colomi,colomi,1313,Gobierno Autónomo Municipal de Colomi,Cochabamba,GAM,municipal,8254,12590,7055,7362,11491,5140,49.1,10.0,39.1,50.9,41.8,8.7,0.4
+match_exacto,COCHABAMBA,Chapare,Villa Tunari,villa tunari,1314,Gobierno Autónomo Municipal de Villa Tunari,Cochabamba,GAM,municipal,41924,58837,44911,31622,44245,12944,43.9,8.8,35.1,56.1,47.4,8.4,0.3
+match_exacto,COCHABAMBA,Tapacarí,Tapacarí,tapacari,1330,Gobierno Autónomo Municipal de Tapacari,Cochabamba,GAM,municipal,18322,15548,19320,18585,15377,6632,13.5,1.7,11.8,86.5,58.5,26.6,1.4
+match_exacto,COCHABAMBA,Carrasco,Totora,totora,1331,Gobierno Autónomo Municipal de Totora,Cochabamba,GAM,municipal,7859,9032,10218,8016,9144,3620,26.7,6.5,20.1,73.3,57.9,15.0,0.5
+match_exacto,COCHABAMBA,Carrasco,Pojo,pojo,1332,Gobierno Autónomo Municipal de Pojo,Cochabamba,GAM,municipal,6218,8344,7603,5436,7362,2133,31.0,4.9,26.1,69.0,52.8,15.7,0.5
+match_exacto,COCHABAMBA,Carrasco,Pocona,pocona,1333,Gobierno Autónomo Municipal de Pocona,Cochabamba,GAM,municipal,6772,6346,6725,5625,7533,1749,35.5,4.6,30.9,64.5,56.1,8.1,0.2
+match_exacto,COCHABAMBA,Carrasco,Chimoré,chimore,1334,Gobierno Autónomo Municipal de Chimoré,Cochabamba,GAM,municipal,7466,18014,11313,7347,11312,3237,55.3,12.7,42.6,44.7,39.2,5.4,0.1
+match_exacto,COCHABAMBA,Carrasco,Puerto Villarroel,puerto villarroel,1335,Gobierno Autónomo Municipal de Puerto Villarroel,Cochabamba,GAM,municipal,18320,43610,25714,16136,29381,9115,55.9,13.0,42.9,44.1,38.9,5.2,0.1
+match_exacto,COCHABAMBA,Carrasco,Entre Ríos,entre rios,1345,Gobierno Autónomo Municipal de Entre Rios,Cochabamba,GAM,municipal,11284,28678,18185,10334,20782,6559,58.7,13.8,44.8,41.3,35.1,6.1,0.1
+match_exacto,COCHABAMBA,Mizque,Mizque,mizque,1342,Gobierno Autónomo Municipal de Mizque,Cochabamba,GAM,municipal,6269,12417,9863,7647,11550,3415,48.1,11.7,36.4,51.9,42.7,8.9,0.3
+match_exacto,COCHABAMBA,Mizque,Vila Vila,vila vila,1343,Gobierno Autónomo Municipal de Vila Vila,Cochabamba,GAM,municipal,3838,3495,4079,4318,3228,1339,17.4,4.2,13.3,82.6,52.5,27.3,2.8
+match_exacto,COCHABAMBA,Mizque,Alalay,alalay,1344,Gobierno Autónomo Municipal de Alalay,Cochabamba,GAM,municipal,2767,2454,2668,2935,2234,867,13.9,1.4,12.5,86.1,65.0,20.2,0.9
+match_exacto,COCHABAMBA,Punata,Punata,punata,1315,Gobierno Autónomo Municipal de Punata,Cochabamba,GAM,municipal,5234,19749,6515,1460,13634,4649,78.0,27.0,51.0,22.0,20.8,1.2,0.0
+match_exacto,COCHABAMBA,Punata,Villa Rivero,villa rivero,1316,Gobierno Autónomo Municipal de Villa Rivero,Cochabamba,GAM,municipal,3330,4818,3026,1617,3689,1013,62.9,19.6,43.3,37.1,33.7,3.2,0.1
+match_contiene,COCHABAMBA,Punata,San Benito,san benito,1317,Gobierno Autónomo Municipal de San Benito (Villa José Quintín Mendoza),Cochabamba,GAM,municipal,1786,7441,2930,1074,5327,1474,79.1,27.7,51.4,20.9,19.3,1.6,0.0
+match_exacto,COCHABAMBA,Punata,Tacachi,tacachi,1318,Gobierno Autónomo Municipal de Tacachi,Cochabamba,GAM,municipal,438,745,465,404,367,98,70.4,28.6,41.8,29.6,27.5,2.1,0.0
+match_contiene,COCHABAMBA,Punata,Villa Gualberto Villarroel,villa gualberto villarroel,1319,Gobierno Autónomo Municipal Villa Gualberto Villarroel,Cochabamba,GAM,municipal,2105,2672,1666,1818,1359,430,55.7,12.7,43.0,44.3,38.1,6.1,0.0
+match_exacto,COCHABAMBA,Bolívar,Bolívar,bolivar,1340,Gobierno Autónomo Municipal de Bolivar,Cochabamba,GAM,municipal,6007,4761,6605,6329,5072,2556,14.1,2.0,12.1,85.9,63.7,21.6,0.6
+match_exacto,COCHABAMBA,Tiraque,Tiraque,tiraque,1341,Gobierno Autónomo Municipal de Tiraque,Cochabamba,GAM,municipal,10798,9658,7221,7766,11161,4246,41.7,6.2,35.5,58.3,50.0,8.1,0.2
+match_exacto,COCHABAMBA,Tiraque,Shinahota,shinahota,1347,Gobierno Autónomo Municipal de Shinahota,Cochabamba,GAM,municipal,7465,18593,8127,6121,12136,4041,58.9,12.7,46.2,41.1,35.5,5.5,0.1
+match_exacto,ORURO,Cercado,Oruro,oruro,1401,Gobierno Autónomo Municipal de Oruro,Oruro,GAM,municipal,14163,154512,40453,4622,46240,42105,87.7,46.8,40.9,12.3,11.6,0.7,0.0
+match_exacto,ORURO,Cercado,Caracollo,caracollo,1402,Gobierno Autónomo Municipal de Caracollo,Oruro,GAM,municipal,8365,14547,14041,7223,6963,4335,48.6,14.1,34.5,51.4,45.1,6.3,0.1
+match_exacto,ORURO,Cercado,El Choro,el choro,1403,Gobierno Autónomo Municipal de El Choro,Oruro,GAM,municipal,7714,7353,9163,7569,3813,1325,7.0,0.9,6.1,93.0,66.9,25.1,1.0
+match_manual,ORURO,Cercado,Paria,paria,1435,Gobierno Autónomo Municipal de Soracachi,Oruro,GAM,municipal,5433,10348,10996,4762,7489,3514,40.2,6.4,33.8,59.8,51.8,7.8,0.2
+match_exacto,ORURO,Abaroa,Challapata,challapata,1404,Gobierno Autónomo Municipal de Challapata,Oruro,GAM,municipal,14568,21526,20629,13994,16020,8806,40.0,10.6,29.3,60.0,47.8,11.8,0.4
+match_exacto,ORURO,Abaroa,Santuario de Quillacas,santuario de quillacas,1405,Gobierno Autónomo Municipal de Santuario de Quillacas,Oruro,GAM,municipal,2036,3018,3284,2180,1547,638,42.5,16.2,26.3,57.5,49.6,7.8,0.1
+match_exacto,ORURO,Carangas,Corque,corque,1414,Gobierno Autónomo Municipal de Corque,Oruro,GAM,municipal,8332,12911,13841,10748,4603,2285,20.2,4.2,16.0,79.8,69.2,10.4,0.1
+match_exacto,ORURO,Carangas,Choquecota,choquecota,1415,Gobierno Autónomo Municipal de Choquecota,Oruro,GAM,municipal,1189,2030,2016,1766,648,204,22.8,6.4,16.4,77.2,73.6,3.5,0.1
+match_exacto,ORURO,Sajama,Curahuara de Carangas,curahuara de carangas,1416,Gobierno Autónomo Municipal de Curahuara de Carangas,Oruro,GAM,municipal,4039,4584,4713,4152,2573,1161,27.1,8.4,18.6,72.9,61.0,11.8,0.1
+match_exacto,ORURO,Sajama,Turco,turco,1417,Gobierno Autónomo Municipal de Turco,Oruro,GAM,municipal,3047,4142,4074,3863,1857,856,27.0,9.1,17.9,73.0,61.5,11.3,0.1
+match_exacto,ORURO,Litoral,Huachacalla,huachacalla,1418,Gobierno Autónomo Municipal de Huachacalla,Oruro,GAM,municipal,283,2675,805,189,842,622,77.8,14.3,63.4,22.2,21.5,0.8,0.0
+match_exacto,ORURO,Litoral,Escara,escara,1419,Gobierno Autónomo Municipal de Escara,Oruro,GAM,municipal,1010,3477,2074,1426,685,1009,53.1,7.3,45.8,46.9,38.1,8.8,0.1
+match_exacto,ORURO,Litoral,Cruz de Machacamarca,cruz de machacamarca,1420,Gobierno Autónomo Municipal de Cruz de Machacamarca,Oruro,GAM,municipal,262,1222,625,314,294,341,56.5,10.8,45.7,43.5,35.9,7.6,0.1
+match_exacto,ORURO,Litoral,Yunguyo del Litoral,yunguyo de litoral,1421,Gobierno Autónomo Municipal de Yunguyo de Litoral,Oruro,GAM,municipal,142,752,94,250,240,88,72.3,8.3,64.0,27.7,26.0,1.7,0.0
+match_exacto,ORURO,Litoral,Esmeralda,esmeralda,1422,Gobierno Autónomo Municipal de Esmeralda,Oruro,GAM,municipal,569,3183,1651,991,970,640,58.2,9.3,48.9,41.8,38.3,3.4,0.1
+match_contiene,ORURO,Poopó,Poopó,poopo,1408,Gobierno Autónomo Municipal de Poopó (Villa Poopó),Oruro,GAM,municipal,2706,5489,3982,2475,2829,850,66.9,27.5,39.4,33.1,28.6,4.5,0.1
+match_exacto,ORURO,Poopó,Pazña,pazna,1409,Gobierno Autónomo Municipal de Pazña,Oruro,GAM,municipal,1368,2240,2769,884,1504,473,56.8,18.5,38.3,43.2,39.0,4.1,0.1
+match_exacto,ORURO,Poopó,Antequera,antequera,1410,Gobierno Autónomo Municipal de Antequera,Oruro,GAM,municipal,907,2021,2022,681,1098,322,65.9,30.8,35.1,34.1,30.4,3.7,0.0
+match_exacto,ORURO,Pantaleón Dalence,Huanuni,huanuni,1406,Gobierno Autónomo Municipal de Huanuni,Oruro,GAM,municipal,2188,8746,5375,1324,4778,1711,86.5,50.4,36.1,13.5,12.2,1.3,0.0
+match_exacto,ORURO,Pantaleón Dalence,Machacamarca,machacamarca,1407,Gobierno Autónomo Municipal de Machacamarca,Oruro,GAM,municipal,1399,3336,2538,831,1782,679,73.0,29.6,43.4,27.0,24.7,2.1,0.1
+match_manual,ORURO,Ladislao Cabrera,Salinas de Garci Mendoza (Autonomía Indígena Originario Campesina de Salinas),salinas de garci mendoza autonomia indigena originario campesina de salinas,3402,Gobierno Autónomo Indígena Originario Campesino de Salinas,Oruro,GAIOC,indigena_originario_campesino,5170,10565,10546,6383,4693,2462,44.6,11.4,33.2,55.4,50.1,5.2,0.1
+match_exacto,ORURO,Ladislao Cabrera,Pampa Aullagas,pampa aullagas,1427,Gobierno Autónomo Municipal de Pampa Aullagas,Oruro,GAM,municipal,975,2049,1957,1281,1401,604,41.6,10.5,31.1,58.4,51.9,6.4,0.1
+match_exacto,ORURO,Sabaya,Sabaya,sabaya,1431,Gobierno Autónomo Municipal de Sabaya,Oruro,GAM,municipal,2909,11480,8962,3964,3220,3359,47.0,6.9,40.1,53.0,47.9,5.1,0.1
+match_exacto,ORURO,Sabaya,Coipasa,coipasa,1432,Gobierno Autónomo Municipal de Coipasa,Oruro,GAM,municipal,171,972,759,252,166,179,60.5,14.8,45.7,39.5,38.8,0.8,0.0
+match_manual,ORURO,Sabaya,Uru Chipaya (Nación Originaria Uru Chipaya),uru chipaya nacion originaria uru chipaya,3401,Gobierno Autónomo Indígena Originario Campesino de la Nación Originaria Uru,Oruro,GAIOC,indigena_originario_campesino,1268,1293,1655,1219,799,358,32.9,5.4,27.5,67.1,59.6,7.5,0.0
+match_exacto,ORURO,Saucarí,Toledo,toledo,1423,Gobierno Autónomo Municipal de Toledo,Oruro,GAM,municipal,8216,9073,10200,8089,4477,1858,18.6,4.3,14.3,81.4,64.4,16.8,0.3
+match_exacto,ORURO,Tomás Barrón,Eucaliptus,eucaliptus,1411,Gobierno Autónomo Municipal de Eucaliptus,Oruro,GAM,municipal,1673,3213,3256,1095,2027,793,50.3,10.6,39.7,49.7,45.1,4.6,0.0
+match_manual,ORURO,Sur Carangas,Andamarca,andamarca,1424,Gobierno Autónomo Municipal de Andamarca (Santiago de Andamarca),Oruro,GAM,municipal,3443,4656,4561,4067,1968,927,30.0,9.6,20.4,70.0,58.0,11.9,0.1
+match_exacto,ORURO,Sur Carangas,Belén de Andamarca,belen de andamarca,1425,Gobierno Autónomo Municipal de Belén de Andamarca,Oruro,GAM,municipal,1423,2218,1770,1576,783,320,45.2,8.6,36.7,54.8,49.5,5.3,0.0
+match_exacto,ORURO,San Pedro de Totora,Totora,totora,1413,Gobierno Autónomo Municipal de Totora,Oruro,GAM,municipal,4122,4329,5351,4686,2093,1004,21.5,3.9,17.6,78.5,65.1,13.3,0.1
+match_exacto,ORURO,Sebastián Pagador,Santiago de Huari,santiago de huari,1412,Gobierno Autónomo Municipal de Santiago de Huari,Oruro,GAM,municipal,5976,8780,7883,5001,5856,2170,44.4,12.6,31.8,55.6,44.4,11.0,0.2
+match_exacto,ORURO,Mejillones,La Rivera,la rivera,1428,Gobierno Autónomo Municipal de La Rivera,Oruro,GAM,municipal,620,1115,764,575,312,281,36.7,9.2,27.6,63.3,53.4,9.9,0.0
+match_exacto,ORURO,Mejillones,Todos Santos,todos santos,1429,Gobierno Autónomo Municipal de Todos Santos,Oruro,GAM,municipal,329,796,446,372,190,134,63.7,20.7,43.0,36.3,33.4,2.9,0.0
+match_exacto,ORURO,Mejillones,Carangas,carangas,1430,Gobierno Autónomo Municipal de Carangas,Oruro,GAM,municipal,516,937,667,530,275,237,37.1,13.0,24.1,62.9,53.8,9.1,0.0
+match_contiene,ORURO,Nor Carangas,Santiago de Huayllamarca,santiago de huayllamarca,1434,Gobierno Autónomo Municipal de Huayllamarca (Santiago de Huayllamarca),Oruro,GAM,municipal,3344,3829,4307,3915,1923,822,31.9,7.6,24.3,68.1,56.2,11.7,0.2
+match_exacto,POTOSÍ,Tomás Frías,Potosí,potosi,1501,Gobierno Autónomo Municipal de Potosí,Potosí,GAM,municipal,18794,128780,29729,13984,47643,30560,83.2,43.3,39.9,16.8,15.1,1.6,0.0
+match_exacto,POTOSÍ,Tomás Frías,Tinguipaya,tinguipaya,1502,Gobierno Autónomo Municipal de Tinguipaya,Potosí,GAM,municipal,22302,20121,24736,24068,19039,7166,9.3,1.7,7.6,90.7,68.4,21.7,0.6
+match_exacto,POTOSÍ,Tomás Frías,Yocalla,yocalla,1503,Gobierno Autónomo Municipal de Yocalla,Potosí,GAM,municipal,3021,8141,6698,4528,5478,1873,49.9,11.9,38.0,50.1,45.7,4.3,0.1
+match_exacto,POTOSÍ,Tomás Frías,Urmiri,urmiri,1504,Gobierno Autónomo Municipal de Urmiri,Potosí,GAM,municipal,2106,2315,2711,2209,1543,651,13.2,1.3,11.9,86.8,62.4,23.8,0.6
+match_exacto,POTOSÍ,Rafael Bustillo,Uncía,uncia,1505,Gobierno Autónomo Municipal de Uncía,Potosí,GAM,municipal,8177,11760,12033,6967,9175,4308,49.0,16.8,32.2,51.0,43.0,7.8,0.2
+match_exacto,POTOSÍ,Rafael Bustillo,Chayanta,chayanta,1506,Gobierno Autónomo Municipal de Chayanta,Potosí,GAM,municipal,7472,8467,9424,6450,7496,2990,42.6,13.8,28.8,57.4,49.4,7.8,0.1
+match_exacto,POTOSÍ,Rafael Bustillo,Llallagua,llallagua,1507,Gobierno Autónomo Municipal de Llallagua,Potosí,GAM,municipal,7397,20321,13323,4631,11318,7701,72.6,34.5,38.1,27.4,23.6,3.6,0.1
+match_exacto,POTOSÍ,Rafael Bustillo,Chuquihuta Ayllu Jucumani,chuquihuta ayllu jucumani,1540,Gobierno Autónomo Municipal de Chuquihuta Ayllu Jucumani,Potosí,GAM,municipal,3503,5355,6811,3435,4437,1775,32.2,9.8,22.4,67.8,53.6,13.6,0.6
+match_exacto,POTOSÍ,Cornelio Saavedra,Betanzos,betanzos,1508,Gobierno Autónomo Municipal de Betanzos,Potosí,GAM,municipal,10666,17197,18627,15135,18841,4972,39.4,7.8,31.5,60.6,52.3,8.3,0.1
+match_exacto,POTOSÍ,Cornelio Saavedra,Chaquí,chaqui,1509,Gobierno Autónomo Municipal de Chaqui,Potosí,GAM,municipal,3278,4650,5226,5129,5646,1832,40.7,8.3,32.4,59.3,49.8,9.3,0.2
+match_exacto,POTOSÍ,Cornelio Saavedra,Tacobamba,tacobamba,1510,Gobierno Autónomo Municipal de Tacobamba,Potosí,GAM,municipal,10820,8985,12878,11885,9527,4690,9.5,1.7,7.9,90.5,56.4,32.1,1.9
+match_exacto,POTOSÍ,Chayanta,Colquechaca,colquechaca,1511,Gobierno Autónomo Municipal de Colquechaca,Potosí,GAM,municipal,8933,8985,9939,8790,9403,3756,32.2,12.3,20.0,67.8,44.1,22.0,1.7
+match_exacto,POTOSÍ,Chayanta,Ravelo,ravelo,1512,Gobierno Autónomo Municipal de Ravelo,Potosí,GAM,municipal,12932,9718,11486,13641,12221,3430,16.3,3.3,13.0,83.7,57.1,25.2,1.4
+match_exacto,POTOSÍ,Chayanta,Pocoata,pocoata,1513,Gobierno Autónomo Municipal de Pocoata,Potosí,GAM,municipal,23230,19639,25463,24035,17734,6939,17.8,2.9,14.9,82.2,64.7,17.1,0.5
+match_exacto,POTOSÍ,Chayanta,Ocurí,ocuri,1514,Gobierno Autónomo Municipal de Ocurí,Potosí,GAM,municipal,10965,7891,10510,10916,9368,3503,13.0,3.2,9.8,87.0,57.6,28.2,1.2
+match_exacto,POTOSÍ,Chayanta,San Pedro de Macha,san pedro de macha,1541,Gobierno Autónomo Municipal de San Pedro de Macha,Potosí,GAM,municipal,13193,12682,15678,13704,13167,4447,14.3,2.3,11.9,85.7,64.3,20.7,0.8
+match_manual,POTOSÍ,Charcas,San Pedro,san pedro,1515,Gobierno Autónomo Municipal de San Pedro de Buena Vista,Potosí,GAM,municipal,21922,18334,23590,22470,17369,8439,12.2,3.7,8.5,87.8,50.4,34.3,3.0
+match_exacto,POTOSÍ,Charcas,Toro Toro,toro toro,1516,Gobierno Autónomo Municipal de Toro Toro,Potosí,GAM,municipal,6283,6690,7503,7537,6740,2591,23.6,6.3,17.3,76.4,51.5,23.7,1.1
+match_exacto,POTOSÍ,Nor Chichas,Cotagaita,cotagaita,1517,Gobierno Autónomo Municipal de Cotagaita,Potosí,GAM,municipal,14569,15449,15461,16840,13581,2167,46.5,11.3,35.2,53.5,46.8,6.5,0.2
+match_exacto,POTOSÍ,Nor Chichas,Vitichi,vitichi,1518,Gobierno Autónomo Municipal de Vitichi,Potosí,GAM,municipal,5839,3750,4626,6684,5261,899,43.0,8.1,34.9,57.0,51.3,5.6,0.1
+match_contiene,POTOSÍ,Alonso de Ibáñez,Sacaca,sacaca,1526,Gobierno Autónomo Municipal de Sacaca (Villa de Sacaca),Potosí,GAM,municipal,10978,9295,12294,11572,10220,4301,22.0,7.0,15.1,78.0,60.1,17.5,0.4
+match_exacto,POTOSÍ,Alonso de Ibáñez,Caripuyo,caripuyo,1527,Gobierno Autónomo Municipal de Caripuyo,Potosí,GAM,municipal,5047,4663,7111,6797,5157,2660,16.5,3.6,13.0,83.5,65.2,18.1,0.2
+match_exacto,POTOSÍ,Sur Chichas,Tupiza,tupiza,1519,Gobierno Autónomo Municipal de Tupiza,Potosí,GAM,municipal,8252,22863,9039,8039,15075,3988,77.9,33.3,44.6,22.1,19.9,2.1,0.0
+match_exacto,POTOSÍ,Sur Chichas,Atocha,atocha,1520,Gobierno Autónomo Municipal de Atocha,Potosí,GAM,municipal,1224,4847,5641,469,2332,451,88.5,46.1,42.5,11.5,9.8,1.6,0.0
+match_contiene,POTOSÍ,Nor Lípez,"Colcha ""K""",colcha k,1521,"Gobierno Autónomo Municipal de Colcha""K"" (Villa Martín)",Potosí,GAM,municipal,2452,5071,2610,2158,3221,1097,80.3,40.6,39.8,19.7,17.6,2.1,0.0
+match_exacto,POTOSÍ,Nor Lípez,San Pedro de Quemes,san pedro de quemes,1522,Gobierno Autónomo Municipal de San Pedro de Quemes,Potosí,GAM,municipal,423,708,432,406,348,161,75.3,32.0,43.4,24.7,21.5,3.1,0.0
+match_contiene,POTOSÍ,Sur Lípez,San Pablo,san pablo,1523,Gobierno Autónomo Municipal de San Pablo de Lípez,Potosí,GAM,municipal,1443,1519,1555,1627,1195,374,47.7,11.1,36.6,52.3,43.4,8.9,0.0
+match_exacto,POTOSÍ,Sur Lípez,Mojinete,mojinete,1524,Gobierno Autónomo Municipal de Mojinete,Potosí,GAM,municipal,619,513,431,708,438,63,39.5,9.1,30.4,60.5,52.8,7.7,0.0
+match_exacto,POTOSÍ,Sur Lípez,San Antonio de Esmoruco,san antonio de esmoruco,1525,Gobierno Autónomo Municipal de San Antonio de Esmoruco,Potosí,GAM,municipal,930,1035,749,1123,979,358,39.2,4.5,34.8,60.8,49.8,10.5,0.5
+match_contiene,POTOSÍ,José María Linares,Puna,puna,1528,Gobierno Autónomo Municipal de Puna (Villa Talavera),Potosí,GAM,municipal,5650,6897,8445,8532,8685,2527,44.9,10.3,34.7,55.1,49.2,5.7,0.1
+match_exacto,POTOSÍ,José María Linares,"Caiza ""D""",caiza d,1529,"Gobierno Autónomo Municipal de Caiza ""D""",Potosí,GAM,municipal,3946,6292,5485,4479,5237,1219,59.2,16.9,42.3,40.8,36.1,4.4,0.3
+match_exacto,POTOSÍ,José María Linares,Ckochas,ckochas,1539,Gobierno Autónomo Municipal de Ckochas,Potosí,GAM,municipal,9889,7714,11823,11555,9761,3407,13.4,2.2,11.1,86.6,67.7,18.6,0.3
+match_exacto,POTOSÍ,Antonio Quijarro,Uyuni,uyuni,1530,Gobierno Autónomo Municipal de Uyuni,Potosí,GAM,municipal,4392,18183,17809,3616,8044,5599,70.3,27.0,43.3,29.7,27.4,2.3,0.0
+match_exacto,POTOSÍ,Antonio Quijarro,Tomave,tomave,1531,Gobierno Autónomo Municipal de Tomave,Potosí,GAM,municipal,3871,4043,5573,3721,3183,868,40.6,11.4,29.1,59.4,52.9,6.4,0.1
+match_exacto,POTOSÍ,Antonio Quijarro,Porco,porco,1532,Gobierno Autónomo Municipal de Porco,Potosí,GAM,municipal,2059,9792,3108,2083,4711,2103,72.1,26.8,45.3,27.9,25.5,2.4,0.0
+match_exacto,POTOSÍ,General Bernardino Bilbao,Arampampa,arampampa,1533,Gobierno Autónomo Municipal de Arampampa,Potosí,GAM,municipal,2322,2141,2375,2913,2297,990,20.4,4.9,15.4,79.6,59.5,19.6,0.5
+match_exacto,POTOSÍ,General Bernardino Bilbao,Acasio,acasio,1534,Gobierno Autónomo Municipal de Acasio,Potosí,GAM,municipal,2672,2274,3085,3186,2536,838,27.3,9.6,17.8,72.7,58.7,13.5,0.4
+match_exacto,POTOSÍ,Daniel Campos,Llica,llica,1535,Gobierno Autónomo Municipal de Llica,Potosí,GAM,municipal,1153,2109,1973,1084,764,459,66.8,22.5,44.3,33.2,30.8,2.4,0.0
+match_exacto,POTOSÍ,Daniel Campos,Tahua,tahua,1536,Gobierno Autónomo Municipal de Tahua,Potosí,GAM,municipal,603,794,916,461,296,207,61.7,21.9,39.8,38.3,31.3,6.9,0.1
+match_exacto,POTOSÍ,Modesto Omiste,Villazón,villazon,1537,Gobierno Autónomo Municipal de Villazón,Potosí,GAM,municipal,6483,28075,7014,4576,18353,6433,78.4,22.4,56.1,21.6,19.7,1.8,0.0
+match_exacto,POTOSÍ,Enrique Baldivieso,San Agustín,san agustin,1538,Gobierno Autónomo Municipal de San Agustín,Potosí,GAM,municipal,816,873,606,714,768,157,68.3,21.7,46.6,31.7,30.6,1.1,0.0
+match_exacto,TARIJA,Cercado,Tarija,tarija,1601,Gobierno Autónomo Municipal de Tarija,Tarija,GAM,municipal,10228,146407,31795,10821,63922,23665,86.7,42.8,43.9,13.3,12.9,0.5,0.0
+match_exacto,TARIJA,Arce,Padcaya,padcaya,1602,Gobierno Autónomo Municipal de Padcaya,Tarija,GAM,municipal,3086,9421,6285,8102,11765,1166,56.7,14.9,41.8,43.3,39.9,3.4,0.0
+match_exacto,TARIJA,Arce,Bermejo,bermejo,1603,Gobierno Autónomo Municipal de Bermejo,Tarija,GAM,municipal,2449,24563,3372,1287,15180,2971,83.0,27.3,55.7,17.0,16.4,0.6,0.0
+match_exacto,TARIJA,Gran Chaco,Yacuiba,yacuiba,1604,Gobierno Autónomo Municipal de Yacuiba,Tarija,GAM,municipal,9389,67086,12183,8823,38015,9597,78.5,22.7,55.7,21.5,19.8,1.7,0.0
+match_exacto,TARIJA,Gran Chaco,Caraparí,carapari,1605,Gobierno Autónomo Municipal de Caraparí,Tarija,GAM,municipal,2139,10559,3123,3363,6577,797,72.0,17.1,54.8,28.0,26.4,1.5,0.0
+match_exacto,TARIJA,Gran Chaco,Villa Montes,villamontes,1606,Gobierno Autónomo Municipal de Villamontes,Tarija,GAM,municipal,7733,31804,9747,8630,14846,2994,72.8,21.1,51.7,27.2,25.8,1.4,0.0
+match_contiene,TARIJA,Avilez,Uriondo,uriondo,1607,Gobierno Autónomo Municipal de Uriondo (Concepción),Tarija,GAM,municipal,1925,9568,4189,5088,10018,1147,64.0,15.6,48.4,36.0,34.2,1.8,0.0
+match_exacto,TARIJA,Avilez,Yunchará,yunchara,1608,Gobierno Autónomo Municipal de Yunchara,Tarija,GAM,municipal,1102,2582,1409,2667,3386,458,47.7,8.1,39.6,52.3,49.2,3.1,0.0
+match_exacto,TARIJA,Méndez,San Lorenzo,san lorenzo,1609,Gobierno Autónomo Municipal de San Lorenzo,Tarija,GAM,municipal,3283,18319,7548,6361,15933,2812,69.4,24.3,45.1,30.6,27.2,3.4,0.1
+match_exacto,TARIJA,Méndez,El Puente,el puente,1610,Gobierno Autónomo Municipal de El Puente,Tarija,GAM,municipal,2192,4530,2371,3045,6781,602,59.0,12.8,46.3,41.0,38.7,2.2,0.0
+match_exacto,TARIJA,O&apos;Connor,Entre Ríos,entre rios,1611,Gobierno Autónomo Municipal de Entre Ríos,Tarija,GAM,municipal,3950,13916,6665,10229,11662,1168,56.9,13.6,43.4,43.1,39.5,3.5,0.0
+match_exacto,SANTA CRUZ,Andrés Ibáñez,Santa Cruz de la Sierra,santa cruz de la sierra,1701,Gobierno Autónomo Municipal de Santa Cruz de La Sierra,Santa Cruz,GAM,municipal,80058,1100710,127526,13444,287340,202728,89.6,45.9,43.7,10.4,10.1,0.3,0.0
+match_exacto,SANTA CRUZ,Andrés Ibáñez,Cotoca,cotoca,1702,Gobierno Autónomo Municipal de Cotoca,Santa Cruz,GAM,municipal,11628,83979,29321,5470,32146,14565,76.7,21.4,55.4,23.3,22.4,0.9,0.0
+match_contiene,SANTA CRUZ,Andrés Ibáñez,Porongo,porongo,1703,Gobierno Autónomo Municipal de Porongo (Ayacucho),Santa Cruz,GAM,municipal,2540,13789,3402,3003,5150,1335,82.7,49.0,33.7,17.3,15.7,1.5,0.0
+match_exacto,SANTA CRUZ,Andrés Ibáñez,La Guardia,la guardia,1704,Gobierno Autónomo Municipal de La Guardia,Santa Cruz,GAM,municipal,8628,110020,35904,3010,45441,18457,83.1,26.2,57.0,16.9,16.4,0.4,0.0
+match_exacto,SANTA CRUZ,Andrés Ibáñez,El Torno,el torno,1705,Gobierno Autónomo Municipal de El Torno,Santa Cruz,GAM,municipal,6208,39799,15559,6873,23840,6032,74.7,18.9,55.9,25.3,23.8,1.4,0.0
+match_exacto,SANTA CRUZ,Warnes,Warnes,warnes,1706,Gobierno Autónomo Municipal de Warnes,Santa Cruz,GAM,municipal,15451,117186,35417,4877,48152,19632,78.9,23.3,55.5,21.1,20.4,0.7,0.0
+match_exacto,SANTA CRUZ,Warnes,Okinawa Uno,okinawa uno,1748,Gobierno Autónomo Municipal de Okinawa Uno,Santa Cruz,GAM,municipal,1973,8176,1699,699,3830,726,76.2,21.3,54.9,23.8,23.2,0.6,0.0
+match_contiene,SANTA CRUZ,Velasco,San Ignacio,san ignacio,1707,Gobierno Autónomo Municipal de San Ignacio (San Ignacio de Velasco),Santa Cruz,GAM,municipal,28694,52770,21672,27370,30092,12224,46.2,9.8,36.4,53.8,47.6,6.2,0.1
+match_contiene,SANTA CRUZ,Velasco,San Miguel,san miguel,1708,Gobierno Autónomo Municipal de San Miguel (San Miguel de Velasco),Santa Cruz,GAM,municipal,6159,11436,7516,7795,7163,1582,43.9,12.1,31.8,56.1,47.4,8.3,0.4
+match_exacto,SANTA CRUZ,Velasco,San Rafael,san rafael,1709,Gobierno Autónomo Municipal de San Rafael,Santa Cruz,GAM,municipal,4474,6674,4446,4312,3920,996,36.7,8.2,28.4,63.3,51.3,11.6,0.5
+match_exacto,SANTA CRUZ,Ichilo,Buena Vista,buena vista,1710,Gobierno Autónomo Municipal de Buena Vista,Santa Cruz,GAM,municipal,2375,9940,2254,2551,5556,1366,71.9,19.5,52.4,28.1,26.2,1.8,0.0
+match_exacto,SANTA CRUZ,Ichilo,San Carlos,san carlos,1711,Gobierno Autónomo Municipal de San Carlos,Santa Cruz,GAM,municipal,2549,14229,4533,2176,7364,2554,71.0,15.1,55.9,29.0,26.6,2.3,0.1
+match_exacto,SANTA CRUZ,Ichilo,Yapacaní,yapacani,1712,Gobierno Autónomo Municipal de Yapacaní,Santa Cruz,GAM,municipal,12601,40622,20283,11274,22866,8745,62.0,15.3,46.7,38.0,31.9,5.8,0.3
+match_exacto,SANTA CRUZ,Ichilo,San Juan,san juan,1752,Gobierno Autónomo Municipal de San Juan,Santa Cruz,GAM,municipal,2105,7602,2295,1341,3757,942,72.0,18.2,53.8,28.0,24.8,3.1,0.1
+match_exacto,SANTA CRUZ,Chiquitos,San José,san jose,1713,Gobierno Autónomo Municipal de San José,Santa Cruz,GAM,municipal,10770,28696,11566,12351,20740,11876,46.5,14.7,31.8,53.5,43.9,9.4,0.2
+match_exacto,SANTA CRUZ,Chiquitos,Pailón,pailon,1714,Gobierno Autónomo Municipal de Pailón,Santa Cruz,GAM,municipal,6782,37305,11709,7025,28553,13019,59.9,18.7,41.2,40.1,36.9,3.1,0.1
+match_exacto,SANTA CRUZ,Chiquitos,Roboré,robore,1715,Gobierno Autónomo Municipal de Roboré,Santa Cruz,GAM,municipal,3335,12617,3633,3430,4626,1823,75.3,26.3,49.0,24.7,22.6,2.1,0.1
+match_exacto,SANTA CRUZ,Sara,Portachuelo,portachuelo,1716,Gobierno Autónomo Municipal de Portachuelo,Santa Cruz,GAM,municipal,1246,15107,1798,1305,5541,1260,87.0,39.1,47.9,13.0,12.6,0.4,0.0
+match_contiene,SANTA CRUZ,Sara,Santa Rosa,santa rosa,1717,Gobierno Autónomo Municipal de Santa Rosa del Sara,Santa Cruz,GAM,municipal,7047,13281,5319,4896,8512,1378,58.4,11.2,47.1,41.6,37.8,3.8,0.1
+match_exacto,SANTA CRUZ,Sara,Colpa Bélgica,colpa belgica,1756,Gobierno Autónomo Municipal de Colpa Bélgica,Santa Cruz,GAM,municipal,966,4614,1834,478,1886,485,73.2,15.7,57.5,26.8,26.2,0.5,0.0
+match_exacto,SANTA CRUZ,Cordillera,Lagunillas,lagunillas,1718,Gobierno Autónomo Municipal de Lagunillas,Santa Cruz,GAM,municipal,1832,4654,1660,3184,2110,373,59.0,11.4,47.6,41.0,39.2,1.8,0.1
+match_manual,SANTA CRUZ,Cordillera,Charagua (Autonomía Guaraní Charagua Iyambae),charagua autonomia guarani charagua iyambae,3701,Gobierno Autónomo Indígena Originario Campesino de Charagua Iyambae,Santa Cruz,GAIOC,indigena_originario_campesino,16617,28357,11554,19795,17386,4163,41.5,8.7,32.7,58.5,55.4,3.1,0.0
+match_exacto,SANTA CRUZ,Cordillera,Cabezas,cabezas,1720,Gobierno Autónomo Municipal de Cabezas,Santa Cruz,GAM,municipal,5820,22089,7973,7523,17636,5839,57.2,11.4,45.8,42.8,39.6,3.2,0.0
+match_exacto,SANTA CRUZ,Cordillera,Cuevo,cuevo,1721,Gobierno Autónomo Municipal de Cuevo,Santa Cruz,GAM,municipal,1375,3762,987,2032,1547,263,66.9,17.4,49.5,33.1,31.8,1.4,0.0
+match_manual,SANTA CRUZ,Cordillera,Gutiérrez (Autonomía Indígena Kereimba Iyaambae),gutierrez autonomia indigena kereimba iyaambae,3702,Gobierno Autónomo Indígena Guaraní Kereimba Iyaambae,Santa Cruz,GAIOC,indigena_originario_campesino,9546,12089,7563,9493,4720,957,30.6,4.3,26.3,69.4,65.5,3.9,0.0
+match_exacto,SANTA CRUZ,Cordillera,Camiri,camiri,1723,Gobierno Autónomo Municipal de Camiri,Santa Cruz,GAM,municipal,6282,20694,4945,3419,6282,3203,79.9,34.0,45.8,20.1,19.4,0.7,0.0
+match_exacto,SANTA CRUZ,Cordillera,Boyuibe,boyuibe,1724,Gobierno Autónomo Municipal de Boyuibe,Santa Cruz,GAM,municipal,1638,3857,1088,1362,2120,397,64.1,15.4,48.6,35.9,29.3,6.5,0.1
+match_exacto,SANTA CRUZ,Valle Grande,Vallegrande,vallegrande,1725,Gobierno Autónomo Municipal de Vallegrande,Santa Cruz,GAM,municipal,3587,9898,3536,3841,5974,1194,75.7,31.8,43.9,24.3,22.5,1.8,0.0
+match_exacto,SANTA CRUZ,Valle Grande,Trigal,trigal,1726,Gobierno Autónomo Municipal de Trigal,Santa Cruz,GAM,municipal,339,1375,468,487,684,69,84.0,33.8,50.2,16.0,15.3,0.7,0.0
+match_exacto,SANTA CRUZ,Valle Grande,Moromoro,moromoro,1727,Gobierno Autónomo Municipal de Moro Moro,Santa Cruz,GAM,municipal,1040,1705,1034,1065,1470,301,57.0,17.2,39.8,43.0,38.9,4.1,0.0
+match_exacto,SANTA CRUZ,Valle Grande,Postrervalle,postrervalle,1728,Gobierno Autónomo Municipal de Postrer Valle,Santa Cruz,GAM,municipal,608,1087,594,700,757,81,63.9,33.5,30.4,36.1,28.6,7.5,0.0
+match_exacto,SANTA CRUZ,Valle Grande,Pucará,pucara,1729,Gobierno Autónomo Municipal de Pucara,Santa Cruz,GAM,municipal,765,1279,827,1077,811,140,58.1,29.0,29.0,41.9,37.8,4.1,0.0
+match_exacto,SANTA CRUZ,Florida,Samaipata,samaipata,1730,Gobierno Autónomo Municipal de Samaipata,Santa Cruz,GAM,municipal,1778,7379,2888,1928,4745,1350,72.6,24.5,48.2,27.4,24.3,3.1,0.0
+match_manual,SANTA CRUZ,Florida,Pampagrande,pampagrande,1731,Gobierno Autónomo Municipal de Pampa Grande,Santa Cruz,GAM,municipal,1607,6461,2270,1648,5189,1661,67.6,17.8,49.8,32.4,28.3,4.0,0.1
+match_exacto,SANTA CRUZ,Florida,Mairana,mairana,1732,Gobierno Autónomo Municipal de Mairana,Santa Cruz,GAM,municipal,2095,8457,4356,1811,5803,2002,66.5,18.8,47.7,33.5,28.6,4.7,0.2
+match_exacto,SANTA CRUZ,Florida,Quirusillas,quirusillas,1733,Gobierno Autónomo Municipal de Quirusillas,Santa Cruz,GAM,municipal,899,2415,936,853,1440,257,66.3,15.3,51.0,33.7,30.4,3.3,0.0
+match_exacto,SANTA CRUZ,Obispo Santisteban,Montero,montero,1734,Gobierno Autónomo Municipal de Montero,Santa Cruz,GAM,municipal,9606,93097,25067,2038,35418,12503,83.9,30.1,53.8,16.1,15.7,0.4,0.0
+match_exacto,SANTA CRUZ,Obispo Santisteban,General Saavedra,general saavedra,1735,Gobierno Autónomo Municipal de General Agustín Saavedra,Santa Cruz,GAM,municipal,4033,13535,4351,2168,7954,1228,65.1,13.1,51.9,34.9,33.6,1.3,0.0
+match_exacto,SANTA CRUZ,Obispo Santisteban,Mineros,mineros,1736,Gobierno Autónomo Municipal de Mineros,Santa Cruz,GAM,municipal,3413,18029,4117,1583,8988,2483,76.2,24.3,52.0,23.8,22.7,1.1,0.0
+match_exacto,SANTA CRUZ,Obispo Santisteban,Fernández Alonso,fernandez alonso,1753,Gobierno Autónomo Municipal de Fernández Alonso,Santa Cruz,GAM,municipal,2234,10129,3915,1052,5738,1584,71.7,16.6,55.1,28.3,25.6,1.8,0.9
+match_exacto,SANTA CRUZ,Obispo Santisteban,San Pedro,san pedro,1754,Gobierno Autónomo Municipal de San Pedro,Santa Cruz,GAM,municipal,2940,10535,3815,826,4921,735,75.8,15.6,60.2,24.2,23.4,0.9,0.0
+match_exacto,SANTA CRUZ,Ñuflo de Chávez,Concepción,concepcion,1737,Gobierno Autónomo Municipal de Concepción,Santa Cruz,GAM,municipal,14176,23061,15364,13865,12274,5084,39.5,9.1,30.4,60.5,53.6,6.7,0.2
+match_exacto,SANTA CRUZ,Ñuflo de Chávez,San Javier,san javier,1738,Gobierno Autónomo Municipal de San Javier,Santa Cruz,GAM,municipal,6030,11779,5021,3715,5717,1620,52.4,10.6,41.8,47.6,44.2,3.3,0.1
+match_exacto,SANTA CRUZ,Ñuflo de Chávez,San Julián,san julian,1739,Gobierno Autónomo Municipal de San Julián,Santa Cruz,GAM,municipal,9647,30731,16558,5940,18375,4266,65.5,14.9,50.5,34.5,32.1,2.4,0.0
+match_exacto,SANTA CRUZ,Ñuflo de Chávez,San Antonio de Lomerio,san antonio de lomerio,1749,Gobierno Autónomo Municipal de San Antonio de Lomerio,Santa Cruz,GAM,municipal,2651,5003,1937,4488,2519,217,49.6,10.5,39.1,50.4,49.0,1.4,0.0
+match_exacto,SANTA CRUZ,Ñuflo de Chávez,San Ramón,san ramon,1750,Gobierno Autónomo Municipal de San Ramón,Santa Cruz,GAM,municipal,2519,6742,3291,1366,3315,756,61.3,11.5,49.9,38.7,36.0,2.6,0.0
+match_exacto,SANTA CRUZ,Ñuflo de Chávez,Cuatro Cañadas,cuatro canadas,1755,Gobierno Autónomo Municipal de Cuatro Cañadas,Santa Cruz,GAM,municipal,2068,16772,4714,1504,12697,4199,70.7,19.7,51.0,29.3,27.8,1.6,0.0
+match_exacto,SANTA CRUZ,Ángel Sandoval,San Matías,san matias,1740,Gobierno Autónomo Municipal de San Matías,Santa Cruz,GAM,municipal,5689,11534,5209,4556,6168,1825,56.3,10.1,46.2,43.7,41.0,2.7,0.0
+match_exacto,SANTA CRUZ,Manuel María Caballero,Comarapa,comarapa,1741,Gobierno Autónomo Municipal de Comarapa,Santa Cruz,GAM,municipal,5006,10860,5738,3110,8736,2070,60.1,18.0,42.1,39.9,35.4,4.4,0.1
+match_exacto,SANTA CRUZ,Manuel María Caballero,Saipina,saipina,1742,Gobierno Autónomo Municipal de Saipina,Santa Cruz,GAM,municipal,1532,3990,1742,737,3040,773,65.3,15.4,50.0,34.7,31.7,2.8,0.1
+match_exacto,SANTA CRUZ,Germán Busch,Puerto Suárez,puerto suarez,1743,Gobierno Autónomo Municipal de Puerto Suárez,Santa Cruz,GAM,municipal,2345,11749,3618,1570,4140,1009,82.3,22.1,60.2,17.7,16.2,1.5,0.0
+match_exacto,SANTA CRUZ,Germán Busch,Puerto Quijarro,puerto quijarro,1744,Gobierno Autónomo Municipal de Puerto Quijarro,Santa Cruz,GAM,municipal,1540,12488,4615,609,3776,1740,83.2,22.9,60.3,16.8,16.3,0.4,0.0
+match_exacto,SANTA CRUZ,Germán Busch,El Carmen Rivero Tórrez,el carmen rivero torrez,1751,Gobierno Autónomo Municipal de El Carmen Rivero Tórrez,Santa Cruz,GAM,municipal,2792,6282,1990,3215,3184,1179,57.9,10.4,47.4,42.1,37.9,4.1,0.1
+match_exacto,SANTA CRUZ,Guarayos,Ascención de Guarayos,ascencion de guarayos,1745,Gobierno Autónomo Municipal de Ascención de Guarayos,Santa Cruz,GAM,municipal,15045,25123,16866,10559,14679,4981,47.4,9.7,37.7,52.6,47.0,5.5,0.1
+match_exacto,SANTA CRUZ,Guarayos,Urubichá,urubicha,1746,Gobierno Autónomo Municipal de Urubicha,Santa Cruz,GAM,municipal,2878,5007,2294,3154,2402,625,51.9,6.5,45.3,48.1,44.6,3.3,0.2
+match_exacto,SANTA CRUZ,Guarayos,El Puente,el puente,1747,Gobierno Autónomo Municipal de El Puente,Santa Cruz,GAM,municipal,9147,12253,8465,7306,8268,2038,39.9,7.2,32.7,60.1,51.4,8.5,0.2
+match_exacto,BENI,Cercado,Trinidad,trinidad,1801,Gobierno Autónomo Municipal de Trinidad,Beni,GAM,municipal,39698,100873,45734,4616,20266,12933,71.1,28.3,42.8,28.9,27.9,0.9,0.0
+match_exacto,BENI,Cercado,San Javier,san javier,1802,Gobierno Autónomo Municipal de San Javier,Beni,GAM,municipal,4301,6088,3779,4276,3569,1762,35.0,9.0,26.0,65.0,53.8,10.9,0.3
+match_exacto,BENI,Vaca Diez,Riberalta,riberalta,1803,Gobierno Autónomo Municipal de Riberalta,Beni,GAM,municipal,46496,83860,71571,18110,24923,11089,52.8,16.4,36.3,47.2,45.3,1.9,0.0
+match_exacto,BENI,Vaca Diez,Guayaramerín,guayaramerin,1805,Gobierno Autónomo Municipal de Puerto Guayaramerín,Beni,GAM,municipal,11187,30334,10822,5389,8741,3642,73.0,22.4,50.5,27.0,26.0,1.1,0.0
+match_exacto,BENI,General José Ballivián,Reyes,reyes,1806,Gobierno Autónomo Municipal de Reyes,Beni,GAM,municipal,5590,8723,6878,4772,3548,2023,41.8,8.8,33.0,58.2,49.2,8.9,0.1
+match_exacto,BENI,General José Ballivián,San Borja,san borja,1808,Gobierno Autónomo Municipal de San Borja,Beni,GAM,municipal,26103,35156,24459,21489,18347,7400,39.0,8.5,30.5,61.0,43.1,15.8,2.1
+match_exacto,BENI,General José Ballivián,Santa Rosa,santa rosa,1809,Gobierno Autónomo Municipal de Santa Rosa,Beni,GAM,municipal,5081,8843,3607,3989,3679,1236,54.1,9.2,45.0,45.9,43.3,2.5,0.1
+match_manual,BENI,General José Ballivián,Puerto Menor de Rurrenabaque,puerto menor de rurrenabaque,1807,Gobierno Autónomo Municipal de Puerto Rurrenabaque,Beni,GAM,municipal,9394,15529,7970,5772,5925,2180,55.7,14.4,41.2,44.3,39.7,4.5,0.2
+match_exacto,BENI,Yacuma,Santa Ana,santa ana,1810,Gobierno Autónomo Municipal de Santa Ana,Beni,GAM,municipal,9109,14551,6513,4738,6986,2894,54.9,15.9,39.0,45.1,34.2,7.4,3.5
+match_exacto,BENI,Yacuma,Exaltación,exaltacion,1820,Gobierno Autónomo Municipal de Exaltación,Beni,GAM,municipal,4998,6627,5145,5349,3015,1386,26.7,1.6,25.1,73.3,64.1,8.7,0.6
+match_exacto,BENI,Moxos,San Ignacio,san ignacio,1811,Gobierno Autónomo Municipal de San Ignacio,Beni,GAM,municipal,12775,17166,8413,9487,8404,3344,45.6,12.1,33.5,54.4,45.4,8.3,0.8
+match_exacto,BENI,Marbán,Loreto,loreto,1812,Gobierno Autónomo Municipal de Loreto,Beni,GAM,municipal,2413,3595,2181,2710,1863,592,37.5,7.6,30.0,62.5,50.3,11.7,0.5
+match_exacto,BENI,Marbán,San Andrés,san andres,1813,Gobierno Autónomo Municipal de San Andrés,Beni,GAM,municipal,9653,11399,7186,7848,5873,2072,37.4,5.1,32.2,62.6,52.7,9.5,0.5
+match_exacto,BENI,Mamoré,San Joaquín,san joaquin,1814,Gobierno Autónomo Municipal de San Joaquín,Beni,GAM,municipal,2151,5085,1999,1564,2002,455,63.9,14.3,49.6,36.1,33.5,2.7,0.0
+match_exacto,BENI,Mamoré,San Ramón,san ramon,1815,Gobierno Autónomo Municipal de San Ramón,Beni,GAM,municipal,2129,3944,1609,1734,1479,549,62.0,15.0,46.9,38.0,34.8,3.2,0.1
+match_exacto,BENI,Mamoré,Puerto Siles,puerto siles,1816,Gobierno Autónomo Municipal de Puerto Síles,Beni,GAM,municipal,456,868,393,358,355,64,55.6,9.3,46.3,44.4,41.6,2.8,0.0
+match_exacto,BENI,Iténez,Magdalena,magdalena,1817,Gobierno Autónomo Municipal de Magdalena,Beni,GAM,municipal,5315,9728,6425,4109,2763,976,56.5,11.0,45.5,43.5,41.9,1.6,0.0
+match_exacto,BENI,Iténez,Baures,baures,1818,Gobierno Autónomo Municipal de Baures,Beni,GAM,municipal,3442,5197,4088,3389,2372,716,46.5,7.3,39.2,53.5,45.7,7.7,0.1
+match_exacto,BENI,Iténez,Huacaraje,huacaraje,1819,Gobierno Autónomo Municipal de Huacaraje,Beni,GAM,municipal,1842,3645,1817,1811,1410,349,53.8,8.6,45.1,46.2,44.6,1.6,0.0
+match_manual,BENI,Territorio Indígena Multiétnico,TIOC-Territorio Indígena Multiétnico,tioc territorio indigena multietnico,3801,Gobierno Indígena Autónomo del Territorio Indígena Multiétnico,Beni,GAIOC,indigena_originario_campesino,3285,3315,2007,3501,2118,860,22.1,2.5,19.6,77.9,56.9,17.8,3.2
+match_exacto,PANDO,Nicolás Suárez,Cobija,cobija,1901,Gobierno Autónomo Municipal de Cobija,Pando,GAM,municipal,4011,38656,13966,1626,7576,4459,85.6,36.2,49.4,14.4,14.1,0.3,0.0
+match_exacto,PANDO,Nicolás Suárez,Porvenir,porvenir,1902,Gobierno Autónomo Municipal de Porvenir,Pando,GAM,municipal,961,7016,3186,1173,2470,514,76.3,12.5,63.7,23.7,22.5,1.2,0.0
+match_exacto,PANDO,Nicolás Suárez,Bolpebra,bolpebra,1903,Gobierno Autónomo Municipal de Bolpebra,Pando,GAM,municipal,121,1739,1515,1133,851,218,50.9,7.9,43.0,49.1,48.1,1.0,0.0
+match_exacto,PANDO,Nicolás Suárez,Bella Flor,bella flor,1904,Gobierno Autónomo Municipal de Bella Flor,Pando,GAM,municipal,289,2391,1758,1101,1284,323,60.4,12.2,48.3,39.6,37.1,2.4,0.0
+match_exacto,PANDO,Manuripi,Puerto Rico,puerto rico,1905,Gobierno Autónomo Municipal de Puerto Rico,Pando,GAM,municipal,2857,5483,3809,1812,2238,577,51.9,9.5,42.4,48.1,44.7,3.3,0.1
+match_exacto,PANDO,Manuripi,San Pedro,san pedro,1906,Gobierno Autónomo Municipal de San Pedro,Pando,GAM,municipal,2710,2801,3005,2787,1095,572,5.4,0.2,5.2,94.6,81.3,13.2,0.1
+match_exacto,PANDO,Manuripi,Filadelfia,filadelfia,1907,Gobierno Autónomo Municipal de Filadelfia,Pando,GAM,municipal,1279,6321,4841,2503,2992,659,54.3,5.2,49.2,45.7,42.9,2.7,0.0
+match_exacto,PANDO,Madre de Dios,Puerto Gonzalo Moreno,puerto gonzalo moreno,1908,Gobierno Autónomo Municipal de Puerto Gonzalo Moreno,Pando,GAM,municipal,6401,10658,9362,6112,3112,483,25.7,1.3,24.4,74.3,68.8,5.5,0.0
+match_exacto,PANDO,Madre de Dios,San Lorenzo,san lorenzo,1909,Gobierno Autónomo Municipal de San Lorenzo,Pando,GAM,municipal,5499,8579,6983,4459,2655,624,33.4,2.3,31.1,66.6,64.7,2.0,0.0
+match_exacto,PANDO,Madre de Dios,Sena,sena,1910,Gobierno Autónomo Municipal de Sena,Pando,GAM,municipal,6536,8083,8353,4887,3581,1342,27.7,3.9,23.8,72.3,65.1,7.1,0.1
+match_contiene,PANDO,Abuná,Santa Rosa,santa rosa,1911,Gobierno Autónomo Municipal de Santa Rosa del Abuná,Pando,GAM,municipal,795,2300,1821,800,1052,130,48.5,5.7,42.8,51.5,50.1,1.4,0.0
+match_contiene,PANDO,Abuná,Ingavi,ingavi,1912,Gobierno Autónomo Municipal de Ingavi (Humaita),Pando,GAM,municipal,1430,2159,2270,1509,1054,403,23.9,1.8,22.1,76.1,66.8,9.0,0.2
+match_exacto,PANDO,Federico Román,Nueva Esperanza,nueva esperanza,1913,Gobierno Autónomo Municipal de Nueva Esperanza,Pando,GAM,municipal,701,1168,1179,767,522,131,37.3,5.5,31.8,62.7,60.3,2.2,0.1
+match_contiene,PANDO,Federico Román,Villa Nueva,villa nueva,1914,Gobierno Autónomo Municipal de Villa Nueva (Loma Alta),Pando,GAM,municipal,1435,2022,2122,1458,787,113,25.9,2.2,23.7,74.1,72.3,1.8,0.0
+match_exacto,PANDO,Federico Román,Santos Mercado,santos mercado,1915,Gobierno Autónomo Municipal de Santos Mercado,Pando,GAM,municipal,1433,1859,1694,1284,818,160,21.3,1.9,19.3,78.7,73.0,5.6,0.1

@@ -1,0 +1,4153 @@
+===== PÁGINA 139 =====
+137
+CLASIFICADOR DE ORGANISMOS FINANCIADORES
+Versión Sintética
+CÓDIGO
+DENOMINACIÓN
+SIGLA
+ORGANISMOS FINANCIADORES INTERNOS
+OFI
+Gobierno
+GOB
+111
+Tesoro General de la Nación
+TGN
+112
+Tesoro General de la Nación – Papeles
+TGN-P
+113
+Tesoro General de la Nación – Coparticipación Tributaria
+TGN-CT
+114
+Recursos de Contravalor
+RECON
+116
+Tesoro General de la Nación – Fondo de Compensación Departamental
+TGN-FCOMP
+117
+Tesoro General de la Nación – Impuesto Especial a los Hidrocarburos y sus
+Derivados
+TGN-IEHD
+119
+Tesoro General de la Nación – Impuesto Directo a los Hidrocarburos
+TGN-IDH
+120
+Tesoro General de la Nación – Impuesto a la Participación en Juegos
+TGN-IPJ
+121
+Tesoro General de la Nación – Patentes Petroleras
+TGN-PPET
+129
+Otros Organismos Financiadores del Gobierno
+OT-GOB
+000
+TGN Otros Ingresos
+TGN-OT
+Organismos de Recursos Específicos
+ORG-RECESP
+210
+Recursos Específicos de los Gobiernos Autónomos Municipales e Indígena
+Originario Campesino
+RECESP
+220
+Regalías
+REG
+230
+Otros Recursos Específicos
+OTPRO
+ORGANISMOS FINANCIADORES EXTERNOS
+OFE
+Organismos Multilaterales
+MULT
+311
+Asociación Latinoamericana de Integración
+ALADI
+312
+Centro Internacional de Agricultura Tropical
+CIAT
+313
+Comisión Económica para América Latina
+CEPAL
+314
+Corporación Andina de Fomento - Banco de Desarrollo de América Latina CAF
+315
+Fondo Andino de Reserva
+FAR
+316
+Instituto Interamericano de Cooperación para la Agricultura
+IICA
+317
+Comunidad Andina
+CAN
+318
+Organización de los Estados Americanos
+OEA
+319
+Organización Latinoamericana de Energía
+OLADE
+321
+Organización Panamericana de la Salud
+OPS
+322
+Sistema Económico Latinoamericano y del Caribe
+SELA
+323
+Fondo de Desarrollo de Pueblos Indígenas de América Latina y El Caribe
+FILAC
+341
+Programa de las NN.UU. para los Asentamientos Humanos
+ONU-HABITAT
+343
+Departamento de Cooperación Técnica para el Desarrollo de las Naciones
+Unidas
+DTCD
+===== PÁGINA 140 =====
+138
+CÓDIGO
+DENOMINACIÓN
+SIGLA
+344
+Fondo de las NN.UU. para la Infancia
+UNICEF
+345
+Fondo de Población de las Naciones Unidas
+UNFPA
+346
+Fondo Internacional de Desarrollo Agrícola
+FIDA
+347
+Instituto de NN.UU. para Formación Profesional e Investigaciones
+UNITAR
+348
+Organización de Aviación Civil Internacional
+OACI
+349
+Organización de las NN.UU. para el Desarrollo Industrial
+ONUDI
+351
+Organización de las NN.UU. para la Agricultura y la Alimentación
+FAO
+352
+Organización de las NN.UU. para la Educación, Ciencia y la Cultura
+UNESCO
+353
+Organización Internacional de Energía Atómica
+OIEA
+354
+Organización Internacional del Trabajo
+OIT
+355
+Organización Mundial de la Salud
+OMS
+356
+Organización Meteorología Mundial
+OMM
+357
+Programa de las NN.UU. para el Desarrollo
+PNUD
+358
+359
+Programa de NN.UU. para el Medio Ambiente
+Unión Internacional de Telecomunicaciones
+PNUMA
+UIT
+361
+Unión Postal Universal
+UPU
+362
+Universidad de las Naciones Unidas
+UNU
+371
+Unión Europea
+UE
+372
+Consejo de Ayuda Mutua Económica
+CAME
+373
+Organización de Países Exportadores de Petróleo
+OPEC
+374
+Programa Mundial de Alimentos
+PMA
+375
+Organización Internacional para las Migraciones
+OIM
+376
+Fondo de NNUU para el Desarrollo de la Capitalización
+UNCDF
+377
+Programa de las NNUU para la Fiscalización Internacional de Drogas
+UNDCP
+378
+Fondo de las NNUU para la Mujer
+UNIFEM
+379
+Fondo Rotativo de las NNUU para la Exploración de los Recursos Naturales UNRFNRE
+384
+Fondo Nórdico para el Desarrollo
+NDF
+386
+Organización Internacional de las Maderas Tropicales
+OIMT
+411
+Banco Interamericano de Desarrollo
+BID
+412
+Banco Internacional de Reconstrucción y Fomento
+BIRF
+413
+Fondo Financiero para el Desarrollo de la Cuenca del Plata
+FONPLATA
+414
+Fondo Monetario Internacional
+FMI
+415
+Asociación Internacional de Fomento (BM)
+AIF
+416
+Banco Interamericano de Ahorro y Préstamos
+BIAPE
+420
+Corporación Financiera Internacional (BM)
+CFI
+421
+Organismo Multilateral de Garantía de Inversiones (BM)
+MIGA
+522
+Fondo Multilateral de Inversiones (BID)
+FOMIN
+524
+Fondo para el Medio Ambiente Mundial (BM)
+GEF
+526
+Fondo Institucional de Desarrollo
+IDF
+730
+Banco de Importaciones - Exportaciones China
+EXIMBANK-CH
+731
+Banco de Desarrollo de China
+BDC
+732
+Banco Europeo de Inversiones
+BEI
+733
+Agencia de Cooperación Internacional de Corea del Sur
+KOICA
+734
+Oficina de las Naciones Unidas contra la Droga y el Delito
+UNODC
+735
+Fondo OPEP para el Desarrollo Internacional
+OFID
+736
+744
+745
+Fondo Verde para el Clima
+Banco Asiático de Inversión en Infraestructura
+Nuevo Banco de Desarrollo del Brics
+FVC
+AIIB
+NTB BRICS
+===== PÁGINA 141 =====
+139
+CÓDIGO
+DENOMINACIÓN
+SIGLA
+997
+Otros Organismos Financiadores Multilaterales
+OT-MUL
+Organismos Bilaterales
+BILAT
+382
+Fondo de Ayuda al Equipamiento (España)
+FAE
+383
+Fondo de Integración y Desarrollo Bolivia-Argentina
+FIDAB
+417
+Banco de Importaciones - Exportaciones Japón
+EXIMBANK-J
+418
+Banco de Importaciones - Exportaciones Corea
+EXIMBANK-K
+419
+Banco de Importaciones - Exportaciones (EE. UU.)
+EXIMBANK-U
+511
+Agencia Canadiense para el Desarrollo Internacional
+ACDI
+512
+Agencia de Cooperación Internacional del Japón
+JICA
+513
+Agencia de los EE. UU. para el Desarrollo Internacional
+USAID
+514
+Agencia Danesa de Desarrollo Internacional
+DANIDA
+515
+Agencia Suiza para el Desarrollo y la Cooperación
+COSUDE
+516
+Banco de Crédito para la Reconstrucción
+KFW
+517
+Agencia de Cooperación Técnica de la República Alemana
+GIZ
+518
+Banco de Cooperación Internacional del Japón
+JBIC
+519
+Dir. General de Cooperación Internacional /Coop. Técnica Belga
+DGCI -CTB
+520
+Agencia Sueca de Desarrollo Internacional
+ASDI
+521
+Corporación Internacional de Desarrollo
+CID
+523
+Agencia Canadiense para el Desarrollo Internacional Regional
+CIID
+525
+Instituto de Cooperación Iberoamericana
+ICI
+527
+Agencia Noruega para el Desarrollo Internacional
+NORAD
+528
+Agencia Española de Cooperación Internacional para el Desarrollo
+AECID
+529
+Corporación de Créditos de Mercaderías (EE. UU.)
+CCC
+530
+Export Development Corporation (CANADA)
+EDC
+738
+Agencia Francesa de Desarrollo
+AFD
+739
+Agencia Italiana para la Cooperación al Desarrollo
+AICS
+740
+Cassa Depositi e Prestiti S.p.A.
+CDP
+741
+Danske Bank
+DKB
+742
+Entidad de las Naciones Unidas para la Igualdad de Género y
+Empoderamiento de las Mujeres
+ONU MUJERES
+743
+746
+747
+748
+749
+Physikalisch Technische Bundesanstalt
+Fondo Saudita para el Desarrollo
+Fondo de Kuwaití para el Desarrollo Económico Árabe
+Banco de Exportación e Importación de India
+Fondo Abu Dhabi para el Desarrollo
+PTB
+SFD
+KFAED
+EXIMBANK INDIA
+ADFD
+998
+Otros Organismos Financiadores Bilaterales
+OT-BIL
+Gobiernos Extranjeros
+GOB.EXT
+541
+República Federal de Alemania
+ALEM
+542
+Argentina
+ARG
+543
+Bélgica
+BEL
+544
+Brasil
+BRA
+545
+Canadá
+CANADA
+546
+República de Corea
+COR
+548
+República Popular China
+CHINA
+549
+República China Nacionalista - Taiwán
+CH-TAI
+===== PÁGINA 142 =====
+140
+CÓDIGO
+DENOMINACIÓN
+SIGLA
+551
+Dinamarca
+DIN
+552
+España
+ESP
+553
+Estados Unidos de América
+USA
+554
+Francia
+FRA
+555
+Gran Bretaña
+G-BR
+556
+Holanda
+HOL
+557
+Hungría
+HUN
+558
+Israel
+ISR
+559
+Italia
+ITA
+561
+Japón
+JAP
+562
+Noruega
+NOR
+563
+Perú
+PERU
+564
+Rumania
+RUM
+565
+Suecia
+SUE
+566
+Suiza
+SUI
+567
+Federación de Rusia
+RUSIA
+568
+República Bolivariana de Venezuela
+VEN
+569
+Polonia
+POL
+571
+Austria
+AUST
+572
+Sudáfrica
+SUDAF
+573
+Panamá
+PAN
+574
+Portugal
+PORT
+575
+República de Chile
+CHI
+576
+México
+MEX
+577
+República Oriental del Uruguay
+URU
+578
+Paraguay
+PARA
+579
+Filipinas
+FILIP
+580
+Colombia
+COL
+581
+Ecuador
+ECU
+582
+Cuba
+CU
+639
+Otros Gobiernos Extranjeros
+OT-G-EXT
+Otros Organismos Financiadores Externos
+OTR.EXT
+115
+Donaciones – HIPC II
+DON-HIPC
+641
+Care
+CARE
+642
+Caritas
+CARITAS
+643
+Plan Internacional
+PLAN-INTER
+644
+Fundación Amigos de la Naturaleza
+FAN
+669
+Otros Organismos no Gubernamentales
+OT-NOGUB
+671
+Bancos Privados
+BAN-PRI
+672
+Proveedores
+PROV
+719
+Organismos Financiadores Externos no Determinados
+ND-EXT
+720
+Basket Funding
+BASK-FUN
+729
+Otros Organismos Financiadores Externos
+OT-EXT
+===== PÁGINA 143 =====
+141
+CLASIFICADOR DE ORGANISMOS FINANCIADORES
+Versión Descriptiva
+El Clasificador de Organismos Financiadores, tiene el propósito de identificar y distinguir el origen de los
+recursos por organismo proveedor, internas o externas, asociado a los grupos de fuentes de
+financiamiento
+ORGANISMOS FINANCIADORES INTERNOS
+Los Organismos Financiadores Internos tienen el propósito de identificar los tipos específicos de
+financiamiento del Gobierno.
+El Clasificador de Organismos Financiadores Internos se utiliza en el presupuesto de gastos asociado,
+básicamente, a las fuentes de financiamiento.
+111 Tesoro General de la Nación
+Fondos que se originan principalmente de recaudaciones tributarias, participación en regalías,
+transferencias, rendimiento de activos, saldo disponible de la gestión anterior y otros ingresos.
+112 Tesoro General de la Nación – Papeles
+Define el monto del financiamiento en “Papeles” que corresponde a la fuente de financiamiento “Tesoro
+General de la Nación”.
+113 Tesoro General de la Nación – Coparticipación Tributaria
+Define el monto de ingresos de la fuente de financiamiento “Tesoro General de la Nación” que se destina
+como coparticipación tributaria de los Gobiernos Autónomos Municipales e Indígena Originario
+Campesino y Universidades Públicas de acuerdo a normativa vigente. Se asocia a la fuente de
+financiamiento “Tesoro General de la Nación”.
+114 Recursos de Contravalor
+Fondos que se originan en convenios de cooperación financiera (Donaciones o Préstamos) de Organismos
+Internacionales o Gobiernos Extranjeros y que conforman recursos de contrapartida asociados a la fuente
+de financiamiento “Tesoro General de la Nación”.
+116 Tesoro General de la Nación - Fondo Compensatorio Departamental
+Fondo compensatorio que se constituyen con el 10% de los recursos del Impuesto Especial a los
+hidrocarburos y sus Derivados para los departamentos que estén por debajo del promedio nacional de
+regalías departamentales por habitante establecido en normativa vigente. Se asocia a la fuente de
+financiamiento “Tesoro General de la Nación”.
+117 Tesoro General de la Nación – Impuesto Especial a los Hidrocarburos y sus Derivados
+Define el monto de los ingresos por coparticipación del Impuesto Especial a los Hidrocarburos y sus
+Derivados para los Gobiernos Autónomos Departamentales de acuerdo a normativa vigente. Este
+financiamiento está asociado a la fuente de financiamiento “Tesoro General de la Nación”.
+119 Tesoro General de la Nación – Impuesto Directo a los Hidrocarburos
+Define el monto de los ingresos por Impuesto Directo a los Hidrocarburos de acuerdo a la Ley de
+Hidrocarburos. Este financiamiento está asociado a la fuente de financiamiento “Tesoro General de la
+Nación”.
+===== PÁGINA 144 =====
+142
+120 Tesoro General de la Nación – Impuesto a la Participación en Juegos
+Define el monto de ingresos por el derecho de participar en distintas modalidades de juego, conforme la
+Ley de Juego de Lotería y Azar, está asociado a la fuente de financiamiento “Tesoro General de la Nación”.
+121 Tesoro General de la Nación - Patentes Petroleras
+Define el monto de ingresos provenientes por el pago de patentes petroleras en cumplimiento a la Ley de
+Hidrocarburos y el Decreto que reglamenta estas transferencias, está asociado a la fuente de
+financiamiento “Tesoro General de la Nación”.
+129 Otros Organismos Financiadores del Gobierno
+Define el monto de ingresos distintos de las recaudaciones tributarias correspondientes a operaciones
+que realiza el Tesoro General de la Nación. Se asocia a la fuente de financiamiento “TGN otros Ingresos”.
+210 Recursos Específicos de los Gobiernos Autónomos Municipales e Indígena Originario Campesino
+Define el monto del financiamiento que se origina por la realización de actividades propias de la
+Administración Municipal. Se asocia a la fuente de financiamiento “Recursos Específicos”.
+220 Regalías
+Define el monto del financiamiento por regalías establecidas en la normativa vigente que se origina por
+la realización de actividades de explotación de recursos naturales renovables y no renovables. Se asocia
+a la fuente de financiamiento “Tesoro General de la Nación” en el caso de Regalías Nacionales y a la fuente
+“Recursos Específicos” en el caso de las Regalías de las Entidades Territoriales Autónomas.
+230 Otros Recursos Específicos
+Define el monto del financiamiento por otros recursos correspondientes a la fuente de financiamiento
+“Recursos Específicos”.
+ORGANISMOS FINANCIADORES EXTERNOS
+Los Organismos Financiadores Externos tienen el propósito de identificar a los organismos internacionales
+y países extranjeros que conceden préstamos y/o donaciones.
+El Clasificador de Organismos Financiadores Externos se utiliza en el presupuesto de gastos asociado,
+básicamente, a las fuentes de financiamiento. Tiene la siguiente desagregación:
+● Organismos Multilaterales
+● Organismos Bilaterales
+● Gobiernos Extranjeros
+● Otros Organismos Financiadores Externos.
+115 Donaciones – HIPC II
+Fondos que se originan por concepto de alivio de deuda externa en el marco de la iniciativa para Países
+Altamente Endeudados (HIPC) y que estarán destinados a gastos relacionados con sectores sociales de
+acuerdo a lo establecido en la norma legal específica.
+===== PÁGINA 145 =====
+143
+CLASIFICADOR DE SECTORES ECONÓMICOS
+Consiste en la clasificación económica del gasto que permite identificar la naturaleza económica de las
+transacciones que se realizan en el sector público, con el propósito de evaluar el impacto y las
+repercusiones que generan las acciones fiscales en la economía.
+CÓDIGOS
+DENOMINACIÓN
+SIGLA
+1
+AGROPECUARIO
+AGROP
+1
+1
+AGRÍCOLA
+AGRIC
+1
+1 1 INVESTIGACIÓN AGRÍCOLA
+AGR01
+1
+1 2 SANIDAD VEGETAL
+AGR02
+1
+1 3 INFRAESTRUCTURA DE APOYO AGRÍCOLA
+AGR03
+1
+1 4 EXTENSIÓN Y CAPACITACIÓN
+AGR04
+1
+1 5 EQUIPAMIENTO APOYO AGRÍCOLA
+AGR05
+1
+1 6 FOMENTO A LA PRODUCCIÓN AGRÍCOLA
+AGR06
+1
+2
+PECUARIA
+PECUA
+1
+2 1 INVESTIGACIÓN PECUARIA
+PEC01
+1
+2 2 EXTENSIÓN Y CAPACITACIÓN PECUARIA
+PEC02
+1
+2 3 FOMENTO GANADERO
+PEC03
+1
+2 4 SANIDAD ANIMAL
+PEC04
+1
+2 5 INFRAESTRUCTURA DE APOYO PECUARIO
+PEC05
+1
+2 6 MEJORAMIENTO GENÉTICO
+PEC06
+1
+2 7 PRADERAS, FORRAJES Y NUTRICIÓN ANIMAL
+PEC07
+1
+2 8 DESARROLLO APICOLA
+PEC08
+1
+2 9 DESARROLLO AVICOLA
+PEC09
+1
+2 10 EQUIPAMIENTO PARA APOYO PECUARIO
+PEC10
+1
+3
+DESARROLLO PESQUERO Y ACUICOLA
+SILVI
+1
+3 1 PESCA EN CAUSES NATURALES
+SIL01
+1
+3 2 AGROSILVOPASTORIL
+SIL02
+1
+3 3 ACUICULTURA (CRIANZA ARTIFICIAL)
+SIL03
+1
+3 4 INFRAESTRUCTURA DE APOYO EN ACUICULTURA
+SIL04
+1
+3 5 INVESTIGACIÓN DESARROLLO PESQUERO
+INVDP
+1
+4
+SEGURIDAD Y SOBERANIA ALIMENTARIA
+SEGAL
+1
+4 1 SEGURIDAD Y SOBERANIA ALIMENTARIA AGRÍCOLA
+SEG01
+1
+4 2 SEGURIDAD Y SOBERANIA ALIMENTARIA PECUARIA
+SEG02
+1
+4 3 INVESTIGACIÓN SEGURIDAD Y SOBERANIA ALIMENTARIA
+INVSSA
+1
+5
+RIEGO
+RIE
+1
+5 1 CONSTRUCCIÓN DE SISTEMAS DE RIEGO
+RIE01
+1
+5 2 MEJORAMIENTO Y AMPLIACIÓN DE SISTEMA DE RIEGO
+RIE02
+1
+5 3 REHABILITACIÓN DE SISTEMAS DE RIEGO
+RIE03
+1
+5 4 OTROS
+RIE04
+1
+5
+5
+MICRORIEGO Y OTROS (ATAJADOS, RESERVORIOS Y PERFORACIÓN DE
+POZOS)
+RIE05
+1
+5 6 DRENAJES
+RIE06
+1
+5 7 OTROS RIEGO
+OTRIE
+1
+5 8 INVESTIGACIÓN RIEGO
+RIE08
+===== PÁGINA 146 =====
+144
+1
+6
+MULTIPROGRAMA AGROPECUARIO
+MAGRP
+1
+6 1 MULTIPROGRAMA
+MULT01
+1
+7
+OTROS AGROPECUARIO
+OAGR
+1
+7 1 SANEAMIENTO TITULACIÓN Y DISTRIBUCIÓN DE TIERRAS
+OTR01
+1
+7 2 OTROS
+OTR02
+2
+MINERO
+MINER
+2
+1
+DESARROLLO MINERO
+MIN
+2
+1 1 PROSPECCIÓN Y EXPLORACION MINERA
+MIN01
+2
+1 2 EXPLOTACIÓN Y PRODUCCIÓN DE MINERALES
+MIN02
+2
+1 3 COMERCIALIZACIÓN DE MINERALES
+MIN03
+2
+1 4 INDUSTRIALIZACIÓN MINERA
+MIN04
+2
+1 5 INVESTIGACIÓN MINERA
+MIN05
+2
+1 6 TRATAMIENTO DE RESIDUOS MINEROS
+MIN06
+2
+1 7 REMEDIACIÓN DE PASIVOS AMBIENTALES
+MIN07
+2
+1 8 OTROS MINERIA
+OTRMIN
+2
+1 9 CONCENTRACIÓN, FUNDICIÓN Y REFINACIÓN DE MINERALES
+MIN09
+2
+1 10 ASISTENCIA Y CAPACITACIÓN EN MINERIA
+MIN10
+2
+1 11 INVESTIGACIÓN MINERA
+MIN11
+3
+INDUSTRIA
+INDUS
+3
+1
+AGROINDUSTRIA
+AGROI
+3
+1 1 TRANSFORMACIÓN DE ALIMENTOS Y BEBIDAS
+AGRO01
+3
+1 2 COMERCIALIZACIÓN DE ALIMENTOS Y BEBIDAS
+AGRO02
+3
+1 3 FOMENTO A LA PRODUCCIÓN AGROINDUSTRIAL
+AGRO03
+3
+2
+INDUSTRIA MANUFACTURERA
+INMAN
+3
+2 1 TRANSFORMACIÓN DE TEXTILES Y PRENDAS DE VESTIR
+INMA01
+3
+2 2 TRANSFORMACIÓN DE MUEBLES
+INMA02
+3
+2 3 TRANSFORMACIÓN DE CUEROS Y CALZADOS
+INMA03
+3
+2 4 TRANSFORMACIÓN DE PRODUCTOS ELABORADOS DE METAL
+INMA04
+3
+2 5 COMERCIALIZACIÓN DE MANUFACTURAS
+INMA05
+3
+2 6 FOMENTO DE PROMOCIÓN DE LA PRODUCCIÓN MANUFACTURERA Y
+MICROEMPRESA
+INMA06
+3
+2 7 OTRAS MANUFACTURAS
+INMA07
+3
+3
+MULTIPROGRAMA INDUSTRIA
+MGRP
+3
+3 1 MULTIPROGRAMA
+MULT02
+3
+4
+OTROS INDUSTRIA
+OTRIND
+3
+4 1 OTROS
+OTR03
+3
+4 2 OTROS ARTESANIAS
+OTRAR
+3
+5
+INVESTIGACIÓN INDUSTRIA
+INVIND
+3
+5 1 INVESTIGACIÓN INDUSTRIA
+INVIND01
+4
+HIDROCARBUROS
+HIDRO
+4
+1
+HIDROCARBUROS
+HID
+4
+1 1 PROSPECCION Y EXPLORACION DE HIDROCARBUROS
+HID01
+4
+1 2 EXPLOTACION O PRODUCCIÓN DE HIDROCARBUROS
+HID02
+4
+1 3 TRANSPORTE DE HIDROCARBUROS
+HID03
+===== PÁGINA 147 =====
+145
+4
+1 4 COMERCIALIZACION DE HIDROCARBUROS
+HID04
+4
+1 5 INDUSTRIALIZACION DE HIDROCARBUROS
+HID05
+4
+1 6 REDES DE DISTRIBUCIÓN DE GAS
+HID06
+4
+1 7 REMEDIACIÓN AMBIENTAL
+HID07
+4
+1 8 OTROS HIDROCARBUROS
+OTRHID
+5
+ENERGIA
+ENERG
+5
+1
+ENERGIA ELECTRICA
+ENELC01
+5
+1 1 GENERACION DE ENERGIA ELECTRICA
+ENELC02
+5
+1 2 TRANSMISION DE ENERGIA ELECTRICA
+ENELC03
+5
+1 3 DISTRIBUCIÓN DE ENERGÍA ELECTRICA
+ENELC04
+5
+1 4 ELECTRIFICACION RURAL
+ENELC05
+5
+2
+ENERGIAS ALTERNATIVAS
+OTRENEL
+5
+2 1 EOLICA
+ENELALT
+5
+2 2 GEOTERMICA
+ENEEO
+5
+2 3 FOTOVOLTAICA
+ENEGEO
+5
+2 4 BIOMASA
+ENEBIO
+5
+2 5 NUCLEAR
+ENENU
+5
+3
+OTROS ENERGÍA
+OTENE
+5
+3 1 OTROS ENERGÍA
+OTR04
+5
+4
+MULTIPROGRAMA ENERGÍA
+MENER
+5
+4 1 MULTIPROGRAMA
+MULT03
+5
+5
+INVESTIGACIÓN ENERGÍA
+INVDEN
+5
+5 1 INVESTIGACIÓN EN DESARROLLO DE LA ENERGÍA
+INVDEN01
+6
+TRANSPORTES
+TRANS
+6
+1
+CAMINERO
+CAM
+6
+1 1 CONSTRUCCIÓN CARRETERAS PAVIMENTADAS
+CAM01
+6
+1 2 CONSTRUCCIÓN CARRETERAS NO PAVIMENTADAS
+CAM02
+6
+1 3 MEJORAMIENTO DE CARRETERAS
+CAM03
+6
+1 4 MANTENIMIENTO DE CARRETERAS
+CAM04
+6
+1 5 REHABILITACIÓN DE CARRETERAS
+CAM05
+6
+1 6 APERTURA DE CAMINOS VECINALES
+CAM06
+6
+1 7 MEJORAMIENTO DE CAMINOS VECINALES
+CAM07
+6
+1 8 CONSTRUCCIÓN DE PUENTES
+CAM08
+6
+1 9 REHABILITACIÓN DE PUENTES
+CAM09
+6
+1 10 SERVICIOS POR TRANSPORTE TERRESTRE
+CAM10
+6
+1 11 CONTROL Y SEGURIDAD DEL TRAFICO TERRESTRE
+CAM11
+6
+1 12 MANTENIMIENTO DE PUENTES
+CAM12
+6
+2
+FERROVIARIO
+FER
+6
+2 1 CONSTRUCCIÓN DE INFRAESTRUCTURA FERROVIARIA
+FER01
+6
+2 2 EQUIPAMIENTO DE TRACCION Y MATERIAL RODANTE
+FER02
+6
+2 3 MEJORAMIENTO DE INFRAESTRUCTURA FERROVIARIA
+FER03
+6
+6
+2
+2
+4
+5
+REHABILITACION DE LINEAS FERREAS
+SERVICIOS FERROVIARIOS
+FER04
+FER05
+6
+2 6 CONTROL Y SEGURIDAD DEL TRANSPORTE FERROVIARIO
+FER06
+6
+3
+AÉREO
+AER
+===== PÁGINA 148 =====
+146
+6
+3 1 CONSTRUCCIÓN DE INFRAESTRUCTURA AEROPORTUARIA
+AER01
+6
+3 2 EQUIPAMIENTO PARA LA NAVEGACIÓN Y SERVICIOS AUXILIARES
+AER02
+6
+3 3 MEJORAMIENTO DE INFRAESTRUCTURA AEROPORTUARIA
+AER03
+6
+3 4 REHABILITACIÓN DE INFRAESTRUCTURA AEROPORTUARIA
+AER04
+6
+3 5 MANTENIMIENTO DE INFRAESTRUCTURA AEROPORTUARIA
+AER05
+6
+3 6 CONSTRUCCIÓN DE PISTAS
+AER06
+6
+3 7 CONSTRUCCIÓN DE TERMINALES AEREAS
+AER07
+6
+3 8 MEJORAMIENTO Y MANTENIMIENTO DE AERONAVES
+AER08
+6
+3 9 SERVICIOS DE TRANSPORTE AÉREO
+AER09
+6
+3 10 CONTROL Y SEGURIDAD DEL TRANSPORTE AEREO
+AER10
+6
+4
+TRANSPORTE FLUVIAL Y LACUSTRE
+HIDROV
+6
+4 1 CONSTRUCCIÓN Y EQUIPAMIENTO DE PUERTOS
+HIDR01
+6
+4 2 MEJORAS PARA LA NAVEGACIÓN
+HIDR02
+6
+4 3 CONSTRUCCIÓN DE INFRAESTRUCTURA FLUVIAL Y LACUSTRE
+HIDR03
+6
+4 4 EQUIPAMIENTO PARA LA NAVEGACIÓN Y SERVICIOS AUXILIARES
+HIDR04
+6
+4 5 MEJORAMIENTO DE INFRAESTRUCTURA FLUVIAL Y LACUSTRE
+HIDR05
+6
+4 6 REHABILITACIÓN DE INFRAESTRUCTURA FLUVIAL Y LACUSTRE
+HIDR06
+6
+4 7 MANTENIMIENTO DE INFRAESTRUCTURA FLUVIAL Y LACUSTRE
+HIDR07
+6
+4 8 SERVICIO DE TRANSPORTE FLUVIAL Y LACUSTRE
+HIDR08
+6
+4 9 CONTROL Y SEGURIDAD DEL TRAFICO FLUVIAL Y LACUSTRE
+HIDR09
+6
+5
+MULTIPROGRAMA TRANSPORTES
+MTRNS
+6
+5 1 MULTIPROGRAMA
+MULT04
+6
+6
+OTROS TRANSPORTES
+OTRTRS
+6
+6 1 TRANSPORTE POR CABLE
+TRCAB
+6
+6 2 OTROS TRANSPORTES
+OTR05
+6
+7
+INVESTIGACIÓN TRANSPORTES
+INVT
+6
+7 1 INVESTIGACIÓN TRANSPORTES
+INVT01
+7
+COMUNICACIONES
+COMUN
+7
+1
+TELECOMUNICACIONES
+TEL
+7
+1 1 CONSTRUCCIONES E INFRAESTRUCTURA
+TEL01
+7
+1 2 EQUIPAMIENTO DE TELECOMUNICACIONES
+TEL02
+7
+1 3 MEJORAMIENTO DE INFRAESTRUCTURA DE TELECOMUNICACIONES
+TEL03
+7
+1 4 REHABILITACIÓN DE INFRAESTRUCTURA DE TELECOMUNICACIONES
+TEL04
+7
+1 5 SERVICIO DE TELECOMUNICACIONES
+TEL05
+7
+1 6 GESTION DEL ESPACIO ELECTROMAGNETICO
+TEL06
+7
+2
+SERVICIO POSTAL
+POSTA
+7
+2 1 CONSTRUCCIONES E INFRAESTRUCTURA DE CORREOS
+POS01
+7
+2 2 EQUIPAMIENTO DE SERVICIO POSTAL
+POS02
+7
+2 3 SERVICIO POSTAL
+POS03
+7
+3
+MULTIPROGRAMA COMUNICACIONES
+MCOM
+7
+3 1 MULTIPROGRAMA
+MULT05
+7
+4
+OTROS COMUNICACIONES
+OTRCOM
+7
+4 1 OTROS
+OTR06
+7
+5
+INVESTIGACIÓN COMUNICACIONES
+INVC
+7
+5 1 INVESTIGACIÓN COMUNICACIONES
+INVC01
+===== PÁGINA 149 =====
+147
+8
+SALUD
+SALUD
+8
+1
+INFRAESTRUCTURA DE SALUD
+SAL
+8
+1 1 CONSTRUCCIÓN DE INFRAESTRUCTURA Y EQUIPAMIENTO DE
+HOSPITALES
+SAL01
+8
+1 2 CONSTRUCCIÓN DE INFRAESTRUCTURA Y EQUIPAMIENTO DE CENTROS
+DE SALUD
+SAL02
+8
+1 3 MEJORAMIENTO DE INFRAESTRUCTURA DE HOSPITALES
+SAL03
+8
+1 4 MEJORAMIENTO DE INFRAESTRUCTURA DE CENTROS DE SALUD
+SAL04
+8
+1 5 OTROS INFRAESTRUCTURA DE SALUD
+SAL05
+8
+2
+PLANIFICACIÓN Y PREVENCIÓN DE SALUD
+PLA
+8
+2 1 PLANIFICACION Y EDUCACIÓN PARA LA SALUD
+PLA01
+8
+2 2 PROGRAMAS EN PREVENCIÓN Y EDUCACION PARA LA SALUD
+PLA02
+8
+2 3 REGULACIÓN Y CONTROL SANITARIO
+PLA03
+8
+2 4 PROMOCIÓN DE LA SALUD
+PLA04
+8
+3
+ATENCIÓN EN SALUD
+ASAL
+8
+3 1 ATENCIÓN PRIMARIA EN SALUD
+ASA01
+8
+3 2 PROGRAMAS INTEGRALES DE SALUD
+ASA02
+8
+3 3 EPIDEMIOLOGIA
+ASA03
+8
+3 4 DESARROLLO MEDICINA TRADICIONAL
+ASA04
+8
+3 5 SALUD OCUPACIONAL
+ASA05
+8
+4
+MULTIPROGRAMA SALUD
+MULSAL
+8
+4 1 MULTIPROGRAMA
+MULT06
+8
+5
+OTROS SALUD
+OTSLD
+8
+5 1 OTROS
+OTR07
+8
+6
+TELESALUD
+TELES
+8
+6 1 TELESALUD
+TELES01
+8
+7
+INVESTIGACIÓN SALUD
+INVS
+8
+7 1 INVESTIGACIÓN SALUD
+INVS01
+9
+EDUCACIÓN
+EDUCA
+9
+1
+INFRAESTRUCTURA DE EDUCACIÓN
+IED
+9
+1 1 CONSTRUCCIÓN Y EQUIPAMIENTO DE ESCUELAS Y COLEGIOS
+IED01
+9
+1 2 CONSTRUCCIÓN Y EQUIPAMIENTO DE CENTROS DE EDUCACION NO
+FORMAL
+IED02
+9
+1 3 INFRAESTRUCTURA DE EDUCACIÓN SUPERIOR
+IED03
+9
+1 4 OTRA INFRAESTRUCTURA EDUCATIVA
+IED04
+9
+1 5 CONSTRUCCIÓN Y EQUIPAMIENTO EN EDUCACIÓN ALTERNATIVA
+IED05
+9
+1 6 CONSTRUCCIÓN Y EQUIPAMIENTO EN EDUCACIÓN ESPECIAL
+IED06
+9
+2
+EDUCACIÓN FORMAL
+EDF
+9
+2 1 EDUCACIÓN BASICA
+EDF01
+9
+2 2 EDUCACIÓN SUPERIOR
+EDF02
+9
+2 3 FORMACIÓN DOCENTE
+EDF03
+9
+2 4 FORMACIÓN OCUPACIONAL
+EDF04
+9
+2 5 ASISTENCIA EDUCATIVA
+EDF05
+9
+2 6 DESARROLLO CURRICULAR EDUCACIÓN REGULAR
+EDF06
+9
+3
+EDUCACIÓN NO FORMAL
+EDN
+===== PÁGINA 150 =====
+148
+9
+3 1 ALFABETIZACIÓN
+EDN01
+9
+3 2 EDUCACIÓN POPULAR
+EDN02
+9
+3 3 FORMACIÓN DE MANO DE OBRA
+EDN03
+9
+3 4 DESARROLLO CURRICULAR EDUCACIÓN NO REGULAR
+EDN04
+9
+3 5 POST ALFABETIZACIÓN
+EDN05
+9
+4
+MULTIPROGRAMA EDUCACION
+MEDUC
+9
+4 1 MULTIPROGRAMA
+MULT07
+9
+4 2 INVESTIGACIÓN EDUCACIÓN
+INVED09
+9
+5
+OTROS EDUCACION
+OTREDU
+9
+5 1 OTROS
+OTR08
+9
+5 2 PROMOCIÓN DE LA EDUCACIÓN INTEGRAL
+PROMED02
+9
+5 3 INVESTIGACIÓN E INNOVACIÓN EDUCATIVA
+INVEIN03
+9
+5 4 TECNOLOGÍAS DE INFORMACIÓN Y COMUNICACIÓN EN EDUCACIÓN
+TECICE04
+10
+SANEAMIENTO BÁSICO
+SANEA
+10
+1
+AGUA POTABLE
+AGU
+10
+1 1 AGUA POTABLE EN CAPITALES DE DEPARTAMENTO
+AGU01
+10
+1 2 AGUA POTABLE EN CIUDADES INTERMEDIAS
+AGU02
+10
+1 3 AGUA POTABLE EN POBLADOS RURALES
+AGU03
+10
+1 4 PERFORACIÓN DE POZOS PARA AGUA POTABLE
+AGU04
+10
+1 5 REHABILITACIÓN Y AMPLIACIÓN DE SISTEMAS DE AGUA
+AGU05
+10
+2
+ALCANTARILLADO
+ALC
+10
+2 1 ALCANTARILLADO EN CAPITALES DE DEPARTAMENTO
+ALC01
+10
+2 2 ALCANTARILLADO EN CIUDADES INTERMEDIAS
+ALC02
+10
+2 3 ALCANTARILLADO EN POBLADOS RURALES
+ALC03
+10
+2 4 LETRINIZACIÓN
+ALC04
+10
+2 5 ALCANTARILLADO PLUVIAL EN CAPITALES DE DEPARTAMENTO
+ALC05
+10
+2 6 ALCANTARILLADO PLUVIAL EN CIUDADES INTERMEDIAS
+ALC06
+10
+2 7 ALCANTARILLADO PLUVIAL EN POBLADOS RURALES
+ALC07
+10
+3
+TRATAMIENTO
+TRS
+10
+3 1 TRATAMIENTO DE AGUA POTABLE
+TRS01
+10
+3 2 TRATAMIENTO DE AGUAS SERVIDAS
+TRS02
+10
+3 3 TRATAMIENTO DE RESIDUOS SOLIDOS
+TRS03
+10
+3 4 RECOLECCION Y ELIMINACION DE DESECHOS SOLIDOS
+TRS04
+10
+3 5 REHABILITACIÓN DE PLANTAS DE TRATAMIENTO
+TRS05
+10
+4
+MULTIPROGRAMA SANEAMIENTO BASICO
+MSANB
+10
+4 1 MULTIPROGRAMA
+MULT08
+10
+4 2 AGUA POTABLE Y ALCANTARILLADO EN CAPITALES DE DEPARTAMENTO
+AG-01
+10
+4 3 AGUA POTABLE Y ALCANTARILLADO EN CIUDADES INTERMEDIAS
+AG-02
+10
+4 4 AGUA POTABLE Y ALCANTARILLADO EN POBLADOS RURALES
+AG-03
+10
+4 5 AGUA Y LETRINIZACIÓN
+AG-04
+10
+4 6 INVESTIGACIÓN SANEAMIENTO BÁSICO
+AG-05
+10
+5
+OTROS SANEAMIENTO BASICO
+OTRSB
+10
+5 1 OTROS
+OTR09
+11
+URBANISMO Y VIVIENDA
+URBVIV
+===== PÁGINA 151 =====
+149
+11
+1
+URBANISMO
+URB
+11
+1 1 PLANIFICACION URBANA Y URBANIZACIÓN
+URB01
+11
+1 2 EQUIPAMIENTO E INFRAESTRUCTURA URBANA
+URB02
+11
+1 3 EQUIPAMIENTO E INFRAESTRUCTURA RECREACIONAL
+URB03
+11
+1 4 MEJORAMIENTO DE INFRAESTRUCTURA URBANA
+URB04
+11
+1 5 VIAS URBANAS Y RURALES
+URB05
+11
+2
+VIVIENDA
+VIV
+11
+2 1 PLANIFICACION PARA LA DOTACIÓN DE LA VIVIENDA
+VIV01
+11
+2 2 CONSTRUCCIÓN DE VIVIENDAS EN CAPITAL DE DEPARTAMENTO
+VIV02
+11
+2 3 CONSTRUCCIÓN DE VIVIENDAS EN CIUDADES INTERMEDIAS
+VIV03
+11
+2 4 CONSTRUCCIÓN DE VIVIENDAS EN POBLADOS RURALES
+VIV04
+11
+3
+MULTIPROGRAMA URBANISMO Y VIVIENDA
+MURVI
+11
+3 1 MULTIPROGRAMA
+MULT09
+11
+3 2 INVESTIGACIÓN URBANISMO Y VIVIENDA
+INVURBV
+11
+4
+OTROS URBANISMO Y VIVIENDA
+OTURV
+11
+4 1 OTROS
+OTR10
+12
+RECURSOS HÍDRICOS
+RECH
+12
+1
+APROVECHAMIENTO DE RECURSOS HIDRICOS
+APR
+12
+1 1 CONSTRUCCIÓN DE ATAJADOS Y RESERVORIOS
+APR01
+12
+1 2 PERFORACIÓN DE POZOS
+APR02
+12
+1 3 EXPLORACIÓN DE RECURSOS HÍDRICOS
+APR03
+12
+2
+MANEJO INTEGRAL DE CUENCAS
+MIC
+12
+2 1 DEFENSIVOS Y DEFLECTORES FLUVIALES
+MIC01
+12
+2 2 CONTROL DE AGUA Y EROSION
+MIC02
+12
+2 3 CONTROL DE CARCAVAS Y AVENIDAS
+MIC03
+12
+2 4 CANALIZACION DE RIOS
+MIC04
+12
+2 5 GESTIÓN Y MANEJO DE CUENCAS
+MIC05
+12
+2 6 REMEDIACIÓN DE PASIVOS AMBIENTALES
+MIC06
+12
+3
+MULTIPROGRAMA RECURSOS HIDRICOS
+MHIDR
+12
+3 1 MULTIPROGRAMA
+MULT10
+12
+3 2 INVESTIGACIÓN RECURSOS HÍDRICOS
+INVRH
+12
+4
+OTROS RECURSOS HIDRICOS
+OTRHID
+12
+4 1 OTROS
+OTR11
+13
+COMERCIO Y FINANZAS
+COMER
+13
+1
+COMERCIO
+COM
+13
+1 1 ASUNTOS COMERCIALES Y LABORALES
+COM01
+13
+1 2 DESARROLLO Y PROMOCIÓN DEL COMERCIO
+COM02
+13
+2
+FINANZAS
+FIN
+13
+2 1 SUPERVISIÓN DE LA BANCA Y SEGUROS
+FIN01
+13
+3
+MULTIPROGRAMA COMERCIO Y FINANZAS
+MCOFI
+13
+3 1 MULTIPROGRAMA
+MULT11
+13
+3 2 INVESTIGACIÓN COMERCIO Y FINANZAS
+INVCF
+13
+4
+OTROS COMERCIO Y FINANZAS
+OTRCF
+13
+4 1 OTROS
+OTR12
+===== PÁGINA 152 =====
+150
+14
+ADMINISTRACION GENERAL
+AGUB
+14
+1
+ÓRGANO JUDICIAL
+JUD
+14
+1 1 INFRAESTRUCTURA Y EQUIPAMIENTO DE APOYO
+JUD01
+14
+2
+ÓRGANO LEGISLATIVO
+LEG
+14
+2 1 INFRAESTRUCTURA Y EQUIPAMIENTO DE APOYO
+LEG01
+14
+3
+ÓRGANO ELECTORAL
+OEL
+14
+3 1 INFRAESTRUCTURA Y EQUIPAMIENTO DE APOYO
+OEL01
+14
+4
+ADMINISTRACION SUPERIOR EJECUTIVA
+EJE
+14
+5
+ADMINISTRACION FINANCIERA
+ADF
+14
+6
+RELACIONES EXTERIORES
+REXT
+14
+7
+INFORMACION ESTADÍSTICA Y PLANIFICACIÓN
+EST
+14
+8
+SERVICIOS DE PERSONAL
+SPER
+14
+9
+OTROS
+OTR13
+15
+ORDEN PUBLICO Y SEGURIDAD CIUDADANA
+POLIC
+15
+1
+POLICIA
+POL
+15
+1 1 SERVICIOS POLICIALES
+POL01
+15
+1 2 ORDEN INTERNO
+POL02
+15
+1 3 CONTROL DROGAS
+POL03
+15
+1 4 SISTEMA PENITENCIARIO
+POL04
+15
+2
+INFRAESTRUCTURA Y EQUIPAMIENTO
+POLI
+15
+2 1 INFRAESTRUCTURA DE APOYO Y EQUIPAMIENTO AL SISTEMA POLICIAL
+POLI01
+15
+2 2 EQUIPAMIENTO DE SEGURIDAD CIUDADANA
+POLI02
+15
+3
+OTROS ORDEN PUBLICO Y SEGURIDAD CIUDADANA
+OTRPOL
+15
+3 1 OTROS
+OTR14
+15
+3 2 INVESTIGACIÓN EN ORDEN PÚBLICO Y SEGURIDAD CIUDADANA
+INVOPSC
+16
+DEFENSA
+DEF
+16
+1
+DEFENSA MILITAR
+DEFM
+16
+1 1 DEFENSA NACIONAL
+DEFN01
+16
+1 2 INFRAESTRUCTURA MILITAR
+DEFN02
+16
+1 3 EQUIPAMIENTO MILITAR
+DEFN03
+16
+2
+DEFENSA CIVIL
+DEFC
+16
+2 1 PREVENCIÓN DE DESASTRES
+DEFC01
+16
+2 2 ATENCIÓN DE DESASTRES
+DEFC02
+16
+3
+OTROS DEFENSA NACIONAL
+OTRDN
+16
+3 1 OTROS
+OTR15
+17
+DEUDA PÚBLICA
+DEUDA
+17
+1
+INTERESES DE LA DEUDA PUBLICA
+DEU
+17
+2
+OTROS GASTOS
+OTR16
+18
+MULTISECTORIAL
+MULTI
+18
+1
+ESTUDIOS PARA EL DESARROLLO
+DESRUR
+18
+1 1 ESTUDIOS BASICOS PARA EL DESARROLLO
+DES01
+18
+1 2 PROGRAMAS DE DESARROLLO RURAL SOSTENIBLE
+DES02
+18
+1 3 ORDENAMIENTO TERRITORIAL
+DES03
+18
+1 4 INVESTIGACIÓN PARA EL DESARROLLO
+DES04
+18
+2
+MULTIPROGRAMA
+MPRG
+===== PÁGINA 153 =====
+151
+18
+2 1 PROGRAMAS MULTISECTORIALES
+MULTSEC
+18
+2 2 INVESTIGACIÓN TEMÁTICAS MULTISECORIALES
+INVTM
+18
+3
+FORTALECIMIENTO INSTITUCIONAL
+FORINST
+18
+3 1 PROGRAMAS DE FORTALECIMIENTO INSTITUCIONAL
+FORINST01
+18
+3 2 INVESTIGACIÓN EN FORTALECIMIENTO INSTITUCIONAL
+INVFI
+19
+MEDIO AMBIENTE
+MEDAM
+19
+1
+CONSERVACIÓN Y PROTECCIÓN DEL MEDIO AMBIENTE
+CPM
+19
+1 1 ESTUDIOS DE RECURSOS NATURALES
+CPMA01
+19
+1 2 MANEJO DE PARQUES Y ÁREAS PROTEGIDAS
+CPMA02
+19
+1 3 BIODIVERSIDAD
+CPMA03
+19
+1 4 FORESTACIÓN
+CPMA04
+19
+1 5 REFORESTACIÓN
+CPMA05
+19
+1 6 CONSERVACIÓN Y CONTROL EROSIÓN DE SUELOS
+CPMA06
+19
+1 7 REMEDIACIÓN DE PASIVOS AMBIENTALES
+CPMA07
+19
+1 8 OTROS MEDIO AMBIENTE
+OTR17
+19
+1 9 INVESTIGACIÓN MEDIO AMBIENTE
+INVMA
+20
+TURISMO
+TURIS
+20
+1
+DESARROLLO TURISTICO
+TUR
+20
+1 1 PROMOCIÓN TURÍSTICA
+TUR01
+20
+1 2 ACTIVIDADES TURÍSTICAS
+TUR02
+20
+1 3 INFRAESTRUCTURA TURÍSTICA
+TUR03
+20
+1 4 OTROS TURISMO
+OTR18
+20
+1 5 DESARROLLO TURISMO COMUNITARIO
+TUR05
+20
+1 6 INVESTIGACIÓN TURISMO
+TUR06
+21
+SEGURIDAD SOCIAL
+SEGSOC
+21
+1
+SEGURIDAD SOCIAL CORTO PLAZO
+SEGC
+21
+1 1 INFRAESTRUCTURA Y EQUIPAMIENTO CAJAS DE SALUD
+SEGC01
+21
+1 2 MEJORAMIENTO Y AMPLIACIÓN DE INFRAESTRUCTURA
+SEGC02
+21
+1 3 SEGURIDAD SOCIAL EN SALUD
+SEGC03
+21
+2
+SEGURIDAD SOCIAL LARGO PLAZO
+SEGL
+21
+2 1 SISTEMA DE PENSIONES
+SEGL01
+21
+3
+OTROS SEGURIDAD SOCIAL
+OTSEG
+21
+3 1 CONSTRUCCIÓN Y EQUIPAMIENTO DE ORFANATOS, HOGARES,
+ALBERGUES, GUARDERIAS Y SIMILARES
+OTSEG
+21
+3 2 OTROS
+OTR19
+21
+4
+INVESTIGACIÓN SEGURIDAD SOCIAL
+INVSS
+21
+4 1 INVESTIGACIÓN SEGURIDAD SOCIAL
+INVSS01
+22
+CULTURA
+CULTU
+22
+1
+DESARROLLO DE LA CULTURA
+CUL
+22
+1 1 CONSTRUCCIÓN Y EQUIPAMIENTO DE INFRAESTRUCTURA CULTURAL Y
+PATRIMONIAL
+CUL01
+22
+1 2 MEJORAMIENTO Y RECUPERACIÓN DE INFRAESTRUCTURA CULTURAL Y
+PATRIMONIAL
+CUL02
+22
+1 3 RECUPERACIÓN DE ACTIVOS CULTURALES Y PATRIMONIALES
+CUL03
+22
+1 4 PROMOCIÓN CULTURAL
+CUL04
+===== PÁGINA 154 =====
+152
+22
+1 5 OTROS CULTURA
+MULT12
+22
+1 6 INVESTIGACIÓN CULTURA
+INVCUL
+23
+JUSTICIA
+JUSTC
+23
+1
+JUSTICIA
+JUS
+23
+1 1 INFRAESTRUCTURA Y EQUIPAMIENTO DEL SISTEMA DE JUSTICIA
+JUS01
+23
+1 2 MEJORAMIENTO DE INFRAESTRUCTURA DEL SISTEMA DE JUSTICIA
+JUS02
+23
+1 3 ADMINISTRACIÓN DE JUSTICIA
+JUS03
+23
+1 4 SEGURIDAD JURÍDICA
+JUS04
+23
+1 5 OTROS
+OTR20
+23
+1 6 INVESTIGACIÓN JUSTICIA
+INVJUS
+24
+DEPORTES
+DEPOR
+24
+1
+DESARROLLO DEL DEPORTE
+DEP
+24
+1 1 PROMOCIÓN Y FORTALECIMIENTO DEPORTIVO
+DEP01
+24
+1 2 CONSTRUCCIÓN Y EQUIPAMIENTO DE INFRAESTRUCTURA DEPORTIVA
+URBANA
+DEP02
+24
+1 3 CONSTRUCCIÓN Y EQUIPAMIENTO DE INFRAESTRUCTURA DEPORTIVA
+RURAL
+DEP03
+24
+1 4 ASISTENCIA TÉCNICA Y CAPACITACIÓN PARA EVENTOS DEPORTIVOS
+DEP04
+24
+1 5 REALIZACIÓN DE EVENTOS Y COMPETENCIAS DEPORTIVAS
+DEP05
+24
+1 6 OTROS
+OTRSD
+24
+1 7 INVESTIGACIÓN DEPORTES
+INVDEP
+===== PÁGINA 155 =====
+153
+CLASIFICADOR GEOGRÁFICO
+El Clasificador Geográfico, establece la distribución espacial de los gastos que realizan las entidades del
+sector público, considerando la división política del país. Este clasificador sirve de base para el
+establecimiento de relaciones fiscales entre el Gobierno Nacional, los Gobiernos Autónomos
+Departamentales, Regionales, Municipales e Indígena Originario Campesinos.
+CÓDIGOS
+DENOMINACIÓN
+SIGLA
+1
+CHUQUISACA
+CHUQ
+1
+1
+OROPEZA
+ORO
+1
+1
+1 Sucre
+SUC
+1
+1
+2 Yotala
+YOT
+1
+1
+3 Poroma
+POR
+1
+1 31 Multimunicipal
+A01
+1
+2
+JUANA AZURDUY DE PADILLA
+AZUR
+1
+2
+1 Villa Azurduy
+AZU
+1
+2
+2 Tarvita (Villa Orías)
+TAR
+1
+2 31 Multimunicipal
+A02
+1
+3
+JAIME ZUDAÑEZ
+ZUD
+1
+3
+1 Villa Zudañez (Tacopaya)
+VZU
+1
+3
+2 Presto
+PRE
+1
+3
+3 Villa Mojocoya
+VMO
+1
+3
+4 Icla
+MUJ
+1
+3 31 Multimunicipal
+A03
+1
+4
+TOMINA
+JME
+1
+4
+1 Padilla
+PAD
+1
+4
+2 Tomina
+VTM
+1
+4
+3 Sopachuy
+SOP
+1
+4
+4 Villa Alcalá
+ALC
+1
+4
+5 El Villar
+VIL
+1
+4 31 Multimunicipal
+A04
+1
+5
+HERNANDO SILES
+SIL
+1
+5
+1 Monteagudo
+VMT
+1
+5
+2 San Pablo de Huacareta
+PDM
+1
+5 31 Multimunicipal
+A05
+1
+6
+YAMPARAEZ
+YAM
+1
+6
+1 Tarabuco
+TAB
+1
+6
+2 Yamparáez
+YAM
+1
+6 31 Multimunicipal
+A06
+1
+7
+NOR CINTI
+NCI
+1
+7
+1 Camargo
+CAM
+1
+7
+2 San Lucas
+LUC
+1
+7
+3 Incahuasi
+INC
+1
+7
+4 Villa Charcas
+VCH
+===== PÁGINA 156 =====
+154
+1
+7 31 Multimunicipal
+A07
+1
+8
+BELISARIO BOETO
+BOE
+1
+8
+1 Villa Serrano
+SER
+1
+8 31 Multimunicipal
+A08
+1
+9
+SUD CINTI
+SCI
+1
+9
+1 Camataqui (Villa Abecia)
+ABE
+1
+9
+2 Culpina
+CUL
+1
+9
+3 Las Carreras
+CRR
+1
+9 31 Multimunicipal
+A09
+1
+10
+LUIS CALVO
+CLV
+1
+10 1 Villa Vaca Guzmán
+MUY
+1
+10 2 ATIOC Guaraní Chaqueño de Huacaya
+ATIOCGCH
+1
+10 3 Machareti
+MAC
+1
+10 31 Multimunicipal
+A10
+1
+31
+MULTIPROVINCIAL
+MP1
+1
+31 31 MULTIMUNICIPAL
+AM1
+2
+LA PAZ
+LAP
+2
+1
+MURILLO
+MUR
+2
+1
+1 La Paz
+LPZ
+2
+1
+2 Palca
+PLC
+2
+1
+3 Mecapaca
+MEC
+2
+1
+4 Achocalla Municipio Ecológico
+AME
+2
+1
+5 El Alto de La Paz
+ELLA
+2
+1 31 Multimunicipal
+B01
+2
+2
+INGAVI
+ING
+2
+2
+1 Viacha
+VIA
+2
+2
+2 Guaqui
+GUA
+2
+2
+3 Tiahuanacu
+TIA
+2
+2
+4 Desaguadero
+DES
+2
+2
+5 San Andrés de Machaca
+AMA
+2
+2
+6 Jesús de Machaca
+JMK
+2
+2
+7 Taraco
+TCO
+2
+2 31 Multimunicipal
+B02
+2
+3
+CARANAVI
+CRN
+2
+3
+1 Caranavi
+CRV
+2
+3
+2 Alto Beni
+ABN
+2
+3 31 Multimunicipal
+B03
+2
+4
+AROMA
+ARO
+2
+4
+1 Sica Sica (Villa Aroma)
+SIC
+2
+4
+2 Umala
+UMA
+2
+4
+3 Ayo Ayo
+AYO
+2
+4
+4 Calamarca
+CAL
+2
+4
+5 Patacamaya
+PAT
+2
+4
+6 Colquencha
+COL
+===== PÁGINA 157 =====
+155
+2
+4
+7 Collana
+COA
+2
+4 31 Multimunicipal
+B04
+2
+5
+INQUISIVI
+INQ
+2
+5
+1 Inquisivi
+INQ
+2
+5
+2 Quime
+QUI
+2
+5
+3 Cajuata
+CAJ
+2
+5
+4 Colquiri
+COQ
+2
+5
+5 Ichoca
+ICH
+2
+5
+6 Villa Libertad Licoma
+LIC
+2
+5 31 Multimunicipal
+B05
+2
+6
+OMASUYOS
+OMA
+2
+6
+1 Achacachi
+AHÍ
+2
+6
+2 Ancoraimes
+ANC
+2
+6
+4 Huarina
+HUR
+2
+6
+5 Santiago de Huata
+SAH
+2
+6
+6 Huatajata
+HUT
+2
+6
+7 Chua Cocani
+CHC
+2
+6 31 Multimunicipal
+B06
+2
+7
+LARECAJA
+LAR
+2
+7
+1 Sorata
+SOR
+2
+7
+2 Guanay
+GNY
+2
+7
+3 Tacacoma
+TAT
+2
+7
+4 Tipuani
+TIP
+2
+7
+5 Quiabaya
+QBY
+2
+7
+6 Combaya
+COM
+2
+7
+7 Mapiri
+MAP
+2
+7
+8 Teoponte
+TEO
+2
+7 31 Multimunicipal
+B07
+2
+8
+MANCO KAPAC
+MKA
+2
+8
+1 Copacabana
+COP
+2
+8
+2 San Pedro de Tiquina
+SPT
+2
+8
+3 Tito Yupanqui
+YUP
+2
+8 31 Multimunicipal
+B08
+2
+9
+MUÑECAS
+MUN
+2
+9
+1 Chuma
+CHU
+2
+9
+2 Ayata
+AYA
+2
+9
+3 Aucapata
+AUC
+2
+9 31 Multimunicipal
+B09
+2
+10
+PACAJES
+PAC
+2
+10 1 Corocoro
+COR
+2
+10 2 Caquiaviri
+CAQ
+2
+10 3 Calacoto
+CAC
+2
+10 4 Comanche
+CMC
+2
+10 5 Charaña
+CHA
+===== PÁGINA 158 =====
+156
+2
+10 6 Waldo Ballivián
+BAL
+2
+10 7 Nazacara de Pacajes
+NAZ
+2
+10 8 Santiago de Callapa
+SCA
+2
+10 31 Multimunicipal
+B10
+2
+11
+GENERAL ELIODORO CAMACHO
+GEC
+2
+11 1 Puerto Acosta
+ACO
+2
+11 2 Mocomoco
+MOC
+2
+11 3 Carabuco
+CCH
+2
+11 4 Humanata
+HUN
+2
+11 5 Escoma
+ESC
+2
+11 31 Multimunicipal
+B11
+2
+12
+FRANZ TAMAYO
+TAM
+2
+12 1 Apolo
+APO
+2
+12 2 Pelechuco
+PEL
+2
+12 31 Multimunicipal
+B12
+2
+13
+LOAYZA
+LOA
+2
+13 1 Luribay
+LUR
+2
+13 2 Sapahaqui
+SAP
+2
+13 3 Yaco
+YAC
+2
+13 4 Malla
+MAL
+2
+13 5 Cairoma
+CAI
+2
+13 31 Multimunicipal
+B13
+2
+14
+SUD YUNGAS
+SYU
+2
+14 1 Chulumani (Villa de la Libertad)
+CHL
+2
+14 2 Irupana (Villa de Lanza)
+IRU
+2
+14 3 Yanacachi
+YAN
+2
+14 4 Palos Blancos
+BLA
+2
+14 5 La Asunta
+ASU
+2
+14 31 Multimunicipal
+B14
+2
+15
+LOS ANDES
+ADN
+2
+15 1 Pucarani
+PUC
+2
+15 2 Laja
+LAJ
+2
+15 3 Batallas
+BAT
+2
+15 4 Puerto Pérez
+PER
+2
+15 31 Multimunicipal
+B15
+2
+16
+NOR YUNGAS
+NYU
+2
+16 1 Coroico
+COC
+2
+16 2 Coripata
+CRI
+2
+16 31 Multimunicipal
+B16
+2
+17
+ABEL ITURRALDE
+ITU
+2
+17 1 Ixiamas
+IXI
+2
+17 2 San Buenaventura
+SBV
+2
+17 31 Multimunicipal
+B17
+2
+18
+BAUTISTA SAAVEDRA
+SAA
+===== PÁGINA 159 =====
+157
+2
+18 1 General Juan José Pérez (Charazani)
+CPE
+2
+18 2 Curva
+CUR
+2
+18 31 Multimunicipal
+B18
+2
+19
+GUALBERTO VILLARROEL
+GVIL
+2
+19 1 San Pedro de Curahuara
+PEC
+2
+19 2 Papel Pampa
+PAP
+2
+19 3 Chacarilla
+CLL
+2
+19 31 Multimunicipal
+B19
+2
+20
+GENERAL JOSE MANUEL PANDO
+PND
+2
+20 1 Santiago de Machaca
+SMA
+2
+20 2 Catacora
+CAT
+2
+20 31 Multimunicipal
+B20
+2
+31
+MULTIPROVINCIAL
+MP2
+2
+31 31 MULTIMUNICIPAL
+BM1
+3
+COCHABAMBA
+CBB
+3
+1
+CERCADO
+CEC
+3
+1
+1 Cochabamba
+CBB
+3
+1 31 Multimunicipal
+C01
+3
+2
+QUILLACOLLO
+QUI
+3
+2
+1 Quillacollo
+QLL
+3
+2
+2 SipeSipe
+SIP
+3
+2
+3 Tiquipaya
+TIQ
+3
+2
+4 Vinto
+VIN
+3
+2
+5 Colcapirhua
+CCP
+3
+2 31 Multimunicipal
+C02
+3
+3
+GENERAL NARCISO CAMPERO
+GNC
+3
+3
+1 Aiquile
+AIQ
+3
+3
+2 Pasorapa
+PAS
+3
+3
+3 Omereque
+OME
+3
+3 31 Multimunicipal
+C03
+3
+4
+AYOPAYA
+AYP
+3
+4
+1 Independencia
+IND
+3
+4
+2 Morochata
+MOH
+3
+4
+3 Cocapata
+CCT
+3
+4 31 Multimunicipal
+C04
+3
+5
+CHAPARE
+CPR
+3
+5
+1 Sacaba
+SCB
+3
+5
+2 Colomi
+CLM
+3
+5
+3 Villa Tunari
+TUN
+3
+5 31 Multimunicipal
+C05
+3
+6
+PUNATA
+PUN
+3
+6
+1 Punata
+PNT
+3
+6
+2 Villa Rivero
+VRV
+3
+6
+3 San Benito (Villa José Quintín Mendoza)
+MEN
+===== PÁGINA 160 =====
+158
+3
+6
+4 Tacachi
+TAC
+3
+6
+5 Villa Gualberto Villarroel
+VGV
+3
+6 31 Multimunicipal
+C06
+3
+7
+ESTEBAN ARCE
+ARZ
+3
+7
+1 Tarata
+TRT
+3
+7
+2 Anzaldo
+ANZ
+3
+7
+3 Arbieto
+ARB
+3
+7
+4 Sacabamba
+SBB
+3
+7 31 Multimunicipal
+C07
+3
+8
+GERMAN JORDAN
+JOR
+3
+8
+1 Cliza
+CLI
+3
+8
+2 Toco
+TOC
+3
+8
+3 Tolata
+TLA
+3
+8 31 Multimunicipal
+C08
+3
+9
+CAPINOTA
+CPN
+3
+9
+1 Capinota
+CAP
+3
+9
+2 Santivañez
+SAN
+3
+9
+3 Sicaya
+SCY
+3
+9 31 Multimunicipal
+C09
+3
+10
+TAPACARI
+TPA
+3
+10 1 Tapacarí
+TAP
+3
+10 31 Multimunicipal
+C10
+3
+11
+CARRASCO
+CRS
+3
+11 1 Totora
+TOT
+3
+11 2 Pojo
+POJ
+3
+11 3 Pocona
+POC
+3
+11 4 Chimoré
+CHI
+3
+11 5 Puerto Villarroel
+PVI
+3
+11 6 Entre Ríos
+ERI
+3
+11 31 Multimunicipal
+C11
+3
+12
+ARANI
+ARN
+3
+12 1 Arani
+ARA
+3
+12 2 Vacas
+VAC
+3
+12 31 Multimunicipal
+C12
+3
+13
+ARQUE
+ARU
+3
+13 1 Arque
+ARQ
+3
+13 2 Tacopaya
+TPY
+3
+13 31 Multimunicipal
+C13
+3
+14
+SIMON BOLIVAR
+SBO
+3
+14 1 Bolívar
+BOL
+3
+14 31 Multimunicipal
+C14
+3
+15
+TIRAQUE
+IRQ
+3
+15 1 Tiraque
+TRQ
+3
+15 2 Shinahota
+SHI
+===== PÁGINA 161 =====
+159
+3
+15 31 Multimunicipal
+C15
+3
+16
+MIZQUE
+MZQ
+3
+16 1 Mizque
+MIZ
+3
+16 2 Vila Vila
+VIS
+3
+16 3 Alalay
+ALA
+3
+16 4 TIOC Raqaypampa
+TRP
+3
+16 31 Multimunicipal
+C16
+3
+31
+MULTIPROVINCIAL
+MP3
+3
+31 31 MULTIMUNICIPAL
+CM1
+4
+ORURO
+ORU
+4
+1
+CERCADO
+CRO
+4
+1
+1 Oruro
+ORU
+4
+1
+2 Caracollo
+CAR
+4
+1
+3 El Choro
+CHO
+4
+1
+4 Soracachi
+SRC
+4
+1 31 Multimunicipal
+D01
+4
+2
+EDUARDO ABAROA
+AVA
+4
+2
+1 Challapata
+CHT
+4
+2
+2 Santuario de Quillacas
+STQ
+4
+2 31 Multimunicipal
+D02
+4
+3
+PANTALEON DALENCE
+DAL
+4
+3
+1 Huanuni
+VHU
+4
+3
+2 Machacamarca
+MAR
+4
+3 31 Multimunicipal
+D03
+4
+4
+POOPO
+POO
+4
+4
+1 Poopó (Villa Poopó)
+POO
+4
+4
+2 Pazña
+PAZ
+4
+4
+3 Antequera
+ANT
+4
+4 31 Multimunicipal
+D04
+4
+5
+TOMAS BARRON
+BAR
+4
+5
+1 Eucaliptus
+EUC
+4
+5 31 Multimunicipal
+D05
+4
+6
+SEBASTIÁN PAGADOR
+SPG
+4
+6
+1 Santiago de Huari
+SHU
+4
+6 31 Multimunicipal
+D06
+4
+7
+SAN PEDRO DE TOTORA
+STO
+4
+7
+1 Totora
+TTR
+4
+7 31 Multimunicipal
+D07
+4
+8
+CARANGAS
+CRG
+4
+8
+1 Corque
+CRQ
+4
+8
+2 Choquecota
+CHE
+4
+8 31 Multimunicipal
+D08
+4
+9
+SAJAMA
+SJM
+4
+9
+1 Curahuara de Carangas
+CDC
+===== PÁGINA 162 =====
+160
+4
+9
+2 Turco
+TUR
+4
+9 31 Multimunicipal
+D09
+4
+10
+LITORAL DE ATACAMA
+LIT
+4
+10 1 Huachacalla
+HCH
+4
+10 2 Escara
+ESA
+4
+10 3 Cruz de Machacamarca
+CMA
+4
+10 4 Yunguyo de Litoral
+YUG
+4
+10 5 Esmeralda
+ESM
+4
+10 31 Multimunicipal
+D10
+4
+11
+SAUCARI
+SCR
+4
+11 1 Toledo
+TOL
+4
+11 31 Multimunicipal
+D11
+4
+12
+SUD CARANGAS
+SCA
+4
+12 1 Andamarca (Santiago de Andamarca)
+AND
+4
+12 2 Belén de Andamarca
+BEL
+4
+12 31 Multimunicipal
+D12
+4
+13
+LADISLAO CABRERA
+CBR
+4
+13 1 TIOC Salinas
+TSA
+4
+13 2 Pampa Aullagas
+PAM
+4
+13 31 Multimunicipal
+D13
+4
+14
+PUERTO DE MEJILLONES
+MEJ
+4
+14 1 La Rivera
+RIV
+4
+14 2 Todos Santos
+TOS
+4
+14 3 Carangas
+CGA
+4
+14 31 Multimunicipal
+D14
+4
+15
+ATAHUALLPA
+ATA
+4
+15 1 Sabaya
+SAB
+4
+15 2 Coipasa
+COI
+4
+15 3 TIOC Nación Originaria Uru Chipaya
+URU
+4
+15 31 Multimunicipal
+D15
+4
+16
+NOR CARANGAS
+NCA
+4
+16 1 Huayllamarca (Santiago de Huayllamarca)
+SDH
+4
+16 31 Multimunicipal
+D16
+4
+31
+MULTIPROVINCIAL
+MP4
+4
+31 31 MULTIMUNICIPAL
+DM1
+5
+POTOSI
+PTS
+5
+1
+TOMAS FRIAS
+FRI
+5
+1
+1 Potosí
+POT
+5
+1
+2 Tinguipaya
+TIN
+5
+1
+3 Yocalla
+YOC
+5
+1
+4 Urmiri
+URM
+5
+1 31 Multimunicipal
+E01
+5
+2
+RAFAEL BUSTILLOS
+BUS
+5
+2
+1 Uncía
+UNC
+===== PÁGINA 163 =====
+161
+5
+2
+2 Chayanta
+CHY
+5
+2
+3 Llallagua
+LLA
+5
+2
+4 Chuquihuta Ayllu Jucumani
+JUC
+5
+2 31 Multimunicipal
+E02
+5
+3
+CORNELIO SAAVEDRA
+SAV
+5
+3
+1 Betanzos
+BET
+5
+3
+2 Chaqui
+CHQ
+5
+3
+3 Tacobamba
+TCB
+5
+3 31 Multimunicipal
+E03
+5
+4
+CHAYANTA
+CYT
+5
+4
+1 Colquechaca
+CCQ
+5
+4
+2 Ravelo
+RAV
+5
+4
+3 Pocoata
+PCT
+5
+4
+4 Ocurí
+OCU
+5
+4
+5 San Pedro de Macha
+SPM
+5
+4 31 Multimunicipal
+E04
+5
+5
+CHARCAS
+CRC
+5
+5
+1 San Pedro
+PED
+5
+5
+2 Toro Toro
+TTO
+5
+5 31 Multimunicipal
+E05
+5
+6
+NOR CHICHAS
+NCH
+5
+6
+1 Cotagaita
+COT
+5
+6
+2 Vitichi
+VIT
+5
+6 31 Multimunicipal
+E06
+5
+7
+SUR CHICHAS
+SCH
+5
+7
+1 Tupiza
+TUP
+5
+7
+2 Atocha
+ATO
+5
+7 31 Multimunicipal
+E07
+5
+8
+NOR LIPEZ
+NLI
+5
+8
+1 Colcha “K” (Villa Martín)
+CCK
+5
+8
+2 San Pedro de Quemes
+PEQ
+5
+8 31 Multimunicipal
+E08
+5
+9
+SUR LIPEZ
+SLI
+5
+9
+1 San Pablo de Lípez
+PAB
+5
+9
+2 Mojinete
+MOJ
+5
+9
+3 San Antonio de Esmoruco
+SAT
+5
+9 31 Multimunicipal
+E09
+5
+10
+ALONSO DE IBAÑEZ
+IBA
+5
+10 1 Sacaca (Villa de Sacaca)
+SAC
+5
+10 2 Caripuyo
+CRP
+5
+10 31 Multimunicipal
+E10
+5
+11
+JOSE MARIA LINARES
+LIN
+5
+11 1 Puna (Villa Talavera)
+PUN
+5
+11 2 Caiza “D”
+CAD
+===== PÁGINA 164 =====
+162
+5
+11 3 Ckochas
+CKO
+5
+11 31 Multimunicipal
+E11
+5
+12
+ANTONIO QUIJARRO
+QUJ
+5
+12 1 Uyuni
+UYU
+5
+12 2 Tomave
+TOM
+5
+5
+12
+12
+3
+4
+Porco
+TIOC de Jatún Ayllu Yura
+PRC
+AOJAY
+5
+12 31 Multimunicipal
+E12
+5
+13
+GENERAL BERNARDINO BILBAO
+BIL
+5
+13 1 Arampampa
+ARP
+5
+13 2 Acasio
+ACA
+5
+13 31 Multimunicipal
+E13
+5
+14
+DANIEL CAMPOS
+DCA
+5
+14 1 Llica
+LLI
+5
+14 2 Tahua
+TAH
+5
+14 31 Multimunicipal
+E14
+5
+15
+MODESTO OMISTE
+OMI
+5
+15 1 Villazón
+VLZ
+5
+15 31 Multimunicipal
+E15
+5
+16
+ENRIQUE BALDIVIESO
+EBA
+5
+16 1 San Agustín
+AGU
+5
+16 31 Multimunicipal
+E16
+5
+31
+MULTIPROVINCIAL
+MP5
+5
+31 31 MULTIMUNICIPAL
+EM1
+6
+TARIJA
+TAR
+6
+1
+CERCADO
+CET
+6
+1
+1 Tarija
+TRJ
+6
+1 31 Multimunicipal
+F01
+6
+2
+ANICETO ARCE
+ARC
+6
+2
+1 Padcaya
+PCY
+6
+2
+2 Bermejo
+VER
+6
+2 31 Multimunicipal
+F02
+6
+3
+GRAN CHACO
+GCH
+6
+3
+1 Yacuiba
+YCB
+6
+3
+2 Caraparí
+CRY
+6
+3
+3 Villamontes
+MON
+6
+3 31 Multimunicipal
+F03
+6
+3 41 Región Autónoma del Gran Chaco
+RAGC
+6
+4
+JOSE MARIA AVILES
+AVI
+6
+4
+1 Uriondo (Concepción)
+ORI
+6
+4
+2 Yunchara
+YUN
+6
+4 31 Multimunicipal
+F04
+6
+5
+EUSTAQUIO MENDEZ
+MEN
+===== PÁGINA 165 =====
+163
+6
+5
+1 San Lorenzo
+SLR
+6
+5
+2 El Puente
+TMY
+6
+5 31 Multimunicipal
+F05
+6
+6
+BURNET O´CONNOR
+OCO
+6
+6
+1 Entre Ríos
+RIO
+6
+6 31 Multimunicipal
+F06
+6
+31
+MULTIPROVINCIAL
+MP6
+6
+31 31 MULTIMUNICIPAL
+FM1
+7
+SANTA CRUZ
+SCZ
+7
+1
+ANDRES IBAÑEZ
+IBN
+7
+1
+1 Santa Cruz de la Sierra
+SCZ
+7
+1
+2 Cotoca
+CTC
+7
+1
+3 Porongo (Ayacucho)
+PRG
+7
+1
+4 La Guardia
+LGU
+7
+1
+5 El Torno
+TOR
+7
+1 31 Multimunicipal
+G01
+7
+2
+IGNACIO WARNES
+WAR
+7
+2
+1 Warnes
+WAR
+7
+2
+2 Okinawa Uno
+OKI
+7
+2 31 Multimunicipal
+G02
+7
+3
+JOSE MIGUEL DE VELASCO
+VEL
+7
+3
+1 San Ignacio (San Ignacio de Velasco)
+ING
+7
+3
+2 San Miguel (San Miguel de Velasco)
+MIG
+7
+3
+3 San Rafael
+RAF
+7
+3 31 Multimunicipal
+G03
+7
+4
+ICHILO
+ICHI
+7
+4
+1 Buena Vista
+BUE
+7
+4
+2 San Carlos
+CRL
+7
+4
+3 Yapacaní
+YAP
+7
+4
+4 San Juan
+SJU
+7
+4 31 Multimunicipal
+G04
+7
+5
+CHIQUITOS
+CIQ
+7
+5
+1 San José
+JOS
+7
+5
+2 Pailón
+PAI
+7
+5
+3 Roboré
+ROB
+7
+5 31 Multimunicipal
+G05
+7
+6
+SARA
+SAR
+7
+6
+1 Portachuelo
+PCH
+7
+6
+2 Santa Rosa del Sara
+SRS
+7
+6
+3 Colpa Bélgica
+CBE
+7
+6 31 Multimunicipal
+G06
+7
+7
+CORDILLERA
+COR
+7
+7
+1 Lagunillas
+LAG
+===== PÁGINA 166 =====
+164
+7
+7
+2 TIOC Charagua Iyambae
+CHIY
+7
+7
+3 Cabezas
+CAB
+7
+7
+4 Cuevo
+CUE
+7
+7
+5 TIOG Kereimba Iyaambae
+GKI
+7
+7
+6 Camiri
+CMR
+7
+7
+7 Boyuibe
+BOY
+7
+7 31 Multimunicipal
+G07
+7
+8
+VALLEGRANDE
+VAL
+7
+8
+1 Vallegrande
+GRA
+7
+8
+2 Trigal
+TRG
+7
+8
+3 Moro Moro
+MOR
+7
+8
+4 Postrer Valle
+POS
+7
+8
+5 Pucara
+PCR
+7
+8 31 Multimunicipal
+G08
+7
+9
+FLORIDA
+FLO
+7
+9
+1 Samaipata
+SAM
+7
+9
+2 Pampa Grande
+PAG
+7
+9
+3 Mairana
+MAY
+7
+9
+4 Quirusillas
+QRS
+7
+9 31 Multimunicipal
+G09
+7
+10
+OBISPO SANTIESTEBAN
+SNT
+7
+10 1 Montero
+MTR
+7
+10 2 General Agustín Saavedra
+SAA
+7
+10 3 Mineros
+MIN
+7
+10 4 Fernández Alonso
+FAL
+7
+10 5 San Pedro
+PDR
+7
+10 31 Multimunicipal
+G10
+7
+11
+ÑUFLO DE CHAVEZ
+CHV
+7
+11 1 Concepción
+CON
+7
+11 2 San Javier
+SJA
+7
+11 3 San Ramón
+SRA
+7
+11 4 San Julian
+JUL
+7
+11 5 San Antonio de Lomerio
+ANL
+7
+11 6 Cuatro Cañadas
+CCA
+7
+11 31 Multimunicipal
+G11
+7
+12
+ANGEL SANDOVAL
+SND
+7
+12 1 San Matías
+MAT
+7
+12 31 Multimunicipal
+G12
+7
+13
+MANUEL MARIA CABALLERO
+CBL
+7
+13 1 Comarapa
+CMP
+7
+13 2 Saipina
+SAI
+7
+13 31 Multimunicipal
+G13
+7
+14
+GERMAN BUSCH
+GBU
+7
+14 1 Puerto Suárez
+SUA
+===== PÁGINA 167 =====
+165
+7
+14 2 Puerto Quijarro
+PQO
+7
+14 3 El Carmen Rivero Tórrez
+CRT
+7
+14 31 Multimunicipal
+G14
+7
+15
+GUARAYOS
+GUA
+7
+15 1 Ascención de Guarayos
+ADG
+7
+15 2 Urubicha
+URU
+7
+15 3 El Puente
+PUE
+7
+15 31 Multimunicipal
+G15
+7
+31
+MULTIPROVINCIAL
+MP7
+7
+31 31 MULTIMUNICIPAL
+GM1
+8
+BENI
+BEN
+8
+1
+CERCADO
+CER
+8
+1
+1 Trinidad
+TRI
+8
+1
+2 San Javier
+JAV
+8
+1 31 Multimunicipal
+H01
+8
+2
+VACA DIEZ
+VDI
+8
+2
+1 Riberalta
+RIB
+8
+2
+2 Puerto Guayaramerín
+PGU
+8
+2 31 Multimunicipal
+H02
+8
+3
+JOSE BALLIVIAN
+JBA
+8
+3
+1 Reyes
+REY
+8
+3
+2 San Borja
+BOR
+8
+3
+3 Santa Rosa
+ROS
+8
+3
+4 Puerto Rurrenabaque
+RUR
+8
+3 31 Multimunicipal
+H03
+8
+4
+YACUMA
+YAC
+8
+4
+1 Santa Ana
+ANA
+8
+4
+2 Exaltación
+EXA
+8
+4 31 Multimunicipal
+H04
+8
+5
+MOXOS
+MOX
+8
+5
+1 San Ignacio
+IGN
+8
+5 31 Multimunicipal
+H05
+8
+6
+MARBAN
+MRB
+8
+6
+1 Loreto
+LOR
+8
+6
+2 San Andrés
+SAD
+8
+6 31 Multimunicipal
+H06
+8
+7
+MAMORE
+MMR
+8
+7
+1 San Joaquín
+JOA
+8
+7
+2 San Ramón
+RAM
+8
+7
+3 Puerto Siles
+SIL
+8
+7 31 Multimunicipal
+H07
+8
+8
+ITENEZ
+ITE
+8
+8
+1 Magdalena
+MAG
+8
+8
+2 Baures
+BAU
+===== PÁGINA 168 =====
+166
+8
+8
+3 Huacaraje
+HUA
+8
+8 31 Multimunicipal
+H08
+8
+31
+MULTIPROVINCIAL
+MP8
+8
+31 1 GIA Territorio Indígena Multiétnico
+GIA-TIM
+8
+31 31 MULTIMUNICIPAL
+HM1
+9
+PANDO
+PAN
+9
+1
+NICOLAS SUAREZ
+SUA
+9
+1
+1 Cobija
+CBJ
+9
+1
+2 Porvenir
+PRV
+9
+1
+3 Bolpebra
+BOP
+9
+1
+4 Bella Flor
+FLO
+9
+1 31 Multimunicipal
+I01
+9
+2
+MANURIPI
+MNU
+9
+2
+1 Puerto Rico
+PRI
+9
+2
+2 San Pedro
+SPE
+9
+2
+3 Filadelfia
+FIL
+9
+2 31 Multimunicipal
+I02
+9
+3
+MADRE DE DIOS
+MDD
+9
+3
+1 Puerto Gonzalo Moreno
+PGM
+9
+3
+2 San Lorenzo
+SLO
+9
+3
+3 Sena
+SEN
+9
+3 31 Multimunicipal
+I03
+9
+4
+ABUNA
+ABN
+9
+4
+1 Santa Rosa del Abuná
+SRO
+9
+4
+2 Ingavi (Humaita)
+HUM
+9
+4 31 Multimunicipal
+I04
+9
+5
+GENERAL FEDERICO ROMAN
+ROM
+9
+5
+1 Nueva Esperanza
+NES
+9
+5
+2 Villa Nueva (Loma Alta)
+LOM
+9
+5
+3 Santos Mercado
+MER
+9
+5 31 Multimunicipal
+I05
+9
+31
+MULTIPROVINCIAL
+MP9
+9
+31 31 MULTIMUNICIPAL
+IM1
+10
+NACIONAL
+NAL
+10
+31
+MULTIPROVINCIAL
+MP10
+10
+31 31 MULTIMUNICIPAL
+M10
+11
+BINACIONAL
+BNL
+20
+BIDEPARTAMENTAL
+BDP
+20
+31
+MULTIPROVINCIAL
+M20
+21
+MULTIDEPARTAMENTAL
+MDP
+21
+31
+MULTIPROVINCIAL
+M21
+===== PÁGINA 169 =====
+EconomiaBo

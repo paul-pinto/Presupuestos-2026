@@ -2,9 +2,9 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import RecursoFuenteOrganismoPanel from "@/components/RecursoFuenteOrganismoPanel";
 import IndicadoresPerCapitaPanel from "@/components/IndicadoresPerCapitaPanel";
 import ReactECharts from "echarts-for-react";
+import { shortEntidadLabel } from "@/lib/format";
 import {
   AlertTriangle,
   BarChart3,
@@ -243,6 +243,41 @@ function cleanObjetoGastoLabel(objeto: string, descripcion: string): string {
   return labels[codigo] || String(descripcion || "").replace(/\s+/g, " ").trim();
 }
 
+
+function formatFilterOptionLabel(value: string): string {
+  const raw = String(value || "").trim();
+
+  if (!raw) return "";
+  if (raw === "Todos") return "Todos";
+
+  const key = raw.toLowerCase();
+
+  const dictionary: Record<string, string> = {
+    departamental: "Departamental",
+    municipal: "Municipal",
+    regional: "Regional",
+    indigena_originario_campesino: "Indígena Originario Campesino",
+
+    gad: "GAD",
+    gam: "GAM",
+    gaioc: "GAIOC",
+    gar: "GAR",
+  };
+
+  if (dictionary[key]) return dictionary[key];
+
+  return raw
+    .replaceAll("_", " ")
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => {
+      const wordKey = word.toLowerCase();
+      return dictionary[wordKey] || word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
+
 function normalize(value: string | undefined | null): string {
   return String(value || "").toLowerCase();
 }
@@ -289,14 +324,14 @@ function MetricCard({
   icon: React.ReactNode;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="flex items-center justify-between gap-4">
+    <div className="ofp-card rounded-3xl p-5">
+      <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-sm text-slate-500">{title}</p>
-          <p className="mt-2 text-2xl font-semibold text-slate-950">{value}</p>
-          {subtitle ? <p className="mt-1 text-xs text-slate-500">{subtitle}</p> : null}
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{title}</p>
+          <p className="mt-3 text-2xl font-bold tabular-nums text-slate-950">{value}</p>
+          {subtitle ? <p className="mt-1 text-xs leading-5 text-slate-500">{subtitle}</p> : null}
         </div>
-        <div className="rounded-xl bg-slate-100 p-3 text-slate-700">{icon}</div>
+        <div className="rounded-2xl border border-teal-100 bg-teal-50 p-3 text-teal-700">{icon}</div>
       </div>
     </div>
   );
@@ -312,10 +347,13 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="mb-4">
-        <h2 className="text-xl font-semibold">{title}</h2>
-        {description ? <p className="mt-1 text-sm text-slate-500">{description}</p> : null}
+    <section className="ofp-card rounded-3xl p-5">
+      <div className="mb-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+          Observatorio
+        </p>
+        <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">{title}</h2>
+        {description ? <p className="mt-1 text-sm leading-6 text-slate-600">{description}</p> : null}
       </div>
       {children}
     </section>
@@ -325,10 +363,12 @@ function Section({
 function chartOptionHorizontal({
   labels,
   values,
+  tooltipLabels,
   left = 260,
 }: {
   labels: string[];
   values: number[];
+  tooltipLabels?: string[];
   left?: number;
 }) {
   return {
@@ -336,11 +376,30 @@ function chartOptionHorizontal({
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
-      valueFormatter: (value: number) => formatBs(value),
+      formatter: (params: any) => {
+        const item = Array.isArray(params) ? params[0] : params;
+        const index = item?.dataIndex ?? 0;
+        const name = tooltipLabels?.[index] || item?.name || "";
+        const value = Number(item?.value || 0);
+
+        return `
+          <div style="min-width:260px">
+            <div style="font-weight:600;color:#475569;margin-bottom:6px;">${name}</div>
+            <div style="display:flex;align-items:center;gap:8px;">
+              <span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#0f766e;"></span>
+              <strong>${formatBs(value)}</strong>
+            </div>
+          </div>
+        `;
+      },
     },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -348,7 +407,10 @@ function chartOptionHorizontal({
     yAxis: {
       type: "category",
       data: labels,
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#334155",
         width: left - 20,
         overflow: "truncate",
       },
@@ -357,6 +419,15 @@ function chartOptionHorizontal({
       {
         type: "bar",
         data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -379,7 +450,10 @@ function chartOptionVertical({
     xAxis: {
       type: "category",
       data: labels,
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         rotate: 35,
         width: 100,
         overflow: "truncate",
@@ -387,7 +461,11 @@ function chartOptionVertical({
     },
     yAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -396,6 +474,15 @@ function chartOptionVertical({
       {
         type: "bar",
         data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -513,7 +600,7 @@ export default function Home() {
 
         return (
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q)
@@ -532,7 +619,7 @@ export default function Home() {
 
         return (
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.descripcion).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
@@ -554,7 +641,7 @@ export default function Home() {
 
         return (
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q)
@@ -574,7 +661,7 @@ export default function Home() {
 
         return (
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q)
@@ -594,7 +681,7 @@ export default function Home() {
       if (q) {
         const match =
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q) ||
@@ -630,7 +717,7 @@ export default function Home() {
       if (q) {
         const match =
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q) ||
@@ -666,7 +753,7 @@ export default function Home() {
       if (q) {
         const match =
           normalize(item.codigo_entidad).includes(q) ||
-          normalize(item.nombre_entidad).includes(q) ||
+          normalize(shortEntidadLabel(item.nombre_entidad)).includes(q) ||
           normalize(item.departamento).includes(q) ||
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q) ||
@@ -745,8 +832,11 @@ export default function Home() {
   }, [entidadesFiltradas]);
 
   const rankingOption = chartOptionHorizontal({
-    labels: [...topEntidades].reverse().map((item) => item.nombre_entidad),
+    labels: [...topEntidades].reverse().map((item) => shortEntidadLabel(item.nombre_entidad)),
     values: [...topEntidades].reverse().map((item) => item.presupuesto_total),
+    tooltipLabels: [...topEntidades].reverse().map(
+      (item) => `${item.nombre_entidad} · ${item.departamento} · ${item.codigo_entidad}`
+    ),
     left: 280,
   });
 
@@ -758,9 +848,20 @@ export default function Home() {
 
   const programasOption = chartOptionHorizontal({
     labels: [...programasFiltrados]
+      .slice(0, 20)
       .reverse()
-      .map((item) => `${item.nombre_entidad} · PRG ${item.prg}`),
-    values: [...programasFiltrados].reverse().map((item) => item.total),
+      .map((item) => `${shortEntidadLabel(item.nombre_entidad)} · PRG ${item.prg}`),
+    values: [...programasFiltrados]
+      .slice(0, 20)
+      .reverse()
+      .map((item) => item.total),
+    tooltipLabels: [...programasFiltrados]
+      .slice(0, 20)
+      .reverse()
+      .map(
+        (item) =>
+          `${item.nombre_entidad} · ${item.departamento} · Código ${item.codigo_entidad} · Programa ${item.prg}`
+      ),
     left: 300,
   });
 
@@ -807,72 +908,64 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8">
-          <p className="text-sm font-medium uppercase tracking-wide text-slate-500">
-            SIGEP · Bolivia · Gestión 2026
+    <main className="min-h-screen ofp-page-bg text-slate-950">
+      <section className="ofp-hero">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-teal-700">
+            OBSERVATORIO FISCAL · BOLIVIA · GESTIÓN 2026
           </p>
-          <h1 className="mt-3 text-4xl font-bold tracking-tight">
-            Presupuestos ETA Bolivia 2026
+          <h1 className="mt-3 max-w-5xl text-4xl font-bold tracking-tight text-slate-950">
+            Presupuestos de las ETA de Bolivia 2026
           </h1>
-          <p className="mt-4 max-w-3xl text-slate-600">
-            Explorador público de presupuestos institucionales municipales y departamentales.
-            Versión React/Next.js generada desde DuckDB y datos SIGEP procesados.
-          </p>
+          <p className="mt-5 max-w-5xl text-lg leading-8 text-slate-600">
+  Plataforma pública para explorar, comparar y auditar los presupuestos de las Entidades Territoriales Autónomas de Bolivia. Integra información presupuestaria SIGEP 2026, población del Censo 2024, indicadores fiscales, estimaciones de PIBpc municipal y métricas socioeconómicas para aportar evidencia al debate sobre descentralización, gestión pública y pacto fiscal.
+</p>
 
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <Link
               href="/entidades"
-              className="rounded-full bg-slate-950 px-4 py-2 text-white hover:bg-slate-800"
+              className="rounded-full bg-teal-700 px-4 py-2 font-semibold text-white shadow-sm transition hover:bg-teal-800"
             >
               Explorar entidades
             </Link>
             <Link
               href="/gastos"
-              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
-              Ver gastos
+              Analizar gastos
             </Link>
             <Link
               href="/ingresos"
-              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
-              Ver ingresos
+              Analizar ingresos
             </Link>
             <Link
               href="/objeto-gasto"
-              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
-              Ver objeto del gasto
+              Objeto del gasto
             </Link>
 
 
             <Link
               href="/validacion"
-              className="rounded-full bg-slate-800 px-4 py-2 text-white hover:bg-slate-700"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
-              Ver validación
+              Validación SIGEP
             </Link>
-            <a
-              href="https://paul-pinto-presupuestos-2026-app-neflqq.streamlit.app/"
-              target="_blank"
-              className="rounded-full border border-slate-300 px-4 py-2 text-slate-700 hover:bg-slate-100"
-            >
-              Abrir versión Streamlit
-            </a>
             <a
               href="https://github.com/paul-pinto/Presupuestos-2026"
               target="_blank"
-              className="rounded-full border border-slate-300 px-4 py-2 text-slate-700 hover:bg-slate-100"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
-              Ver repositorio
+              Repositorio de datos
             </a>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-8">
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
         {loadError ? (
           <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700">
             {loadError}
@@ -919,7 +1012,7 @@ export default function Home() {
               >
                 {departamentosOptions.map((item) => (
                   <option key={item} value={item}>
-                    {item}
+                    {formatFilterOptionLabel(item)}
                   </option>
                 ))}
               </select>
@@ -934,7 +1027,7 @@ export default function Home() {
               >
                 {tiposOptions.map((item) => (
                   <option key={item} value={item}>
-                    {item}
+                    {formatFilterOptionLabel(item)}
                   </option>
                 ))}
               </select>
@@ -949,7 +1042,7 @@ export default function Home() {
               >
                 {gruposEtaOptions.map((item) => (
                   <option key={item} value={item}>
-                    {item}
+                    {formatFilterOptionLabel(item)}
                   </option>
                 ))}
               </select>
@@ -1081,7 +1174,7 @@ export default function Home() {
                   {topEntidades.map((item) => (
                     <tr key={item.codigo_entidad} className="border-b">
                       <td className="p-3 font-mono">{item.codigo_entidad}</td>
-                      <td className="p-3">{item.nombre_entidad}</td>
+                      <td className="p-3">{shortEntidadLabel(item.nombre_entidad)}</td>
                       <td className="p-3">{item.departamento}</td>
                       <td className="p-3">{item.grupo_eta}</td>
                       <td className="p-3">{item.tipo}</td>
@@ -1122,7 +1215,7 @@ export default function Home() {
                     {validacionDiferenciasFiltradas.slice(0, 30).map((item) => (
                       <tr key={item.codigo_entidad} className="border-b">
                         <td className="p-3 font-mono">{item.codigo_entidad}</td>
-                        <td className="p-3">{item.nombre_entidad || "-"}</td>
+                        <td className="p-3">{shortEntidadLabel(item.nombre_entidad) || "-"}</td>
                         <td className="p-3">{item.departamento || "-"}</td>
                         <td className="p-3 text-right">
                           {formatBs(item.diff_ingresos_vs_gastos)}
@@ -1138,22 +1231,17 @@ export default function Home() {
             )}
           </Section>
         </div>
-      </section>
-              
-        <IndicadoresPerCapitaPanel
-          departamento={departamento}
-          tipo={tipo}
-          grupoEta={grupoEta}
-          query={query}
-        />
-
-        <RecursoFuenteOrganismoPanel
+        <div className="mt-8 grid gap-6">
+          <IndicadoresPerCapitaPanel
             departamento={departamento}
             tipo={tipo}
             grupoEta={grupoEta}
             query={query}
           />
 
-</main>
+
+        </div>
+      </section>
+    </main>
   );
 }

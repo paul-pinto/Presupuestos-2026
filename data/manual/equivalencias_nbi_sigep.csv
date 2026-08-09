@@ -1,0 +1,19 @@
+﻿departamento_nbi,municipio_nbi,codigo_entidad,nota
+CHUQUISACA,Huacaya (Autonomía Guaraní Chaqueño de Huacaya),3101,NBI TIOC Huacaya vinculado a GAIOC Guaraní Chaqueño
+LA PAZ,Villa Ancoraimes,1225,Diferencia NBI Villa Ancoraimes vs SIGEP Ancoraimes
+LA PAZ,Puerto Mayor de Guaqui,1207,Diferencia NBI Puerto Mayor de Guaqui vs SIGEP Guaqui
+LA PAZ,La (Marka) San Andrés de Machaca,1278,Diferencia NBI Marka San Andrés de Machaca
+LA PAZ,Jesús de Machaka,1279,Diferencia ortográfica Machaka/Machaca
+LA PAZ,Sicasica,1211,Diferencia NBI Sicasica vs SIGEP Sica Sica
+COCHABAMBA,Ayopaya,1310,Diferencia NBI Ayopaya vs SIGEP Independencia
+COCHABAMBA,Sipesipe,1303,Diferencia NBI Sipesipe vs SIGEP Sipe Sipe
+ORURO,Paria,1435,Diferencia NBI Paria vs SIGEP Soracachi
+ORURO,Salinas de Garci Mendoza (Autonomía Indígena Originario Campesina de Salinas),3402,NBI Salinas vinculado a GAIOC Salinas
+ORURO,Uru Chipaya (Nación Originaria Uru Chipaya),3401,NBI Uru Chipaya vinculado a GAIOC Nación Originaria Uru Chipaya
+SANTA CRUZ,Charagua (Autonomía Guaraní Charagua Iyambae),3701,NBI Charagua vinculado a GAIOC Charagua Iyambae
+SANTA CRUZ,Gutiérrez (Autonomía Indígena Kereimba Iyaambae),3702,NBI Gutiérrez vinculado a GAIOC Kereimba Iyaambae
+SANTA CRUZ,Pampagrande,1731,Diferencia NBI Pampagrande vs SIGEP Pampa Grande
+BENI,Puerto Menor de Rurrenabaque,1807,Diferencia NBI Puerto Menor de Rurrenabaque vs SIGEP Puerto Rurrenabaque
+BENI,TIOC-Territorio Indígena Multiétnico,3801,NBI TIOC TIM vinculado a Gobierno Indígena Autónomo TIM
+ORURO,Andamarca,1424,Resolver duplicado contiene: NBI Andamarca corresponde a SIGEP Santiago de Andamarca
+POTOSÍ,San Pedro,1515,"Resolver duplicado contiene: NBI San Pedro corresponde a San Pedro de Buena Vista, no San Pedro de Macha"

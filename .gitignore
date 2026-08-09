@@ -1,19 +1,31 @@
-@"
+# Python
 .venv/
 __pycache__/
 *.pyc
-data/raw/
-data/parsed/
-data/logs/
-data/debug/
-*.log
-.DS_Store
-Thumbs.db
-.streamlit/secrets.toml
-.DS_Store
-"@ | Out-File -Encoding utf8 .gitignore
-# Next.js / frontend
+.pytest_cache/
+
+# Node / Next.js
 frontend/node_modules/
 frontend/.next/
 frontend/out/
 frontend/.vercel/
+node_modules/
+.next/
+out/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Raw/heavy local data
+data/raw/
+data/debug/
+data/logs/
+*.bak*
+*.tmp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

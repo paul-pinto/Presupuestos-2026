@@ -1,0 +1,309 @@
+===== PÁGINA 139 =====
+CLASIFICADOR DE ORGANISMOS FINANCIADORES
+Versión Sintética
+CÓDIGO DENOMINACIÓN SIGLA
+ORGANISMOS FINANCIADORES INTERNOS OFI
+Gobierno
+GOB
+111 Tesoro General de la Nación TGN
+112 Tesoro General de la Nación – Papeles TGN-P
+113 Tesoro General de la Nación – Coparticipación Tributaria TGN-CT
+114 Recursos de Contravalor RECON
+116 Tesoro General de la Nación – Fondo de Compensación Departamental TGN-FCOMP
+117 Tesoro General de la Nación – Impuesto Especial a los Hidrocarburos y sus TGN-IEHD
+Derivados
+119 Tesoro General de la Nación – Impuesto Directo a los Hidrocarburos TGN-IDH
+120 Tesoro General de la Nación – Impuesto a la Participación en Juegos TGN-IPJ
+121 Tesoro General de la Nación – Patentes Petroleras TGN-PPET
+129 Otros Organismos Financiadores del Gobierno OT-GOB
+000 TGN Otros Ingresos TGN-OT
+Organismos de Recursos Específicos ORG-RECESP
+210 Recursos Específicos de los Gobiernos Autónomos Municipales e Indígena RECESP
+Originario Campesino
+220 Regalías REG
+230 Otros Recursos Específicos OTPRO
+ORGANISMOS FINANCIADORES EXTERNOS OFE
+Organismos Multilaterales MULT
+311 Asociación Latinoamericana de Integración ALADI
+312 Centro Internacional de Agricultura Tropical CIAT
+313 Comisión Económica para América Latina CEPAL
+314 Corporación Andina de Fomento - Banco de Desarrollo de América Latina CAF
+315 Fondo Andino de Reserva FAR
+316 Instituto Interamericano de Cooperación para la Agricultura IICA
+317 Comunidad Andina CAN
+318 Organización de los Estados Americanos OEA
+319 Organización Latinoamericana de Energía OLADE
+321 Organización Panamericana de la Salud OPS
+322 Sistema Económico Latinoamericano y del Caribe SELA
+323 Fondo de Desarrollo de Pueblos Indígenas de América Latina y El Caribe FILAC
+341 Programa de las NN.UU. para los Asentamientos Humanos ONU-HABITAT
+343 Departamento de Cooperación Técnica para el Desarrollo de las Naciones DTCD
+Unidas
+137
+===== PÁGINA 140 =====
+CÓDIGO DENOMINACIÓN SIGLA
+344 Fondo de las NN.UU. para la Infancia UNICEF
+345 Fondo de Población de las Naciones Unidas UNFPA
+346 Fondo Internacional de Desarrollo Agrícola FIDA
+347 Instituto de NN.UU. para Formación Profesional e Investigaciones UNITAR
+348 Organización de Aviación Civil Internacional OACI
+349 Organización de las NN.UU. para el Desarrollo Industrial ONUDI
+351 Organización de las NN.UU. para la Agricultura y la Alimentación FAO
+352 Organización de las NN.UU. para la Educación, Ciencia y la Cultura UNESCO
+353 Organización Internacional de Energía Atómica OIEA
+354 Organización Internacional del Trabajo OIT
+355 Organización Mundial de la Salud OMS
+356 Organización Meteorología Mundial OMM
+357 Programa de las NN.UU. para el Desarrollo PNUD
+358 Programa de NN.UU. para el Medio Ambiente PNUMA
+359 Unión Internacional de Telecomunicaciones UIT
+361 Unión Postal Universal UPU
+362 Universidad de las Naciones Unidas UNU
+371 Unión Europea UE
+372 Consejo de Ayuda Mutua Económica CAME
+373 Organización de Países Exportadores de Petróleo OPEC
+374 Programa Mundial de Alimentos PMA
+375 Organización Internacional para las Migraciones OIM
+376 Fondo de NNUU para el Desarrollo de la Capitalización UNCDF
+377 Programa de las NNUU para la Fiscalización Internacional de Drogas UNDCP
+378 Fondo de las NNUU para la Mujer UNIFEM
+379 Fondo Rotativo de las NNUU para la Exploración de los Recursos Naturales UNRFNRE
+384 Fondo Nórdico para el Desarrollo NDF
+386 Organización Internacional de las Maderas Tropicales OIMT
+411 Banco Interamericano de Desarrollo BID
+412 Banco Internacional de Reconstrucción y Fomento BIRF
+413 Fondo Financiero para el Desarrollo de la Cuenca del Plata FONPLATA
+414 Fondo Monetario Internacional FMI
+415 Asociación Internacional de Fomento (BM) AIF
+416 Banco Interamericano de Ahorro y Préstamos BIAPE
+420 Corporación Financiera Internacional (BM) CFI
+421 Organismo Multilateral de Garantía de Inversiones (BM) MIGA
+522 Fondo Multilateral de Inversiones (BID) FOMIN
+524 Fondo para el Medio Ambiente Mundial (BM) GEF
+526 Fondo Institucional de Desarrollo IDF
+730 Banco de Importaciones - Exportaciones China EXIMBANK-CH
+731 Banco de Desarrollo de China BDC
+732 Banco Europeo de Inversiones BEI
+733 Agencia de Cooperación Internacional de Corea del Sur KOICA
+734 Oficina de las Naciones Unidas contra la Droga y el Delito UNODC
+735 Fondo OPEP para el Desarrollo Internacional OFID
+736 Fondo Verde para el Clima FVC
+744 Banco Asiático de Inversión en Infraestructura AIIB
+745 Nuevo Banco de Desarrollo del Brics NTB BRICS
+138
+===== PÁGINA 141 =====
+CÓDIGO DENOMINACIÓN SIGLA
+997 Otros Organismos Financiadores Multilaterales OT-MUL
+Organismos Bilaterales BILAT
+382 Fondo de Ayuda al Equipamiento (España) FAE
+383 Fondo de Integración y Desarrollo Bolivia-Argentina FIDAB
+417 Banco de Importaciones - Exportaciones Japón EXIMBANK-J
+418 Banco de Importaciones - Exportaciones Corea EXIMBANK-K
+419 Banco de Importaciones - Exportaciones (EE. UU.) EXIMBANK-U
+511 Agencia Canadiense para el Desarrollo Internacional ACDI
+512 Agencia de Cooperación Internacional del Japón JICA
+513 Agencia de los EE. UU. para el Desarrollo Internacional USAID
+514 Agencia Danesa de Desarrollo Internacional DANIDA
+515 Agencia Suiza para el Desarrollo y la Cooperación COSUDE
+516 Banco de Crédito para la Reconstrucción KFW
+517 Agencia de Cooperación Técnica de la República Alemana GIZ
+518 Banco de Cooperación Internacional del Japón JBIC
+519 Dir. General de Cooperación Internacional /Coop. Técnica Belga DGCI -CTB
+520 Agencia Sueca de Desarrollo Internacional ASDI
+521 Corporación Internacional de Desarrollo CID
+523 Agencia Canadiense para el Desarrollo Internacional Regional CIID
+525 Instituto de Cooperación Iberoamericana ICI
+527 Agencia Noruega para el Desarrollo Internacional NORAD
+528 Agencia Española de Cooperación Internacional para el Desarrollo AECID
+529 Corporación de Créditos de Mercaderías (EE. UU.) CCC
+530 Export Development Corporation (CANADA) EDC
+738 Agencia Francesa de Desarrollo AFD
+739 Agencia Italiana para la Cooperación al Desarrollo AICS
+740 Cassa Depositi e Prestiti S.p.A. CDP
+741 Danske Bank DKB
+742 Entidad de las Naciones Unidas para la Igualdad de Género y ONU MUJERES
+Empoderamiento de las Mujeres
+743 Physikalisch Technische Bundesanstalt PTB
+746 Fondo Saudita para el Desarrollo SFD
+747 Fondo de Kuwaití para el Desarrollo Económico Árabe KFAED
+748 Banco de Exportación e Importación de India EXIMBANK INDIA
+749 Fondo Abu Dhabi para el Desarrollo ADFD
+998 Otros Organismos Financiadores Bilaterales OT-BIL
+Gobiernos Extranjeros GOB.EXT
+541 República Federal de Alemania ALEM
+542 Argentina ARG
+543 Bélgica BEL
+544 Brasil BRA
+545 Canadá CANADA
+546 República de Corea COR
+548 República Popular China CHINA
+549 República China Nacionalista - Taiwán CH-TAI
+139
+===== PÁGINA 142 =====
+CÓDIGO DENOMINACIÓN SIGLA
+551 Dinamarca DIN
+552 España ESP
+553 Estados Unidos de América USA
+554 Francia FRA
+555 Gran Bretaña G-BR
+556 Holanda HOL
+557 Hungría HUN
+558 Israel ISR
+559 Italia ITA
+561 Japón JAP
+562 Noruega NOR
+563 Perú PERU
+564 Rumania RUM
+565 Suecia SUE
+566 Suiza SUI
+567 Federación de Rusia RUSIA
+568 República Bolivariana de Venezuela VEN
+569 Polonia POL
+571 Austria AUST
+572 Sudáfrica SUDAF
+573 Panamá PAN
+574 Portugal PORT
+575 República de Chile CHI
+576 México MEX
+577 República Oriental del Uruguay URU
+578 Paraguay PARA
+579 Filipinas FILIP
+580 Colombia COL
+581 Ecuador ECU
+582 Cuba CU
+639 Otros Gobiernos Extranjeros OT-G-EXT
+Otros Organismos Financiadores Externos OTR.EXT
+115 Donaciones – HIPC II DON-HIPC
+641 Care CARE
+642 Caritas CARITAS
+643 Plan Internacional PLAN-INTER
+644 Fundación Amigos de la Naturaleza FAN
+669 Otros Organismos no Gubernamentales OT-NOGUB
+671 Bancos Privados BAN-PRI
+672 Proveedores PROV
+719 Organismos Financiadores Externos no Determinados ND-EXT
+720 Basket Funding BASK-FUN
+729 Otros Organismos Financiadores Externos OT-EXT
+140
+===== PÁGINA 143 =====
+CLASIFICADOR DE ORGANISMOS FINANCIADORES
+Versión Descriptiva
+El Clasificador de Organismos Financiadores, tiene el propósito de identificar y distinguir el origen de los
+recursos por organismo proveedor, internas o externas, asociado a los grupos de fuentes de
+financiamiento
+ORGANISMOS FINANCIADORES INTERNOS
+Los Organismos Financiadores Internos tienen el propósito de identificar los tipos específicos de
+financiamiento del Gobierno.
+El Clasificador de Organismos Financiadores Internos se utiliza en el presupuesto de gastos asociado,
+básicamente, a las fuentes de financiamiento.
+111 Tesoro General de la Nación
+Fondos que se originan principalmente de recaudaciones tributarias, participación en regalías,
+transferencias, rendimiento de activos, saldo disponible de la gestión anterior y otros ingresos.
+112 Tesoro General de la Nación – Papeles
+Define el monto del financiamiento en “Papeles” que corresponde a la fuente de financiamiento “Tesoro
+General de la Nación”.
+113 Tesoro General de la Nación – Coparticipación Tributaria
+Define el monto de ingresos de la fuente de financiamiento “Tesoro General de la Nación” que se destina
+como coparticipación tributaria de los Gobiernos Autónomos Municipales e Indígena Originario
+Campesino y Universidades Públicas de acuerdo a normativa vigente. Se asocia a la fuente de
+financiamiento “Tesoro General de la Nación”.
+114 Recursos de Contravalor
+Fondos que se originan en convenios de cooperación financiera (Donaciones o Préstamos) de Organismos
+Internacionales o Gobiernos Extranjeros y que conforman recursos de contrapartida asociados a la fuente
+de financiamiento “Tesoro General de la Nación”.
+116 Tesoro General de la Nación - Fondo Compensatorio Departamental
+Fondo compensatorio que se constituyen con el 10% de los recursos del Impuesto Especial a los
+hidrocarburos y sus Derivados para los departamentos que estén por debajo del promedio nacional de
+regalías departamentales por habitante establecido en normativa vigente. Se asocia a la fuente de
+financiamiento “Tesoro General de la Nación”.
+117 Tesoro General de la Nación – Impuesto Especial a los Hidrocarburos y sus Derivados
+Define el monto de los ingresos por coparticipación del Impuesto Especial a los Hidrocarburos y sus
+Derivados para los Gobiernos Autónomos Departamentales de acuerdo a normativa vigente. Este
+financiamiento está asociado a la fuente de financiamiento “Tesoro General de la Nación”.
+119 Tesoro General de la Nación – Impuesto Directo a los Hidrocarburos
+Define el monto de los ingresos por Impuesto Directo a los Hidrocarburos de acuerdo a la Ley de
+Hidrocarburos. Este financiamiento está asociado a la fuente de financiamiento “Tesoro General de la
+Nación”.
+141
+===== PÁGINA 144 =====
+120 Tesoro General de la Nación – Impuesto a la Participación en Juegos
+Define el monto de ingresos por el derecho de participar en distintas modalidades de juego, conforme la
+Ley de Juego de Lotería y Azar, está asociado a la fuente de financiamiento “Tesoro General de la Nación”.
+121 Tesoro General de la Nación - Patentes Petroleras
+Define el monto de ingresos provenientes por el pago de patentes petroleras en cumplimiento a la Ley de
+Hidrocarburos y el Decreto que reglamenta estas transferencias, está asociado a la fuente de
+financiamiento “Tesoro General de la Nación”.
+129 Otros Organismos Financiadores del Gobierno
+Define el monto de ingresos distintos de las recaudaciones tributarias correspondientes a operaciones
+que realiza el Tesoro General de la Nación. Se asocia a la fuente de financiamiento “TGN otros Ingresos”.
+210 Recursos Específicos de los Gobiernos Autónomos Municipales e Indígena Originario Campesino
+Define el monto del financiamiento que se origina por la realización de actividades propias de la
+Administración Municipal. Se asocia a la fuente de financiamiento “Recursos Específicos”.
+220 Regalías
+Define el monto del financiamiento por regalías establecidas en la normativa vigente que se origina por
+la realización de actividades de explotación de recursos naturales renovables y no renovables. Se asocia
+a la fuente de financiamiento “Tesoro General de la Nación” en el caso de Regalías Nacionales y a la fuente
+“Recursos Específicos” en el caso de las Regalías de las Entidades Territoriales Autónomas.
+230 Otros Recursos Específicos
+Define el monto del financiamiento por otros recursos correspondientes a la fuente de financiamiento
+“Recursos Específicos”.
+ORGANISMOS FINANCIADORES EXTERNOS
+Los Organismos Financiadores Externos tienen el propósito de identificar a los organismos internacionales
+y países extranjeros que conceden préstamos y/o donaciones.
+El Clasificador de Organismos Financiadores Externos se utiliza en el presupuesto de gastos asociado,
+básicamente, a las fuentes de financiamiento. Tiene la siguiente desagregación:
+● Organismos Multilaterales
+● Organismos Bilaterales
+● Gobiernos Extranjeros
+● Otros Organismos Financiadores Externos.
+115 Donaciones – HIPC II
+Fondos que se originan por concepto de alivio de deuda externa en el marco de la iniciativa para Países
+Altamente Endeudados (HIPC) y que estarán destinados a gastos relacionados con sectores sociales de
+acuerdo a lo establecido en la norma legal específica.
+142
+===== PÁGINA 145 =====
+CLASIFICADOR DE SECTORES ECONÓMICOS
+Consiste en la clasificación económica del gasto que permite identificar la naturaleza económica de las
+transacciones que se realizan en el sector público, con el propósito de evaluar el impacto y las
+repercusiones que generan las acciones fiscales en la economía.
+CÓDIGOS DENOMINACIÓN SIGLA
+1 AGROPECUARIO AGROP
+1 1 AGRÍCOLA AGRIC
+1 1 1 INVESTIGACIÓN AGRÍCOLA AGR01
+1 1 2 SANIDAD VEGETAL AGR02
+1 1 3 INFRAESTRUCTURA DE APOYO AGRÍCOLA AGR03
+1 1 4 EXTENSIÓN Y CAPACITACIÓN AGR04
+1 1 5 EQUIPAMIENTO APOYO AGRÍCOLA AGR05
+1 1 6 FOMENTO A LA PRODUCCIÓN AGRÍCOLA AGR06
+1 2 PECUARIA PECUA
+1 2 1 INVESTIGACIÓN PECUARIA PEC01
+1 2 2 EXTENSIÓN Y CAPACITACIÓN PECUARIA PEC02
+1 2 3 FOMENTO GANADERO PEC03
+1 2 4 SANIDAD ANIMAL PEC04
+1 2 5 INFRAESTRUCTURA DE APOYO PECUARIO PEC05
+1 2 6 MEJORAMIENTO GENÉTICO PEC06
+1 2 7 PRADERAS, FORRAJES Y NUTRICIÓN ANIMAL PEC07
+1 2 8 DESARROLLO APICOLA PEC08
+1 2 9 DESARROLLO AVICOLA PEC09
+1 2 10 EQUIPAMIENTO PARA APOYO PECUARIO PEC10
+1 3 DESARROLLO PESQUERO Y ACUICOLA SILVI
+1 3 1 PESCA EN CAUSES NATURALES SIL01
+1 3 2 AGROSILVOPASTORIL SIL02
+1 3 3 ACUICULTURA (CRIANZA ARTIFICIAL) SIL03
+1 3 4 INFRAESTRUCTURA DE APOYO EN ACUICULTURA SIL04
+1 3 5 INVESTIGACIÓN DESARROLLO PESQUERO INVDP
+1 4 SEGURIDAD Y SOBERANIA ALIMENTARIA SEGAL
+1 4 1 SEGURIDAD Y SOBERANIA ALIMENTARIA AGRÍCOLA SEG01
+1 4 2 SEGURIDAD Y SOBERANIA ALIMENTARIA PECUARIA SEG02
+1 4 3 INVESTIGACIÓN SEGURIDAD Y SOBERANIA ALIMENTARIA INVSSA
+1 5 RIEGO RIE
+1 5 1 CONSTRUCCIÓN DE SISTEMAS DE RIEGO RIE01
+1 5 2 MEJORAMIENTO Y AMPLIACIÓN DE SISTEMA DE RIEGO RIE02
+1 5 3 REHABILITACIÓN DE SISTEMAS DE RIEGO RIE03
+1 5 4 OTROS RIE04
+1 5 5 MICRORIEGO Y OTROS (ATAJADOS, RESERVORIOS Y PERFORACIÓN DE RIE05
+POZOS)
+1 5 6 DRENAJES RIE06
+1 5 7 OTROS RIEGO OTRIE
+1 5 8 INVESTIGACIÓN RIEGO RIE08
+143

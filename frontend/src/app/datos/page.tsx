@@ -1,4 +1,5 @@
-import { GlassCard, PageShell, Pill } from "@/components/ui";
+import Link from "next/link";
+import { ArrowLeft, Database, ExternalLink } from "lucide-react";
 
 const datasets = [
   {
@@ -71,50 +72,96 @@ const datasets = [
 
 export default function DatosPage() {
   return (
-    <PageShell
-      eyebrow="Datos"
-      title="Datasets del Observatorio de Presupuestos ETA 2026"
-      description="Archivos JSON que alimentan el frontend del observatorio. Se generan desde la base procesada del proyecto y se publican como archivos estáticos dentro de /data."
-    >
-      <div className="grid gap-4 md:grid-cols-2">
-        {datasets.map((dataset) => (
-          <GlassCard key={dataset.file}>
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-              <div>
-                <h2 className="text-lg font-semibold text-white">{dataset.title}</h2>
-                <p className="mt-1 font-mono text-xs text-cyan-300">{dataset.file}</p>
+    <main className="min-h-screen ofp-page-bg text-slate-950">
+      <section className="ofp-hero">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
+          >
+            <ArrowLeft size={16} />
+            Volver al resumen
+          </Link>
+
+          <div className="mt-6 flex items-start justify-between gap-6">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-teal-700">
+                Datos abiertos
+              </p>
+              <h1 className="mt-3 max-w-5xl text-4xl font-bold tracking-tight text-slate-950">
+                Datasets del Observatorio de Presupuestos ETA 2026
+              </h1>
+              <p className="mt-4 max-w-4xl text-base leading-7 text-slate-600">
+  Catálogo de bases públicas generadas por el observatorio. Reúne archivos JSON y GeoJSON utilizados por el frontend, incluyendo presupuestos, entidades, programas, recursos, objeto del gasto, validación, indicadores fiscales, población, NBI, PIBpc y capas territoriales.
+</p>
+            </div>
+
+            <div className="hidden rounded-3xl border border-teal-100 bg-teal-50 p-4 text-teal-700 md:block">
+              <Database size={32} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+        <div className="grid gap-4 md:grid-cols-2">
+          {datasets.map((dataset) => (
+            <article
+              key={dataset.file}
+              className="ofp-card rounded-3xl p-5"
+            >
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+                    Dataset
+                  </p>
+                  <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-950">
+                    {dataset.title}
+                  </h2>
+                  <p className="mt-2 font-mono text-xs text-slate-500">
+                    {dataset.file}
+                  </p>
+                </div>
+
+                <a
+                  href={`/data/${dataset.file}`}
+                  className="inline-flex shrink-0 items-center gap-2 rounded-full border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver JSON
+                  <ExternalLink size={14} />
+                </a>
               </div>
 
-              <a
-                href={`/data/${dataset.file}`}
-                className="rounded-full border border-cyan-300/40 px-3 py-1 text-xs font-medium text-cyan-200 hover:bg-cyan-300/10"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ver JSON
-              </a>
-            </div>
+              <p className="mt-4 text-sm leading-6 text-slate-600">
+                {dataset.description}
+              </p>
 
-            <p className="mt-4 text-sm leading-6 text-slate-300">
-              {dataset.description}
-            </p>
+              <div className="mt-4">
+                <span className="rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-medium text-teal-800">
+                  {dataset.usedIn}
+                </span>
+              </div>
+            </article>
+          ))}
+        </div>
 
-            <div className="mt-4">
-              <Pill>{dataset.usedIn}</Pill>
-            </div>
-          </GlassCard>
-        ))}
-      </div>
-
-      <section className="mt-8 rounded-2xl border border-amber-300/20 bg-amber-300/10 p-5">
-        <h2 className="text-lg font-semibold text-amber-100">Nota de uso</h2>
-        <p className="mt-3 text-sm leading-6 text-amber-50/90">
-          Los archivos publicados son insumos procesados para visualización. No reemplazan
-          la fuente oficial ni una auditoría presupuestaria. Los rankings deben interpretarse
-          como herramientas exploratorias y no como conclusiones automáticas sobre desempeño
-          institucional.
-        </p>
+        <section className="mt-8 rounded-3xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">
+            Nota de uso
+          </p>
+          <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-950">
+            Alcance de los datos publicados
+          </h2>
+          <p className="mt-3 text-sm leading-6 text-slate-700">
+            Los archivos publicados son insumos procesados para visualización. No reemplazan
+            la fuente oficial ni una auditoría presupuestaria. Los rankings deben interpretarse
+            como herramientas exploratorias y no como conclusiones automáticas sobre desempeño
+            institucional.
+          </p>
+        </section>
       </section>
-    </PageShell>
+    </main>
   );
 }

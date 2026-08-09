@@ -27,6 +27,10 @@ type ObjetoGastoRow = {
   monto?: number;
 };
 
+type Props = {
+  query: string;
+};
+
 function amount(row: ObjetoGastoRow): number {
   return Number(row.total ?? row.importe ?? row.monto ?? 0);
 }
@@ -113,12 +117,12 @@ function SelectBox({
   onChange: (value: string) => void;
 }) {
   return (
-    <label className="text-sm text-slate-600">
+    <label className="text-sm font-medium text-slate-700">
       {label}
       <select
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-slate-950"
+        className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
       >
         {options.map((option) => (
           <option key={option} value={option}>
@@ -130,10 +134,9 @@ function SelectBox({
   );
 }
 
-export default function ObjetoGastoNivelesPanel() {
+export default function ObjetoGastoNivelesPanel({ query }: Props) {
   const [data, setData] = useState<ObjetoGastoRow[]>([]);
   const [catalogo, setCatalogo] = useState<ObjetoCatalogoRow[]>([]);
-  const [query, setQuery] = useState("");
   const [nivel1, setNivel1] = useState("Todos");
   const [nivel2, setNivel2] = useState("Todos");
   const [nivel3, setNivel3] = useState("Todos");
@@ -258,14 +261,21 @@ const filtered = useMemo(() => {
     grid: { left: 230, right: 90, top: 20, bottom: 35, containLabel: true },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
       },
     },
     yAxis: {
       type: "category",
       data: [...ranking].reverse().map((item) => shortEntidadLabel(item.entidad)),
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#334155",
         width: 210,
         overflow: "truncate",
         interval: 0,
@@ -276,6 +286,15 @@ const filtered = useMemo(() => {
         type: "bar",
         data: [...ranking].reverse().map((item) => item.total),
         barMaxWidth: 24,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
         label: {
           show: true,
           position: "right",
@@ -294,14 +313,21 @@ const filtered = useMemo(() => {
     grid: { left: 260, right: 90, top: 20, bottom: 35, containLabel: true },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
       },
     },
     yAxis: {
       type: "category",
       data: [...objectBreakdown].reverse().map((item) => item.label),
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#334155",
         width: 240,
         overflow: "truncate",
         interval: 0,
@@ -312,6 +338,15 @@ const filtered = useMemo(() => {
         type: "bar",
         data: [...objectBreakdown].reverse().map((item) => item.total),
         barMaxWidth: 24,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
         label: {
           show: true,
           position: "right",
@@ -322,25 +357,18 @@ const filtered = useMemo(() => {
   };
 
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+    <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
       <div className="mb-5">
-        <h2 className="text-xl font-semibold">Objeto del gasto por niveles</h2>
-        <p className="mt-1 text-sm text-slate-500">
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+          Clasificador oficial
+        </p>
+        <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Objeto del gasto por niveles</h2>
+        <p className="mt-1 text-sm leading-6 text-slate-600">
           Explora el gasto filtrando la clasificación oficial de objeto del gasto por grupos, subgrupos y partidas.
         </p>
       </div>
 
-      <div className="mb-5 grid gap-3 md:grid-cols-2 xl:grid-cols-5">
-        <label className="text-sm text-slate-600">
-          Buscar entidad u objeto
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Entidad, código, descripción..."
-            className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-slate-950"
-          />
-        </label>
-
+      <div className="mb-5 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         <SelectBox
           label="Nivel 1"
           value={nivel1}
@@ -383,21 +411,21 @@ const filtered = useMemo(() => {
       </div>
 
       <div className="mb-5 grid gap-3 md:grid-cols-3">
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Registros filtrados</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Registros filtrados</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">
             {filtered.length.toLocaleString("es-BO")}
           </p>
         </div>
 
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Total filtrado</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">{formatBsCompact(total)}</p>
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Total filtrado</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatBsCompact(total)}</p>
         </div>
 
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Entidades</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Entidades</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">
             {ranking.length.toLocaleString("es-BO")}
           </p>
         </div>
@@ -405,14 +433,14 @@ const filtered = useMemo(() => {
 
       <div className="grid gap-6">
         <div>
-          <h3 className="text-base font-semibold text-slate-900">Top entidades por objeto seleccionado</h3>
+          <h3 className="text-base font-bold tracking-tight text-slate-950">Top entidades por objeto seleccionado</h3>
           <div className="mt-3 h-[520px]">
             <ReactECharts option={rankingOption} style={{ height: "100%", width: "100%" }} />
           </div>
         </div>
 
         <div>
-          <h3 className="text-base font-semibold text-slate-900">Composición del objeto seleccionado</h3>
+          <h3 className="text-base font-bold tracking-tight text-slate-950">Composición del objeto seleccionado</h3>
           <div className="mt-3 h-[520px]">
             <ReactECharts option={breakdownOption} style={{ height: "100%", width: "100%" }} />
           </div>

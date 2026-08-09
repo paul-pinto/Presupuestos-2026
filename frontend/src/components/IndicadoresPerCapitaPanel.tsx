@@ -89,7 +89,11 @@ export default function IndicadoresPerCapitaPanel({
     grid: { left: 320, right: 40, top: 20, bottom: 45, containLabel: true },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -97,7 +101,10 @@ export default function IndicadoresPerCapitaPanel({
     yAxis: {
       type: "category",
       data: [...top].reverse().map((item) => item.nombre_entidad),
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#334155",
         width: 300,
         overflow: "truncate",
       },
@@ -109,33 +116,45 @@ export default function IndicadoresPerCapitaPanel({
           Number(item.presupuesto_per_capita || 0)
         ),
         barMaxWidth: 24,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
 
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+    <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
       <div className="mb-5">
-        <h2 className="text-xl font-bold text-slate-950">Indicadores per cápita</h2>
-        <p className="mt-1 text-sm text-slate-500">
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+          Observatorio
+        </p>
+        <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Indicadores per cápita</h2>
+        <p className="mt-1 text-sm leading-6 text-slate-600">
           Cruce entre presupuesto SIGEP y población INE 2024. La identidad institucional conserva el nombre oficial SIGEP.
         </p>
       </div>
 
       <div className="mb-4 grid gap-3 md:grid-cols-3">
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Población filtrada</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">{formatNumber(totalPoblacion)}</p>
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Población filtrada</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatNumber(totalPoblacion)}</p>
         </div>
 
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Presupuesto filtrado</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">{formatBsCompact(totalPresupuesto)}</p>
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Presupuesto filtrado</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatBsCompact(totalPresupuesto)}</p>
         </div>
 
-        <div className="rounded-xl bg-slate-50 p-4">
-          <p className="text-xs uppercase tracking-wide text-slate-500">Promedio per cápita</p>
-          <p className="mt-1 text-lg font-bold text-slate-950">{formatBs(promedioPonderado)}</p>
+        <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Promedio per cápita</p>
+          <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatBs(promedioPonderado)}</p>
         </div>
       </div>
 
@@ -144,24 +163,24 @@ export default function IndicadoresPerCapitaPanel({
       </div>
 
       <div className="mt-5 overflow-x-auto">
-        <table className="min-w-full text-sm">
+        <table className="w-full border-collapse text-sm">
           <thead>
-            <tr className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500">
-              <th className="py-2 pr-4">Entidad SIGEP</th>
-              <th className="py-2 pr-4">Municipio INE</th>
-              <th className="py-2 pr-4 text-right">Población 2024</th>
-              <th className="py-2 pr-4 text-right">Presupuesto</th>
-              <th className="py-2 pr-4 text-right">Bs/hab.</th>
+            <tr className="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-[0.16em] text-slate-500">
+              <th className="px-4 py-3">Entidad SIGEP</th>
+              <th className="px-4 py-3">Municipio INE</th>
+              <th className="px-4 py-3 text-right">Población 2024</th>
+              <th className="px-4 py-3 text-right">Presupuesto</th>
+              <th className="px-4 py-3 text-right">Bs/hab.</th>
             </tr>
           </thead>
           <tbody>
             {top.map((item) => (
-              <tr key={item.codigo_entidad} className="border-b border-slate-100">
-                <td className="py-2 pr-4 font-medium text-slate-900">{item.nombre_entidad}</td>
-                <td className="py-2 pr-4 text-slate-600">{item.municipio_ine}</td>
-                <td className="py-2 pr-4 text-right text-slate-600">{formatNumber(item.poblacion_2024)}</td>
-                <td className="py-2 pr-4 text-right text-slate-600">{formatBs(item.presupuesto_total)}</td>
-                <td className="py-2 pr-4 text-right font-semibold text-slate-900">{formatBs(item.presupuesto_per_capita)}</td>
+              <tr key={item.codigo_entidad} className="border-b border-slate-100 transition hover:bg-slate-50">
+                <td className="px-4 py-3 font-medium text-slate-950">{item.nombre_entidad}</td>
+                <td className="px-4 py-3 text-slate-600">{item.municipio_ine}</td>
+                <td className="px-4 py-3 text-right tabular-nums text-slate-600">{formatNumber(item.poblacion_2024)}</td>
+                <td className="px-4 py-3 text-right tabular-nums text-slate-600">{formatBs(item.presupuesto_total)}</td>
+                <td className="px-4 py-3 text-right font-semibold tabular-nums text-slate-950">{formatBs(item.presupuesto_per_capita)}</td>
               </tr>
             ))}
           </tbody>

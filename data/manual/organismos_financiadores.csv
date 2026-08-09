@@ -1,7 +1,151 @@
-organismo,codigo,nombre_oficial,sigla,nombre_corto
-111,111,Tesoro General de la Nación,TGN,TGN
-113,113,Tesoro General de la Nación - Coparticipación Tributaria,TGN-CT,Coparticipación tributaria
-119,119,Tesoro General de la Nación - Impuesto Directo a los Hidrocarburos,TGN-IDH,IDH
-210,210,Recursos Específicos de los Gobiernos Autónomos Municipales e Indígena Originario Campesino,RECESP,Recursos específicos GAM/GAIOC
-220,220,Regalías,REG,Regalías
-230,230,Otros Recursos Específicos,OTPRO,Otros recursos específicos
+﻿codigo,organismo,nombre_oficial,sigla,nombre_corto,label
+111,111,Tesoro General de la Nación,TGN,TGN,TGN
+112,112,Tesoro General de la Nación – Papeles,TGN-P,TGN - Papeles,TGN - Papeles
+113,113,Tesoro General de la Nación – Coparticipación Tributaria,TGN-CT,Coparticipación Tributaria,Coparticipación Tributaria
+114,114,Recursos de Contravalor,RECON,Recursos de Contravalor,Recursos de Contravalor
+115,115,Donaciones – HIPC II,DON-HIPC,DON-HIPC,DON-HIPC
+116,116,Tesoro General de la Nación – Fondo de Compensación Departamental,TGN-FCOMP,Fondo de Compensación Departamental,Fondo de Compensación Departamental
+117,117,Tesoro General de la Nación – Impuesto Especial a los Hidrocarburos y sus Derivados,TGN-IEHD,IEHD,IEHD
+119,119,Tesoro General de la Nación – Impuesto Directo a los Hidrocarburos,TGN-IDH,IDH,IDH
+120,120,Tesoro General de la Nación – Impuesto a la Participación en Juegos,TGN-IPJ,IPJ,IPJ
+121,121,Tesoro General de la Nación – Patentes Petroleras Originario Campesino,TGN-PPET,Patentes Petroleras,Patentes Petroleras
+220,220,Regalías,REG,Regalías,Regalías
+230,230,Otros Recursos Específicos,OTPRO,Otros recursos específicos,Otros recursos específicos
+311,311,Asociación Latinoamericana de Integración,ALADI,ALADI,ALADI
+312,312,Centro Internacional de Agricultura Tropical,CIAT,CIAT,CIAT
+313,313,Comisión Económica para América Latina,CEPAL,CEPAL,CEPAL
+314,314,Corporación Andina de Fomento - Banco de Desarrollo de América Latina,CAF,CAF,CAF
+315,315,Fondo Andino de Reserva,FAR,FAR,FAR
+316,316,Instituto Interamericano de Cooperación para la Agricultura,IICA,IICA,IICA
+317,317,Comunidad Andina,CAN,CAN,CAN
+318,318,Organización de los Estados Americanos,OEA,OEA,OEA
+319,319,Organización Latinoamericana de Energía,OLADE,OLADE,OLADE
+321,321,Organización Panamericana de la Salud,OPS,OPS,OPS
+322,322,Sistema Económico Latinoamericano y del Caribe,SELA,SELA,SELA
+323,323,Fondo de Desarrollo de Pueblos Indígenas de América Latina y El Caribe,FILAC,FILAC,FILAC
+341,341,Programa de las NN.UU. para los Asentamientos Humanos,ONU-HABITAT,ONU-HABITAT,ONU-HABITAT
+343,343,Departamento de Cooperación Técnica para el Desarrollo de las Naciones Unidas,DTCD,DTCD,DTCD
+344,344,Fondo de las NN.UU. para la Infancia,UNICEF,UNICEF,UNICEF
+345,345,Fondo de Población de las Naciones Unidas,UNFPA,UNFPA,UNFPA
+346,346,Fondo Internacional de Desarrollo Agrícola,FIDA,FIDA,FIDA
+347,347,Instituto de NN.UU. para Formación Profesional e Investigaciones,UNITAR,UNITAR,UNITAR
+348,348,Organización de Aviación Civil Internacional,OACI,OACI,OACI
+349,349,Organización de las NN.UU. para el Desarrollo Industrial,ONUDI,ONUDI,ONUDI
+351,351,Organización de las NN.UU. para la Agricultura y la Alimentación,FAO,FAO,FAO
+352,352,"Organización de las NN.UU. para la Educación, Ciencia y la Cultura",UNESCO,UNESCO,UNESCO
+353,353,Organización Internacional de Energía Atómica,OIEA,OIEA,OIEA
+354,354,Organización Internacional del Trabajo,OIT,OIT,OIT
+355,355,Organización Mundial de la Salud,OMS,OMS,OMS
+356,356,Organización Meteorología Mundial,OMM,OMM,OMM
+357,357,Programa de las NN.UU. para el Desarrollo,PNUD,PNUD,PNUD
+358,358,Programa de NN.UU. para el Medio Ambiente,PNUMA,PNUMA,PNUMA
+359,359,Unión Internacional de Telecomunicaciones,UIT,UIT,UIT
+361,361,Unión Postal Universal,UPU,UPU,UPU
+362,362,Universidad de las Naciones Unidas,UNU,UNU,UNU
+371,371,Unión Europea,UE,UE,UE
+372,372,Consejo de Ayuda Mutua Económica,CAME,CAME,CAME
+373,373,Organización de Países Exportadores de Petróleo,OPEC,OPEC,OPEC
+374,374,Programa Mundial de Alimentos,PMA,PMA,PMA
+375,375,Organización Internacional para las Migraciones,OIM,OIM,OIM
+376,376,Fondo de NNUU para el Desarrollo de la Capitalización,UNCDF,UNCDF,UNCDF
+377,377,Programa de las NNUU para la Fiscalización Internacional de Drogas,UNDCP,UNDCP,UNDCP
+378,378,Fondo de las NNUU para la Mujer,UNIFEM,UNIFEM,UNIFEM
+379,379,Fondo Rotativo de las NNUU para la Exploración de los Recursos Naturales,UNRFNRE,UNRFNRE,UNRFNRE
+382,382,Fondo de Ayuda al Equipamiento (España),FAE,FAE,FAE
+383,383,Fondo de Integración y Desarrollo Bolivia-Argentina,FIDAB,FIDAB,FIDAB
+384,384,Fondo Nórdico para el Desarrollo,NDF,NDF,NDF
+386,386,Organización Internacional de las Maderas Tropicales,OIMT,OIMT,OIMT
+411,411,Banco Interamericano de Desarrollo,BID,BID,BID
+412,412,Banco Internacional de Reconstrucción y Fomento,BIRF,BIRF,BIRF
+413,413,Fondo Financiero para el Desarrollo de la Cuenca del Plata,FONPLATA,FONPLATA,FONPLATA
+414,414,Fondo Monetario Internacional,FMI,FMI,FMI
+415,415,Asociación Internacional de Fomento (BM),AIF,AIF,AIF
+416,416,Banco Interamericano de Ahorro y Préstamos,BIAPE,BIAPE,BIAPE
+417,417,Banco de Importaciones - Exportaciones Japón,EXIMBANK-J,EXIMBANK-J,EXIMBANK-J
+418,418,Banco de Importaciones - Exportaciones Corea,EXIMBANK-K,EXIMBANK-K,EXIMBANK-K
+419,419,Banco de Importaciones - Exportaciones (EE. UU.),EXIMBANK-U,EXIMBANK-U,EXIMBANK-U
+420,420,Corporación Financiera Internacional (BM),CFI,CFI,CFI
+511,511,Agencia Canadiense para el Desarrollo Internacional,ACDI,ACDI,ACDI
+512,512,Agencia de Cooperación Internacional del Japón,JICA,JICA,JICA
+513,513,Agencia de los EE. UU. para el Desarrollo Internacional,USAID,USAID,USAID
+514,514,Agencia Danesa de Desarrollo Internacional,DANIDA,DANIDA,DANIDA
+515,515,Agencia Suiza para el Desarrollo y la Cooperación,COSUDE,COSUDE,COSUDE
+516,516,Banco de Crédito para la Reconstrucción,KFW,KFW,KFW
+517,517,Agencia de Cooperación Técnica de la República Alemana,GIZ,GIZ,GIZ
+518,518,Banco de Cooperación Internacional del Japón,JBIC,JBIC,JBIC
+519,519,Dir. General de Cooperación Internacional /Coop. Técnica Belga DGCI,-CTB,-CTB,-CTB
+520,520,Agencia Sueca de Desarrollo Internacional,ASDI,ASDI,ASDI
+521,521,Corporación Internacional de Desarrollo,CID,CID,CID
+523,523,Agencia Canadiense para el Desarrollo Internacional Regional,CIID,CIID,CIID
+524,524,Fondo para el Medio Ambiente Mundial (BM),GEF,GEF,GEF
+525,525,Instituto de Cooperación Iberoamericana,ICI,ICI,ICI
+526,526,Fondo Institucional de Desarrollo,IDF,IDF,IDF
+527,527,Agencia Noruega para el Desarrollo Internacional,NORAD,NORAD,NORAD
+528,528,Agencia Española de Cooperación Internacional para el Desarrollo,AECID,AECID,AECID
+529,529,Corporación de Créditos de Mercaderías (EE. UU.),CCC,CCC,CCC
+530,530,Export Development Corporation (CANADA),EDC,EDC,EDC
+541,541,República Federal de Alemania,ALEM,ALEM,ALEM
+542,542,Argentina,ARG,ARG,ARG
+543,543,Bélgica,BEL,BEL,BEL
+544,544,Brasil,BRA,BRA,BRA
+545,545,Canadá,CANADA,CANADA,CANADA
+546,546,República de Corea,COR,COR,COR
+548,548,República Popular China,CHINA,CHINA,CHINA
+549,549,República China Nacionalista - Taiwán,CH-TAI,CH-TAI,CH-TAI
+551,551,Dinamarca,DIN,DIN,DIN
+552,552,España,ESP,ESP,ESP
+553,553,Estados Unidos de América,USA,USA,USA
+554,554,Francia,FRA,FRA,FRA
+555,555,Gran Bretaña,G-BR,G-BR,G-BR
+556,556,Holanda,HOL,HOL,HOL
+557,557,Hungría,HUN,HUN,HUN
+558,558,Israel,ISR,ISR,ISR
+559,559,Italia,ITA,ITA,ITA
+561,561,Japón,JAP,JAP,JAP
+562,562,Noruega,NOR,NOR,NOR
+563,563,Perú,PERU,PERU,PERU
+564,564,Rumania,RUM,RUM,RUM
+565,565,Suecia,SUE,SUE,SUE
+566,566,Suiza,SUI,SUI,SUI
+567,567,Federación de Rusia,RUSIA,RUSIA,RUSIA
+568,568,República Bolivariana de Venezuela,VEN,VEN,VEN
+569,569,Polonia,POL,POL,POL
+571,571,Austria,AUST,AUST,AUST
+572,572,Sudáfrica,SUDAF,SUDAF,SUDAF
+573,573,Panamá,PAN,PAN,PAN
+574,574,Portugal,PORT,PORT,PORT
+575,575,República de Chile,CHI,CHI,CHI
+576,576,México,MEX,MEX,MEX
+577,577,República Oriental del Uruguay,URU,URU,URU
+578,578,Paraguay,PARA,PARA,PARA
+579,579,Filipinas,FILIP,FILIP,FILIP
+580,580,Colombia,COL,COL,COL
+581,581,Ecuador,ECU,ECU,ECU
+582,582,Cuba,CU,CU,CU
+641,641,Care,CARE,CARE,CARE
+642,642,Caritas,CARITAS,CARITAS,CARITAS
+643,643,Plan Internacional,PLAN-INTER,PLAN-INTER,PLAN-INTER
+644,644,Fundación Amigos de la Naturaleza,FAN,FAN,FAN
+669,669,Otros Organismos no Gubernamentales,OT-NOGUB,OT-NOGUB,OT-NOGUB
+671,671,Bancos Privados,BAN-PRI,BAN-PRI,BAN-PRI
+672,672,Proveedores,PROV,PROV,PROV
+720,720,"Basket Funding recursos por organismo proveedor, internas o externas, asociado a los grupos de fuentes de financiamiento básicamente, a las fuentes de financiamiento.",BASK-FUN,BASK-FUN,BASK-FUN
+730,730,Banco de Importaciones - Exportaciones China,EXIMBANK-CH,EXIMBANK-CH,EXIMBANK-CH
+731,731,Banco de Desarrollo de China,BDC,BDC,BDC
+733,733,Agencia de Cooperación Internacional de Corea del Sur,KOICA,KOICA,KOICA
+734,734,Oficina de las Naciones Unidas contra la Droga y el Delito,UNODC,UNODC,UNODC
+735,735,Fondo OPEP para el Desarrollo Internacional,OFID,OFID,OFID
+736,736,Fondo Verde para el Clima,FVC,FVC,FVC
+738,738,Agencia Francesa de Desarrollo,AFD,AFD,AFD
+739,739,Agencia Italiana para la Cooperación al Desarrollo,AICS,AICS,AICS
+740,740,Cassa Depositi e Prestiti S.p.A.,CDP,CDP,CDP
+741,741,Danske Bank,DKB,DKB,DKB
+742,742,Entidad de las Naciones Unidas para la Igualdad de Género y ONU Empoderamiento de las Mujeres,MUJERES,MUJERES,MUJERES
+743,743,Physikalisch Technische Bundesanstalt,PTB,PTB,PTB
+745,745,Nuevo Banco de Desarrollo del Brics NTB,BRICS,BRICS,BRICS
+746,746,Fondo Saudita para el Desarrollo,SFD,SFD,SFD
+747,747,Fondo de Kuwaití para el Desarrollo Económico Árabe,KFAED,KFAED,KFAED
+748,748,Banco de Exportación e Importación de India EXIMBANK,INDIA,INDIA,INDIA
+749,749,Fondo Abu Dhabi para el Desarrollo,ADFD,ADFD,ADFD
+997,997,Otros Organismos Financiadores Multilaterales,OT-MUL,OT-MUL,OT-MUL
+998,998,Otros Organismos Financiadores Bilaterales,OT-BIL,OT-BIL,OT-BIL

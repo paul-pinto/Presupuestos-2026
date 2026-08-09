@@ -58,6 +58,26 @@ type EntidadIndicador = {
   hombres_2024: number;
   mujeres_2024: number;
   presupuesto_per_capita: number;
+
+  pib_estimado_usd2017_2021?: number | null;
+  poblacion_estimada_pibpc_2021?: number | null;
+  poblacion_proyectada_2021?: number | null;
+  pibpc_usd2017_2021?: number | null;
+  pibpc_2021_es_estimacion?: boolean;
+  pibpc_2021_match_status?: string | null;
+
+  nbi_2024_es_dato_censal?: boolean;
+  nbi_2024_match_status?: string | null;
+  nbi_pobre_pct?: number | null;
+  nbi_pobre_moderada_pct?: number | null;
+  nbi_pobre_indigente_pct?: number | null;
+  nbi_pobre_marginal_pct?: number | null;
+  nbi_inadecuados_materiales_vivienda?: number | null;
+  nbi_insuficientes_espacios_vivienda?: number | null;
+  nbi_inadecuados_agua_saneamiento?: number | null;
+  nbi_inadecuados_insumos_energeticos?: number | null;
+  nbi_insuficiencia_educacion?: number | null;
+  nbi_inadecuada_atencion_salud?: number | null;
 };
 
 
@@ -181,6 +201,24 @@ function formatFiscalPct(value: number | null | undefined): string {
   })}%`;
 }
 
+function formatUsd2017(value: number | null | undefined): string {
+  if (value === null || value === undefined) return "Sin dato";
+
+  return `USD ${Number(value || 0).toLocaleString("es-BO", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })}`;
+}
+
+function formatPctDirect(value: number | null | undefined): string {
+  if (value === null || value === undefined) return "Sin dato";
+
+  return `${Number(value || 0).toLocaleString("es-BO", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  })}%`;
+}
+
 async function fetchJson<T>(path: string): Promise<T> {
   const response = await fetch(path);
 
@@ -203,15 +241,15 @@ function MetricCard({
   icon?: React.ReactNode;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="flex items-center justify-between gap-4">
+    <div className="ofp-card rounded-3xl p-5">
+      <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-sm text-slate-500">{title}</p>
-          <p className="mt-2 text-2xl font-semibold text-slate-950">{value}</p>
-          {subtitle ? <p className="mt-1 text-xs text-slate-500">{subtitle}</p> : null}
+          <p className="max-w-[13rem] text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">{title}</p>
+          <p className="mt-3 break-words text-2xl font-bold tabular-nums text-slate-950">{value}</p>
+          {subtitle ? <p className="mt-1 text-xs leading-5 text-slate-500">{subtitle}</p> : null}
         </div>
         {icon ? (
-          <div className="rounded-xl bg-slate-100 p-3 text-slate-700">
+          <div className="rounded-2xl border border-teal-100 bg-teal-50 p-3 text-teal-700">
             {icon}
           </div>
         ) : null}
@@ -230,11 +268,14 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="mb-4">
-        <h2 className="text-xl font-semibold">{title}</h2>
+    <section className="ofp-card rounded-3xl p-5">
+      <div className="mb-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+          Ficha de entidad
+        </p>
+        <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">{title}</h2>
         {description ? (
-          <p className="mt-1 text-sm text-slate-500">{description}</p>
+          <p className="mt-1 text-sm leading-6 text-slate-600">{description}</p>
         ) : null}
       </div>
       {children}
@@ -252,7 +293,7 @@ function chartOptionHorizontal({
   left?: number;
 }) {
   return {
-    grid: { left, right: 40, top: 20, bottom: 40 },
+    grid: { left, right: 55, top: 20, bottom: 45, containLabel: false },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
@@ -260,7 +301,11 @@ function chartOptionHorizontal({
     },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -268,8 +313,11 @@ function chartOptionHorizontal({
     yAxis: {
       type: "category",
       data: labels,
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
-        width: left - 20,
+        color: "#334155",
+        width: left - 30,
         overflow: "truncate",
       },
     },
@@ -277,6 +325,15 @@ function chartOptionHorizontal({
       {
         type: "bar",
         data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -381,7 +438,7 @@ export default function EntidadDetallePage() {
   const gruposOption = chartOptionHorizontal({
     labels: [...grupos].reverse().map((item) => item.label),
     values: [...grupos].reverse().map((item) => item.monto),
-    left: 130,
+    left: 120,
   });
 
   const programasOption = chartOptionHorizontal({
@@ -393,7 +450,7 @@ export default function EntidadDetallePage() {
       .slice(0, 15)
       .reverse()
       .map((item) => item.total),
-    left: 300,
+    left: 260,
   });
 
   const diffIngresosGastos = validacionEntidad?.diff_ingresos_vs_gastos || 0;
@@ -415,11 +472,11 @@ export default function EntidadDetallePage() {
 
   if (!entidad) {
     return (
-      <main className="min-h-screen bg-slate-50 text-slate-950">
+      <main className="min-h-screen ofp-page-bg text-slate-950">
         <section className="mx-auto max-w-4xl px-6 py-12">
           <Link
             href="/entidades"
-            className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-950"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
           >
             <ArrowLeft size={16} />
             Volver a entidades
@@ -438,46 +495,12 @@ export default function EntidadDetallePage() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
-
-        {indicadorEntidad ? (
-          <section className="mx-auto grid max-w-7xl gap-4 px-6 py-6 md:grid-cols-4">
-            <MetricCard
-              title="Población 2024"
-              value={formatInt(indicadorEntidad.poblacion_2024)}
-              subtitle="Fuente: INE 2024"
-              icon={<Building2 size={22} />}
-            />
-
-            <MetricCard
-              title="Presupuesto per cápita"
-              value={formatBs(indicadorEntidad.presupuesto_per_capita)}
-              subtitle="SIGEP / población INE"
-              icon={<WalletCards size={22} />}
-            />
-
-            <MetricCard
-              title="Municipio INE"
-              value={indicadorEntidad.municipio_ine}
-              subtitle="Referencia censal"
-              icon={<Landmark size={22} />}
-            />
-
-            <MetricCard
-              title="Provincia INE"
-              value={indicadorEntidad.provincia_ine}
-              subtitle="Referencia territorial"
-              icon={<ShieldCheck size={22} />}
-            />
-          </section>
-        ) : null}
-
-
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8">
+    <main className="min-h-screen ofp-page-bg text-slate-950">
+      <section className="ofp-hero">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
           <Link
             href="/entidades"
-            className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-950"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
           >
             <ArrowLeft size={16} />
             Volver a entidades
@@ -485,34 +508,189 @@ export default function EntidadDetallePage() {
 
           <div className="mt-6 flex items-start justify-between gap-6">
             <div>
-              <p className="text-sm font-medium uppercase tracking-wide text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-teal-700">
                 Ficha individual · Código {entidad.codigo_entidad}
               </p>
-              <h1 className="mt-2 text-4xl font-bold tracking-tight">
+              <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-950">
                 {entidad.nombre_entidad}
               </h1>
-              <p className="mt-3 max-w-3xl text-slate-600">
+              <p className="mt-4 max-w-4xl text-base leading-7 text-slate-600">
                 {entidad.departamento} · {entidad.tipo} · {entidad.grupo_eta}
               </p>
             </div>
 
-            <div className="hidden rounded-2xl bg-slate-100 p-4 text-slate-700 md:block">
+            <div className="hidden rounded-3xl border border-teal-100 bg-teal-50 p-4 text-teal-700 md:block">
               <Building2 size={32} />
             </div>
           </div>
         </div>
       </section>
 
+      {indicadorEntidad ? (
+        <section className="mx-auto grid max-w-7xl gap-4 px-6 py-6 md:grid-cols-4">
+          <MetricCard
+            title="Población 2024"
+            value={formatInt(indicadorEntidad.poblacion_2024)}
+            subtitle="Fuente: INE 2024"
+            icon={<Building2 size={22} />}
+          />
+
+          <MetricCard
+            title="Presupuesto per cápita"
+            value={formatBs(indicadorEntidad.presupuesto_per_capita)}
+            subtitle="SIGEP / población INE"
+            icon={<WalletCards size={22} />}
+          />
+
+          <MetricCard
+            title="Municipio INE"
+            value={indicadorEntidad.municipio_ine}
+            subtitle="Referencia censal"
+            icon={<Landmark size={22} />}
+          />
+
+          <MetricCard
+            title="Provincia INE"
+            value={indicadorEntidad.provincia_ine}
+            subtitle="Referencia territorial"
+            icon={<ShieldCheck size={22} />}
+          />
+        </section>
+      ) : null}
+
+      {indicadorEntidad ? (
+        <section className="mx-auto max-w-7xl px-6 py-6">
+          <div className="mb-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+              Indicadores socioeconómicos
+            </p>
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">
+              PIBpc estimado 2021 y NBI 2024
+            </h2>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
+              El PIB municipal es una estimación espacial propia en base a Rossi-Hansberg & Zhang (2025) y WorldPop 2021, expresada en USD constantes de 2017. El PIBpc público usa como denominador la población proyectada municipal 2021, evitando mezclar una medición económica 2021 con población censal 2024. El NBI corresponde a dato censal 2024 del INE Bolivia.
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            <MetricCard
+              title="PIBpc 2021"
+              value={formatUsd2017(indicadorEntidad.pibpc_usd2017_2021)}
+              subtitle="Estimado · USD constantes de 2017"
+              icon={<WalletCards size={22} />}
+            />
+
+            <MetricCard
+              title="PIB municipal 2021"
+              value={formatUsd2017(indicadorEntidad.pib_estimado_usd2017_2021)}
+              subtitle="Estimación espacial · USD 2017"
+              icon={<Landmark size={22} />}
+            />
+
+            <MetricCard
+              title="Población 2021"
+              value={
+                indicadorEntidad.poblacion_proyectada_2021 === null ||
+                indicadorEntidad.poblacion_proyectada_2021 === undefined
+                  ? "Sin dato"
+                  : formatInt(indicadorEntidad.poblacion_proyectada_2021)
+              }
+              subtitle="Base usada para PIBpc"
+              icon={<Building2 size={22} />}
+            />
+
+            <MetricCard
+              title="Pobreza NBI 2024"
+              value={formatPctDirect(indicadorEntidad.nbi_pobre_pct)}
+              subtitle="Población pobre por NBI"
+              icon={<ShieldCheck size={22} />}
+            />
+
+            <MetricCard
+              title="Pobreza moderada"
+              value={formatPctDirect(indicadorEntidad.nbi_pobre_moderada_pct)}
+              subtitle="Censo 2024"
+              icon={<ShieldCheck size={22} />}
+            />
+
+            <MetricCard
+              title="Indigente + marginal"
+              value={
+                indicadorEntidad.nbi_pobre_indigente_pct === null ||
+                indicadorEntidad.nbi_pobre_indigente_pct === undefined
+                  ? "Sin dato"
+                  : formatPctDirect(
+                      Number(indicadorEntidad.nbi_pobre_indigente_pct || 0) +
+                        Number(indicadorEntidad.nbi_pobre_marginal_pct || 0)
+                    )
+              }
+              subtitle="NBI 2024"
+              icon={<ShieldCheck size={22} />}
+            />
+          </div>
+
+          <div className="mt-4 grid gap-4 md:grid-cols-3">
+            <div className="ofp-card rounded-3xl p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+                Agua y saneamiento
+              </p>
+              <p className="mt-3 text-2xl font-bold tabular-nums text-slate-950">
+                {indicadorEntidad.nbi_inadecuados_agua_saneamiento === null ||
+                indicadorEntidad.nbi_inadecuados_agua_saneamiento === undefined
+                  ? "Sin dato"
+                  : formatInt(indicadorEntidad.nbi_inadecuados_agua_saneamiento)}
+              </p>
+              <p className="mt-1 text-xs leading-5 text-slate-500">
+                Personas con servicios inadecuados según NBI 2024.
+              </p>
+            </div>
+
+            <div className="ofp-card rounded-3xl p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+                Educación
+              </p>
+              <p className="mt-3 text-2xl font-bold tabular-nums text-slate-950">
+                {indicadorEntidad.nbi_insuficiencia_educacion === null ||
+                indicadorEntidad.nbi_insuficiencia_educacion === undefined
+                  ? "Sin dato"
+                  : formatInt(indicadorEntidad.nbi_insuficiencia_educacion)}
+              </p>
+              <p className="mt-1 text-xs leading-5 text-slate-500">
+                Personas con insuficiencia en educación según NBI 2024.
+              </p>
+            </div>
+
+            <div className="ofp-card rounded-3xl p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+                Salud
+              </p>
+              <p className="mt-3 text-2xl font-bold tabular-nums text-slate-950">
+                {indicadorEntidad.nbi_inadecuada_atencion_salud === null ||
+                indicadorEntidad.nbi_inadecuada_atencion_salud === undefined
+                  ? "Sin dato"
+                  : formatInt(indicadorEntidad.nbi_inadecuada_atencion_salud)}
+              </p>
+              <p className="mt-1 text-xs leading-5 text-slate-500">
+                Personas con atención en salud inadecuada según NBI 2024.
+              </p>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {fiscalEntidad ? (
         <section className="mx-auto max-w-7xl px-6 py-6">
-          <div className="mb-4">
-            <h2 className="text-xl font-semibold text-slate-950">Indicadores fiscales</h2>
-            <p className="mt-1 text-sm text-slate-500">
+          <div className="mb-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+              Indicadores fiscales
+            </p>
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Indicadores fiscales</h2>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
               Composición de ingresos por fuente y organismo financiador.
             </p>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-3 xl:grid-cols-6">
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             <MetricCard
               title="Autonomía fiscal estricta"
               value={
@@ -562,7 +740,7 @@ export default function EntidadDetallePage() {
         </section>
       ) : null}
 
-      <section className="mx-auto max-w-7xl px-6 py-8">
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
         <div className="grid gap-4 md:grid-cols-4">
           <MetricCard
             title="Presupuesto total"
@@ -626,21 +804,21 @@ export default function EntidadDetallePage() {
               </div>
 
               <div className="grid gap-3">
-                <div className="rounded-xl bg-slate-50 p-4">
-                  <p className="text-slate-500">Gasto categoría/grupo</p>
-                  <p className="mt-1 font-semibold">
+                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <p className="text-sm text-slate-500">Gasto categoría/grupo</p>
+                  <p className="mt-2 font-semibold tabular-nums text-slate-950">
                     {formatBs(validacionEntidad?.gastos_categoria_grupo || 0)}
                   </p>
                 </div>
-                <div className="rounded-xl bg-slate-50 p-4">
-                  <p className="text-slate-500">Ingresos recursos/rubro</p>
-                  <p className="mt-1 font-semibold">
+                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <p className="text-sm text-slate-500">Ingresos recursos/rubro</p>
+                  <p className="mt-2 font-semibold tabular-nums text-slate-950">
                     {formatBs(validacionEntidad?.ingresos_recursos_rubro || 0)}
                   </p>
                 </div>
-                <div className="rounded-xl bg-slate-50 p-4">
-                  <p className="text-slate-500">Gasto objeto/fuente</p>
-                  <p className="mt-1 font-semibold">
+                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                  <p className="text-sm text-slate-500">Gasto objeto/fuente</p>
+                  <p className="mt-2 font-semibold tabular-nums text-slate-950">
                     {formatBs(validacionEntidad?.gastos_objeto_fuente || 0)}
                   </p>
                 </div>
@@ -650,21 +828,24 @@ export default function EntidadDetallePage() {
 
           <Section title="Diferencias de control">
             <div className="grid gap-3 text-sm">
-              <div className="rounded-xl bg-slate-50 p-4">
-                <p className="text-slate-500">Diff ingresos vs gastos</p>
-                <p className="mt-1 text-xl font-semibold">{formatBs(diffIngresosGastos)}</p>
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <p className="text-sm text-slate-500">Diff ingresos vs gastos</p>
+                <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatBs(diffIngresosGastos)}</p>
               </div>
-              <div className="rounded-xl bg-slate-50 p-4">
-                <p className="text-slate-500">Diff objeto vs categoría</p>
-                <p className="mt-1 text-xl font-semibold">{formatBs(diffObjetoCategoria)}</p>
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <p className="text-sm text-slate-500">Diff objeto vs categoría</p>
+                <p className="mt-2 text-xl font-bold tabular-nums text-slate-950">{formatBs(diffObjetoCategoria)}</p>
               </div>
             </div>
           </Section>
         </div>
 
-        <div className="mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <div className="border-b bg-white p-5">
-            <h2 className="text-xl font-semibold">Tabla de programas</h2>
+        <div className="mt-8 overflow-hidden ofp-card rounded-3xl">
+          <div className="border-b border-slate-200 bg-white p-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+              Tabla
+            </p>
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Tabla de programas</h2>
             <p className="mt-1 text-sm text-slate-500">
               Programas exportados para esta entidad.
             </p>
@@ -678,25 +859,25 @@ export default function EntidadDetallePage() {
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b bg-slate-50 text-left">
+                  <tr className="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-[0.16em] text-slate-500">
                     <th className="p-3">PRG</th>
                     <th className="p-3">Programa</th>
-                    <th className="p-3 text-right">Total</th>
-                    <th className="p-3 text-right">% entidad</th>
+                    <th className="p-3 text-right tabular-nums text-slate-700">Total</th>
+                    <th className="p-3 text-right tabular-nums text-slate-700">% entidad</th>
                   </tr>
                 </thead>
                 <tbody>
                   {programasEntidad.map((item, index) => (
                     <tr
                       key={`${item.codigo_entidad}-${item.prg}-${index}`}
-                      className="border-b hover:bg-slate-50"
+                      className="border-b border-slate-100 transition hover:bg-slate-50"
                     >
-                      <td className="p-3 font-mono">{item.prg}</td>
-                      <td className="p-3 font-medium">{item.descripcion}</td>
-                      <td className="p-3 text-right font-semibold">
+                      <td className="p-3 font-mono text-xs text-slate-600">{item.prg}</td>
+                      <td className="p-3 font-medium text-slate-950">{item.descripcion}</td>
+                      <td className="p-3 text-right font-semibold tabular-nums text-slate-950">
                         {formatBs(item.total)}
                       </td>
-                      <td className="p-3 text-right">
+                      <td className="p-3 text-right tabular-nums text-slate-700">
                         {formatPct(item.total, entidad.presupuesto_total)}
                       </td>
                     </tr>

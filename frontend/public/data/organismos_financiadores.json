@@ -1,0 +1,1202 @@
+[
+  {
+    "codigo": "111",
+    "organismo": "111",
+    "nombre_oficial": "Tesoro General de la Nación",
+    "sigla": "TGN",
+    "nombre_corto": "TGN",
+    "label": "TGN"
+  },
+  {
+    "codigo": "112",
+    "organismo": "112",
+    "nombre_oficial": "Tesoro General de la Nación – Papeles",
+    "sigla": "TGN-P",
+    "nombre_corto": "TGN - Papeles",
+    "label": "TGN - Papeles"
+  },
+  {
+    "codigo": "113",
+    "organismo": "113",
+    "nombre_oficial": "Tesoro General de la Nación – Coparticipación Tributaria",
+    "sigla": "TGN-CT",
+    "nombre_corto": "Coparticipación Tributaria",
+    "label": "Coparticipación Tributaria"
+  },
+  {
+    "codigo": "114",
+    "organismo": "114",
+    "nombre_oficial": "Recursos de Contravalor",
+    "sigla": "RECON",
+    "nombre_corto": "Recursos de Contravalor",
+    "label": "Recursos de Contravalor"
+  },
+  {
+    "codigo": "115",
+    "organismo": "115",
+    "nombre_oficial": "Donaciones – HIPC II",
+    "sigla": "DON-HIPC",
+    "nombre_corto": "DON-HIPC",
+    "label": "DON-HIPC"
+  },
+  {
+    "codigo": "116",
+    "organismo": "116",
+    "nombre_oficial": "Tesoro General de la Nación – Fondo de Compensación Departamental",
+    "sigla": "TGN-FCOMP",
+    "nombre_corto": "Fondo de Compensación Departamental",
+    "label": "Fondo de Compensación Departamental"
+  },
+  {
+    "codigo": "117",
+    "organismo": "117",
+    "nombre_oficial": "Tesoro General de la Nación – Impuesto Especial a los Hidrocarburos y sus Derivados",
+    "sigla": "TGN-IEHD",
+    "nombre_corto": "IEHD",
+    "label": "IEHD"
+  },
+  {
+    "codigo": "119",
+    "organismo": "119",
+    "nombre_oficial": "Tesoro General de la Nación – Impuesto Directo a los Hidrocarburos",
+    "sigla": "TGN-IDH",
+    "nombre_corto": "IDH",
+    "label": "IDH"
+  },
+  {
+    "codigo": "120",
+    "organismo": "120",
+    "nombre_oficial": "Tesoro General de la Nación – Impuesto a la Participación en Juegos",
+    "sigla": "TGN-IPJ",
+    "nombre_corto": "IPJ",
+    "label": "IPJ"
+  },
+  {
+    "codigo": "121",
+    "organismo": "121",
+    "nombre_oficial": "Tesoro General de la Nación – Patentes Petroleras Originario Campesino",
+    "sigla": "TGN-PPET",
+    "nombre_corto": "Patentes Petroleras",
+    "label": "Patentes Petroleras"
+  },
+  {
+    "codigo": "220",
+    "organismo": "220",
+    "nombre_oficial": "Regalías",
+    "sigla": "REG",
+    "nombre_corto": "Regalías",
+    "label": "Regalías"
+  },
+  {
+    "codigo": "230",
+    "organismo": "230",
+    "nombre_oficial": "Otros Recursos Específicos",
+    "sigla": "OTPRO",
+    "nombre_corto": "Otros recursos específicos",
+    "label": "Otros recursos específicos"
+  },
+  {
+    "codigo": "311",
+    "organismo": "311",
+    "nombre_oficial": "Asociación Latinoamericana de Integración",
+    "sigla": "ALADI",
+    "nombre_corto": "ALADI",
+    "label": "ALADI"
+  },
+  {
+    "codigo": "312",
+    "organismo": "312",
+    "nombre_oficial": "Centro Internacional de Agricultura Tropical",
+    "sigla": "CIAT",
+    "nombre_corto": "CIAT",
+    "label": "CIAT"
+  },
+  {
+    "codigo": "313",
+    "organismo": "313",
+    "nombre_oficial": "Comisión Económica para América Latina",
+    "sigla": "CEPAL",
+    "nombre_corto": "CEPAL",
+    "label": "CEPAL"
+  },
+  {
+    "codigo": "314",
+    "organismo": "314",
+    "nombre_oficial": "Corporación Andina de Fomento - Banco de Desarrollo de América Latina",
+    "sigla": "CAF",
+    "nombre_corto": "CAF",
+    "label": "CAF"
+  },
+  {
+    "codigo": "315",
+    "organismo": "315",
+    "nombre_oficial": "Fondo Andino de Reserva",
+    "sigla": "FAR",
+    "nombre_corto": "FAR",
+    "label": "FAR"
+  },
+  {
+    "codigo": "316",
+    "organismo": "316",
+    "nombre_oficial": "Instituto Interamericano de Cooperación para la Agricultura",
+    "sigla": "IICA",
+    "nombre_corto": "IICA",
+    "label": "IICA"
+  },
+  {
+    "codigo": "317",
+    "organismo": "317",
+    "nombre_oficial": "Comunidad Andina",
+    "sigla": "CAN",
+    "nombre_corto": "CAN",
+    "label": "CAN"
+  },
+  {
+    "codigo": "318",
+    "organismo": "318",
+    "nombre_oficial": "Organización de los Estados Americanos",
+    "sigla": "OEA",
+    "nombre_corto": "OEA",
+    "label": "OEA"
+  },
+  {
+    "codigo": "319",
+    "organismo": "319",
+    "nombre_oficial": "Organización Latinoamericana de Energía",
+    "sigla": "OLADE",
+    "nombre_corto": "OLADE",
+    "label": "OLADE"
+  },
+  {
+    "codigo": "321",
+    "organismo": "321",
+    "nombre_oficial": "Organización Panamericana de la Salud",
+    "sigla": "OPS",
+    "nombre_corto": "OPS",
+    "label": "OPS"
+  },
+  {
+    "codigo": "322",
+    "organismo": "322",
+    "nombre_oficial": "Sistema Económico Latinoamericano y del Caribe",
+    "sigla": "SELA",
+    "nombre_corto": "SELA",
+    "label": "SELA"
+  },
+  {
+    "codigo": "323",
+    "organismo": "323",
+    "nombre_oficial": "Fondo de Desarrollo de Pueblos Indígenas de América Latina y El Caribe",
+    "sigla": "FILAC",
+    "nombre_corto": "FILAC",
+    "label": "FILAC"
+  },
+  {
+    "codigo": "341",
+    "organismo": "341",
+    "nombre_oficial": "Programa de las NN.UU. para los Asentamientos Humanos",
+    "sigla": "ONU-HABITAT",
+    "nombre_corto": "ONU-HABITAT",
+    "label": "ONU-HABITAT"
+  },
+  {
+    "codigo": "343",
+    "organismo": "343",
+    "nombre_oficial": "Departamento de Cooperación Técnica para el Desarrollo de las Naciones Unidas",
+    "sigla": "DTCD",
+    "nombre_corto": "DTCD",
+    "label": "DTCD"
+  },
+  {
+    "codigo": "344",
+    "organismo": "344",
+    "nombre_oficial": "Fondo de las NN.UU. para la Infancia",
+    "sigla": "UNICEF",
+    "nombre_corto": "UNICEF",
+    "label": "UNICEF"
+  },
+  {
+    "codigo": "345",
+    "organismo": "345",
+    "nombre_oficial": "Fondo de Población de las Naciones Unidas",
+    "sigla": "UNFPA",
+    "nombre_corto": "UNFPA",
+    "label": "UNFPA"
+  },
+  {
+    "codigo": "346",
+    "organismo": "346",
+    "nombre_oficial": "Fondo Internacional de Desarrollo Agrícola",
+    "sigla": "FIDA",
+    "nombre_corto": "FIDA",
+    "label": "FIDA"
+  },
+  {
+    "codigo": "347",
+    "organismo": "347",
+    "nombre_oficial": "Instituto de NN.UU. para Formación Profesional e Investigaciones",
+    "sigla": "UNITAR",
+    "nombre_corto": "UNITAR",
+    "label": "UNITAR"
+  },
+  {
+    "codigo": "348",
+    "organismo": "348",
+    "nombre_oficial": "Organización de Aviación Civil Internacional",
+    "sigla": "OACI",
+    "nombre_corto": "OACI",
+    "label": "OACI"
+  },
+  {
+    "codigo": "349",
+    "organismo": "349",
+    "nombre_oficial": "Organización de las NN.UU. para el Desarrollo Industrial",
+    "sigla": "ONUDI",
+    "nombre_corto": "ONUDI",
+    "label": "ONUDI"
+  },
+  {
+    "codigo": "351",
+    "organismo": "351",
+    "nombre_oficial": "Organización de las NN.UU. para la Agricultura y la Alimentación",
+    "sigla": "FAO",
+    "nombre_corto": "FAO",
+    "label": "FAO"
+  },
+  {
+    "codigo": "352",
+    "organismo": "352",
+    "nombre_oficial": "Organización de las NN.UU. para la Educación, Ciencia y la Cultura",
+    "sigla": "UNESCO",
+    "nombre_corto": "UNESCO",
+    "label": "UNESCO"
+  },
+  {
+    "codigo": "353",
+    "organismo": "353",
+    "nombre_oficial": "Organización Internacional de Energía Atómica",
+    "sigla": "OIEA",
+    "nombre_corto": "OIEA",
+    "label": "OIEA"
+  },
+  {
+    "codigo": "354",
+    "organismo": "354",
+    "nombre_oficial": "Organización Internacional del Trabajo",
+    "sigla": "OIT",
+    "nombre_corto": "OIT",
+    "label": "OIT"
+  },
+  {
+    "codigo": "355",
+    "organismo": "355",
+    "nombre_oficial": "Organización Mundial de la Salud",
+    "sigla": "OMS",
+    "nombre_corto": "OMS",
+    "label": "OMS"
+  },
+  {
+    "codigo": "356",
+    "organismo": "356",
+    "nombre_oficial": "Organización Meteorología Mundial",
+    "sigla": "OMM",
+    "nombre_corto": "OMM",
+    "label": "OMM"
+  },
+  {
+    "codigo": "357",
+    "organismo": "357",
+    "nombre_oficial": "Programa de las NN.UU. para el Desarrollo",
+    "sigla": "PNUD",
+    "nombre_corto": "PNUD",
+    "label": "PNUD"
+  },
+  {
+    "codigo": "358",
+    "organismo": "358",
+    "nombre_oficial": "Programa de NN.UU. para el Medio Ambiente",
+    "sigla": "PNUMA",
+    "nombre_corto": "PNUMA",
+    "label": "PNUMA"
+  },
+  {
+    "codigo": "359",
+    "organismo": "359",
+    "nombre_oficial": "Unión Internacional de Telecomunicaciones",
+    "sigla": "UIT",
+    "nombre_corto": "UIT",
+    "label": "UIT"
+  },
+  {
+    "codigo": "361",
+    "organismo": "361",
+    "nombre_oficial": "Unión Postal Universal",
+    "sigla": "UPU",
+    "nombre_corto": "UPU",
+    "label": "UPU"
+  },
+  {
+    "codigo": "362",
+    "organismo": "362",
+    "nombre_oficial": "Universidad de las Naciones Unidas",
+    "sigla": "UNU",
+    "nombre_corto": "UNU",
+    "label": "UNU"
+  },
+  {
+    "codigo": "371",
+    "organismo": "371",
+    "nombre_oficial": "Unión Europea",
+    "sigla": "UE",
+    "nombre_corto": "UE",
+    "label": "UE"
+  },
+  {
+    "codigo": "372",
+    "organismo": "372",
+    "nombre_oficial": "Consejo de Ayuda Mutua Económica",
+    "sigla": "CAME",
+    "nombre_corto": "CAME",
+    "label": "CAME"
+  },
+  {
+    "codigo": "373",
+    "organismo": "373",
+    "nombre_oficial": "Organización de Países Exportadores de Petróleo",
+    "sigla": "OPEC",
+    "nombre_corto": "OPEC",
+    "label": "OPEC"
+  },
+  {
+    "codigo": "374",
+    "organismo": "374",
+    "nombre_oficial": "Programa Mundial de Alimentos",
+    "sigla": "PMA",
+    "nombre_corto": "PMA",
+    "label": "PMA"
+  },
+  {
+    "codigo": "375",
+    "organismo": "375",
+    "nombre_oficial": "Organización Internacional para las Migraciones",
+    "sigla": "OIM",
+    "nombre_corto": "OIM",
+    "label": "OIM"
+  },
+  {
+    "codigo": "376",
+    "organismo": "376",
+    "nombre_oficial": "Fondo de NNUU para el Desarrollo de la Capitalización",
+    "sigla": "UNCDF",
+    "nombre_corto": "UNCDF",
+    "label": "UNCDF"
+  },
+  {
+    "codigo": "377",
+    "organismo": "377",
+    "nombre_oficial": "Programa de las NNUU para la Fiscalización Internacional de Drogas",
+    "sigla": "UNDCP",
+    "nombre_corto": "UNDCP",
+    "label": "UNDCP"
+  },
+  {
+    "codigo": "378",
+    "organismo": "378",
+    "nombre_oficial": "Fondo de las NNUU para la Mujer",
+    "sigla": "UNIFEM",
+    "nombre_corto": "UNIFEM",
+    "label": "UNIFEM"
+  },
+  {
+    "codigo": "379",
+    "organismo": "379",
+    "nombre_oficial": "Fondo Rotativo de las NNUU para la Exploración de los Recursos Naturales",
+    "sigla": "UNRFNRE",
+    "nombre_corto": "UNRFNRE",
+    "label": "UNRFNRE"
+  },
+  {
+    "codigo": "382",
+    "organismo": "382",
+    "nombre_oficial": "Fondo de Ayuda al Equipamiento (España)",
+    "sigla": "FAE",
+    "nombre_corto": "FAE",
+    "label": "FAE"
+  },
+  {
+    "codigo": "383",
+    "organismo": "383",
+    "nombre_oficial": "Fondo de Integración y Desarrollo Bolivia-Argentina",
+    "sigla": "FIDAB",
+    "nombre_corto": "FIDAB",
+    "label": "FIDAB"
+  },
+  {
+    "codigo": "384",
+    "organismo": "384",
+    "nombre_oficial": "Fondo Nórdico para el Desarrollo",
+    "sigla": "NDF",
+    "nombre_corto": "NDF",
+    "label": "NDF"
+  },
+  {
+    "codigo": "386",
+    "organismo": "386",
+    "nombre_oficial": "Organización Internacional de las Maderas Tropicales",
+    "sigla": "OIMT",
+    "nombre_corto": "OIMT",
+    "label": "OIMT"
+  },
+  {
+    "codigo": "411",
+    "organismo": "411",
+    "nombre_oficial": "Banco Interamericano de Desarrollo",
+    "sigla": "BID",
+    "nombre_corto": "BID",
+    "label": "BID"
+  },
+  {
+    "codigo": "412",
+    "organismo": "412",
+    "nombre_oficial": "Banco Internacional de Reconstrucción y Fomento",
+    "sigla": "BIRF",
+    "nombre_corto": "BIRF",
+    "label": "BIRF"
+  },
+  {
+    "codigo": "413",
+    "organismo": "413",
+    "nombre_oficial": "Fondo Financiero para el Desarrollo de la Cuenca del Plata",
+    "sigla": "FONPLATA",
+    "nombre_corto": "FONPLATA",
+    "label": "FONPLATA"
+  },
+  {
+    "codigo": "414",
+    "organismo": "414",
+    "nombre_oficial": "Fondo Monetario Internacional",
+    "sigla": "FMI",
+    "nombre_corto": "FMI",
+    "label": "FMI"
+  },
+  {
+    "codigo": "415",
+    "organismo": "415",
+    "nombre_oficial": "Asociación Internacional de Fomento (BM)",
+    "sigla": "AIF",
+    "nombre_corto": "AIF",
+    "label": "AIF"
+  },
+  {
+    "codigo": "416",
+    "organismo": "416",
+    "nombre_oficial": "Banco Interamericano de Ahorro y Préstamos",
+    "sigla": "BIAPE",
+    "nombre_corto": "BIAPE",
+    "label": "BIAPE"
+  },
+  {
+    "codigo": "417",
+    "organismo": "417",
+    "nombre_oficial": "Banco de Importaciones - Exportaciones Japón",
+    "sigla": "EXIMBANK-J",
+    "nombre_corto": "EXIMBANK-J",
+    "label": "EXIMBANK-J"
+  },
+  {
+    "codigo": "418",
+    "organismo": "418",
+    "nombre_oficial": "Banco de Importaciones - Exportaciones Corea",
+    "sigla": "EXIMBANK-K",
+    "nombre_corto": "EXIMBANK-K",
+    "label": "EXIMBANK-K"
+  },
+  {
+    "codigo": "419",
+    "organismo": "419",
+    "nombre_oficial": "Banco de Importaciones - Exportaciones (EE. UU.)",
+    "sigla": "EXIMBANK-U",
+    "nombre_corto": "EXIMBANK-U",
+    "label": "EXIMBANK-U"
+  },
+  {
+    "codigo": "420",
+    "organismo": "420",
+    "nombre_oficial": "Corporación Financiera Internacional (BM)",
+    "sigla": "CFI",
+    "nombre_corto": "CFI",
+    "label": "CFI"
+  },
+  {
+    "codigo": "511",
+    "organismo": "511",
+    "nombre_oficial": "Agencia Canadiense para el Desarrollo Internacional",
+    "sigla": "ACDI",
+    "nombre_corto": "ACDI",
+    "label": "ACDI"
+  },
+  {
+    "codigo": "512",
+    "organismo": "512",
+    "nombre_oficial": "Agencia de Cooperación Internacional del Japón",
+    "sigla": "JICA",
+    "nombre_corto": "JICA",
+    "label": "JICA"
+  },
+  {
+    "codigo": "513",
+    "organismo": "513",
+    "nombre_oficial": "Agencia de los EE. UU. para el Desarrollo Internacional",
+    "sigla": "USAID",
+    "nombre_corto": "USAID",
+    "label": "USAID"
+  },
+  {
+    "codigo": "514",
+    "organismo": "514",
+    "nombre_oficial": "Agencia Danesa de Desarrollo Internacional",
+    "sigla": "DANIDA",
+    "nombre_corto": "DANIDA",
+    "label": "DANIDA"
+  },
+  {
+    "codigo": "515",
+    "organismo": "515",
+    "nombre_oficial": "Agencia Suiza para el Desarrollo y la Cooperación",
+    "sigla": "COSUDE",
+    "nombre_corto": "COSUDE",
+    "label": "COSUDE"
+  },
+  {
+    "codigo": "516",
+    "organismo": "516",
+    "nombre_oficial": "Banco de Crédito para la Reconstrucción",
+    "sigla": "KFW",
+    "nombre_corto": "KFW",
+    "label": "KFW"
+  },
+  {
+    "codigo": "517",
+    "organismo": "517",
+    "nombre_oficial": "Agencia de Cooperación Técnica de la República Alemana",
+    "sigla": "GIZ",
+    "nombre_corto": "GIZ",
+    "label": "GIZ"
+  },
+  {
+    "codigo": "518",
+    "organismo": "518",
+    "nombre_oficial": "Banco de Cooperación Internacional del Japón",
+    "sigla": "JBIC",
+    "nombre_corto": "JBIC",
+    "label": "JBIC"
+  },
+  {
+    "codigo": "519",
+    "organismo": "519",
+    "nombre_oficial": "Dir. General de Cooperación Internacional /Coop. Técnica Belga DGCI",
+    "sigla": "-CTB",
+    "nombre_corto": "-CTB",
+    "label": "-CTB"
+  },
+  {
+    "codigo": "520",
+    "organismo": "520",
+    "nombre_oficial": "Agencia Sueca de Desarrollo Internacional",
+    "sigla": "ASDI",
+    "nombre_corto": "ASDI",
+    "label": "ASDI"
+  },
+  {
+    "codigo": "521",
+    "organismo": "521",
+    "nombre_oficial": "Corporación Internacional de Desarrollo",
+    "sigla": "CID",
+    "nombre_corto": "CID",
+    "label": "CID"
+  },
+  {
+    "codigo": "523",
+    "organismo": "523",
+    "nombre_oficial": "Agencia Canadiense para el Desarrollo Internacional Regional",
+    "sigla": "CIID",
+    "nombre_corto": "CIID",
+    "label": "CIID"
+  },
+  {
+    "codigo": "524",
+    "organismo": "524",
+    "nombre_oficial": "Fondo para el Medio Ambiente Mundial (BM)",
+    "sigla": "GEF",
+    "nombre_corto": "GEF",
+    "label": "GEF"
+  },
+  {
+    "codigo": "525",
+    "organismo": "525",
+    "nombre_oficial": "Instituto de Cooperación Iberoamericana",
+    "sigla": "ICI",
+    "nombre_corto": "ICI",
+    "label": "ICI"
+  },
+  {
+    "codigo": "526",
+    "organismo": "526",
+    "nombre_oficial": "Fondo Institucional de Desarrollo",
+    "sigla": "IDF",
+    "nombre_corto": "IDF",
+    "label": "IDF"
+  },
+  {
+    "codigo": "527",
+    "organismo": "527",
+    "nombre_oficial": "Agencia Noruega para el Desarrollo Internacional",
+    "sigla": "NORAD",
+    "nombre_corto": "NORAD",
+    "label": "NORAD"
+  },
+  {
+    "codigo": "528",
+    "organismo": "528",
+    "nombre_oficial": "Agencia Española de Cooperación Internacional para el Desarrollo",
+    "sigla": "AECID",
+    "nombre_corto": "AECID",
+    "label": "AECID"
+  },
+  {
+    "codigo": "529",
+    "organismo": "529",
+    "nombre_oficial": "Corporación de Créditos de Mercaderías (EE. UU.)",
+    "sigla": "CCC",
+    "nombre_corto": "CCC",
+    "label": "CCC"
+  },
+  {
+    "codigo": "530",
+    "organismo": "530",
+    "nombre_oficial": "Export Development Corporation (CANADA)",
+    "sigla": "EDC",
+    "nombre_corto": "EDC",
+    "label": "EDC"
+  },
+  {
+    "codigo": "541",
+    "organismo": "541",
+    "nombre_oficial": "República Federal de Alemania",
+    "sigla": "ALEM",
+    "nombre_corto": "ALEM",
+    "label": "ALEM"
+  },
+  {
+    "codigo": "542",
+    "organismo": "542",
+    "nombre_oficial": "Argentina",
+    "sigla": "ARG",
+    "nombre_corto": "ARG",
+    "label": "ARG"
+  },
+  {
+    "codigo": "543",
+    "organismo": "543",
+    "nombre_oficial": "Bélgica",
+    "sigla": "BEL",
+    "nombre_corto": "BEL",
+    "label": "BEL"
+  },
+  {
+    "codigo": "544",
+    "organismo": "544",
+    "nombre_oficial": "Brasil",
+    "sigla": "BRA",
+    "nombre_corto": "BRA",
+    "label": "BRA"
+  },
+  {
+    "codigo": "545",
+    "organismo": "545",
+    "nombre_oficial": "Canadá",
+    "sigla": "CANADA",
+    "nombre_corto": "CANADA",
+    "label": "CANADA"
+  },
+  {
+    "codigo": "546",
+    "organismo": "546",
+    "nombre_oficial": "República de Corea",
+    "sigla": "COR",
+    "nombre_corto": "COR",
+    "label": "COR"
+  },
+  {
+    "codigo": "548",
+    "organismo": "548",
+    "nombre_oficial": "República Popular China",
+    "sigla": "CHINA",
+    "nombre_corto": "CHINA",
+    "label": "CHINA"
+  },
+  {
+    "codigo": "549",
+    "organismo": "549",
+    "nombre_oficial": "República China Nacionalista - Taiwán",
+    "sigla": "CH-TAI",
+    "nombre_corto": "CH-TAI",
+    "label": "CH-TAI"
+  },
+  {
+    "codigo": "551",
+    "organismo": "551",
+    "nombre_oficial": "Dinamarca",
+    "sigla": "DIN",
+    "nombre_corto": "DIN",
+    "label": "DIN"
+  },
+  {
+    "codigo": "552",
+    "organismo": "552",
+    "nombre_oficial": "España",
+    "sigla": "ESP",
+    "nombre_corto": "ESP",
+    "label": "ESP"
+  },
+  {
+    "codigo": "553",
+    "organismo": "553",
+    "nombre_oficial": "Estados Unidos de América",
+    "sigla": "USA",
+    "nombre_corto": "USA",
+    "label": "USA"
+  },
+  {
+    "codigo": "554",
+    "organismo": "554",
+    "nombre_oficial": "Francia",
+    "sigla": "FRA",
+    "nombre_corto": "FRA",
+    "label": "FRA"
+  },
+  {
+    "codigo": "555",
+    "organismo": "555",
+    "nombre_oficial": "Gran Bretaña",
+    "sigla": "G-BR",
+    "nombre_corto": "G-BR",
+    "label": "G-BR"
+  },
+  {
+    "codigo": "556",
+    "organismo": "556",
+    "nombre_oficial": "Holanda",
+    "sigla": "HOL",
+    "nombre_corto": "HOL",
+    "label": "HOL"
+  },
+  {
+    "codigo": "557",
+    "organismo": "557",
+    "nombre_oficial": "Hungría",
+    "sigla": "HUN",
+    "nombre_corto": "HUN",
+    "label": "HUN"
+  },
+  {
+    "codigo": "558",
+    "organismo": "558",
+    "nombre_oficial": "Israel",
+    "sigla": "ISR",
+    "nombre_corto": "ISR",
+    "label": "ISR"
+  },
+  {
+    "codigo": "559",
+    "organismo": "559",
+    "nombre_oficial": "Italia",
+    "sigla": "ITA",
+    "nombre_corto": "ITA",
+    "label": "ITA"
+  },
+  {
+    "codigo": "561",
+    "organismo": "561",
+    "nombre_oficial": "Japón",
+    "sigla": "JAP",
+    "nombre_corto": "JAP",
+    "label": "JAP"
+  },
+  {
+    "codigo": "562",
+    "organismo": "562",
+    "nombre_oficial": "Noruega",
+    "sigla": "NOR",
+    "nombre_corto": "NOR",
+    "label": "NOR"
+  },
+  {
+    "codigo": "563",
+    "organismo": "563",
+    "nombre_oficial": "Perú",
+    "sigla": "PERU",
+    "nombre_corto": "PERU",
+    "label": "PERU"
+  },
+  {
+    "codigo": "564",
+    "organismo": "564",
+    "nombre_oficial": "Rumania",
+    "sigla": "RUM",
+    "nombre_corto": "RUM",
+    "label": "RUM"
+  },
+  {
+    "codigo": "565",
+    "organismo": "565",
+    "nombre_oficial": "Suecia",
+    "sigla": "SUE",
+    "nombre_corto": "SUE",
+    "label": "SUE"
+  },
+  {
+    "codigo": "566",
+    "organismo": "566",
+    "nombre_oficial": "Suiza",
+    "sigla": "SUI",
+    "nombre_corto": "SUI",
+    "label": "SUI"
+  },
+  {
+    "codigo": "567",
+    "organismo": "567",
+    "nombre_oficial": "Federación de Rusia",
+    "sigla": "RUSIA",
+    "nombre_corto": "RUSIA",
+    "label": "RUSIA"
+  },
+  {
+    "codigo": "568",
+    "organismo": "568",
+    "nombre_oficial": "República Bolivariana de Venezuela",
+    "sigla": "VEN",
+    "nombre_corto": "VEN",
+    "label": "VEN"
+  },
+  {
+    "codigo": "569",
+    "organismo": "569",
+    "nombre_oficial": "Polonia",
+    "sigla": "POL",
+    "nombre_corto": "POL",
+    "label": "POL"
+  },
+  {
+    "codigo": "571",
+    "organismo": "571",
+    "nombre_oficial": "Austria",
+    "sigla": "AUST",
+    "nombre_corto": "AUST",
+    "label": "AUST"
+  },
+  {
+    "codigo": "572",
+    "organismo": "572",
+    "nombre_oficial": "Sudáfrica",
+    "sigla": "SUDAF",
+    "nombre_corto": "SUDAF",
+    "label": "SUDAF"
+  },
+  {
+    "codigo": "573",
+    "organismo": "573",
+    "nombre_oficial": "Panamá",
+    "sigla": "PAN",
+    "nombre_corto": "PAN",
+    "label": "PAN"
+  },
+  {
+    "codigo": "574",
+    "organismo": "574",
+    "nombre_oficial": "Portugal",
+    "sigla": "PORT",
+    "nombre_corto": "PORT",
+    "label": "PORT"
+  },
+  {
+    "codigo": "575",
+    "organismo": "575",
+    "nombre_oficial": "República de Chile",
+    "sigla": "CHI",
+    "nombre_corto": "CHI",
+    "label": "CHI"
+  },
+  {
+    "codigo": "576",
+    "organismo": "576",
+    "nombre_oficial": "México",
+    "sigla": "MEX",
+    "nombre_corto": "MEX",
+    "label": "MEX"
+  },
+  {
+    "codigo": "577",
+    "organismo": "577",
+    "nombre_oficial": "República Oriental del Uruguay",
+    "sigla": "URU",
+    "nombre_corto": "URU",
+    "label": "URU"
+  },
+  {
+    "codigo": "578",
+    "organismo": "578",
+    "nombre_oficial": "Paraguay",
+    "sigla": "PARA",
+    "nombre_corto": "PARA",
+    "label": "PARA"
+  },
+  {
+    "codigo": "579",
+    "organismo": "579",
+    "nombre_oficial": "Filipinas",
+    "sigla": "FILIP",
+    "nombre_corto": "FILIP",
+    "label": "FILIP"
+  },
+  {
+    "codigo": "580",
+    "organismo": "580",
+    "nombre_oficial": "Colombia",
+    "sigla": "COL",
+    "nombre_corto": "COL",
+    "label": "COL"
+  },
+  {
+    "codigo": "581",
+    "organismo": "581",
+    "nombre_oficial": "Ecuador",
+    "sigla": "ECU",
+    "nombre_corto": "ECU",
+    "label": "ECU"
+  },
+  {
+    "codigo": "582",
+    "organismo": "582",
+    "nombre_oficial": "Cuba",
+    "sigla": "CU",
+    "nombre_corto": "CU",
+    "label": "CU"
+  },
+  {
+    "codigo": "641",
+    "organismo": "641",
+    "nombre_oficial": "Care",
+    "sigla": "CARE",
+    "nombre_corto": "CARE",
+    "label": "CARE"
+  },
+  {
+    "codigo": "642",
+    "organismo": "642",
+    "nombre_oficial": "Caritas",
+    "sigla": "CARITAS",
+    "nombre_corto": "CARITAS",
+    "label": "CARITAS"
+  },
+  {
+    "codigo": "643",
+    "organismo": "643",
+    "nombre_oficial": "Plan Internacional",
+    "sigla": "PLAN-INTER",
+    "nombre_corto": "PLAN-INTER",
+    "label": "PLAN-INTER"
+  },
+  {
+    "codigo": "644",
+    "organismo": "644",
+    "nombre_oficial": "Fundación Amigos de la Naturaleza",
+    "sigla": "FAN",
+    "nombre_corto": "FAN",
+    "label": "FAN"
+  },
+  {
+    "codigo": "669",
+    "organismo": "669",
+    "nombre_oficial": "Otros Organismos no Gubernamentales",
+    "sigla": "OT-NOGUB",
+    "nombre_corto": "OT-NOGUB",
+    "label": "OT-NOGUB"
+  },
+  {
+    "codigo": "671",
+    "organismo": "671",
+    "nombre_oficial": "Bancos Privados",
+    "sigla": "BAN-PRI",
+    "nombre_corto": "BAN-PRI",
+    "label": "BAN-PRI"
+  },
+  {
+    "codigo": "672",
+    "organismo": "672",
+    "nombre_oficial": "Proveedores",
+    "sigla": "PROV",
+    "nombre_corto": "PROV",
+    "label": "PROV"
+  },
+  {
+    "codigo": "720",
+    "organismo": "720",
+    "nombre_oficial": "Basket Funding recursos por organismo proveedor, internas o externas, asociado a los grupos de fuentes de financiamiento básicamente, a las fuentes de financiamiento.",
+    "sigla": "BASK-FUN",
+    "nombre_corto": "BASK-FUN",
+    "label": "BASK-FUN"
+  },
+  {
+    "codigo": "730",
+    "organismo": "730",
+    "nombre_oficial": "Banco de Importaciones - Exportaciones China",
+    "sigla": "EXIMBANK-CH",
+    "nombre_corto": "EXIMBANK-CH",
+    "label": "EXIMBANK-CH"
+  },
+  {
+    "codigo": "731",
+    "organismo": "731",
+    "nombre_oficial": "Banco de Desarrollo de China",
+    "sigla": "BDC",
+    "nombre_corto": "BDC",
+    "label": "BDC"
+  },
+  {
+    "codigo": "733",
+    "organismo": "733",
+    "nombre_oficial": "Agencia de Cooperación Internacional de Corea del Sur",
+    "sigla": "KOICA",
+    "nombre_corto": "KOICA",
+    "label": "KOICA"
+  },
+  {
+    "codigo": "734",
+    "organismo": "734",
+    "nombre_oficial": "Oficina de las Naciones Unidas contra la Droga y el Delito",
+    "sigla": "UNODC",
+    "nombre_corto": "UNODC",
+    "label": "UNODC"
+  },
+  {
+    "codigo": "735",
+    "organismo": "735",
+    "nombre_oficial": "Fondo OPEP para el Desarrollo Internacional",
+    "sigla": "OFID",
+    "nombre_corto": "OFID",
+    "label": "OFID"
+  },
+  {
+    "codigo": "736",
+    "organismo": "736",
+    "nombre_oficial": "Fondo Verde para el Clima",
+    "sigla": "FVC",
+    "nombre_corto": "FVC",
+    "label": "FVC"
+  },
+  {
+    "codigo": "738",
+    "organismo": "738",
+    "nombre_oficial": "Agencia Francesa de Desarrollo",
+    "sigla": "AFD",
+    "nombre_corto": "AFD",
+    "label": "AFD"
+  },
+  {
+    "codigo": "739",
+    "organismo": "739",
+    "nombre_oficial": "Agencia Italiana para la Cooperación al Desarrollo",
+    "sigla": "AICS",
+    "nombre_corto": "AICS",
+    "label": "AICS"
+  },
+  {
+    "codigo": "740",
+    "organismo": "740",
+    "nombre_oficial": "Cassa Depositi e Prestiti S.p.A.",
+    "sigla": "CDP",
+    "nombre_corto": "CDP",
+    "label": "CDP"
+  },
+  {
+    "codigo": "741",
+    "organismo": "741",
+    "nombre_oficial": "Danske Bank",
+    "sigla": "DKB",
+    "nombre_corto": "DKB",
+    "label": "DKB"
+  },
+  {
+    "codigo": "742",
+    "organismo": "742",
+    "nombre_oficial": "Entidad de las Naciones Unidas para la Igualdad de Género y ONU Empoderamiento de las Mujeres",
+    "sigla": "MUJERES",
+    "nombre_corto": "MUJERES",
+    "label": "MUJERES"
+  },
+  {
+    "codigo": "743",
+    "organismo": "743",
+    "nombre_oficial": "Physikalisch Technische Bundesanstalt",
+    "sigla": "PTB",
+    "nombre_corto": "PTB",
+    "label": "PTB"
+  },
+  {
+    "codigo": "745",
+    "organismo": "745",
+    "nombre_oficial": "Nuevo Banco de Desarrollo del Brics NTB",
+    "sigla": "BRICS",
+    "nombre_corto": "BRICS",
+    "label": "BRICS"
+  },
+  {
+    "codigo": "746",
+    "organismo": "746",
+    "nombre_oficial": "Fondo Saudita para el Desarrollo",
+    "sigla": "SFD",
+    "nombre_corto": "SFD",
+    "label": "SFD"
+  },
+  {
+    "codigo": "747",
+    "organismo": "747",
+    "nombre_oficial": "Fondo de Kuwaití para el Desarrollo Económico Árabe",
+    "sigla": "KFAED",
+    "nombre_corto": "KFAED",
+    "label": "KFAED"
+  },
+  {
+    "codigo": "748",
+    "organismo": "748",
+    "nombre_oficial": "Banco de Exportación e Importación de India EXIMBANK",
+    "sigla": "INDIA",
+    "nombre_corto": "INDIA",
+    "label": "INDIA"
+  },
+  {
+    "codigo": "749",
+    "organismo": "749",
+    "nombre_oficial": "Fondo Abu Dhabi para el Desarrollo",
+    "sigla": "ADFD",
+    "nombre_corto": "ADFD",
+    "label": "ADFD"
+  },
+  {
+    "codigo": "997",
+    "organismo": "997",
+    "nombre_oficial": "Otros Organismos Financiadores Multilaterales",
+    "sigla": "OT-MUL",
+    "nombre_corto": "OT-MUL",
+    "label": "OT-MUL"
+  },
+  {
+    "codigo": "998",
+    "organismo": "998",
+    "nombre_oficial": "Otros Organismos Financiadores Bilaterales",
+    "sigla": "OT-BIL",
+    "nombre_corto": "OT-BIL",
+    "label": "OT-BIL"
+  }
+]

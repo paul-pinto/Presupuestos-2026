@@ -4,6 +4,8 @@ import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import ReactECharts from "echarts-for-react";
 import { ArrowLeft, Landmark, Search, WalletCards, Scale, Building2 } from "lucide-react";
+import RecursoFuenteOrganismoPanel from "@/components/RecursoFuenteOrganismoPanel";
+import { shortEntidadLabel } from "@/lib/format";
 
 type IngresosGastos = {
   codigo_entidad: string;
@@ -20,6 +22,19 @@ type RecursoRubro = {
   rubro: string;
   descripcion: string;
   importe: number;
+};
+
+type RecursoDetalle = {
+  codigo_entidad: string;
+  nombre_entidad: string;
+  departamento: string;
+  grupo_eta: string;
+  tipo: string;
+  rubro: string;
+  descripcion: string;
+  importe?: number;
+  monto?: number;
+  total?: number;
 };
 
 function formatBs(value: number): string {
@@ -65,6 +80,41 @@ function formatPct(value: number, total: number): string {
   })}%`;
 }
 
+
+function formatFilterOptionLabel(value: string): string {
+  const raw = String(value || "").trim();
+
+  if (!raw) return "";
+  if (raw === "Todos") return "Todos";
+
+  const key = raw.toLowerCase();
+
+  const dictionary: Record<string, string> = {
+    departamental: "Departamental",
+    municipal: "Municipal",
+    regional: "Regional",
+    indigena_originario_campesino: "Indígena Originario Campesino",
+
+    gad: "GAD",
+    gam: "GAM",
+    gaioc: "GAIOC",
+    gar: "GAR",
+  };
+
+  if (dictionary[key]) return dictionary[key];
+
+  return raw
+    .replaceAll("_", " ")
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => {
+      const wordKey = word.toLowerCase();
+      return dictionary[wordKey] || word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
+
 function normalize(value: string | undefined | null): string {
   return String(value || "").toLowerCase();
 }
@@ -91,14 +141,14 @@ function MetricCard({
   icon?: React.ReactNode;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="flex items-center justify-between gap-4">
+    <div className="ofp-card rounded-3xl p-5">
+      <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-sm text-slate-500">{title}</p>
-          <p className="mt-2 text-2xl font-semibold text-slate-950">{value}</p>
-          {subtitle ? <p className="mt-1 text-xs text-slate-500">{subtitle}</p> : null}
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{title}</p>
+          <p className="mt-3 text-2xl font-bold tabular-nums text-slate-950">{value}</p>
+          {subtitle ? <p className="mt-1 text-xs leading-5 text-slate-500">{subtitle}</p> : null}
         </div>
-        {icon ? <div className="rounded-xl bg-slate-100 p-3 text-slate-700">{icon}</div> : null}
+        {icon ? <div className="rounded-2xl border border-teal-100 bg-teal-50 p-3 text-teal-700">{icon}</div> : null}
       </div>
     </div>
   );
@@ -114,10 +164,13 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="mb-4">
-        <h2 className="text-xl font-semibold">{title}</h2>
-        {description ? <p className="mt-1 text-sm text-slate-500">{description}</p> : null}
+    <section className="ofp-card rounded-3xl p-5">
+      <div className="mb-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+          Ingresos
+        </p>
+        <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">{title}</h2>
+        {description ? <p className="mt-1 text-sm leading-6 text-slate-600">{description}</p> : null}
       </div>
       {children}
     </section>
@@ -127,22 +180,43 @@ function Section({
 function chartOptionHorizontal({
   labels,
   values,
+  tooltipLabels,
   left = 260,
 }: {
   labels: string[];
   values: number[];
+  tooltipLabels?: string[];
   left?: number;
 }) {
   return {
-    grid: { left, right: 40, top: 20, bottom: 40 },
+    grid: { left, right: 50, top: 20, bottom: 45, containLabel: false },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
-      valueFormatter: (value: number) => formatBs(value),
+      formatter: (params: any) => {
+        const item = Array.isArray(params) ? params[0] : params;
+        const index = item?.dataIndex ?? 0;
+        const name = tooltipLabels?.[index] || item?.name || "";
+        const value = Number(item?.value || 0);
+
+        return `
+          <div style="min-width:260px">
+            <div style="font-weight:600;color:#475569;margin-bottom:6px;">${name}</div>
+            <div style="display:flex;align-items:center;gap:8px;">
+              <span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#0f766e;"></span>
+              <strong>${formatBs(value)}</strong>
+            </div>
+          </div>
+        `;
+      },
     },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -150,8 +224,11 @@ function chartOptionHorizontal({
     yAxis: {
       type: "category",
       data: labels,
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
-        width: left - 20,
+        color: "#334155",
+        width: left - 30,
         overflow: "truncate",
       },
     },
@@ -159,6 +236,15 @@ function chartOptionHorizontal({
       {
         type: "bar",
         data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -167,6 +253,7 @@ function chartOptionHorizontal({
 export default function IngresosPage() {
   const [rows, setRows] = useState<IngresosGastos[]>([]);
   const [recursosRubro, setRecursosRubro] = useState<RecursoRubro[]>([]);
+  const [recursosDetalle, setRecursosDetalle] = useState<RecursoDetalle[]>([]);
   const [departamento, setDepartamento] = useState("Todos");
   const [tipo, setTipo] = useState("Todos");
   const [grupoEta, setGrupoEta] = useState("Todos");
@@ -176,13 +263,15 @@ export default function IngresosPage() {
 
   useEffect(() => {
     async function load() {
-      const [ingresosGastosData, recursosRubroData] = await Promise.all([
+      const [ingresosGastosData, recursosRubroData, recursosDetalleData] = await Promise.all([
         fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
         fetchJson<RecursoRubro[]>("/data/recursos_rubro.json"),
+        fetchJson<RecursoDetalle[]>("/data/recursos_detalle.json"),
       ]);
 
       setRows(ingresosGastosData);
       setRecursosRubro(recursosRubroData);
+      setRecursosDetalle(recursosDetalleData);
     }
 
     load().catch((error) => {
@@ -236,28 +325,70 @@ export default function IngresosPage() {
   const gastosTotal = filtradas.reduce((acc, item) => acc + Number(item.gastos_total || 0), 0);
   const diferencia = ingresosTotal - gastosTotal;
 
+  const recursosRubroFiltrado = useMemo(() => {
+    const codigosFiltrados = new Set(filtradas.map((item) => item.codigo_entidad));
+
+    const labelsGlobales = new Map(
+      recursosRubro.map((item) => [
+        String(item.rubro || "").trim(),
+        String(item.descripcion || "").trim(),
+      ])
+    );
+
+    const grouped = new Map<string, { rubro: string; descripcion: string; importe: number }>();
+
+    for (const item of recursosDetalle) {
+      if (!codigosFiltrados.has(item.codigo_entidad)) continue;
+
+      const rubroDetalle = String(item.rubro || "").trim();
+      const rubroNivel1 = rubroDetalle.split(".")[0] || "Sin rubro";
+      const descripcionNivel1 = labelsGlobales.get(rubroNivel1) || `Rubro ${rubroNivel1}`;
+      const importe = Number(item.importe ?? item.monto ?? item.total ?? 0);
+
+      const current = grouped.get(rubroNivel1) || {
+        rubro: rubroNivel1,
+        descripcion: descripcionNivel1,
+        importe: 0,
+      };
+
+      current.importe += importe;
+      grouped.set(rubroNivel1, current);
+    }
+
+    const result = Array.from(grouped.values()).sort((a, b) => b.importe - a.importe);
+
+    return result.length > 0 ? result : recursosRubro;
+  }, [recursosDetalle, recursosRubro, filtradas]);
+
   const topIngresosOption = chartOptionHorizontal({
     labels: [...filtradas]
       .slice(0, 20)
       .reverse()
-      .map((item) => item.nombre_entidad),
+      .map((item) => shortEntidadLabel(item.nombre_entidad)),
     values: [...filtradas]
       .slice(0, 20)
       .reverse()
       .map((item) => item.ingresos_total),
-    left: 300,
+    tooltipLabels: [...filtradas]
+      .slice(0, 20)
+      .reverse()
+      .map(
+        (item) =>
+          `${item.nombre_entidad} · ${item.departamento} · Código ${item.codigo_entidad}`
+      ),
+    left: 260,
   });
 
   const rubrosOption = chartOptionHorizontal({
-    labels: [...recursosRubro]
+    labels: [...recursosRubroFiltrado]
       .slice(0, 18)
       .reverse()
       .map((item) => `${item.rubro} · ${item.descripcion}`),
-    values: [...recursosRubro]
+    values: [...recursosRubroFiltrado]
       .slice(0, 18)
       .reverse()
       .map((item) => item.importe),
-    left: 330,
+    left: 280,
   });
 
   const resetFilters = () => {
@@ -269,12 +400,12 @@ export default function IngresosPage() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8">
+    <main className="min-h-screen ofp-page-bg text-slate-950">
+      <section className="ofp-hero">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-950"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
           >
             <ArrowLeft size={16} />
             Volver al resumen
@@ -282,43 +413,44 @@ export default function IngresosPage() {
 
           <div className="mt-6 flex items-start justify-between gap-6">
             <div>
-              <p className="text-sm font-medium uppercase tracking-wide text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-teal-700">
                 Recursos presupuestarios
               </p>
-              <h1 className="mt-2 text-4xl font-bold tracking-tight">Ingresos</h1>
-              <p className="mt-3 max-w-3xl text-slate-600">
-                Exploración de ingresos por entidad y comparación contra gastos. Los rubros se
-                muestran como agregado general; el detalle filtrable por rubro se agregará cuando
-                exportemos el dataset largo de recursos.
-              </p>
+              <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-950">Ingresos</h1>
+              <p className="mt-4 max-w-4xl text-base leading-7 text-slate-600">
+  Análisis de los ingresos presupuestados por las entidades territoriales autónomas. Permite observar la composición de recursos, dependencia de transferencias, coparticipación, IDH, regalías, recursos específicos y organismos financiadores para evaluar autonomía y vulnerabilidad fiscal.
+</p>
             </div>
 
-            <div className="hidden rounded-2xl bg-slate-100 p-4 text-slate-700 md:block">
+            <div className="hidden rounded-3xl border border-teal-100 bg-teal-50 p-4 text-teal-700 md:block">
               <WalletCards size={32} />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-8">
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
         {loadError ? (
           <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700">
             {loadError}
           </div>
         ) : null}
 
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+        <div className="ofp-card rounded-3xl p-5">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h2 className="text-xl font-semibold">Filtros de ingresos</h2>
-              <p className="mt-1 text-sm text-slate-500">
-                Filtran entidades, comparación ingresos/gastos y tabla inferior.
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+                Filtros
+              </p>
+              <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Filtros de ingresos</h2>
+              <p className="mt-1 text-sm leading-6 text-slate-600">
+                Filtran entidades, comparación ingresos/gastos, recursos por rubro y tabla inferior.
               </p>
             </div>
 
             <button
               onClick={resetFilters}
-              className="rounded-full border border-slate-300 px-4 py-2 text-sm text-slate-700 hover:bg-slate-100"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
               Limpiar filtros
             </button>
@@ -327,10 +459,10 @@ export default function IngresosPage() {
           <div className="grid gap-4 lg:grid-cols-[1.4fr_1fr_1fr_1fr_160px]">
             <div>
               <label className="text-sm font-medium text-slate-700">Buscar</label>
-              <div className="mt-2 flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-3 py-2">
+              <div className="mt-2 flex items-center gap-2 rounded-2xl border border-slate-200 bg-white px-3 py-2 transition focus-within:border-teal-500 focus-within:ring-2 focus-within:ring-teal-100">
                 <Search size={16} className="text-slate-400" />
                 <input
-                  className="w-full outline-none"
+                  className="w-full bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
                   placeholder="Entidad, código o departamento..."
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
@@ -341,12 +473,12 @@ export default function IngresosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Departamento</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={departamento}
                 onChange={(event) => setDepartamento(event.target.value)}
               >
                 {departamentos.map((item) => (
-                  <option key={item}>{item}</option>
+                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
                 ))}
               </select>
             </div>
@@ -354,12 +486,12 @@ export default function IngresosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Tipo</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={tipo}
                 onChange={(event) => setTipo(event.target.value)}
               >
                 {tipos.map((item) => (
-                  <option key={item}>{item}</option>
+                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
                 ))}
               </select>
             </div>
@@ -367,12 +499,12 @@ export default function IngresosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Grupo ETA</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={grupoEta}
                 onChange={(event) => setGrupoEta(event.target.value)}
               >
                 {gruposEta.map((item) => (
-                  <option key={item}>{item}</option>
+                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
                 ))}
               </select>
             </div>
@@ -380,7 +512,7 @@ export default function IngresosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Límite</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={limit}
                 onChange={(event) => setLimit(Number(event.target.value))}
               >
@@ -420,7 +552,7 @@ export default function IngresosPage() {
           />
         </div>
 
-        <div className="mt-8 grid gap-6 lg:grid-cols-2">
+        <div className="mt-8 grid gap-6">
           <Section
             title="Top entidades por ingresos"
             description="Ranking de entidades con mayor ingreso total según filtros."
@@ -432,7 +564,7 @@ export default function IngresosPage() {
 
           <Section
             title="Recursos por rubro"
-            description="Agregado general por rubro de recurso."
+            description="Agregado por rubro de recurso según los filtros activos."
           >
             <div className="h-[620px]">
               <ReactECharts option={rubrosOption} style={{ height: "100%", width: "100%" }} />
@@ -440,10 +572,22 @@ export default function IngresosPage() {
           </Section>
         </div>
 
-        <div className="mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <div className="border-b bg-white p-5">
-            <h2 className="text-xl font-semibold">Tabla ingresos vs gastos</h2>
-            <p className="mt-1 text-sm text-slate-500">
+        <div className="mt-8">
+          <RecursoFuenteOrganismoPanel
+            departamento={departamento}
+            tipo={tipo}
+            grupoEta={grupoEta}
+            query={query}
+          />
+        </div>
+
+        <div className="mt-8 overflow-hidden ofp-card rounded-3xl">
+          <div className="border-b border-slate-200 bg-white p-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+              Tabla
+            </p>
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Tabla ingresos vs gastos</h2>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
               Comparación filtrada por entidad.
             </p>
           </div>
@@ -451,34 +595,34 @@ export default function IngresosPage() {
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
-                <tr className="border-b bg-slate-50 text-left">
+                <tr className="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-[0.16em] text-slate-500">
                   <th className="p-3">Código</th>
                   <th className="p-3">Entidad</th>
                   <th className="p-3">Departamento</th>
                   <th className="p-3">Tipo</th>
                   <th className="p-3">Grupo ETA</th>
-                  <th className="p-3 text-right">Ingresos</th>
-                  <th className="p-3 text-right">Gastos</th>
-                  <th className="p-3 text-right">Ingresos - gastos</th>
-                  <th className="p-3 text-right">% ingresos filtrados</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">Ingresos</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">Gastos</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">Ingresos - gastos</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">% ingresos filtrados</th>
                 </tr>
               </thead>
               <tbody>
                 {visibles.map((item) => (
-                  <tr key={item.codigo_entidad} className="border-b hover:bg-slate-50">
-                    <td className="p-3 font-mono">{item.codigo_entidad}</td>
-                    <td className="p-3 font-medium">{item.nombre_entidad}</td>
+                  <tr key={item.codigo_entidad} className="border-b border-slate-100 transition hover:bg-slate-50">
+                    <td className="p-3 font-mono text-xs text-slate-600">{item.codigo_entidad}</td>
+                    <td className="p-3 font-medium text-slate-950">{item.nombre_entidad}</td>
                     <td className="p-3">{item.departamento}</td>
                     <td className="p-3">{item.tipo}</td>
                     <td className="p-3">{item.grupo_eta}</td>
-                    <td className="p-3 text-right font-semibold">
+                    <td className="p-3 text-right font-semibold tabular-nums text-slate-950">
                       {formatBs(item.ingresos_total)}
                     </td>
-                    <td className="p-3 text-right">{formatBs(item.gastos_total)}</td>
-                    <td className="p-3 text-right font-semibold">
+                    <td className="p-3 text-right tabular-nums text-slate-700">{formatBs(item.gastos_total)}</td>
+                    <td className="p-3 text-right font-semibold tabular-nums text-slate-950">
                       {formatBs(item.ingresos_menos_gastos)}
                     </td>
-                    <td className="p-3 text-right">
+                    <td className="p-3 text-right tabular-nums text-slate-700">
                       {formatPct(item.ingresos_total, ingresosTotal)}
                     </td>
                   </tr>

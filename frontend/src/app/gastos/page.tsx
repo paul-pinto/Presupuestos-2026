@@ -4,6 +4,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import ReactECharts from "echarts-for-react";
 import { ArrowLeft, BarChart3, Layers3, Search, Wallet } from "lucide-react";
+import { shortEntidadLabel } from "@/lib/format";
 
 type GrupoKey =
   | "grupo_1"
@@ -97,6 +98,41 @@ function formatPct(value: number, total: number): string {
   })}%`;
 }
 
+
+function formatFilterOptionLabel(value: string): string {
+  const raw = String(value || "").trim();
+
+  if (!raw) return "";
+  if (raw === "Todos") return "Todos";
+
+  const key = raw.toLowerCase();
+
+  const dictionary: Record<string, string> = {
+    departamental: "Departamental",
+    municipal: "Municipal",
+    regional: "Regional",
+    indigena_originario_campesino: "Indígena Originario Campesino",
+
+    gad: "GAD",
+    gam: "GAM",
+    gaioc: "GAIOC",
+    gar: "GAR",
+  };
+
+  if (dictionary[key]) return dictionary[key];
+
+  return raw
+    .replaceAll("_", " ")
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => {
+      const wordKey = word.toLowerCase();
+      return dictionary[wordKey] || word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
+
 function normalize(value: string | undefined | null): string {
   return String(value || "").toLowerCase();
 }
@@ -123,14 +159,14 @@ function MetricCard({
   icon?: React.ReactNode;
 }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="flex items-center justify-between gap-4">
+    <div className="ofp-card rounded-3xl p-5">
+      <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-sm text-slate-500">{title}</p>
-          <p className="mt-2 text-2xl font-semibold text-slate-950">{value}</p>
-          {subtitle ? <p className="mt-1 text-xs text-slate-500">{subtitle}</p> : null}
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{title}</p>
+          <p className="mt-3 text-2xl font-bold tabular-nums text-slate-950">{value}</p>
+          {subtitle ? <p className="mt-1 text-xs leading-5 text-slate-500">{subtitle}</p> : null}
         </div>
-        {icon ? <div className="rounded-xl bg-slate-100 p-3 text-slate-700">{icon}</div> : null}
+        {icon ? <div className="rounded-2xl border border-teal-100 bg-teal-50 p-3 text-teal-700">{icon}</div> : null}
       </div>
     </div>
   );
@@ -146,10 +182,13 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <div className="mb-4">
-        <h2 className="text-xl font-semibold">{title}</h2>
-        {description ? <p className="mt-1 text-sm text-slate-500">{description}</p> : null}
+    <section className="ofp-card rounded-3xl p-5">
+      <div className="mb-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+          Gastos
+        </p>
+        <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">{title}</h2>
+        {description ? <p className="mt-1 text-sm leading-6 text-slate-600">{description}</p> : null}
       </div>
       {children}
     </section>
@@ -166,7 +205,7 @@ function chartOptionHorizontal({
   left?: number;
 }) {
   return {
-    grid: { left, right: 40, top: 20, bottom: 40 },
+    grid: { left, right: 70, top: 20, bottom: 45, containLabel: false },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
@@ -174,7 +213,11 @@ function chartOptionHorizontal({
     },
     xAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -182,8 +225,11 @@ function chartOptionHorizontal({
     yAxis: {
       type: "category",
       data: labels,
+      axisLine: { show: false },
+      axisTick: { show: false },
       axisLabel: {
-        width: left - 20,
+        color: "#334155",
+        width: left - 30,
         overflow: "truncate",
       },
     },
@@ -191,6 +237,15 @@ function chartOptionHorizontal({
       {
         type: "bar",
         data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -204,7 +259,7 @@ function chartOptionVertical({
   values: number[];
 }) {
   return {
-    grid: { left: 90, right: 30, top: 20, bottom: 80 },
+    grid: { left: 90, right: 30, top: 20, bottom: 80, containLabel: true },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
@@ -213,13 +268,20 @@ function chartOptionVertical({
     xAxis: {
       type: "category",
       data: labels,
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         rotate: 35,
       },
     },
     yAxis: {
       type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
       axisLabel: {
+        color: "#64748b",
         formatter: (value: number) => formatBsCompact(value),
         hideOverlap: true,
       },
@@ -228,6 +290,15 @@ function chartOptionVertical({
       {
         type: "bar",
         data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
       },
     ],
   };
@@ -360,12 +431,12 @@ export default function GastosPage() {
     labels: [...programasFiltrados]
       .slice(0, 20)
       .reverse()
-      .map((item) => `${item.nombre_entidad} · PRG ${item.prg}`),
+      .map((item) => `${shortEntidadLabel(item.nombre_entidad)} · PRG ${item.prg}`),
     values: [...programasFiltrados]
       .slice(0, 20)
       .reverse()
       .map((item) => item.total),
-    left: 320,
+    left: 360,
   });
 
   const resetFilters = () => {
@@ -377,12 +448,12 @@ export default function GastosPage() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50 text-slate-950">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8">
+    <main className="min-h-screen ofp-page-bg text-slate-950">
+      <section className="ofp-hero">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-sm text-slate-600 hover:text-slate-950"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
           >
             <ArrowLeft size={16} />
             Volver al resumen
@@ -390,42 +461,44 @@ export default function GastosPage() {
 
           <div className="mt-6 flex items-start justify-between gap-6">
             <div>
-              <p className="text-sm font-medium uppercase tracking-wide text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-teal-700">
                 Análisis presupuestario
               </p>
-              <h1 className="mt-2 text-4xl font-bold tracking-tight">Gastos</h1>
-              <p className="mt-3 max-w-3xl text-slate-600">
-                Exploración del gasto por entidad, grupo de gasto y programas presupuestarios.
-                Esta vista usa los datos exportados desde DuckDB hacia JSON estático.
-              </p>
+              <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-950">Gastos</h1>
+              <p className="mt-4 max-w-4xl text-base leading-7 text-slate-600">
+  Análisis de la estructura del gasto público subnacional. Presenta la distribución presupuestaria por entidad, departamento, grupo ETA, programas y grupos de gasto, permitiendo identificar prioridades institucionales, concentración del gasto y patrones territoriales de asignación.
+</p>
             </div>
 
-            <div className="hidden rounded-2xl bg-slate-100 p-4 text-slate-700 md:block">
+            <div className="hidden rounded-3xl border border-teal-100 bg-teal-50 p-4 text-teal-700 md:block">
               <Wallet size={32} />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-8">
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
         {loadError ? (
           <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700">
             {loadError}
           </div>
         ) : null}
 
-        <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+        <div className="ofp-card rounded-3xl p-5">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h2 className="text-xl font-semibold">Filtros de gasto</h2>
-              <p className="mt-1 text-sm text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+                Filtros
+              </p>
+              <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Filtros de gasto</h2>
+              <p className="mt-1 text-sm leading-6 text-slate-600">
                 Filtran entidades, grupos de gasto, programas y tabla inferior.
               </p>
             </div>
 
             <button
               onClick={resetFilters}
-              className="rounded-full border border-slate-300 px-4 py-2 text-sm text-slate-700 hover:bg-slate-100"
+              className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
             >
               Limpiar filtros
             </button>
@@ -434,10 +507,10 @@ export default function GastosPage() {
           <div className="grid gap-4 lg:grid-cols-[1.4fr_1fr_1fr_1fr_160px]">
             <div>
               <label className="text-sm font-medium text-slate-700">Buscar</label>
-              <div className="mt-2 flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-3 py-2">
+              <div className="mt-2 flex items-center gap-2 rounded-2xl border border-slate-200 bg-white px-3 py-2 transition focus-within:border-teal-500 focus-within:ring-2 focus-within:ring-teal-100">
                 <Search size={16} className="text-slate-400" />
                 <input
-                  className="w-full outline-none"
+                  className="w-full bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
                   placeholder="Entidad, código o programa..."
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
@@ -448,12 +521,12 @@ export default function GastosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Departamento</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={departamento}
                 onChange={(event) => setDepartamento(event.target.value)}
               >
                 {departamentos.map((item) => (
-                  <option key={item}>{item}</option>
+                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
                 ))}
               </select>
             </div>
@@ -461,12 +534,12 @@ export default function GastosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Tipo</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={tipo}
                 onChange={(event) => setTipo(event.target.value)}
               >
                 {tipos.map((item) => (
-                  <option key={item}>{item}</option>
+                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
                 ))}
               </select>
             </div>
@@ -474,12 +547,12 @@ export default function GastosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Grupo ETA</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={grupoEta}
                 onChange={(event) => setGrupoEta(event.target.value)}
               >
                 {gruposEta.map((item) => (
-                  <option key={item}>{item}</option>
+                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
                 ))}
               </select>
             </div>
@@ -487,7 +560,7 @@ export default function GastosPage() {
             <div>
               <label className="text-sm font-medium text-slate-700">Límite</label>
               <select
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2"
+                className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-teal-500 focus:ring-2 focus:ring-teal-100"
                 value={limit}
                 onChange={(event) => setLimit(Number(event.target.value))}
               >
@@ -526,7 +599,7 @@ export default function GastosPage() {
           />
         </div>
 
-        <div className="mt-8 grid gap-6 lg:grid-cols-2">
+        <div className="mt-8 grid gap-6">
           <Section
             title="Grupos de gasto"
             description="Distribución del gasto según los filtros seleccionados."
@@ -540,16 +613,19 @@ export default function GastosPage() {
             title="Top programas presupuestarios"
             description="Programas con mayor presupuesto dentro del filtro actual."
           >
-            <div className="h-[520px]">
+            <div className="h-[720px]">
               <ReactECharts option={programasOption} style={{ height: "100%", width: "100%" }} />
             </div>
           </Section>
         </div>
 
-        <div className="mt-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <div className="border-b bg-white p-5">
-            <h2 className="text-xl font-semibold">Tabla de programas</h2>
-            <p className="mt-1 text-sm text-slate-500">
+        <div className="mt-8 overflow-hidden ofp-card rounded-3xl">
+          <div className="border-b border-slate-200 bg-white p-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
+              Tabla
+            </p>
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Tabla de programas</h2>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
               Ranking filtrado por presupuesto total del programa.
             </p>
           </div>
@@ -557,31 +633,31 @@ export default function GastosPage() {
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
-                <tr className="border-b bg-slate-50 text-left">
+                <tr className="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-[0.16em] text-slate-500">
                   <th className="p-3">Entidad</th>
                   <th className="p-3">Departamento</th>
                   <th className="p-3">Tipo</th>
                   <th className="p-3">Grupo ETA</th>
                   <th className="p-3">PRG</th>
                   <th className="p-3">Programa</th>
-                  <th className="p-3 text-right">Total</th>
-                  <th className="p-3 text-right">% filtro</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">Total</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">% filtro</th>
                 </tr>
               </thead>
               <tbody>
                 {visibles.map((item, index) => (
                   <tr
                     key={`${item.codigo_entidad}-${item.prg}-${index}`}
-                    className="border-b hover:bg-slate-50"
+                    className="border-b border-slate-100 transition hover:bg-slate-50"
                   >
-                    <td className="p-3 font-medium">{item.nombre_entidad}</td>
+                    <td className="p-3 font-medium text-slate-950">{item.nombre_entidad}</td>
                     <td className="p-3">{item.departamento}</td>
                     <td className="p-3">{item.tipo}</td>
                     <td className="p-3">{item.grupo_eta}</td>
-                    <td className="p-3 font-mono">{item.prg}</td>
+                    <td className="p-3 font-mono text-xs text-slate-600">{item.prg}</td>
                     <td className="p-3">{item.descripcion}</td>
-                    <td className="p-3 text-right font-semibold">{formatBs(item.total)}</td>
-                    <td className="p-3 text-right">{formatPct(item.total, gastoTotal)}</td>
+                    <td className="p-3 text-right font-semibold tabular-nums text-slate-950">{formatBs(item.total)}</td>
+                    <td className="p-3 text-right tabular-nums text-slate-700">{formatPct(item.total, gastoTotal)}</td>
                   </tr>
                 ))}
               </tbody>
