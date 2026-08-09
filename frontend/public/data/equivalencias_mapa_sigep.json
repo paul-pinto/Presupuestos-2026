@@ -27,5 +27,19 @@
     ],
     "codigo_entidad": "3702",
     "nota": "Polígono municipal Gutiérrez vinculado a Gobierno Autónomo Indígena Guaraní Kereimba Iyaambae"
+  },
+  {
+    "match_contains": [
+      "raqaypampa"
+    ],
+    "codigo_entidad": "3301",
+    "nota": "Polígono/TIOC Raqaypampa vinculado a GAIOC Territorio de Raqaypampa"
+  },
+  {
+    "match_contains": [
+      "chipaya"
+    ],
+    "codigo_entidad": "3401",
+    "nota": "Polígono/TIOC Chipaya vinculado a GAIOC Nación Originaria Uru Chipaya"
   }
 ]
