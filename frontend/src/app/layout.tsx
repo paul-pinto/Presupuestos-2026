@@ -78,7 +78,7 @@ export default function RootLayout({
             </a>
           </div>
 
-          <p className="mt-6 text-xs text-emerald-300">Versión 1.0.0</p>
+          <p className="mt-6 text-xs text-emerald-300">Versión 1.0.2</p>
         </footer>
       </body>
     </html>

@@ -1,0 +1,31 @@
+[
+  {
+    "match_contains": [
+      "charagua"
+    ],
+    "codigo_entidad": "3701",
+    "nota": "Polígono municipal Charagua vinculado a GAIOC Charagua Iyambae"
+  },
+  {
+    "match_contains": [
+      "salinas"
+    ],
+    "codigo_entidad": "3402",
+    "nota": "Polígono Salinas vinculado a GAIOC Salinas"
+  },
+  {
+    "match_contains": [
+      "santiago de andamarca",
+      "andamarca"
+    ],
+    "codigo_entidad": "1424",
+    "nota": "Polígono Santiago de Andamarca vinculado a GAM Andamarca"
+  },
+  {
+    "match_contains": [
+      "gutierrez"
+    ],
+    "codigo_entidad": "3702",
+    "nota": "Polígono municipal Gutiérrez vinculado a Gobierno Autónomo Indígena Guaraní Kereimba Iyaambae"
+  }
+]

@@ -15,7 +15,7 @@ export default function MapaPage() {
         <AtlasHero
           eyebrow="Atlas Fiscal y Censal Bolivia 2026"
           title="Mapa territorial de presupuestos, población e indicadores fiscales"
-          description="Exploración municipal y departamental de presupuestos ETA 2026, población INE 2024, autonomía fiscal estricta, dependencia TGN, coparticipación, IDH, regalías y PIB per cápita 2021."
+          description="Exploración municipal y departamental de presupuestos ETA 2026, población INE 2024, autonomía fiscal estricta, dependencia TGN, coparticipación, IDH, IEHD, regalías, PIB per cápita 2021, pobreza NBI y Brecha bienestar-producto."
           tags={["SIGEP 2026", "INE 2024", "Municipios", "Departamentos", "Pacto Fiscal"]}
         />
 

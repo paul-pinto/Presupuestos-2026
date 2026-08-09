@@ -490,10 +490,10 @@ Contacto por WhatsApp:
 Versión pública inicial:
 
 ```text
-v1.0.0
+v1.0.2
 ```
 
-La versión 1.0.0 está orientada a publicación, consulta pública y discusión metodológica. El proyecto continuará incorporando mejoras en visualización, nuevos indicadores territoriales y módulos orientados a simulación de pacto fiscal.
+La versión 1.0.2 está orientada a publicación, consulta pública y discusión metodológica. El proyecto continuará incorporando mejoras en visualización, nuevos indicadores territoriales y módulos orientados a simulación de pacto fiscal.
 
 ## Licencia
 
