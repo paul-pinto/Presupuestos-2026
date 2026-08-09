@@ -187,3 +187,135 @@ body {
     radial-gradient(circle at 18% 0%, rgba(45, 212, 191, 0.16), transparent 24rem),
     linear-gradient(135deg, rgba(236, 253, 245, 0.98), rgba(255, 255, 255, 0.96) 56%, rgba(240, 253, 250, 0.92));
 }
+
+/* =========================================================
+   Responsive polish · Mobile v1
+   ========================================================= */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.recharts-wrapper,
+.echarts-for-react {
+  max-width: 100%;
+}
+
+table {
+  min-width: 720px;
+}
+
+@media (max-width: 768px) {
+  .ofp-hero-inner {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .ofp-hero h1,
+  .ofp-atlas-card h1 {
+    font-size: 2.15rem !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.04em !important;
+  }
+
+  .ofp-hero p,
+  .ofp-atlas-card p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .ofp-card,
+  .ofp-panel,
+  .ofp-atlas-card {
+    border-radius: 1.35rem !important;
+  }
+
+  .ofp-card {
+    padding: 1rem !important;
+  }
+
+  .ofp-panel {
+    padding: 1rem !important;
+  }
+
+  .ofp-button-primary,
+  .ofp-button-secondary {
+    width: 100%;
+    justify-content: center;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .leaflet-container {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 640px) {
+  main section,
+  main > div,
+  .mx-auto {
+    max-width: 100%;
+  }
+
+  .ofp-page-bg,
+  .ofp-map-bg {
+    background:
+      radial-gradient(circle at 30% 0%, rgba(16, 185, 129, 0.14), transparent 18rem),
+      linear-gradient(180deg, #f8fafc 0%, #eef7f4 46%, #f8fafc 100%);
+  }
+
+  .ofp-hero {
+    border-bottom-color: rgba(203, 213, 225, 0.9);
+  }
+
+  .ofp-hero-inner {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .ofp-atlas-card {
+    padding: 1.1rem !important;
+  }
+
+  .ofp-atlas-card h1 {
+    font-size: 2rem !important;
+  }
+
+  .ofp-atlas-card .text-4xl,
+  .ofp-atlas-card .text-5xl,
+  .ofp-atlas-card .text-6xl {
+    font-size: 2rem !important;
+    line-height: 1.05 !important;
+  }
+
+  .echarts-for-react {
+    min-height: 420px;
+  }
+
+  .leaflet-container {
+    min-height: 440px;
+  }
+}
+
+/* Mobile chart containment */
+@media (max-width: 640px) {
+  .echarts-for-react,
+  .echarts-for-react > div,
+  .echarts-for-react canvas {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .ofp-card,
+  .ofp-panel,
+  .ofp-atlas-card {
+    overflow: hidden;
+  }
+
+  .overflow-x-auto {
+    -webkit-overflow-scrolling: touch;
+  }
+}

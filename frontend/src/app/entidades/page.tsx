@@ -198,7 +198,7 @@ export default function EntidadesPage() {
   return (
     <main className="min-h-screen ofp-page-bg text-slate-950">
       <section className="ofp-hero">
-        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
           <Link
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
@@ -225,7 +225,7 @@ export default function EntidadesPage() {
         </div>
       </section>
 
-      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
         {loadError ? (
           <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700">
             {loadError}

@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 export function AtlasPage({ children }: { children: ReactNode }) {
   return (
     <main className="min-h-screen ofp-map-bg text-slate-950">
-      <div className="mx-auto max-w-7xl px-6 py-8 lg:py-10">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:py-10">
         {children}
       </div>
     </main>

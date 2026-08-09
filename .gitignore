@@ -29,3 +29,36 @@ data/logs/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Local / Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Next
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Vercel local
+.vercel/
+frontend/.vercel/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Backups temporales
+*.bak
+*.bak_*
+*.tmp
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/

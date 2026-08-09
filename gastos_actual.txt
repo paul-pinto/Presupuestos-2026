@@ -3,38 +3,55 @@
 import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import ReactECharts from "echarts-for-react";
-import { ArrowLeft, Landmark, Search, WalletCards, Scale, Building2 } from "lucide-react";
-import RecursoFuenteOrganismoPanel from "@/components/RecursoFuenteOrganismoPanel";
-import { shortEntidadLabel } from "@/lib/format";
+import { ArrowLeft, BarChart3, Layers3, Search, Wallet } from "lucide-react";
 
-type IngresosGastos = {
+type GrupoKey =
+  | "grupo_1"
+  | "grupo_2"
+  | "grupo_3"
+  | "grupo_4"
+  | "grupo_5"
+  | "grupo_6"
+  | "grupo_7"
+  | "grupo_8"
+  | "grupo_9";
+
+type Entidad = {
   codigo_entidad: string;
   nombre_entidad: string;
   departamento: string;
   grupo_eta: string;
   tipo: string;
-  ingresos_total: number;
-  gastos_total: number;
-  ingresos_menos_gastos: number;
+  presupuesto_total: number;
+  grupo_1: number;
+  grupo_2: number;
+  grupo_3: number;
+  grupo_4: number;
+  grupo_5: number;
+  grupo_6: number;
+  grupo_7: number;
+  grupo_8: number;
+  grupo_9: number;
 };
 
-type RecursoRubro = {
-  rubro: string;
-  descripcion: string;
-  importe: number;
-};
-
-type RecursoDetalle = {
+type Programa = {
   codigo_entidad: string;
   nombre_entidad: string;
   departamento: string;
   grupo_eta: string;
   tipo: string;
-  rubro: string;
+  prg: string;
   descripcion: string;
-  importe?: number;
-  monto?: number;
-  total?: number;
+  total: number;
+  grupo_1: number;
+  grupo_2: number;
+  grupo_3: number;
+  grupo_4: number;
+  grupo_5: number;
+  grupo_6: number;
+  grupo_7: number;
+  grupo_8: number;
+  grupo_9: number;
 };
 
 function formatBs(value: number): string {
@@ -80,41 +97,6 @@ function formatPct(value: number, total: number): string {
   })}%`;
 }
 
-
-function formatFilterOptionLabel(value: string): string {
-  const raw = String(value || "").trim();
-
-  if (!raw) return "";
-  if (raw === "Todos") return "Todos";
-
-  const key = raw.toLowerCase();
-
-  const dictionary: Record<string, string> = {
-    departamental: "Departamental",
-    municipal: "Municipal",
-    regional: "Regional",
-    indigena_originario_campesino: "Indígena Originario Campesino",
-
-    gad: "GAD",
-    gam: "GAM",
-    gaioc: "GAIOC",
-    gar: "GAR",
-  };
-
-  if (dictionary[key]) return dictionary[key];
-
-  return raw
-    .replaceAll("_", " ")
-    .split(" ")
-    .filter(Boolean)
-    .map((word) => {
-      const wordKey = word.toLowerCase();
-      return dictionary[wordKey] || word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    })
-    .join(" ");
-}
-
-
 function normalize(value: string | undefined | null): string {
   return String(value || "").toLowerCase();
 }
@@ -141,7 +123,7 @@ function MetricCard({
   icon?: React.ReactNode;
 }) {
   return (
-    <div className="ofp-card rounded-3xl p-5">
+    <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
       <div className="flex items-start justify-between gap-4">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">{title}</p>
@@ -164,10 +146,10 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="ofp-card rounded-3xl p-5">
+    <section className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
       <div className="mb-5">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
-          Ingresos
+          Gastos
         </p>
         <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">{title}</h2>
         {description ? <p className="mt-1 text-sm leading-6 text-slate-600">{description}</p> : null}
@@ -180,35 +162,18 @@ function Section({
 function chartOptionHorizontal({
   labels,
   values,
-  tooltipLabels,
   left = 260,
 }: {
   labels: string[];
   values: number[];
-  tooltipLabels?: string[];
   left?: number;
 }) {
   return {
-    grid: { left, right: 50, top: 20, bottom: 45, containLabel: false },
+    grid: { left, right: 40, top: 20, bottom: 40, containLabel: true },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
-      formatter: (params: any) => {
-        const item = Array.isArray(params) ? params[0] : params;
-        const index = item?.dataIndex ?? 0;
-        const name = tooltipLabels?.[index] || item?.name || "";
-        const value = Number(item?.value || 0);
-
-        return `
-          <div style="min-width:260px">
-            <div style="font-weight:600;color:#475569;margin-bottom:6px;">${name}</div>
-            <div style="display:flex;align-items:center;gap:8px;">
-              <span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#0f766e;"></span>
-              <strong>${formatBs(value)}</strong>
-            </div>
-          </div>
-        `;
-      },
+      valueFormatter: (value: number) => formatBs(value),
     },
     xAxis: {
       type: "value",
@@ -228,7 +193,7 @@ function chartOptionHorizontal({
       axisTick: { show: false },
       axisLabel: {
         color: "#334155",
-        width: left - 30,
+        width: left - 20,
         overflow: "truncate",
       },
     },
@@ -250,10 +215,62 @@ function chartOptionHorizontal({
   };
 }
 
-export default function IngresosPage() {
-  const [rows, setRows] = useState<IngresosGastos[]>([]);
-  const [recursosRubro, setRecursosRubro] = useState<RecursoRubro[]>([]);
-  const [recursosDetalle, setRecursosDetalle] = useState<RecursoDetalle[]>([]);
+function chartOptionVertical({
+  labels,
+  values,
+}: {
+  labels: string[];
+  values: number[];
+}) {
+  return {
+    grid: { left: 90, right: 30, top: 20, bottom: 80, containLabel: true },
+    tooltip: {
+      trigger: "axis",
+      axisPointer: { type: "shadow" },
+      valueFormatter: (value: number) => formatBs(value),
+    },
+    xAxis: {
+      type: "category",
+      data: labels,
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
+      axisLabel: {
+        color: "#64748b",
+        rotate: 35,
+      },
+    },
+    yAxis: {
+      type: "value",
+      splitLine: { lineStyle: { color: "#e2e8f0" } },
+      axisLine: { lineStyle: { color: "#cbd5e1" } },
+      axisTick: { show: false },
+      axisLabel: {
+        color: "#64748b",
+        formatter: (value: number) => formatBsCompact(value),
+        hideOverlap: true,
+      },
+    },
+    series: [
+      {
+        type: "bar",
+        data: values,
+        itemStyle: {
+          color: "#0f766e",
+          borderRadius: [0, 8, 8, 0],
+        },
+        emphasis: {
+          itemStyle: {
+            color: "#115e59",
+          },
+        },
+      },
+    ],
+  };
+}
+
+export default function GastosPage() {
+  const [entidades, setEntidades] = useState<Entidad[]>([]);
+  const [programas, setProgramas] = useState<Programa[]>([]);
   const [departamento, setDepartamento] = useState("Todos");
   const [tipo, setTipo] = useState("Todos");
   const [grupoEta, setGrupoEta] = useState("Todos");
@@ -263,45 +280,43 @@ export default function IngresosPage() {
 
   useEffect(() => {
     async function load() {
-      const [ingresosGastosData, recursosRubroData, recursosDetalleData] = await Promise.all([
-        fetchJson<IngresosGastos[]>("/data/ingresos_vs_gastos.json"),
-        fetchJson<RecursoRubro[]>("/data/recursos_rubro.json"),
-        fetchJson<RecursoDetalle[]>("/data/recursos_detalle.json"),
+      const [entidadesData, programasData] = await Promise.all([
+        fetchJson<Entidad[]>("/data/entidades.json"),
+        fetchJson<Programa[]>("/data/programas.json"),
       ]);
 
-      setRows(ingresosGastosData);
-      setRecursosRubro(recursosRubroData);
-      setRecursosDetalle(recursosDetalleData);
+      setEntidades(entidadesData);
+      setProgramas(programasData);
     }
 
     load().catch((error) => {
       console.error(error);
-      setLoadError(error instanceof Error ? error.message : "Error cargando ingresos");
+      setLoadError(error instanceof Error ? error.message : "Error cargando gastos");
     });
   }, []);
 
   const departamentos = useMemo(() => {
     return [
       "Todos",
-      ...Array.from(new Set(rows.map((item) => item.departamento).filter(Boolean))).sort(),
+      ...Array.from(new Set(entidades.map((item) => item.departamento).filter(Boolean))).sort(),
     ];
-  }, [rows]);
+  }, [entidades]);
 
   const tipos = useMemo(() => {
-    return ["Todos", ...Array.from(new Set(rows.map((item) => item.tipo).filter(Boolean))).sort()];
-  }, [rows]);
+    return ["Todos", ...Array.from(new Set(entidades.map((item) => item.tipo).filter(Boolean))).sort()];
+  }, [entidades]);
 
   const gruposEta = useMemo(() => {
     return [
       "Todos",
-      ...Array.from(new Set(rows.map((item) => item.grupo_eta).filter(Boolean))).sort(),
+      ...Array.from(new Set(entidades.map((item) => item.grupo_eta).filter(Boolean))).sort(),
     ];
-  }, [rows]);
+  }, [entidades]);
 
-  const filtradas = useMemo(() => {
+  const entidadesFiltradas = useMemo(() => {
     const q = query.trim().toLowerCase();
 
-    return rows
+    return entidades
       .filter((item) => departamento === "Todos" || item.departamento === departamento)
       .filter((item) => tipo === "Todos" || item.tipo === tipo)
       .filter((item) => grupoEta === "Todos" || item.grupo_eta === grupoEta)
@@ -315,80 +330,77 @@ export default function IngresosPage() {
           normalize(item.tipo).includes(q) ||
           normalize(item.grupo_eta).includes(q)
         );
+      });
+  }, [entidades, departamento, tipo, grupoEta, query]);
+
+  const programasFiltrados = useMemo(() => {
+    const q = query.trim().toLowerCase();
+
+    return programas
+      .filter((item) => departamento === "Todos" || item.departamento === departamento)
+      .filter((item) => tipo === "Todos" || item.tipo === tipo)
+      .filter((item) => grupoEta === "Todos" || item.grupo_eta === grupoEta)
+      .filter((item) => {
+        if (!q) return true;
+
+        return (
+          normalize(item.codigo_entidad).includes(q) ||
+          normalize(item.nombre_entidad).includes(q) ||
+          normalize(item.descripcion).includes(q) ||
+          normalize(item.departamento).includes(q) ||
+          normalize(item.tipo).includes(q) ||
+          normalize(item.grupo_eta).includes(q)
+        );
       })
-      .sort((a, b) => Number(b.ingresos_total || 0) - Number(a.ingresos_total || 0));
-  }, [rows, departamento, tipo, grupoEta, query]);
+      .sort((a, b) => Number(b.total || 0) - Number(a.total || 0));
+  }, [programas, departamento, tipo, grupoEta, query]);
 
-  const visibles = filtradas.slice(0, limit);
+  const visibles = programasFiltrados.slice(0, limit);
 
-  const ingresosTotal = filtradas.reduce((acc, item) => acc + Number(item.ingresos_total || 0), 0);
-  const gastosTotal = filtradas.reduce((acc, item) => acc + Number(item.gastos_total || 0), 0);
-  const diferencia = ingresosTotal - gastosTotal;
+  const gastoTotal = entidadesFiltradas.reduce(
+    (acc, item) => acc + Number(item.presupuesto_total || 0),
+    0
+  );
 
-  const recursosRubroFiltrado = useMemo(() => {
-    const codigosFiltrados = new Set(filtradas.map((item) => item.codigo_entidad));
+  const grupos = useMemo(() => {
+    const defs: { key: GrupoKey; label: string }[] = [
+      { key: "grupo_1", label: "Grupo 1" },
+      { key: "grupo_2", label: "Grupo 2" },
+      { key: "grupo_3", label: "Grupo 3" },
+      { key: "grupo_4", label: "Grupo 4" },
+      { key: "grupo_5", label: "Grupo 5" },
+      { key: "grupo_6", label: "Grupo 6" },
+      { key: "grupo_7", label: "Grupo 7" },
+      { key: "grupo_8", label: "Grupo 8" },
+      { key: "grupo_9", label: "Grupo 9" },
+    ];
 
-    const labelsGlobales = new Map(
-      recursosRubro.map((item) => [
-        String(item.rubro || "").trim(),
-        String(item.descripcion || "").trim(),
-      ])
-    );
+    return defs
+      .map((grupo) => ({
+        key: grupo.key,
+        label: grupo.label,
+        monto: entidadesFiltradas.reduce((acc, item) => acc + Number(item[grupo.key] || 0), 0),
+      }))
+      .sort((a, b) => b.monto - a.monto);
+  }, [entidadesFiltradas]);
 
-    const grouped = new Map<string, { rubro: string; descripcion: string; importe: number }>();
+  const grupoPrincipal = grupos[0];
 
-    for (const item of recursosDetalle) {
-      if (!codigosFiltrados.has(item.codigo_entidad)) continue;
-
-      const rubroDetalle = String(item.rubro || "").trim();
-      const rubroNivel1 = rubroDetalle.split(".")[0] || "Sin rubro";
-      const descripcionNivel1 = labelsGlobales.get(rubroNivel1) || `Rubro ${rubroNivel1}`;
-      const importe = Number(item.importe ?? item.monto ?? item.total ?? 0);
-
-      const current = grouped.get(rubroNivel1) || {
-        rubro: rubroNivel1,
-        descripcion: descripcionNivel1,
-        importe: 0,
-      };
-
-      current.importe += importe;
-      grouped.set(rubroNivel1, current);
-    }
-
-    const result = Array.from(grouped.values()).sort((a, b) => b.importe - a.importe);
-
-    return result.length > 0 ? result : recursosRubro;
-  }, [recursosDetalle, recursosRubro, filtradas]);
-
-  const topIngresosOption = chartOptionHorizontal({
-    labels: [...filtradas]
-      .slice(0, 20)
-      .reverse()
-      .map((item) => shortEntidadLabel(item.nombre_entidad)),
-    values: [...filtradas]
-      .slice(0, 20)
-      .reverse()
-      .map((item) => item.ingresos_total),
-    tooltipLabels: [...filtradas]
-      .slice(0, 20)
-      .reverse()
-      .map(
-        (item) =>
-          `${item.nombre_entidad} · ${item.departamento} · Código ${item.codigo_entidad}`
-      ),
-    left: 260,
+  const gruposOption = chartOptionVertical({
+    labels: grupos.map((item) => item.label),
+    values: grupos.map((item) => item.monto),
   });
 
-  const rubrosOption = chartOptionHorizontal({
-    labels: [...recursosRubroFiltrado]
-      .slice(0, 18)
+  const programasOption = chartOptionHorizontal({
+    labels: [...programasFiltrados]
+      .slice(0, 20)
       .reverse()
-      .map((item) => `${item.rubro} · ${item.descripcion}`),
-    values: [...recursosRubroFiltrado]
-      .slice(0, 18)
+      .map((item) => `${item.nombre_entidad} · PRG ${item.prg}`),
+    values: [...programasFiltrados]
+      .slice(0, 20)
       .reverse()
-      .map((item) => item.importe),
-    left: 280,
+      .map((item) => item.total),
+    left: 320,
   });
 
   const resetFilters = () => {
@@ -400,9 +412,9 @@ export default function IngresosPage() {
   };
 
   return (
-    <main className="min-h-screen ofp-page-bg text-slate-950">
-      <section className="ofp-hero">
-        <div className="ofp-hero-inner mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
+    <main className="min-h-screen bg-slate-50 text-slate-950">
+      <section className="border-b border-slate-200 bg-slate-50">
+        <div className="mx-auto max-w-7xl px-6 py-8">
           <Link
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
@@ -414,37 +426,38 @@ export default function IngresosPage() {
           <div className="mt-6 flex items-start justify-between gap-6">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-teal-700">
-                Recursos presupuestarios
+                Análisis presupuestario
               </p>
-              <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-950">Ingresos</h1>
+              <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-950">Gastos</h1>
               <p className="mt-4 max-w-4xl text-base leading-7 text-slate-600">
-  Análisis de los ingresos presupuestados por las entidades territoriales autónomas. Permite observar la composición de recursos, dependencia de transferencias, coparticipación, IDH, regalías, recursos específicos y organismos financiadores para evaluar autonomía y vulnerabilidad fiscal.
-</p>
+                Exploración del gasto por entidad, grupo de gasto y programas presupuestarios.
+                Esta vista usa los datos exportados desde DuckDB hacia JSON estático.
+              </p>
             </div>
 
             <div className="hidden rounded-3xl border border-teal-100 bg-teal-50 p-4 text-teal-700 md:block">
-              <WalletCards size={32} />
+              <Wallet size={32} />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="ofp-hero-inner mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
+      <section className="mx-auto max-w-7xl px-6 py-8">
         {loadError ? (
           <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-700">
             {loadError}
           </div>
         ) : null}
 
-        <div className="ofp-card rounded-3xl p-5">
+        <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
                 Filtros
               </p>
-              <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Filtros de ingresos</h2>
+              <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Filtros de gasto</h2>
               <p className="mt-1 text-sm leading-6 text-slate-600">
-                Filtran entidades, comparación ingresos/gastos, recursos por rubro y tabla inferior.
+                Filtran entidades, grupos de gasto, programas y tabla inferior.
               </p>
             </div>
 
@@ -463,7 +476,7 @@ export default function IngresosPage() {
                 <Search size={16} className="text-slate-400" />
                 <input
                   className="w-full bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
-                  placeholder="Entidad, código o departamento..."
+                  placeholder="Entidad, código o programa..."
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
                 />
@@ -478,7 +491,7 @@ export default function IngresosPage() {
                 onChange={(event) => setDepartamento(event.target.value)}
               >
                 {departamentos.map((item) => (
-                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
+                  <option key={item}>{item}</option>
                 ))}
               </select>
             </div>
@@ -491,7 +504,7 @@ export default function IngresosPage() {
                 onChange={(event) => setTipo(event.target.value)}
               >
                 {tipos.map((item) => (
-                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
+                  <option key={item}>{item}</option>
                 ))}
               </select>
             </div>
@@ -504,7 +517,7 @@ export default function IngresosPage() {
                 onChange={(event) => setGrupoEta(event.target.value)}
               >
                 {gruposEta.map((item) => (
-                  <option key={item} value={item}>{formatFilterOptionLabel(item)}</option>
+                  <option key={item}>{item}</option>
                 ))}
               </select>
             </div>
@@ -527,68 +540,58 @@ export default function IngresosPage() {
 
         <div className="mt-8 grid gap-4 md:grid-cols-4">
           <MetricCard
-            title="Ingreso filtrado"
-            value={formatBs(ingresosTotal)}
-            subtitle={`${formatInt(filtradas.length)} entidades`}
-            icon={<WalletCards size={24} />}
-          />
-          <MetricCard
             title="Gasto filtrado"
-            value={formatBs(gastosTotal)}
-            subtitle="Comparación presupuestaria"
-            icon={<Landmark size={24} />}
+            value={formatBs(gastoTotal)}
+            subtitle={`${formatInt(entidadesFiltradas.length)} entidades`}
+            icon={<Wallet size={24} />}
           />
           <MetricCard
-            title="Ingresos - gastos"
-            value={formatBs(diferencia)}
-            subtitle="Balance agregado filtrado"
-            icon={<Scale size={24} />}
-          />
-          <MetricCard
-            title="Entidades filtradas"
-            value={formatInt(filtradas.length)}
+            title="Programas filtrados"
+            value={formatInt(programasFiltrados.length)}
             subtitle={`Mostrando ${formatInt(visibles.length)}`}
-            icon={<Building2 size={24} />}
+            icon={<BarChart3 size={24} />}
+          />
+          <MetricCard
+            title="Grupo principal"
+            value={grupoPrincipal ? grupoPrincipal.label : "-"}
+            subtitle={grupoPrincipal ? formatBs(grupoPrincipal.monto) : "Sin datos"}
+            icon={<Layers3 size={24} />}
+          />
+          <MetricCard
+            title="Participación grupo principal"
+            value={grupoPrincipal ? formatPct(grupoPrincipal.monto, gastoTotal) : "0,00%"}
+            subtitle="Sobre gasto filtrado"
           />
         </div>
 
-        <div className="mt-8 grid gap-6">
+        <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <Section
-            title="Top entidades por ingresos"
-            description="Ranking de entidades con mayor ingreso total según filtros."
+            title="Grupos de gasto"
+            description="Distribución del gasto según los filtros seleccionados."
           >
-            <div className="h-[620px]">
-              <ReactECharts option={topIngresosOption} style={{ height: "100%", width: "100%" }} />
+            <div className="h-[520px]">
+              <ReactECharts option={gruposOption} style={{ height: "100%", width: "100%" }} />
             </div>
           </Section>
 
           <Section
-            title="Recursos por rubro"
-            description="Agregado por rubro de recurso según los filtros activos."
+            title="Top programas presupuestarios"
+            description="Programas con mayor presupuesto dentro del filtro actual."
           >
-            <div className="h-[620px]">
-              <ReactECharts option={rubrosOption} style={{ height: "100%", width: "100%" }} />
+            <div className="h-[520px]">
+              <ReactECharts option={programasOption} style={{ height: "100%", width: "100%" }} />
             </div>
           </Section>
         </div>
 
-        <div className="mt-8">
-          <RecursoFuenteOrganismoPanel
-            departamento={departamento}
-            tipo={tipo}
-            grupoEta={grupoEta}
-            query={query}
-          />
-        </div>
-
-        <div className="mt-8 overflow-hidden ofp-card rounded-3xl">
+        <div className="mt-8 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
           <div className="border-b border-slate-200 bg-white p-5">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-700">
               Tabla
             </p>
-            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Tabla ingresos vs gastos</h2>
+            <h2 className="mt-2 text-xl font-bold tracking-tight text-slate-950">Tabla de programas</h2>
             <p className="mt-1 text-sm leading-6 text-slate-600">
-              Comparación filtrada por entidad.
+              Ranking filtrado por presupuesto total del programa.
             </p>
           </div>
 
@@ -596,35 +599,30 @@ export default function IngresosPage() {
             <table className="w-full border-collapse text-sm">
               <thead>
                 <tr className="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-[0.16em] text-slate-500">
-                  <th className="p-3">Código</th>
                   <th className="p-3">Entidad</th>
                   <th className="p-3">Departamento</th>
                   <th className="p-3">Tipo</th>
                   <th className="p-3">Grupo ETA</th>
-                  <th className="p-3 text-right tabular-nums text-slate-700">Ingresos</th>
-                  <th className="p-3 text-right tabular-nums text-slate-700">Gastos</th>
-                  <th className="p-3 text-right tabular-nums text-slate-700">Ingresos - gastos</th>
-                  <th className="p-3 text-right tabular-nums text-slate-700">% ingresos filtrados</th>
+                  <th className="p-3">PRG</th>
+                  <th className="p-3">Programa</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">Total</th>
+                  <th className="p-3 text-right tabular-nums text-slate-700">% filtro</th>
                 </tr>
               </thead>
               <tbody>
-                {visibles.map((item) => (
-                  <tr key={item.codigo_entidad} className="border-b border-slate-100 transition hover:bg-slate-50">
-                    <td className="p-3 font-mono text-xs text-slate-600">{item.codigo_entidad}</td>
+                {visibles.map((item, index) => (
+                  <tr
+                    key={`${item.codigo_entidad}-${item.prg}-${index}`}
+                    className="border-b border-slate-100 transition hover:bg-slate-50"
+                  >
                     <td className="p-3 font-medium text-slate-950">{item.nombre_entidad}</td>
                     <td className="p-3">{item.departamento}</td>
                     <td className="p-3">{item.tipo}</td>
                     <td className="p-3">{item.grupo_eta}</td>
-                    <td className="p-3 text-right font-semibold tabular-nums text-slate-950">
-                      {formatBs(item.ingresos_total)}
-                    </td>
-                    <td className="p-3 text-right tabular-nums text-slate-700">{formatBs(item.gastos_total)}</td>
-                    <td className="p-3 text-right font-semibold tabular-nums text-slate-950">
-                      {formatBs(item.ingresos_menos_gastos)}
-                    </td>
-                    <td className="p-3 text-right tabular-nums text-slate-700">
-                      {formatPct(item.ingresos_total, ingresosTotal)}
-                    </td>
+                    <td className="p-3 font-mono text-xs text-slate-600">{item.prg}</td>
+                    <td className="p-3">{item.descripcion}</td>
+                    <td className="p-3 text-right font-semibold tabular-nums text-slate-950">{formatBs(item.total)}</td>
+                    <td className="p-3 text-right tabular-nums text-slate-700">{formatPct(item.total, gastoTotal)}</td>
                   </tr>
                 ))}
               </tbody>

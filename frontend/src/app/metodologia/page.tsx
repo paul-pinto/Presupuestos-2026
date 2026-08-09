@@ -89,7 +89,7 @@ export default function MetodologiaPage() {
   return (
     <main className="min-h-screen ofp-page-bg text-slate-950">
       <section className="ofp-hero">
-        <div className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+        <div className="ofp-hero-inner mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
           <Link
             href="/"
             className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 shadow-sm transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
@@ -122,7 +122,7 @@ export default function MetodologiaPage() {
         </div>
       </section>
 
-      <section className="ofp-hero-inner mx-auto max-w-7xl px-6 py-12 lg:py-16">
+      <section className="ofp-hero-inner mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           <SourceCard
             title="SIGEP 2026"
