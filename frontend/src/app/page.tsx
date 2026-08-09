@@ -360,6 +360,25 @@ function Section({
   );
 }
 
+function axisEntidadLabel(value: string | null | undefined): string {
+  return String(value || "")
+    .replace(/^Gobierno Autónomo Departamental de\s+/i, "")
+    .replace(/^Gobierno Autonomo Departamental de\s+/i, "")
+    .replace(/^Gobierno Autónomo Municipal de\s+/i, "")
+    .replace(/^Gobierno Autonomo Municipal de\s+/i, "")
+    .replace(/^Gobierno Autónomo Regional de\s+/i, "")
+    .replace(/^Gobierno Autonomo Regional de\s+/i, "")
+    .replace(/^Gobierno Autónomo Indígena Originario Campesino de\s+/i, "")
+    .replace(/^Gobierno Autonomo Indigena Originario Campesino de\s+/i, "")
+    .replace(/^Gobierno Autónomo Indígena Originario Campesino\s+/i, "")
+    .replace(/^Gobierno Autonomo Indigena Originario Campesino\s+/i, "")
+    .replace(/^Gobierno Autónomo de\s+/i, "")
+    .replace(/^Gobierno Autonomo de\s+/i, "")
+    .replace(/\s*\([^)]*\)\s*$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function chartOptionHorizontal({
   labels,
   values,
@@ -372,6 +391,8 @@ function chartOptionHorizontal({
   left?: number;
 }) {
     const isChartMobile = typeof window !== "undefined" && window.innerWidth < 640;
+
+  const axisLabels = labels.map((label) => axisEntidadLabel(label));
 
 return {
     grid: { left: isChartMobile ? 12 : left, right: isChartMobile ? 16 : 50, top: 20, bottom: 55, containLabel: !isChartMobile },
@@ -408,7 +429,7 @@ return {
     },
     yAxis: {
       type: "category",
-      data: labels,
+      data: axisLabels,
       axisLine: { show: false },
       axisTick: { show: false },
       axisLabel: {
@@ -451,7 +472,7 @@ function chartOptionVertical({
     },
     xAxis: {
       type: "category",
-      data: labels,
+      data: labels.map((label) => axisEntidadLabel(label)),
       axisLine: { lineStyle: { color: "#cbd5e1" } },
       axisTick: { show: false },
       axisLabel: {

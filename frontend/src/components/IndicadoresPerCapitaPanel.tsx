@@ -26,6 +26,25 @@ type Props = {
   query: string;
 };
 
+function axisEntidadLabel(value: string | null | undefined): string {
+  return String(value || "")
+    .replace(/^Gobierno Autónomo Departamental de\s+/i, "")
+    .replace(/^Gobierno Autonomo Departamental de\s+/i, "")
+    .replace(/^Gobierno Autónomo Municipal de\s+/i, "")
+    .replace(/^Gobierno Autonomo Municipal de\s+/i, "")
+    .replace(/^Gobierno Autónomo Regional de\s+/i, "")
+    .replace(/^Gobierno Autonomo Regional de\s+/i, "")
+    .replace(/^Gobierno Autónomo Indígena Originario Campesino de\s+/i, "")
+    .replace(/^Gobierno Autonomo Indigena Originario Campesino de\s+/i, "")
+    .replace(/^Gobierno Autónomo Indígena Originario Campesino\s+/i, "")
+    .replace(/^Gobierno Autonomo Indigena Originario Campesino\s+/i, "")
+    .replace(/^Gobierno Autónomo de\s+/i, "")
+    .replace(/^Gobierno Autonomo de\s+/i, "")
+    .replace(/\s*\([^)]*\)\s*$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export default function IndicadoresPerCapitaPanel({
   departamento,
   tipo,
@@ -105,8 +124,9 @@ export default function IndicadoresPerCapitaPanel({
       axisTick: { show: false },
       axisLabel: {
         color: "#334155",
-        width: 300,
+        width: 180,
         overflow: "truncate",
+        formatter: (value: string) => axisEntidadLabel(value),
       },
     },
     series: [
